@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Maps;
 
 namespace NPCs
 {
@@ -8,12 +9,20 @@ namespace NPCs
     {
         public Type type;
         NPC npc;
-        void Start()
+        Rigidbody2D rb;
+        public float avoidanceForceMultiplier = 0.4f;
+        public float raySpacing = 3f;
+        public GameObject scriptHandler;
+        WalkableGrid walkableGrid;
+        public void Start()
         {
+            rb = gameObject.GetComponent<Rigidbody2D>();
+            walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
+            walkableGrid.GetCoordinates();
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm);
+                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid);
                     break;
                 case Type.Grandma:
                     break;
@@ -32,14 +41,39 @@ namespace NPCs
                     npc.GetNewState();
                     break;
                 case State.Move:
-                    gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, npc.TargetPosition, npc.Speed*Time.deltaTime);
-                    npc.IsTargetReached(gameObject.transform.position);
+                    Move();
+                    npc.IsTargetReached(rb.transform.position);
                     break;
                 case State.Chase:
                     break;
                 default:
                     break;
             }
+        }
+
+        void Move()
+        {
+            Vector2 direction = (new Vector2(npc.TargetPosition.x, npc.TargetPosition.y) - new Vector2(rb.transform.position.x, rb.transform.position.y)).normalized;
+
+            RaycastHit2D[] hits = new RaycastHit2D[17];
+            Vector2 rayStart = new Vector2(rb.transform.position.x, rb.transform.position.y) + direction * rb.velocity.magnitude * Time.deltaTime;
+            var delta = Vector2.zero;
+
+            for (int i = 0; i < 17; i++)
+            {
+                Vector2 rayDirection = Quaternion.AngleAxis((i - 8) * 15f, Vector3.forward) * direction;
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f));
+                Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
+                if (hits[i].collider != null)
+                {
+                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 5);
+                }
+                else
+                {
+                    delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
+                }
+            }
+            transform.position += new Vector3(delta.x, delta.y, 0) * npc.Speed * Time.deltaTime;
         }
     }
 }
