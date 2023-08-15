@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 629a446ef7815c241ad118f8d0fe15e0
+guid: 57664fa1fe045e941bc06ed0e2ef108c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6289567792707371667
-    second: TolvajStunnedAfter_0
+      213: -6455442720603865176
+    second: UszomesterSee_0
   - first:
-      213: -8748187662911432702
-    second: TolvajStunnedAfter_1
+      213: -3117089160162231325
+    second: UszomesterSee_1
   - first:
-      213: 3162778553184205286
-    second: TolvajStunnedAfter_2
+      213: 2482263929518966544
+    second: UszomesterSee_2
   - first:
-      213: 2052297680911137832
-    second: TolvajStunnedAfter_3
+      213: 687413244680994165
+    second: UszomesterSee_3
   - first:
-      213: 3720704554001610697
-    second: TolvajStunnedAfter_4
+      213: 700869554967257125
+    second: UszomesterSee_4
   - first:
-      213: 4018552618367553844
-    second: TolvajStunnedAfter_5
+      213: 7074485161354611297
+    second: UszomesterSee_5
+  - first:
+      213: 5793540792631683231
+    second: UszomesterSee_6
+  - first:
+      213: 4742246835870097940
+    second: UszomesterSee_7
+  - first:
+      213: -8995929811105860770
+    second: UszomesterSee_8
+  - first:
+      213: -3342957938980888956
+    second: UszomesterSee_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,127 +133,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TolvajStunnedAfter_0
+      name: UszomesterSee_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 22
-        width: 13
-        height: 12
+        x: 5
+        y: 26
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3928f0b7598094750800000000000000
-      internalID: 6289567792707371667
+      spriteID: 8af768a4c09a966a0800000000000000
+      internalID: -6455442720603865176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_1
+      name: UszomesterSee_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 22
-        width: 13
-        height: 12
+        x: 30
+        y: 26
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20895b3aba1389680800000000000000
-      internalID: -8748187662911432702
+      spriteID: 3eb3f438cefddb4d0800000000000000
+      internalID: -3117089160162231325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_2
+      name: UszomesterSee_2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 22
-        width: 13
-        height: 12
+        x: 55
+        y: 26
+        width: 17
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e9b4c5465274eb20800000000000000
-      internalID: 3162778553184205286
+      spriteID: 0174ebd64e5c27220800000000000000
+      internalID: 2482263929518966544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_3
+      name: UszomesterSee_3
       rect:
         serializedVersion: 2
-        x: 4
+        x: 80
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dfb1734be2a8900800000000000000
+      internalID: 687413244680994165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterSee_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a5b9952df9b900800000000000000
+      internalID: 700869554967257125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterSee_5
+      rect:
+        serializedVersion: 2
+        x: 5
         y: 1
-        width: 13
-        height: 14
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82cf0140ed93b7c10800000000000000
-      internalID: 2052297680911137832
+      spriteID: 16a4053a5ce9d2260800000000000000
+      internalID: 7074485161354611297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_4
+      name: UszomesterSee_6
       rect:
         serializedVersion: 2
-        x: 25
+        x: 30
         y: 1
-        width: 13
-        height: 14
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c7b177241992a330800000000000000
-      internalID: 3720704554001610697
+      spriteID: f98eb88c7aac66050800000000000000
+      internalID: 5793540792631683231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_5
+      name: UszomesterSee_7
       rect:
         serializedVersion: 2
-        x: 46
+        x: 55
         y: 1
-        width: 13
-        height: 14
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4319301b054c4c730800000000000000
-      internalID: 4018552618367553844
+      spriteID: 412e1492f58dfc140800000000000000
+      internalID: 4742246835870097940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterSee_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5330b0df79082380800000000000000
+      internalID: -8995929811105860770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterSee_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ed8fb577d6b91d0800000000000000
+      internalID: -3342957938980888956
       vertices: []
       indices: 
       edges: []

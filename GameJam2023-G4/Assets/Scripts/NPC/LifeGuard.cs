@@ -8,13 +8,15 @@ namespace NPCs
     public class LifeGuard : NPC
     {
         bool onLeft = false;
+        bool saw = false;
         public LifeGuard(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid, bool isMoving) : base(speed, state, currentPosition, walkableGrid, isMoving)
         {
         }
 
-        public override void GetNewState()
+        public override void GetNewState(Animator animator)
         {
             ChangeState(State.Move);
+            animator.SetBool("IsWalking", true);
             IsMoving = true;
             if (onLeft)
             {
@@ -26,26 +28,42 @@ namespace NPCs
             }
         }
 
-        public override void StartChase()
+        public override void StartChase(Animator animator)
         {
+            IsMoving = true;
             Speed = 6;
             TargetPosition = Vector2Int.RoundToInt(GameObject.Find("Player").transform.position);
         }
 
-        public override void IsTargetReached(Vector2 position)
+        public override void See(Animator animator)
         {
-            if (Vector3.Distance((Vector2)TargetPosition, position) <= .09f && !IsState(State.Chase))
+            IsMoving = false;
+            if (!saw)
+            {
+                animator.SetBool("IsSeeing", true);
+                animator.SetBool("IsWalking", false);
+                saw = true;
+            }
+            
+        }
+
+        public override void IsTargetReached(Vector2 position, Animator animator)
+        {
+            if (Vector3.Distance((Vector2)TargetPosition, position) <= .1f && !IsState(State.Chase))
             {
                 CurrentPosition = TargetPosition;
                 onLeft = !onLeft;
-                GetNewState();
+                ChangeState(State.Calm);
+                GetNewState(animator);
             }
             else if (Vector3.Distance((Vector2)TargetPosition, position) <= 0.75f && IsState(State.Chase))
             {
+                IsMoving = false;
+                animator.SetBool("IsRunning", false);
+                GameObject.Find("Player").GetComponent<Player.Behaviour>().ChangeState(Player.State.StunnedStart);
                 Speed = 1;
                 ChangeState(State.Calm);
-                IsMoving = false;
-                GetNewState();
+                GetNewState(animator);
             }
         }
     }

@@ -8,7 +8,9 @@ namespace NPCs
     {
         Calm,
         Move,
-        Chase
+        Chase,
+        Stun,
+        See
     }
 }
 

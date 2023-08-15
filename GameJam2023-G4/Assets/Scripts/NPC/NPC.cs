@@ -34,9 +34,13 @@ namespace NPCs
             return this.state == state;
         }
 
-        public virtual void GetNewState() { }
-        public virtual void StartChase() { }
-        public virtual void IsTargetReached(Vector2 position) { }
+        public virtual void GetNewState(Animator animator) { }
+        public virtual void StartChase(Animator animator) { }
+        public virtual void IsTargetReached(Vector2 position, Animator animator) { }
+        public virtual void See(Animator animator) { }
+        public virtual void Stun(Animator animator) { }
+
+
 
         public int Speed { get => speed; set => speed = value; }
         public State State { get => state; set => state = value; }

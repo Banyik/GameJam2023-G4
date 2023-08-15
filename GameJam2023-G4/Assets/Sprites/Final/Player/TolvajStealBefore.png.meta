@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 629a446ef7815c241ad118f8d0fe15e0
+guid: 78cc36ad9758ef345ae17e55895a4f78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6289567792707371667
-    second: TolvajStunnedAfter_0
+      213: 6306697713823934154
+    second: TolvajStealBefore_0
   - first:
-      213: -8748187662911432702
-    second: TolvajStunnedAfter_1
+      213: 3175097984089300920
+    second: TolvajStealBefore_1
   - first:
-      213: 3162778553184205286
-    second: TolvajStunnedAfter_2
+      213: 3940561339876631485
+    second: TolvajStealBefore_2
   - first:
-      213: 2052297680911137832
-    second: TolvajStunnedAfter_3
+      213: 5773809501703460995
+    second: TolvajStealBefore_3
   - first:
-      213: 3720704554001610697
-    second: TolvajStunnedAfter_4
-  - first:
-      213: 4018552618367553844
-    second: TolvajStunnedAfter_5
+      213: 569642685617738232
+    second: TolvajStealBefore_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TolvajStunnedAfter_0
+      name: TolvajStealBefore_0
       rect:
         serializedVersion: 2
         x: 4
         y: 22
         width: 13
-        height: 12
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3928f0b7598094750800000000000000
-      internalID: 6289567792707371667
+      spriteID: ac66e3a0824e58750800000000000000
+      internalID: 6306697713823934154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_1
+      name: TolvajStealBefore_1
       rect:
         serializedVersion: 2
         x: 25
         y: 22
         width: 13
-        height: 12
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20895b3aba1389680800000000000000
-      internalID: -8748187662911432702
+      spriteID: 8bf93bc4bc6301c20800000000000000
+      internalID: 3175097984089300920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_2
+      name: TolvajStealBefore_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 47
         y: 22
-        width: 13
-        height: 12
+        width: 11
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,19 +174,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e9b4c5465274eb20800000000000000
-      internalID: 3162778553184205286
+      spriteID: db3ebfe19afafa630800000000000000
+      internalID: 3940561339876631485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_3
+      name: TolvajStealBefore_3
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 1
-        width: 13
+        width: 11
         height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -198,19 +195,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82cf0140ed93b7c10800000000000000
-      internalID: 2052297680911137832
+      spriteID: 3885fcd9621b02050800000000000000
+      internalID: 5773809501703460995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajStunnedAfter_4
+      name: TolvajStealBefore_4
       rect:
         serializedVersion: 2
-        x: 25
+        x: 26
         y: 1
-        width: 13
+        width: 11
         height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -219,29 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c7b177241992a330800000000000000
-      internalID: 3720704554001610697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TolvajStunnedAfter_5
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 1
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4319301b054c4c730800000000000000
-      internalID: 4018552618367553844
+      spriteID: 8f115252107c7e700800000000000000
+      internalID: 569642685617738232
       vertices: []
       indices: 
       edges: []

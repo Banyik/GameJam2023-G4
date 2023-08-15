@@ -13,9 +13,11 @@ namespace Player
         public float speed = 1;
         public Animator animator;
         public float stealTime = 5;
+        public float stunTime = 5;
         public float maxThirst = 10;
         public float money = 0;
-        float count = 0;
+        float stealTimeCount = 0;
+        float stunTimeCount = 0;
         public Rigidbody2D rb;
         Towel closestTowel = null;
         public ParticleSystem lootEffect;
@@ -39,7 +41,9 @@ namespace Player
         {
             CheckState();
             CheckForTowel();
-            if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart))
+            if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart) &&
+                !player.IsState(State.StunnedStart) && !player.IsState(State.Stunned) &&
+                !player.IsState(State.StunnedEnd))
             {
                 CheckMovement();
             }
@@ -47,6 +51,21 @@ namespace Player
         private void Update()
         {
             CheckAction();
+            if (player.IsState(State.StealingStart))
+            {
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing"))
+                {
+                    ChangeState(State.Stealing);
+                    lootEffect.Play();
+                }
+            }
+            if (player.IsState(State.StunnedStart))
+            {
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stunned"))
+                {
+                    ChangeState(State.Stunned);
+                }
+            }
         }
         void CheckAction()
         {
@@ -58,7 +77,7 @@ namespace Player
             {
                 ChangeState(State.Idle);
                 animator.SetBool("IsStealing", false);
-                count = 0;
+                stealTimeCount = 0;
             }
         }
 
@@ -70,7 +89,10 @@ namespace Player
             rb.velocity = Vector2.Lerp(rb.velocity, movement, player.Speed);
             if(rb.velocity != new Vector2(0,0))
             {
-                animator.SetFloat("Direction", horizontal);
+                if(horizontal != 0)
+                {
+                    transform.localScale = new Vector3(horizontal, 1, 0);
+                }
                 ChangeState(State.Run);
             }
             else
@@ -80,7 +102,7 @@ namespace Player
             }
         }
 
-        void ChangeState(State state)
+        public void ChangeState(State state)
         {
             if(!player.IsState(state))
             {
@@ -102,35 +124,45 @@ namespace Player
                 case State.StealingStart:
                     animator.SetBool("IsMoving", false);
                     animator.SetBool("IsStealing", true);
-                    if (player.IsState(State.StealingStart) && (animator.GetCurrentAnimatorStateInfo(0).IsName("StealingLeft") ||
-                                                          animator.GetCurrentAnimatorStateInfo(0).IsName("StealingRight")))
-                    {
-
-                        ChangeState(State.Stealing);
-                        lootEffect.Play();
-                    }
                     break;
                 case State.Stealing:
-                    if(count <= stealTime)
+                    if(stealTimeCount <= stealTime)
                     {
-                        Debug.Log(count);
-                        count += Time.deltaTime;
+                        Debug.Log(stealTimeCount);
+                        stealTimeCount += Time.deltaTime;
                     }
                     else
                     {
                         lootEffect.Stop();
                         closestTowel.LootTowel();
-                        count = 0;
+                        stealTimeCount = 0;
                         player.State = State.Idle;
                         animator.SetBool("IsStealing", false);
                         GetLoot();
                     }
                     break;
                 case State.Stunned:
+                    if (stunTimeCount <= stunTime)
+                    {
+                        Debug.Log(stunTimeCount);
+                        stunTimeCount += Time.deltaTime;
+                    }
+                    else
+                    {
+                        animator.SetBool("IsStunned", false);
+                        stunTimeCount = 0;
+                        player.State = State.StunnedEnd;
+                    }
                     break;
                 case State.StunnedStart:
+                    stealTimeCount = 0;
+                    lootEffect.Stop();
+                    animator.SetBool("IsMoving", false);
+                    animator.SetBool("IsStealing", false);
+                    animator.SetBool("IsStunned", true);
                     break;
                 case State.StunnedEnd:
+                    ChangeState(State.Idle);
                     break;
                 case State.Caught:
                     break;

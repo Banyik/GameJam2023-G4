@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 7193154eeaa55d74ca2132e6332a6736
+guid: 30497c4ad264bde4d83306328d09819b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8385352599983198656
-    second: TolvajCaught_0
+      213: 3891330127249292251
+    second: TolvajIdle_0
   - first:
-      213: 7879442067381309694
-    second: TolvajCaught_1
+      213: -6996708299852556622
+    second: TolvajIdle_1
   - first:
-      213: -4997889464380284870
-    second: TolvajCaught_2
+      213: -6826959240293209699
+    second: TolvajIdle_2
   - first:
-      213: 2931305711995005031
-    second: TolvajCaught_3
+      213: 6407695836321544098
+    second: TolvajIdle_3
   - first:
-      213: 5245347001840428303
-    second: TolvajCaught_4
+      213: -5803489026952682788
+    second: TolvajIdle_4
   - first:
-      213: 3016054148562273932
-    second: TolvajCaught_5
+      213: -1334525523474571049
+    second: TolvajIdle_5
   - first:
-      213: 2269357194767835653
-    second: TolvajCaught_6
+      213: 3079016968126716965
+    second: TolvajIdle_6
   - first:
-      213: 1278757997312923781
-    second: TolvajCaught_7
+      213: 7643185624739513505
+    second: TolvajIdle_7
   - first:
-      213: 2978007332663155198
-    second: TolvajCaught_8
+      213: 6912838232829019410
+    second: TolvajIdle_8
   - first:
-      213: 2087088617071821729
-    second: TolvajCaught_9
+      213: -5999349678183729705
+    second: TolvajIdle_9
   - first:
-      213: 4685641846769965015
-    second: TolvajCaught_10
+      213: -8343755468605086555
+    second: TolvajIdle_10
   - first:
-      213: 6641996885688040059
-    second: TolvajCaught_11
+      213: -3702045915262508205
+    second: TolvajIdle_11
   - first:
-      213: -8932850675913352663
-    second: TolvajCaught_12
+      213: 3012289936932085892
+    second: TolvajIdle_12
   - first:
-      213: 4379410989326161041
-    second: TolvajCaught_13
+      213: -2331040245974837193
+    second: TolvajIdle_13
   - first:
-      213: 8942492803169575622
-    second: TolvajCaught_14
+      213: -2608798143552170305
+    second: TolvajIdle_14
   - first:
-      213: 373246146516674825
-    second: TolvajCaught_15
+      213: 2275496765285198254
+    second: TolvajIdle_15
   - first:
-      213: -7586021227789482691
-    second: TolvajCaught_16
+      213: 2369152285503434363
+    second: TolvajIdle_16
   - first:
-      213: 4750276201162326949
-    second: TolvajCaught_17
+      213: 762953500942362916
+    second: TolvajIdle_17
   - first:
-      213: -1136642044822407694
-    second: TolvajCaught_18
+      213: 630009900349234078
+    second: TolvajIdle_18
   - first:
-      213: -4040288879865551121
-    second: TolvajCaught_19
+      213: -614689924247064462
+    second: TolvajIdle_19
   - first:
-      213: 4017502400309007570
-    second: TolvajCaught_20
+      213: 283983940375591842
+    second: TolvajIdle_20
   - first:
-      213: -4601764077822791777
-    second: TolvajCaught_21
+      213: 7878928350583036137
+    second: TolvajIdle_21
   - first:
-      213: 6800847042880975563
-    second: TolvajCaught_22
+      213: 6103057203466899938
+    second: TolvajIdle_22
   - first:
-      213: -143879864833270655
-    second: TolvajCaught_23
+      213: 635556854009191014
+    second: TolvajIdle_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -175,54 +175,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TolvajCaught_0
+      name: TolvajIdle_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 4
         y: 64
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04e6a91ec3e31ab80800000000000000
-      internalID: -8385352599983198656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TolvajCaught_1
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 64
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef0588e20d6695d60800000000000000
-      internalID: 7879442067381309694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TolvajCaught_2
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 64
-        width: 11
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -231,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3022f8130ee3aab0800000000000000
-      internalID: -4997889464380284870
+      spriteID: bdb38723228c00630800000000000000
+      internalID: 3891330127249292251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_3
+      name: TolvajIdle_1
       rect:
         serializedVersion: 2
-        x: 67
+        x: 25
         y: 64
-        width: 15
-        height: 19
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +210,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768298ba3071ea820800000000000000
-      internalID: 2931305711995005031
+      spriteID: 2b6d2461fd2b6ee90800000000000000
+      internalID: -6996708299852556622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_4
+      name: TolvajIdle_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99a042edb4c141a0800000000000000
+      internalID: -6826959240293209699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajIdle_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7f1b8e965bce850800000000000000
+      internalID: 6407695836321544098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajIdle_4
       rect:
         serializedVersion: 2
         x: 88
         y: 64
         width: 13
-        height: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +273,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05eb50ae473bc840800000000000000
-      internalID: 5245347001840428303
+      spriteID: cd2ab9a6a7dd57fa0800000000000000
+      internalID: -5803489026952682788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_5
+      name: TolvajIdle_5
       rect:
         serializedVersion: 2
         x: 109
         y: 64
         width: 13
-        height: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86c564b44d2bd920800000000000000
-      internalID: 3016054148562273932
+      spriteID: 7d02b956b10da7de0800000000000000
+      internalID: -1334525523474571049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_6
+      name: TolvajIdle_6
       rect:
         serializedVersion: 2
         x: 4
         y: 43
-        width: 15
-        height: 19
+        width: 13
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,20 +315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5022d9658506e7f10800000000000000
-      internalID: 2269357194767835653
+      spriteID: 52cd7928e9ddaba20800000000000000
+      internalID: 3079016968126716965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_7
+      name: TolvajIdle_7
       rect:
         serializedVersion: 2
         x: 25
         y: 43
         width: 13
-        height: 16
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +336,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588d6879f9f0fb110800000000000000
-      internalID: 1278757997312923781
+      spriteID: 1a488f294dc021a60800000000000000
+      internalID: 7643185624739513505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_8
+      name: TolvajIdle_8
       rect:
         serializedVersion: 2
         x: 46
         y: 43
         width: 13
-        height: 16
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,20 +357,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef955e114e1045920800000000000000
-      internalID: 2978007332663155198
+      spriteID: 21543893fb55fef50800000000000000
+      internalID: 6912838232829019410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_9
+      name: TolvajIdle_9
       rect:
         serializedVersion: 2
         x: 67
         y: 43
         width: 13
-        height: 16
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a3c3531a04d6fc10800000000000000
-      internalID: 2087088617071821729
+      spriteID: 7d5318ce0470ebca0800000000000000
+      internalID: -5999349678183729705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_10
+      name: TolvajIdle_10
       rect:
         serializedVersion: 2
         x: 88
@@ -399,14 +399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d7dd6d1f6eb60140800000000000000
-      internalID: 4685641846769965015
+      spriteID: 5a42211cb96053c80800000000000000
+      internalID: -8343755468605086555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_11
+      name: TolvajIdle_11
       rect:
         serializedVersion: 2
         x: 109
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7abfaa0afc1d2c50800000000000000
-      internalID: 6641996885688040059
+      spriteID: 353a796bad0bf9cc0800000000000000
+      internalID: -3702045915262508205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_12
+      name: TolvajIdle_12
       rect:
         serializedVersion: 2
         x: 4
@@ -441,19 +441,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a939673a3280480800000000000000
-      internalID: -8932850675913352663
+      spriteID: 4802253ecbdcdc920800000000000000
+      internalID: 3012289936932085892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_13
+      name: TolvajIdle_13
       rect:
         serializedVersion: 2
-        x: 27
+        x: 25
         y: 22
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -462,19 +462,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1945a38771bc6cc30800000000000000
-      internalID: 4379410989326161041
+      spriteID: 738d7852f3b76afd0800000000000000
+      internalID: -2331040245974837193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_14
+      name: TolvajIdle_14
       rect:
         serializedVersion: 2
-        x: 48
+        x: 46
         y: 22
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -483,19 +483,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c2e86b33dd1a1c70800000000000000
-      internalID: 8942492803169575622
+      spriteID: fb6dfd219efabcbd0800000000000000
+      internalID: -2608798143552170305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_15
+      name: TolvajIdle_15
       rect:
         serializedVersion: 2
-        x: 69
+        x: 67
         y: 22
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -504,19 +504,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 909e8e884690e2500800000000000000
-      internalID: 373246146516674825
+      spriteID: ea9ef5e7040349f10800000000000000
+      internalID: 2275496765285198254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_16
+      name: TolvajIdle_16
       rect:
         serializedVersion: 2
-        x: 90
+        x: 88
         y: 22
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -525,19 +525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d350903c2e909b690800000000000000
-      internalID: -7586021227789482691
+      spriteID: b7eac3c837be0e020800000000000000
+      internalID: 2369152285503434363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_17
+      name: TolvajIdle_17
       rect:
         serializedVersion: 2
-        x: 111
+        x: 109
         y: 22
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -546,19 +546,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a3c543790f5ce140800000000000000
-      internalID: 4750276201162326949
+      spriteID: 4296fc3ba2e869a00800000000000000
+      internalID: 762953500942362916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_18
+      name: TolvajIdle_18
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -567,19 +567,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f536991516d930f0800000000000000
-      internalID: -1136642044822407694
+      spriteID: e9b9b4b9aae3eb800800000000000000
+      internalID: 630009900349234078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_19
+      name: TolvajIdle_19
       rect:
         serializedVersion: 2
-        x: 27
+        x: 25
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -588,19 +588,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe627ad8ba20ee7c0800000000000000
-      internalID: -4040288879865551121
+      spriteID: 270fd3a45ce2877f0800000000000000
+      internalID: -614689924247064462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_20
+      name: TolvajIdle_20
       rect:
         serializedVersion: 2
-        x: 48
+        x: 46
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -609,19 +609,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d492beb52901c730800000000000000
-      internalID: 4017502400309007570
+      spriteID: 2abb000a3e9e0f300800000000000000
+      internalID: 283983940375591842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_21
+      name: TolvajIdle_21
       rect:
         serializedVersion: 2
-        x: 69
+        x: 67
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -630,19 +630,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9f2831d3ff3320c0800000000000000
-      internalID: -4601764077822791777
+      spriteID: 9e8914b2793975d60800000000000000
+      internalID: 7878928350583036137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_22
+      name: TolvajIdle_22
       rect:
         serializedVersion: 2
-        x: 90
+        x: 88
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -651,19 +651,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2bfa26a56716e50800000000000000
-      internalID: 6800847042880975563
+      spriteID: 2e19880f03a62b450800000000000000
+      internalID: 6103057203466899938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajCaught_23
+      name: TolvajIdle_23
       rect:
         serializedVersion: 2
-        x: 111
+        x: 109
         y: 1
-        width: 9
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -672,8 +672,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c18467606d00ef0800000000000000
-      internalID: -143879864833270655
+      spriteID: 66a58c56793f1d800800000000000000
+      internalID: 635556854009191014
       vertices: []
       indices: 
       edges: []

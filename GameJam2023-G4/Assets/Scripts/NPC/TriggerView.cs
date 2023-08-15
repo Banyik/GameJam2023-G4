@@ -20,7 +20,7 @@ namespace NPCs
             transform.up = (Vector3Int)npcBehaviour.npc.TargetPosition - transform.position;
             if (playerIsVisible && (playerBehaviour.player.IsState(Player.State.StealingStart) || playerBehaviour.player.IsState(Player.State.Stealing)))
             {
-                npcBehaviour.npc.ChangeState(State.Chase);
+                npcBehaviour.npc.ChangeState(State.See);
             }
         }
         private void OnTriggerEnter2D(Collider2D other)

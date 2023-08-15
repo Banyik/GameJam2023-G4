@@ -732,12 +732,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7033620220830231608, guid: e731ac97113fb014ba6f3e9b412bc31e, type: 3}
+  m_Sprite: {fileID: 3891330127249292251, guid: 30497c4ad264bde4d83306328d09819b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 1.0833334, y: 1.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -829,6 +829,7 @@ GameObject:
   - component: {fileID: 1190855787}
   - component: {fileID: 1190855788}
   - component: {fileID: 1190855784}
+  - component: {fileID: 1190855789}
   m_Layer: 3
   m_Name: NPC_Test
   m_TagString: Untagged
@@ -934,6 +935,10 @@ MonoBehaviour:
   avoidanceForceMultiplier: 3
   raySpacing: 1.2
   scriptHandler: {fileID: 1802504556}
+  lifeGuardAnimator: {fileID: 9100000, guid: a4b25bc6fefbc5445881c0831c4ad239, type: 2}
+  kidAnimator: {fileID: 0}
+  grandmaAnimator: {fileID: 0}
+  animator: {fileID: 1190855789}
 --- !u!50 &1190855788
 Rigidbody2D:
   serializedVersion: 4
@@ -955,6 +960,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1190855789
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190855783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1505758352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,7 +2810,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 30
       minScalar: 10
       maxCurve:
         serializedVersion: 2

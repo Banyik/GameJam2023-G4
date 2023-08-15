@@ -15,6 +15,10 @@ namespace NPCs
         public GameObject scriptHandler;
         LayerMask ignoreLayer;
         WalkableGrid walkableGrid;
+        public RuntimeAnimatorController lifeGuardAnimator;
+        public RuntimeAnimatorController kidAnimator;
+        public RuntimeAnimatorController grandmaAnimator;
+        public Animator animator;
         public void Start()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
@@ -24,11 +28,13 @@ namespace NPCs
             {
                 case Type.Kid:
                     npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
+                    animator.runtimeAnimatorController = kidAnimator;
                     break;
                 case Type.Grandma:
                     break;
                 case Type.LifeGuard:
                     npc = new LifeGuard(1, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
+                    animator.runtimeAnimatorController = lifeGuardAnimator;
                     transform.position = new Vector3(9, 0, 0);
                     ignoreLayer = LayerMask.GetMask("LifeGuardPath");
                     break;
@@ -37,19 +43,39 @@ namespace NPCs
             }
         }
 
+        private void Update()
+        {
+            if (npc.IsState(State.See))
+            {
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+                {
+                    animator.SetBool("IsRunning", true);
+                    animator.SetBool("IsSeeing", false);
+                    npc.ChangeState(State.Chase);
+                }
+            }
+        }
+
         void FixedUpdate()
         {
+            Debug.Log(npc.State);
             switch (npc.State)
             {
                 case State.Calm:
-                    npc.GetNewState();
+                    npc.GetNewState(animator);
                     break;
                 case State.Move:
-                    npc.IsTargetReached(rb.transform.position);
+                    npc.IsTargetReached(rb.transform.position, animator);
                     break;
                 case State.Chase:
-                    npc.StartChase();
-                    npc.IsTargetReached(rb.transform.position);
+                    npc.StartChase(animator);
+                    npc.IsTargetReached(rb.transform.position, animator);
+                    break;
+                case State.See:
+                    npc.See(animator);
+                    break;
+                case State.Stun:
+                    npc.Stun(animator);
                     break;
                 default:
                     break;
@@ -81,6 +107,14 @@ namespace NPCs
                 {
                     delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
                 }
+            }
+            if(delta.x > 0)
+            {
+                transform.localScale = new Vector3(1, 1, 0);
+            }
+            else
+            {
+                transform.localScale = new Vector3(-1, 1, 0);
             }
             transform.position += new Vector3(delta.x, delta.y, 0) * npc.Speed * Time.deltaTime;
         }

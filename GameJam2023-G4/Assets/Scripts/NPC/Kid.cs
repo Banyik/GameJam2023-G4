@@ -11,7 +11,7 @@ namespace NPCs
         {
         }
 
-        public override void GetNewState()
+        public override void GetNewState(Animator animator)
         {
             ChangeState(State.Move);
             IsMoving = true;
@@ -19,12 +19,11 @@ namespace NPCs
             TargetPosition += new Vector2Int(1, 1);
         }
 
-        public override void IsTargetReached(Vector2 position)
+        public override void IsTargetReached(Vector2 position, Animator animator)
         {
             if (Vector3.Distance((Vector2)TargetPosition, position) <= .09f)
             {
                 CurrentPosition = TargetPosition;
-                GetNewState();
             }
         }
     }
