@@ -26,16 +26,14 @@ namespace Maps
             }
         }
 
-        public bool FlagCell(Vector2Int pos)
+        public void FlagCell(Vector2Int pos)
         {
-            var coord = walkableCoordinates.First(c => c.VectorCoordinates == pos);
+            var coord = walkableCoordinates.FirstOrDefault(c => c.VectorCoordinates == pos);
             if (coord != null)
             {
                 coord.IsWalkable = false;
                 walkableCoordinates.Remove(coord);
-                return true;
             }
-            return false;
         }
 
         public Vector2Int GetRandomCoordinate()
@@ -45,8 +43,8 @@ namespace Maps
 
         public bool IsWalkable(Vector2Int pos)
         {
-            var coord = coordinates.SingleOrDefault(c => c.VectorCoordinates == pos);
-            if(coord != null && coord.IsWalkable)
+            var coord = walkableCoordinates.FirstOrDefault(c => c.VectorCoordinates == pos);
+            if(coord != null)
             {
                 return true;
             }
