@@ -7,7 +7,7 @@ namespace Player
 {
     public class Behaviour : MonoBehaviour
     {
-        PlayerBase player;
+        public PlayerBase player;
         public TileSpawn tileSpawner;
         public Grid grid;
         public float speed = 1;
@@ -30,7 +30,7 @@ namespace Player
         {
             while (true)
             {
-                player.Thirst -= 0.25f;
+                player.Thirst -= 0.05f;
                 //Debug.Log($"Thirst: {player.Thirst}");
                 yield return new WaitForSeconds(1);
             }

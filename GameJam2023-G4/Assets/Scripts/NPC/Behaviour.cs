@@ -8,11 +8,12 @@ namespace NPCs
     public class Behaviour : MonoBehaviour
     {
         public Type type;
-        NPC npc;
+        public NPC npc;
         Rigidbody2D rb;
         public float avoidanceForceMultiplier = 0.4f;
         public float raySpacing = 3f;
         public GameObject scriptHandler;
+        LayerMask ignoreLayer;
         WalkableGrid walkableGrid;
         public void Start()
         {
@@ -22,11 +23,14 @@ namespace NPCs
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid);
+                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
                     break;
                 case Type.Grandma:
                     break;
                 case Type.LifeGuard:
+                    npc = new LifeGuard(1, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
+                    transform.position = new Vector3(9, 0, 0);
+                    ignoreLayer = LayerMask.GetMask("LifeGuardPath");
                     break;
                 default:
                     break;
@@ -41,13 +45,18 @@ namespace NPCs
                     npc.GetNewState();
                     break;
                 case State.Move:
-                    Move();
                     npc.IsTargetReached(rb.transform.position);
                     break;
                 case State.Chase:
+                    npc.StartChase();
+                    npc.IsTargetReached(rb.transform.position);
                     break;
                 default:
                     break;
+            }
+            if (npc.IsMoving)
+            {
+                Move();
             }
         }
 
@@ -62,7 +71,7 @@ namespace NPCs
             for (int i = 0; i < 17; i++)
             {
                 Vector2 rayDirection = Quaternion.AngleAxis((i - 8) * 15f, Vector3.forward) * direction;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f));
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f), ~ignoreLayer);
                 Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
                 if (hits[i].collider != null)
                 {

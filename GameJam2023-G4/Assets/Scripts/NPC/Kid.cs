@@ -7,13 +7,14 @@ namespace NPCs
 {
     public class Kid : NPC
     {
-        public Kid(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid) : base(speed, state, currentPosition, walkableGrid)
+        public Kid(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid, bool isMoving) : base(speed, state, currentPosition, walkableGrid, isMoving)
         {
         }
 
         public override void GetNewState()
         {
-            this.State = State.Move;
+            ChangeState(State.Move);
+            IsMoving = true;
             TargetPosition = WalkableGrid.GetRandomCoordinate();
             TargetPosition += new Vector2Int(1, 1);
         }
