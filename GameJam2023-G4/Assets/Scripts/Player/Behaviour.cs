@@ -10,12 +10,24 @@ namespace Player
         public float speed = 1;
         public Animator animator;
         public float stealTime = 5;
+        public float maxThirst = 10;
         float count = 0;
         public Rigidbody2D rb;
 
         void Start()
         {
-            player = new PlayerBase(speed, State.Idle);
+            player = new PlayerBase(speed, maxThirst, maxThirst, State.Idle);
+            StartCoroutine(IncreaseThirst());
+        }
+
+        IEnumerator IncreaseThirst()
+        {
+            while (true)
+            {
+                player.Thirst -= 0.25f;
+                Debug.Log($"Thirst: {player.Thirst}");
+                yield return new WaitForSeconds(1);
+            }
         }
         void FixedUpdate()
         {
