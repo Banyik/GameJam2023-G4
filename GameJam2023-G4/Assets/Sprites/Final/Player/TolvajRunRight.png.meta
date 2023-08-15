@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 64d57cf702a80084dad5f273ca54fc26
+guid: 592f710e9ab65d94dacc68c1cccacd32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8132876019933724183
-    second: TolvajRun_0
+      213: -6433171480691306078
+    second: TolvajRunRight_0
   - first:
-      213: 1006493648925808080
-    second: TolvajRun_1
+      213: 6588347757478308398
+    second: TolvajRunRight_1
   - first:
-      213: 3329594694328933118
-    second: TolvajRun_2
+      213: -7030240629903488981
+    second: TolvajRunRight_2
   - first:
-      213: 1720954915021171533
-    second: TolvajRun_3
+      213: -7767310149482373539
+    second: TolvajRunRight_3
   - first:
-      213: 9152468148897078922
-    second: TolvajRun_4
+      213: 2984294523197724069
+    second: TolvajRunRight_4
   - first:
-      213: -4887470691983555887
-    second: TolvajRun_5
+      213: 2784446072703245994
+    second: TolvajRunRight_5
   - first:
-      213: 153571473255067146
-    second: TolvajRun_6
+      213: -2092600952515644248
+    second: TolvajRunRight_6
   - first:
-      213: -5187878864223366406
-    second: TolvajRun_7
+      213: -6230239392454495261
+    second: TolvajRunRight_7
   - first:
-      213: -9142451016441685777
-    second: TolvajRun_8
+      213: -8416459774076283457
+    second: TolvajRunRight_8
   - first:
-      213: -1660346522834197402
-    second: TolvajRun_9
+      213: -7049232813121970284
+    second: TolvajRunRight_9
   - first:
-      213: -426492570931418722
-    second: TolvajRun_10
+      213: 4977715485543743215
+    second: TolvajRunRight_10
   - first:
-      213: 2623987034712982786
-    second: TolvajRun_11
+      213: 8195510748572705174
+    second: TolvajRunRight_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TolvajRun_0
+      name: TolvajRunRight_0
       rect:
         serializedVersion: 2
         x: 4
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e1ce858958322f80800000000000000
-      internalID: -8132876019933724183
+      spriteID: 2a1983a6f98c8b6a0800000000000000
+      internalID: -6433171480691306078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_1
+      name: TolvajRunRight_1
       rect:
         serializedVersion: 2
         x: 25
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d5d8ec14a8c7fd00800000000000000
-      internalID: 1006493648925808080
+      spriteID: e2a6c3df0638e6b50800000000000000
+      internalID: 6588347757478308398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_2
+      name: TolvajRunRight_2
       rect:
         serializedVersion: 2
         x: 46
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efa5089cbb8153e20800000000000000
-      internalID: 3329594694328933118
+      spriteID: b28851915619f6e90800000000000000
+      internalID: -7030240629903488981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_3
+      name: TolvajRunRight_3
       rect:
         serializedVersion: 2
         x: 67
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4bac40906f02e710800000000000000
-      internalID: 1720954915021171533
+      spriteID: d5e11df6298f43490800000000000000
+      internalID: -7767310149482373539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_4
+      name: TolvajRunRight_4
       rect:
         serializedVersion: 2
         x: 88
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8e56112a49140f70800000000000000
-      internalID: 9152468148897078922
+      spriteID: 5a51850be085a6920800000000000000
+      internalID: 2984294523197724069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_5
+      name: TolvajRunRight_5
       rect:
         serializedVersion: 2
         x: 109
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d20032fc473c2cb0800000000000000
-      internalID: -4887470691983555887
+      spriteID: aae55b353f654a620800000000000000
+      internalID: 2784446072703245994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_6
+      name: TolvajRunRight_6
       rect:
         serializedVersion: 2
         x: 4
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e6007f078912200800000000000000
-      internalID: 153571473255067146
+      spriteID: 8a439a0558695f2e0800000000000000
+      internalID: -2092600952515644248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_7
+      name: TolvajRunRight_7
       rect:
         serializedVersion: 2
         x: 25
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af29538d8a3f008b0800000000000000
-      internalID: -5187878864223366406
+      spriteID: 3e3ba13284eb989a0800000000000000
+      internalID: -6230239392454495261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_8
+      name: TolvajRunRight_8
       rect:
         serializedVersion: 2
         x: 46
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe895944d3d7f1180800000000000000
-      internalID: -9142451016441685777
+      spriteID: fb591d38d6ab23b80800000000000000
+      internalID: -8416459774076283457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_9
+      name: TolvajRunRight_9
       rect:
         serializedVersion: 2
         x: 67
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 664a96662a345f8e0800000000000000
-      internalID: -1660346522834197402
+      spriteID: 49f56dada181c2e90800000000000000
+      internalID: -7049232813121970284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_10
+      name: TolvajRunRight_10
       rect:
         serializedVersion: 2
         x: 88
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e992a42344bc41af0800000000000000
-      internalID: -426492570931418722
+      spriteID: feebbcc6cd5641540800000000000000
+      internalID: 4977715485543743215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TolvajRun_11
+      name: TolvajRunRight_11
       rect:
         serializedVersion: 2
         x: 109
@@ -384,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2054c4b3e464a6420800000000000000
-      internalID: 2623987034712982786
+      spriteID: 6916299aa9d4cb170800000000000000
+      internalID: 8195510748572705174
       vertices: []
       indices: 
       edges: []

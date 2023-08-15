@@ -36,8 +36,10 @@ namespace Player
             float vertical = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(horizontal, vertical);
             rb.velocity = Vector2.Lerp(rb.velocity, movement, player.Speed);
+            Debug.Log(horizontal);
             if(rb.velocity != new Vector2(0,0))
             {
+                animator.SetFloat("Direction", horizontal);
                 ChangeState(State.Run);
             }
             else

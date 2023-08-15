@@ -608,7 +608,7 @@ Animator:
   m_GameObject: {fileID: 1157412976}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7da2b0dba4f5ee644b2689aed5e04dfe, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ad18539913f27e42b0cc9e70b283850, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -657,12 +657,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3891330127249292251, guid: 30497c4ad264bde4d83306328d09819b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ccc508108fa6ed4fa11b4a467d7f609, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.0833334, y: 1.25}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -710,17 +710,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  idle: {fileID: 7400000, guid: 46aef1b9513cc144c87e868813b3e738, type: 2}
-  run: {fileID: 7400000, guid: e6fd82bb44d086542ac9973eaa330789, type: 2}
-  stealingStart: {fileID: 0}
-  stealing: {fileID: 0}
-  stunned: {fileID: 0}
-  stunnedStart: {fileID: 0}
-  caught: {fileID: 0}
-  anim: {fileID: 0}
+  animator: {fileID: 1157412977}
   rb: {fileID: 1157412983}
---- !u!61 &1157412982
-BoxCollider2D:
+--- !u!58 &1157412982
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -733,18 +726,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0833334, y: 1.25}
-    newSize: {x: 1.0833334, y: 1.25}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0833334, y: 1.25}
-  m_EdgeRadius: 0
+  m_Radius: 0.3
 --- !u!50 &1157412983
 Rigidbody2D:
   serializedVersion: 4
