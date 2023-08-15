@@ -8,43 +8,79 @@ namespace Maps
     public class WalkableGrid : MonoBehaviour
     {
         List<Coordinates> coordinates = new List<Coordinates>();
-        List<Coordinates> walkableCoordinates = new List<Coordinates>();
         bool generated = false;
         public void GetCoordinates()
         {
             if(!generated)
             {
-                for (int i = -8; i <= 7; i++)
+                for (int i = -8; i < 8; i++)
                 {
-                    for (int j = -5; j <= -3; j++)
+                    for (int j = -5; j < -2; j++)
                     {
                         coordinates.Add(new Coordinates(new Vector2Int(i, j)));
                     }
                 }
-                walkableCoordinates.AddRange(coordinates);
                 generated = true;
             }
         }
 
-        public void FlagCell(Vector2Int pos)
+        Coordinates FindCoordinate(Vector2Int pos)
         {
-            var coord = walkableCoordinates.FirstOrDefault(c => c.VectorCoordinates == pos);
-            if (coord != null)
+            Coordinates coord = null;
+            foreach (var c in coordinates)
+            {
+                if (c.VectorCoordinates == pos)
+                {
+                    coord = c;
+                }
+            }
+            return coord;
+        }
+
+        public bool FlagCell(Vector2Int pos)
+        {
+            Coordinates coord = FindCoordinate(pos);
+            if(coord != null)
             {
                 coord.IsWalkable = false;
-                walkableCoordinates.Remove(coord);
+                return true;
             }
+            return false;
+        }
+
+        public void RevertFlag(Vector2Int pos)
+        {
+            Coordinates coord = FindCoordinate(pos);
+            if (coord != null)
+            {
+                coord.IsWalkable = true;
+            }
+        }
+
+        public bool IsFlaggable(Vector2Int pos)
+        {
+            Coordinates coord = FindCoordinate(pos);
+            if (coord != null && coord.IsWalkable)
+            {
+                return true;
+            }
+            return false;
         }
 
         public Vector2Int GetRandomCoordinate()
         {
-            return walkableCoordinates[Random.Range(0, walkableCoordinates.Count)].VectorCoordinates;
+            Coordinates coord = null;
+            do
+            {
+                coord = coordinates[Random.Range(0, coordinates.Count)];
+            } while (coord == null || !coord.IsWalkable);
+            return coord.VectorCoordinates;
         }
 
         public bool IsWalkable(Vector2Int pos)
         {
-            var coord = walkableCoordinates.FirstOrDefault(c => c.VectorCoordinates == pos);
-            if(coord != null)
+            Coordinates coord = FindCoordinate(pos);
+            if (coord != null)
             {
                 return true;
             }

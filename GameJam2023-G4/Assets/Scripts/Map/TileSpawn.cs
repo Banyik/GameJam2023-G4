@@ -39,45 +39,50 @@ namespace Maps
             var down = new Vector2Int(0, -1);
             var right = new Vector2Int(1, 0);
             var left = new Vector2Int(-1, 0);
-            if (isHorizontal && walkableGrid.IsWalkable(cell))
+            if (isHorizontal && walkableGrid.IsFlaggable(cell) && cell.y + up.y < -3)
             {
-                if (walkableGrid.IsWalkable(cell += up))
+                if (walkableGrid.IsFlaggable(cell += up))
                 {
-                    PlaceTowel(cell, up, towel);
-                    return true;
+                    return PlaceTowel(cell, left, towel);
                 }
-                else if(walkableGrid.IsWalkable(cell += down))
+                else if(walkableGrid.IsFlaggable(cell += down))
                 {
-                    PlaceTowel(cell, down, towel);
-                    return true;
+                    return PlaceTowel(cell, left, towel);
                 }
             }
-            else if(!isHorizontal && walkableGrid.IsWalkable(cell))
+            else if(!isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7)
             {
-                if (walkableGrid.IsWalkable(cell += right))
+                if (walkableGrid.IsFlaggable(cell += right))
                 {
-                    PlaceTowel(cell, right, towel);
-                    return true;
+                    return PlaceTowel(cell, left, towel);
                 }
-                else if (walkableGrid.IsWalkable(cell += left))
+                else if (walkableGrid.IsFlaggable(cell += left))
                 {
-                    PlaceTowel(cell, left, towel);
-                    return true;
+                    
+                    return PlaceTowel(cell, left, towel);
                 }
             }
             return false;
         }
 
-        void PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel)
+        bool PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel)
         {
-            FlagCellWithNeighbour(cell, direction);
-            SpawnTowelWithNeighbour(cell, direction, towel);
+            if(FlagCellWithNeighbour(cell, direction))
+            {
+                SpawnTowelWithNeighbour(cell, direction, towel);
+                return true;
+            }
+            return false;
         }
 
-        void FlagCellWithNeighbour(Vector2Int cell, Vector2Int direction)
+        bool FlagCellWithNeighbour(Vector2Int cell, Vector2Int direction)
         {
-            walkableGrid.FlagCell(cell);
-            walkableGrid.FlagCell(cell + direction);
+            if(walkableGrid.FlagCell(cell) && walkableGrid.FlagCell(cell + direction)){
+                return true;   
+            }
+            walkableGrid.RevertFlag(cell);
+            walkableGrid.RevertFlag(cell + direction);
+            return false;
         }
 
         void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel)

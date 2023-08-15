@@ -1530,7 +1530,7 @@ MonoBehaviour:
   tile: {fileID: 11400000, guid: 216ae15989d059c4cb69125084245d3e, type: 2}
   horizontalTowels: []
   verticalTowels: []
-  towelCount: 3
+  towelCount: 7
 --- !u!4 &1802504558
 Transform:
   m_ObjectHideFlags: 0
