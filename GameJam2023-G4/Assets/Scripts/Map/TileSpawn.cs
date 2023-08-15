@@ -18,10 +18,11 @@ namespace Maps
             for (int i = 0; i < 5; i++)
             {
                 Vector2Int cell = walkableGrid.GetRandomCoordinate();
-                walkableGrid.FlagCell(cell);
-                tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), tile);
+                if (walkableGrid.FlagCell(cell))
+                {
+                    tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), tile);
+                }
             }
-            
         }
     }
 }
