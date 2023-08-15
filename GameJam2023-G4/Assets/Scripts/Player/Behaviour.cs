@@ -18,6 +18,7 @@ namespace Player
         float count = 0;
         public Rigidbody2D rb;
         Towel closestTowel = null;
+        public ParticleSystem lootEffect;
 
         void Start()
         {
@@ -30,7 +31,7 @@ namespace Player
             while (true)
             {
                 player.Thirst -= 0.25f;
-                Debug.Log($"Thirst: {player.Thirst}");
+                //Debug.Log($"Thirst: {player.Thirst}");
                 yield return new WaitForSeconds(1);
             }
         }
@@ -74,6 +75,7 @@ namespace Player
             }
             else
             {
+                lootEffect.Stop();
                 ChangeState(State.Idle);
             }
         }
@@ -105,6 +107,7 @@ namespace Player
                     {
 
                         ChangeState(State.Stealing);
+                        lootEffect.Play();
                     }
                     break;
                 case State.Stealing:
@@ -115,6 +118,7 @@ namespace Player
                     }
                     else
                     {
+                        lootEffect.Stop();
                         closestTowel.LootTowel();
                         count = 0;
                         player.State = State.Idle;
@@ -162,11 +166,11 @@ namespace Player
             for (int i = 0; i < 4; i++)
             {
                 Vector2 rayDirection = Quaternion.AngleAxis(i * 90f, Vector3.forward) * Vector2.up;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, 0.5f);
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, 0.75f, LayerMask.GetMask("Towels"));
                 Debug.DrawRay(rayStart, rayDirection * 0.5f, Color.red);
                 if(hits[i].collider != null)
                 {
-                    closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal)); 
+                    closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
                 }
             }
 

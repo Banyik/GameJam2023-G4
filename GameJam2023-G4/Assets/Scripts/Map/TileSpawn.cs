@@ -10,7 +10,9 @@ namespace Maps
         public Tilemap tilemap;
         public Tile tile;
         public Tile[] horizontalTowels;
+        public Tile[] lootedHorizontalTowels;
         public Tile[] verticalTowels;
+        public Tile[] lootedVerticalTowels;
         public int towelCount = 3;
         WalkableGrid walkableGrid;
 
