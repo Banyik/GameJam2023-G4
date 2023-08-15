@@ -81,6 +81,11 @@ namespace Player
             }
         }
 
+        void StopMovement()
+        {
+            rb.velocity = Vector2.zero;
+        }
+
         void CheckMovement()
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
@@ -155,6 +160,7 @@ namespace Player
                     }
                     break;
                 case State.StunnedStart:
+                    StopMovement();
                     stealTimeCount = 0;
                     lootEffect.Stop();
                     animator.SetBool("IsMoving", false);

@@ -44,7 +44,6 @@ namespace NPCs
                 animator.SetBool("IsWalking", false);
                 saw = true;
             }
-            
         }
 
         public override void IsTargetReached(Vector2 position, Animator animator)
@@ -63,6 +62,7 @@ namespace NPCs
                 GameObject.Find("Player").GetComponent<Player.Behaviour>().ChangeState(Player.State.StunnedStart);
                 Speed = 1;
                 ChangeState(State.Calm);
+                saw = false;
                 GetNewState(animator);
             }
         }

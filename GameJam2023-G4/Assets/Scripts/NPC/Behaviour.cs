@@ -58,7 +58,6 @@ namespace NPCs
 
         void FixedUpdate()
         {
-            Debug.Log(npc.State);
             switch (npc.State)
             {
                 case State.Calm:

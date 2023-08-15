@@ -180,11 +180,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 12}
-      - {x: -8, y: 12}
+    - - {x: 0, y: 20}
+      - {x: -11, y: 20}
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
-      - {x: 8, y: 12}
+      - {x: 11, y: 20}
 --- !u!114 &490777965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,6 +775,7 @@ MonoBehaviour:
   speed: 4
   animator: {fileID: 1157412977}
   stealTime: 5
+  stunTime: 5
   maxThirst: 10
   money: 0
   rb: {fileID: 1157412983}
