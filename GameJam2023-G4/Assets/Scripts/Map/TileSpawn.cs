@@ -14,6 +14,8 @@ namespace Maps
         public int towelCount = 3;
         WalkableGrid walkableGrid;
 
+        public List<Towel> towels = new List<Towel>();
+
         void Start()
         {
             walkableGrid = gameObject.GetComponent<WalkableGrid>();
@@ -87,8 +89,22 @@ namespace Maps
 
         void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel)
         {
+            towels.Add(new Towel(cell, cell + direction, towel, towel, false, tilemap));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
             tilemap.SetTile(new Vector3Int(cell.x + direction.x, cell.y + direction.y, 0), towel);
+        }
+
+        public Towel SearchTowel(Vector2Int pos)
+        {
+            Towel neededTowel = null;
+            foreach (var towel in towels)
+            {
+                if (towel.HasPosition(pos))
+                {
+                    neededTowel = towel;
+                }
+            }
+            return neededTowel;
         }
     }
 }

@@ -53,10 +53,10 @@ namespace NPCs
 
         void Move()
         {
-            Vector2 direction = (new Vector2(npc.TargetPosition.x, npc.TargetPosition.y) - new Vector2(rb.transform.position.x, rb.transform.position.y)).normalized;
+            Vector2 direction = npc.TargetPosition - (Vector2)rb.transform.position.normalized;
 
             RaycastHit2D[] hits = new RaycastHit2D[17];
-            Vector2 rayStart = new Vector2(rb.transform.position.x, rb.transform.position.y) + direction * rb.velocity.magnitude * Time.deltaTime;
+            Vector2 rayStart = (Vector2)rb.transform.position + direction * rb.velocity.magnitude * Time.deltaTime;
             var delta = Vector2.zero;
 
             for (int i = 0; i < 17; i++)
@@ -73,7 +73,7 @@ namespace NPCs
                     delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
                 }
             }
-            transform.position += new Vector3(delta.x, delta.y, 0) * npc.Speed * Time.deltaTime;
+            transform.position += (Vector3)delta * npc.Speed * Time.deltaTime;
         }
     }
 }

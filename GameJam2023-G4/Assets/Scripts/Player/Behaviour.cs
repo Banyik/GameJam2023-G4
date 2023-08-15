@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Maps;
 
 namespace Player
 {
     public class Behaviour : MonoBehaviour
     {
         PlayerBase player;
+        public TileSpawn tileSpawner;
         public float speed = 1;
         public Animator animator;
         public float stealTime = 5;
         public float maxThirst = 10;
         float count = 0;
         public Rigidbody2D rb;
+        Towel closestTowel = null;
 
         void Start()
         {
@@ -32,6 +35,7 @@ namespace Player
         void FixedUpdate()
         {
             CheckState();
+            CheckForTowel();
             if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart))
             {
                 CheckMovement();
@@ -125,6 +129,27 @@ namespace Player
                 default:
                     break;
             }
+        }
+
+        void CheckForTowel()
+        {
+            closestTowel = null;
+            RaycastHit2D[] hits = new RaycastHit2D[4];
+            Vector2 rayStart = new Vector2(rb.transform.position.x, rb.transform.position.y);
+            for (int i = 0; i < 4; i++)
+            {
+                Vector2 rayDirection = Quaternion.AngleAxis(i * 90f, Vector3.forward) * Vector2.up;
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, 0.5f);
+                Debug.DrawRay(rayStart, rayDirection * 0.5f, Color.red);
+                if(hits[i].collider != null)
+                {
+                    //Debug.Log(hits[i].normal);
+                    Debug.Log(Vector2Int.RoundToInt((Vector2)transform.position.normalized + hits[i].normal));
+                    closestTowel = tileSpawner.SearchTowel(Vector2Int.RoundToInt(rb.position.normalized + hits[i].normal));
+                    Debug.Log(closestTowel == null);
+                }
+            }
+
         }
     }
 }

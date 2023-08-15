@@ -709,8 +709,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8551d6bcd429c74599d38c1877ba74e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileSpawner: {fileID: 1802504557}
   speed: 4
   animator: {fileID: 1157412977}
+  stealTime: 5
+  maxThirst: 10
   rb: {fileID: 1157412983}
 --- !u!58 &1157412982
 CircleCollider2D:
