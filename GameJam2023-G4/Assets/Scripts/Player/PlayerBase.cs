@@ -15,6 +15,10 @@ namespace Player
             this.state = state;
         }
 
+        public bool IsState(State state)
+        {
+            return this.state == state;
+        }
         public float Speed { get => speed; set => speed = value; }
         public State State { get => state; set => state = value; }
     }

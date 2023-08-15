@@ -8,18 +8,11 @@ namespace Player
     {
         PlayerBase player;
         public float speed = 1;
-
-        //public AnimationClip idle;
-        //public AnimationClip run;
-        //public AnimationClip stealingStart;
-        //public AnimationClip stealing;
-        //public AnimationClip stunned;
-        //public AnimationClip stunnedStart;
-        //public AnimationClip caught;
-
         public Animator animator;
-
+        public float stealTime = 5;
+        float count = 0;
         public Rigidbody2D rb;
+
         void Start()
         {
             player = new PlayerBase(speed, State.Idle);
@@ -27,7 +20,27 @@ namespace Player
         void FixedUpdate()
         {
             CheckState();
-            CheckMovement();
+            if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart))
+            {
+                CheckMovement();
+            }
+        }
+        private void Update()
+        {
+            CheckAction();
+        }
+        void CheckAction()
+        {
+            if (Input.GetButtonDown("Use") && player.IsState(State.Idle))
+            {
+                ChangeState(State.StealingStart);
+            }
+            if (Input.GetButtonUp("Use") && (player.IsState(State.StealingStart) || player.IsState(State.Stealing)))
+            {
+                ChangeState(State.Idle);
+                animator.SetBool("IsStealing", false);
+                count = 0;
+            }
         }
 
         void CheckMovement()
@@ -36,7 +49,6 @@ namespace Player
             float vertical = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(horizontal, vertical);
             rb.velocity = Vector2.Lerp(rb.velocity, movement, player.Speed);
-            Debug.Log(horizontal);
             if(rb.velocity != new Vector2(0,0))
             {
                 animator.SetFloat("Direction", horizontal);
@@ -50,7 +62,7 @@ namespace Player
 
         void ChangeState(State state)
         {
-            if(player.State != state)
+            if(!player.IsState(state))
             {
                 player.State = state;
                 CheckState();
@@ -68,8 +80,27 @@ namespace Player
                     animator.SetBool("IsMoving", true);
                     break;
                 case State.StealingStart:
+                    animator.SetBool("IsMoving", false);
+                    animator.SetBool("IsStealing", true);
+                    if (player.IsState(State.StealingStart) && (animator.GetCurrentAnimatorStateInfo(0).IsName("StealingLeft") ||
+                                                          animator.GetCurrentAnimatorStateInfo(0).IsName("StealingRight")))
+                    {
+
+                        ChangeState(State.Stealing);
+                    }
                     break;
                 case State.Stealing:
+                    if(count <= stealTime)
+                    {
+                        Debug.Log(count);
+                        count += Time.deltaTime;
+                    }
+                    else
+                    {
+                        count = 0;
+                        player.State = State.Idle;
+                        animator.SetBool("IsStealing", false);
+                    }
                     break;
                 case State.Stunned:
                     break;
