@@ -710,10 +710,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileSpawner: {fileID: 1802504557}
+  grid: {fileID: 828310988}
   speed: 4
   animator: {fileID: 1157412977}
   stealTime: 5
   maxThirst: 10
+  money: 0
   rb: {fileID: 1157412983}
 --- !u!58 &1157412982
 CircleCollider2D:

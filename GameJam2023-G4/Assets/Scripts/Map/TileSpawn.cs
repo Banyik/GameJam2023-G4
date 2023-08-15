@@ -99,7 +99,7 @@ namespace Maps
             Towel neededTowel = null;
             foreach (var towel in towels)
             {
-                if (towel.HasPosition(pos))
+                if (towel.HasPosition(pos) && !towel.IsLooted)
                 {
                     neededTowel = towel;
                 }

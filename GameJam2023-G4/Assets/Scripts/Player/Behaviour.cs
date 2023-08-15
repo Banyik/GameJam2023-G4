@@ -9,17 +9,19 @@ namespace Player
     {
         PlayerBase player;
         public TileSpawn tileSpawner;
+        public Grid grid;
         public float speed = 1;
         public Animator animator;
         public float stealTime = 5;
         public float maxThirst = 10;
+        public float money = 0;
         float count = 0;
         public Rigidbody2D rb;
         Towel closestTowel = null;
 
         void Start()
         {
-            player = new PlayerBase(speed, maxThirst, maxThirst, State.Idle);
+            player = new PlayerBase(speed, maxThirst, maxThirst, money, State.Idle);
             StartCoroutine(IncreaseThirst());
         }
 
@@ -47,7 +49,7 @@ namespace Player
         }
         void CheckAction()
         {
-            if (Input.GetButtonDown("Use") && player.IsState(State.Idle))
+            if (Input.GetButtonDown("Use") && player.IsState(State.Idle) && (closestTowel != null && !closestTowel.IsLooted))
             {
                 ChangeState(State.StealingStart);
             }
@@ -113,9 +115,11 @@ namespace Player
                     }
                     else
                     {
+                        closestTowel.LootTowel();
                         count = 0;
                         player.State = State.Idle;
                         animator.SetBool("IsStealing", false);
+                        GetLoot();
                     }
                     break;
                 case State.Stunned:
@@ -131,6 +135,25 @@ namespace Player
             }
         }
 
+        void GetLoot()
+        {
+            foreach (var item in closestTowel.Loot.Items)
+            {
+                switch (item.Type)
+                {
+                    case Items.ItemType.Water:
+                        player.Thirst += item.Amount;
+                        break;
+                    case Items.ItemType.Money:
+                        player.Money += item.Amount;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            Debug.Log($"Thirst: {player.Thirst}\nMoney: {player.Money}");
+        }
+
         void CheckForTowel()
         {
             closestTowel = null;
@@ -143,10 +166,7 @@ namespace Player
                 Debug.DrawRay(rayStart, rayDirection * 0.5f, Color.red);
                 if(hits[i].collider != null)
                 {
-                    //Debug.Log(hits[i].normal);
-                    Debug.Log(Vector2Int.RoundToInt((Vector2)transform.position.normalized + hits[i].normal));
-                    closestTowel = tileSpawner.SearchTowel(Vector2Int.RoundToInt(rb.position.normalized + hits[i].normal));
-                    Debug.Log(closestTowel == null);
+                    closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal)); 
                 }
             }
 

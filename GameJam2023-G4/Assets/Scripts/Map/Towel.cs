@@ -17,6 +17,7 @@ namespace Maps
         bool isLooted;
 
         public bool IsLooted { get => isLooted; set => isLooted = value; }
+        public Loot Loot { get => loot; set => loot = value; }
 
         public Towel(Vector2Int firstPosition, Vector2Int secondPosition, Tile skin, Tile lootedSkin, bool isLooted, Tilemap towelTiles)
         {
