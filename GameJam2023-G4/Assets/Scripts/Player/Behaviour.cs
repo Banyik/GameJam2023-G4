@@ -58,7 +58,8 @@ namespace Player
         {
             if (player.IsState(State.StealingStart))
             {
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing"))
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing") ||
+                    animator.GetCurrentAnimatorStateInfo(0).IsName("StealingTop"))
                 {
                     lootBarBehaviour.SetAnimationSpeed(stealTime);
                     ChangeState(State.Stealing);
@@ -237,7 +238,12 @@ namespace Player
                         {
                             closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal) + new Vector2Int(0, 1));
                             Debug.Log((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
-
+                            animator.SetBool("OnTop", true);
+                        }
+                        if (i == 0)
+                        {
+                            closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
+                            animator.SetBool("OnTop", false);
                         }
                     }
                     else
