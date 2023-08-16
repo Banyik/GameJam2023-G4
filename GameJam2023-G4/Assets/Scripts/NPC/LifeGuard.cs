@@ -61,9 +61,8 @@ namespace NPCs
                 animator.SetBool("IsRunning", false);
                 GameObject.Find("Player").GetComponent<Player.Behaviour>().ChangeState(Player.State.StunnedStart);
                 Speed = 1;
-                ChangeState(State.Calm);
+                ChangeState(State.Stun);
                 saw = false;
-                GetNewState(animator);
             }
         }
     }

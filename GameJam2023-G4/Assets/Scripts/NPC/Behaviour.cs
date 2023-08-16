@@ -45,6 +45,11 @@ namespace NPCs
 
         private void Update()
         {
+            CheckAnimationSwitch();
+        }
+
+        void CheckAnimationSwitch()
+        {
             if (npc.IsState(State.See))
             {
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
@@ -52,6 +57,13 @@ namespace NPCs
                     animator.SetBool("IsRunning", true);
                     animator.SetBool("IsSeeing", false);
                     npc.ChangeState(State.Chase);
+                }
+            }
+            if (npc.IsState(State.Stun))
+            {
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+                { 
+                    npc.ChangeState(State.Calm);
                 }
             }
         }
