@@ -9,6 +9,7 @@ namespace Maps
     {
         List<Coordinates> coordinates = new List<Coordinates>();
         bool generated = false;
+        public TileSpawn tileSpawn;
         public void GetCoordinates()
         {
             if(!generated)
@@ -22,6 +23,16 @@ namespace Maps
                 }
                 generated = true;
             }
+        }
+
+        public void ResetMap()
+        {
+            foreach (var coord in coordinates)
+            {
+                coord.IsWalkable = true;
+            }
+            tileSpawn.ResetMap();
+            tileSpawn.SpawnTowels();
         }
 
         Coordinates FindCoordinate(Vector2Int pos)

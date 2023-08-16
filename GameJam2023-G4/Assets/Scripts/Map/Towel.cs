@@ -36,6 +36,12 @@ namespace Maps
             towelTiles.SetTile(new Vector3Int(secondPosition.x, secondPosition.y, 0), skin);
         }
 
+        public void RemoveTowel()
+        {
+            towelTiles.SetTile(new Vector3Int(firstPosition.x, firstPosition.y, 0), null);
+            towelTiles.SetTile(new Vector3Int(secondPosition.x, secondPosition.y, 0), null);
+        }
+
         public void LootTowel()
         {
             isLooted = true;

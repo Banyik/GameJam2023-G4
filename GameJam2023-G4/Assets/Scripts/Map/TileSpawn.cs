@@ -25,7 +25,16 @@ namespace Maps
             SpawnTowels();
         }
 
-        void SpawnTowels()
+        public void ResetMap()
+        {
+            foreach (var towel in towels)
+            {
+                towel.RemoveTowel();
+            }
+            towels.Clear();
+        }
+
+        public void SpawnTowels()
         {
             for (int i = 0; i < towelCount; i++)
             {
