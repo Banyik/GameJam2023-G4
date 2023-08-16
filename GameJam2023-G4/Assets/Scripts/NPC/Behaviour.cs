@@ -112,7 +112,7 @@ namespace NPCs
                 Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
                 if (hits[i].collider != null)
                 {
-                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 5);
+                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
                 }
                 else
                 {

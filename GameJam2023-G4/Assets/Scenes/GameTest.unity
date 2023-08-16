@@ -290,8 +290,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 595276134}
-  - component: {fileID: 595276133}
   - component: {fileID: 595276135}
+  - component: {fileID: 595276133}
   m_Layer: 0
   m_Name: NextMapTrigger
   m_TagString: Untagged
@@ -299,19 +299,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &595276133
-BoxCollider:
+--- !u!61 &595276133
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595276132}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.61985725}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 4.0359125, z: 1}
-  m_Center: {x: 0, y: -0.66167307, z: 0}
+  m_Size: {x: 1, y: 3.9898996}
+  m_EdgeRadius: 0
 --- !u!4 &595276134
 Transform:
   m_ObjectHideFlags: 0
@@ -2036,7 +2049,10 @@ MonoBehaviour:
   xOffset: 10
   yOffset: 10
   currentMapType: 0
-  mapObjects: []
+  mapObjects:
+  - {fileID: 1505758352}
+  - {fileID: 1505758352}
+  - {fileID: 1505758352}
 --- !u!1 &1984607349
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,9 +31,9 @@ namespace Maps
         }
         public void GetNextMap()
         {
-            //mapObjects[currentMapType].SetActive(false);
+            mapObjects[currentMapType].SetActive(false);
             currentMapType = maps[++index];
-            //mapObjects[currentMapType].SetActive(true);
+            mapObjects[currentMapType].SetActive(true);
         }
         void CalculateOffsets()
         {
