@@ -180,11 +180,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 20}
-      - {x: -11, y: 20}
+    - - {x: 14, y: 16}
+      - {x: 0, y: 16}
+      - {x: -14, y: 16}
+      - {x: -7, y: 3}
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
-      - {x: 11, y: 20}
+      - {x: 7, y: 3}
 --- !u!114 &490777965
 MonoBehaviour:
   m_ObjectHideFlags: 0

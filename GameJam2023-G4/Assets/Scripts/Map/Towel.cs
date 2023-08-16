@@ -25,7 +25,7 @@ namespace Maps
             this.firstPosition = firstPosition;
             this.secondPosition = secondPosition;
             this.skin = skin;
-            this.lootedSkin = skin;
+            this.lootedSkin = lootedSkin;
             this.isLooted = isLooted;
             this.towelTiles = towelTiles;
             CreateTowel();
