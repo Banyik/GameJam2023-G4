@@ -932,7 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a679b60e144b2c64d999dabf07bd5c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 0
   avoidanceForceMultiplier: 3
   raySpacing: 1.2
   scriptHandler: {fileID: 1802504556}

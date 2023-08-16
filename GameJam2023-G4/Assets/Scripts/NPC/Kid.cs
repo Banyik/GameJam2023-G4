@@ -21,9 +21,10 @@ namespace NPCs
 
         public override void IsTargetReached(Vector2 position, Animator animator)
         {
-            if (Vector3.Distance((Vector2)TargetPosition, position) <= .09f)
+            if (Vector3.Distance((Vector2)TargetPosition, position) <= 1f)
             {
                 CurrentPosition = TargetPosition;
+                GetNewState(animator);
             }
         }
     }

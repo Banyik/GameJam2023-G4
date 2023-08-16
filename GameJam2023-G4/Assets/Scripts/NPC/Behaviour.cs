@@ -107,7 +107,7 @@ namespace NPCs
                     delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
                 }
             }
-            if(delta.x > 0)
+            if(direction.x > 0)
             {
                 transform.localScale = new Vector3(1, 1, 0);
             }
