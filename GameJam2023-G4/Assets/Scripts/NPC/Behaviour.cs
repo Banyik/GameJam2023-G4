@@ -112,6 +112,11 @@ namespace NPCs
                 Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
                 if (hits[i].collider != null)
                 {
+                    if(i - 8 == 0)
+                    {
+                        rayDirection = Quaternion.AngleAxis((i - Random.Range(1, 8)) * 15f, Vector3.forward) * direction;
+                        delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
+                    }
                     delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
                 }
                 else
@@ -121,11 +126,12 @@ namespace NPCs
             }
             if(direction.x > 0)
             {
+                GetComponent<SpriteRenderer>().flipX = false;
                 transform.localScale = new Vector3(1, 1, 0);
             }
             else
             {
-                transform.localScale = new Vector3(-1, 1, 0);
+                GetComponent<SpriteRenderer>().flipX = true;
             }
             transform.position += new Vector3(delta.x, delta.y, 0) * npc.Speed * Time.deltaTime;
         }

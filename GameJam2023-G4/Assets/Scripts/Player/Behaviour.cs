@@ -101,7 +101,7 @@ namespace Player
             {
                 if(horizontal != 0)
                 {
-                    transform.localScale = new Vector3(horizontal, 1, 0);
+                    GetComponent<SpriteRenderer>().flipX = horizontal == -1;
                 }
                 ChangeState(State.Run);
             }
