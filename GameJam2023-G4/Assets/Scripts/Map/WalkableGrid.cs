@@ -51,9 +51,10 @@ namespace Maps
         public bool FlagCell(Vector2Int pos)
         {
             Coordinates coord = FindCoordinate(pos);
-            if(coord != null)
+            if(coord != null && coord.IsWalkable)
             {
                 coord.IsWalkable = false;
+                Debug.Log($"Flagged: {coord.VectorCoordinates}");
                 return true;
             }
             return false;
@@ -64,6 +65,7 @@ namespace Maps
             Coordinates coord = FindCoordinate(pos);
             if (coord != null)
             {
+                Debug.Log($"Unflagged: {coord.VectorCoordinates}");
                 coord.IsWalkable = true;
             }
         }

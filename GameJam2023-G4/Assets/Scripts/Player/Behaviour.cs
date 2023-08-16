@@ -218,15 +218,33 @@ namespace Player
         {
             closestTowel = null;
             RaycastHit2D[] hits = new RaycastHit2D[4];
-            Vector2 rayStart = new Vector2(rb.transform.position.x, rb.transform.position.y);
+            Vector2 rayStart = new Vector2(rb.transform.position.x, rb.transform.position.y + 0.15f);
             for (int i = 0; i < 4; i++)
             {
+                float rayLength = 0.75f;
+                if (i % 2 == 0)
+                {
+                    rayLength = 0.15f;
+                }
                 Vector2 rayDirection = Quaternion.AngleAxis(i * 90f, Vector3.forward) * Vector2.up;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, 0.75f, LayerMask.GetMask("Towels"));
-                Debug.DrawRay(rayStart, rayDirection * 0.5f, Color.red);
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, rayLength, LayerMask.GetMask("Towels"));
+                Debug.DrawRay(rayStart, rayDirection * rayLength, Color.red);
                 if(hits[i].collider != null)
                 {
-                    closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
+                    if(i%2 == 0)
+                    {
+                        if (i == 2)
+                        {
+                            closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal) + new Vector2Int(0, 1));
+                            Debug.Log((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
+
+                        }
+                    }
+                    else
+                    {
+                        closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
+                        Debug.Log((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
+                    }
                 }
             }
 
