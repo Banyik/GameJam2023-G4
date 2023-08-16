@@ -43,7 +43,8 @@ namespace Maps
             var down = new Vector2Int(0, -1);
             var right = new Vector2Int(1, 0);
             var left = new Vector2Int(-1, 0);
-            if (isHorizontal && walkableGrid.IsFlaggable(cell) && cell.y + up.y < -3)
+
+            if (isHorizontal && walkableGrid.IsFlaggable(cell) && cell.y + up.y < -3 && cell.x > -7)
             {
                 if (walkableGrid.IsFlaggable(cell += up))
                 {
@@ -54,7 +55,7 @@ namespace Maps
                     return PlaceTowel(cell, left, towel);
                 }
             }
-            else if(!isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7)
+            else if(!isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7 && cell.x > -7)
             {
                 if (walkableGrid.IsFlaggable(cell += right))
                 {
