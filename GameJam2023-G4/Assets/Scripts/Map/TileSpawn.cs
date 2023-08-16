@@ -39,51 +39,57 @@ namespace Maps
             for (int i = 0; i < towelCount; i++)
             {
                 Vector2Int cell = walkableGrid.GetRandomCoordinate();
-                if (!TryPlaceTowel(Random.Range(0, 100) < 50f, cell, tile))
+                if (!TryPlaceTowel(Random.Range(0, 100) < 50f, cell))
                 {
                     i--;
                 }
             }
         }
 
-        public bool TryPlaceTowel(bool isHorizontal, Vector2Int cell, Tile towel)
+        public bool TryPlaceTowel(bool isHorizontal, Vector2Int cell)
         {
             var up = new Vector2Int(0, 1);
             var down = new Vector2Int(0, -1);
             var right = new Vector2Int(1, 0);
             var left = new Vector2Int(-1, 0);
 
-            if (isHorizontal && walkableGrid.IsFlaggable(cell) && cell.y + up.y < -3 && cell.x > -7)
+            if (!isHorizontal && walkableGrid.IsFlaggable(cell) && cell.y + up.y < -2 && cell.y > -5 && cell.x > -7)
             {
+                int index = Random.Range(0, verticalTowels.Length);
+                Tile baseTowel = verticalTowels[index];
+                Tile lootedTowel = lootedVerticalTowels[index];
                 if (walkableGrid.IsFlaggable(cell += up))
                 {
-                    return PlaceTowel(cell, left, towel);
+                    return PlaceTowel(cell, up, baseTowel, lootedTowel);
                 }
                 else if(walkableGrid.IsFlaggable(cell += down))
                 {
-                    return PlaceTowel(cell, left, towel);
+                    return PlaceTowel(cell + down, up, baseTowel, lootedTowel);
                 }
             }
-            else if(!isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7 && cell.x > -7)
+            else if(isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7 && cell.y > -5 && cell.x > -7)
             {
+                int index = Random.Range(0, horizontalTowels.Length);
+                Tile baseTowel = horizontalTowels[index];
+                Tile lootedTowel = lootedHorizontalTowels[index];
                 if (walkableGrid.IsFlaggable(cell += right))
                 {
-                    return PlaceTowel(cell, left, towel);
+                    return PlaceTowel(cell, right, baseTowel, lootedTowel);
                 }
                 else if (walkableGrid.IsFlaggable(cell += left))
                 {
                     
-                    return PlaceTowel(cell, left, towel);
+                    return PlaceTowel(cell + left, right, baseTowel, lootedTowel);
                 }
             }
             return false;
         }
 
-        bool PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel)
+        bool PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel)
         {
             if(FlagCellWithNeighbour(cell, direction))
             {
-                SpawnTowelWithNeighbour(cell, direction, towel);
+                SpawnTowelWithNeighbour(cell, direction, towel, lootedTowel);
                 return true;
             }
             return false;
@@ -99,11 +105,11 @@ namespace Maps
             return false;
         }
 
-        void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel)
+        void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel)
         {
-            towels.Add(new Towel(cell, cell + direction, towel, towel, false, tilemap));
+            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
-            tilemap.SetTile(new Vector3Int(cell.x + direction.x, cell.y + direction.y, 0), towel);
+            Debug.Log($"cell: {cell}; direction: {direction}");
         }
 
         public Towel SearchTowel(Vector2Int pos)

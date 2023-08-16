@@ -152,6 +152,156 @@ TextureImporter:
   - first:
       213: -5923449546915640654
     second: "T\xF6rcsik (2)_49"
+  - first:
+      213: -7600872652282376241
+    second: Towel_0
+  - first:
+      213: -7597734415151676039
+    second: Towel_1
+  - first:
+      213: 8394131307432718534
+    second: Towel_2
+  - first:
+      213: -7387575320356903778
+    second: Towel_3
+  - first:
+      213: -1718007419987339733
+    second: Towel_4
+  - first:
+      213: -7562943683684872742
+    second: Towel_5
+  - first:
+      213: -4445616700075967455
+    second: Towel_6
+  - first:
+      213: 276057346945402597
+    second: Towel_7
+  - first:
+      213: 5675726739927674034
+    second: Towel_8
+  - first:
+      213: 3193855731736937524
+    second: Towel_9
+  - first:
+      213: -907685771265392661
+    second: Towel_10
+  - first:
+      213: -3033080490645742803
+    second: Towel_11
+  - first:
+      213: 789354992592172571
+    second: Towel_12
+  - first:
+      213: -2568340754627551442
+    second: Towel_13
+  - first:
+      213: -5892197920650288318
+    second: Towel_14
+  - first:
+      213: 540248684976160353
+    second: Towel_15
+  - first:
+      213: 4219469830190789915
+    second: Towel_16
+  - first:
+      213: 2728696695868568751
+    second: Towel_17
+  - first:
+      213: 443687661798669730
+    second: Towel_18
+  - first:
+      213: 959502840948053299
+    second: Towel_19
+  - first:
+      213: 8501258584792415003
+    second: Towel_20
+  - first:
+      213: 890659115875134429
+    second: Towel_21
+  - first:
+      213: 1945542201138477737
+    second: Towel_22
+  - first:
+      213: 5202019357741657123
+    second: Towel_23
+  - first:
+      213: 1436246758844780748
+    second: Towel_24
+  - first:
+      213: -8360812736587166343
+    second: Towel_25
+  - first:
+      213: -4923810764860025728
+    second: Towel_26
+  - first:
+      213: -4760903117725275233
+    second: Towel_27
+  - first:
+      213: -843214840067314323
+    second: Towel_28
+  - first:
+      213: -1821609801629087545
+    second: Towel_29
+  - first:
+      213: -6570772141865072683
+    second: Towel_30
+  - first:
+      213: -568591640333991320
+    second: Towel_31
+  - first:
+      213: -8602474709804414523
+    second: Towel_32
+  - first:
+      213: -7481043394492600874
+    second: Towel_33
+  - first:
+      213: -8190252307336245593
+    second: Towel_34
+  - first:
+      213: 9070273882218542752
+    second: Towel_35
+  - first:
+      213: 1629440470915347441
+    second: Towel_36
+  - first:
+      213: -8023608998297245399
+    second: Towel_37
+  - first:
+      213: 4367417332923465494
+    second: Towel_38
+  - first:
+      213: -1722484687072664802
+    second: Towel_39
+  - first:
+      213: -6856895044471959514
+    second: Towel_40
+  - first:
+      213: -6734619292249572724
+    second: Towel_41
+  - first:
+      213: -3758470058587159252
+    second: Towel_42
+  - first:
+      213: -2174783071782194521
+    second: Towel_43
+  - first:
+      213: -2736582769550695280
+    second: Towel_44
+  - first:
+      213: -2186642419306132277
+    second: Towel_45
+  - first:
+      213: -8318254087880137243
+    second: Towel_46
+  - first:
+      213: 1008461080516957283
+    second: Towel_47
+  - first:
+      213: 3890716372758566002
+    second: Towel_48
+  - first:
+      213: -6352385394196746365
+    second: Towel_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -217,7 +367,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -229,7 +379,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -241,7 +391,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -253,1051 +403,1068 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_0"
+      name: Towel_0
       rect:
         serializedVersion: 2
         x: 4
         y: 96
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b5ac5ea774568300800000000000000
-      internalID: 253983301996160435
+      spriteID: fcf4ab90896448690800000000000000
+      internalID: -7600872652282376241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_1"
+      name: Towel_1
       rect:
         serializedVersion: 2
         x: 30
         y: 96
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c95487b6a9de91970800000000000000
-      internalID: 8726267000490837404
+      spriteID: 975cf1fcdcc6f8690800000000000000
+      internalID: -7597734415151676039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_2"
+      name: Towel_2
       rect:
         serializedVersion: 2
         x: 56
         y: 96
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65d5bd3b7d0c3ab0800000000000000
-      internalID: -5027128261084850836
+      spriteID: 6c0338933f1fd7470800000000000000
+      internalID: 8394131307432718534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_3"
+      name: Towel_3
       rect:
         serializedVersion: 2
         x: 82
         y: 96
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4af11dcd17917f0f0800000000000000
-      internalID: -1083369208532623452
+      spriteID: e942fae136f0a7990800000000000000
+      internalID: -7387575320356903778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_4"
+      name: Towel_4
       rect:
         serializedVersion: 2
         x: 108
         y: 96
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92bac87425a9c75b0800000000000000
-      internalID: -5369246977554076887
+      spriteID: b265b2a9a596828e0800000000000000
+      internalID: -1718007419987339733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_5"
+      name: Towel_5
       rect:
         serializedVersion: 2
         x: 136
         y: 84
         width: 24
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -9.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -9.5}
+        - {x: -12, y: -9.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 76a6f51d8ed8f5850800000000000000
-      internalID: 6367964429209791079
+      spriteID: addcda53ac60b0790800000000000000
+      internalID: -7562943683684872742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_6"
+      name: Towel_6
       rect:
         serializedVersion: 2
         x: 162
         y: 84
         width: 24
         height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eda98e04cd620ba0800000000000000
-      internalID: -6124211854445531679
+      spriteID: 12c7d684a2ffd42c0800000000000000
+      internalID: -4445616700075967455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_7"
+      name: Towel_7
       rect:
         serializedVersion: 2
         x: 4
         y: 84
-        width: 22
+        width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d308518fedf5cf430800000000000000
-      internalID: 3818031995352875069
+      spriteID: 5e64156c1b0c4d300800000000000000
+      internalID: 276057346945402597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_8"
+      name: Towel_8
       rect:
         serializedVersion: 2
-        x: 29
+        x: 30
         y: 84
-        width: 25
+        width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f646654ef4bdec0800000000000000
-      internalID: -3541148839876202714
+      spriteID: 2bc239f066b34ce40800000000000000
+      internalID: 5675726739927674034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_9"
+      name: Towel_9
       rect:
         serializedVersion: 2
         x: 56
         y: 84
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 796ae1e809ef88a90800000000000000
-      internalID: -7311314098222881129
+      spriteID: 4348602cddad25c20800000000000000
+      internalID: 3193855731736937524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_10"
+      name: Towel_10
       rect:
         serializedVersion: 2
-        x: 84
+        x: 82
         y: 84
-        width: 22
+        width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295df25523389f7a0800000000000000
-      internalID: -6342894347973831278
+      spriteID: befbc04a9904763f0800000000000000
+      internalID: -907685771265392661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_11"
+      name: Towel_11
       rect:
         serializedVersion: 2
-        x: 112
+        x: 108
         y: 84
-        width: 20
+        width: 24
         height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d504cbbf370e33160800000000000000
-      internalID: 7004188634240532573
+      spriteID: d2b94eb1d5558e5d0800000000000000
+      internalID: -3033080490645742803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_12"
+      name: Towel_12
       rect:
         serializedVersion: 2
         x: 6
         y: 69
-        width: 22
+        width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26084996915e646c0800000000000000
-      internalID: -4159385308521791390
+      spriteID: b16332ffe2a54fa00800000000000000
+      internalID: 789354992592172571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_13"
+      name: Towel_13
       rect:
         serializedVersion: 2
-        x: 32
+        x: 30
         y: 69
-        width: 22
+        width: 24
         height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0dcb7959f74580a0800000000000000
-      internalID: -6880013719464850161
+      spriteID: e2f144af0bb6b5cd0800000000000000
+      internalID: -2568340754627551442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_14"
+      name: Towel_14
       rect:
         serializedVersion: 2
         x: 56
         y: 69
-        width: 20
+        width: 24
         height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928d62597aa2104a0800000000000000
-      internalID: -6628970277262403543
+      spriteID: 24328599535ba3ea0800000000000000
+      internalID: -5892197920650288318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_15"
+      name: Towel_15
       rect:
         serializedVersion: 2
         x: 82
         y: 69
-        width: 18
+        width: 24
         height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad309f8f8ea98ab70800000000000000
-      internalID: 8910542188152685530
+      spriteID: 16e306e01595f7700800000000000000
+      internalID: 540248684976160353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_16"
+      name: Towel_16
       rect:
         serializedVersion: 2
         x: 108
         y: 69
-        width: 19
+        width: 24
         height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9600282b5dfabec80800000000000000
-      internalID: -8292340956514877335
+      spriteID: b15fff074719e8a30800000000000000
+      internalID: 4219469830190789915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_17"
+      name: Towel_17
       rect:
         serializedVersion: 2
         x: 132
         y: 70
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de4dc3f2c8d8ff40800000000000000
-      internalID: 5762594055046123217
+      spriteID: fa4370900374ed520800000000000000
+      internalID: 2728696695868568751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_18"
+      name: Towel_18
       rect:
         serializedVersion: 2
         x: 164
         y: 64
-        width: 25
+        width: 24
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
       tessellationDetail: 0
       bones: []
-      spriteID: c45b17806d03febc0800000000000000
-      internalID: -3751726268753529524
+      spriteID: 2adbbb0e39b482600800000000000000
+      internalID: 443687661798669730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_19"
+      name: Towel_19
       rect:
         serializedVersion: 2
         x: 2
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8700f8d2e90a7e0800000000000000
-      internalID: -1756229936164603668
+      spriteID: 335dfab00c6d05d00800000000000000
+      internalID: 959502840948053299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_20"
+      name: Towel_20
       rect:
         serializedVersion: 2
         x: 29
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 379954383ba6d5d10800000000000000
-      internalID: 2115964719168067955
+      spriteID: b1bba4a24a98af570800000000000000
+      internalID: 8501258584792415003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_21"
+      name: Towel_21
       rect:
         serializedVersion: 2
         x: 55
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26b44ad3680291200800000000000000
-      internalID: 151187823425506146
+      spriteID: ddb63b93fb14c5c00800000000000000
+      internalID: 890659115875134429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_22"
+      name: Towel_22
       rect:
         serializedVersion: 2
         x: 81
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f35d43bee7304c30800000000000000
-      internalID: 4341531539135091705
+      spriteID: 9aaf362f254fffa10800000000000000
+      internalID: 1945542201138477737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_23"
+      name: Towel_23
       rect:
         serializedVersion: 2
         x: 107
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ffc6b1ae2c97310800000000000000
-      internalID: 1403367069640883988
+      spriteID: 32ca5ec5b09413840800000000000000
+      internalID: 5202019357741657123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_24"
+      name: Towel_24
       rect:
         serializedVersion: 2
         x: 135
         y: 54
         width: 24
         height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b8059dc7a2c93f0800000000000000
-      internalID: -892791910415955098
+      spriteID: cc0dfbe41d29ee310800000000000000
+      internalID: 1436246758844780748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_25"
+      name: Towel_25
       rect:
         serializedVersion: 2
-        x: 169
+        x: 167
         y: 49
-        width: 23
+        width: 24
         height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb37dca609c73be0800000000000000
-      internalID: -1497507320570627093
+      spriteID: 97d09221d1d68fb80800000000000000
+      internalID: -8360812736587166343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_26"
+      name: Towel_26
       rect:
         serializedVersion: 2
         x: 1
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bacd2592beb05010800000000000000
-      internalID: 1175649176959961783
+      spriteID: 0841643623c1babb0800000000000000
+      internalID: -4923810764860025728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_27"
+      name: Towel_27
       rect:
         serializedVersion: 2
         x: 15
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fecd97e1aadefc10800000000000000
-      internalID: 2089347666056957680
+      spriteID: f9b6fe9b6dfddedb0800000000000000
+      internalID: -4760903117725275233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_28"
+      name: Towel_28
       rect:
         serializedVersion: 2
         x: 29
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bb36ffe74b523d60800000000000000
-      internalID: 7868451863496375222
+      spriteID: d6d237c029c4c44f0800000000000000
+      internalID: -843214840067314323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_29"
+      name: Towel_29
       rect:
         serializedVersion: 2
         x: 43
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2ab5f682f89fc110800000000000000
-      internalID: 1283412586237639214
+      spriteID: 7c84786698758b6e0800000000000000
+      internalID: -1821609801629087545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_30"
+      name: Towel_30
       rect:
         serializedVersion: 2
         x: 57
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e773becffdd5b3fa0800000000000000
-      internalID: -5819954876843870338
+      spriteID: 5d78918ec8defc4a0800000000000000
+      internalID: -6570772141865072683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_31"
+      name: Towel_31
       rect:
         serializedVersion: 2
         x: 72
-        y: 31
+        y: 26
         width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7e1cd5d1ce8d2a20800000000000000
-      internalID: 3039242286712757884
+      spriteID: 862c2a76ae4fb18f0800000000000000
+      internalID: -568591640333991320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_32"
+      name: Towel_32
       rect:
         serializedVersion: 2
         x: 87
         y: 26
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745cb512fa4456ec0800000000000000
-      internalID: -3574375210278992569
+      spriteID: 5c983dc44dedd9880800000000000000
+      internalID: -8602474709804414523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_33"
+      name: Towel_33
       rect:
         serializedVersion: 2
         x: 101
-        y: 30
+        y: 26
         width: 12
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f552042bbcaf042e0800000000000000
-      internalID: -2143437669852502689
+      spriteID: 6dd6cf14baefd2890800000000000000
+      internalID: -7481043394492600874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_34"
+      name: Towel_34
       rect:
         serializedVersion: 2
         x: 115
-        y: 31
+        y: 26
         width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87f1246e71e26c4d0800000000000000
-      internalID: -3114751412097900680
+      spriteID: 7ae46689be0665e80800000000000000
+      internalID: -8190252307336245593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_35"
+      name: Towel_35
       rect:
         serializedVersion: 2
         x: 129
         y: 26
-        width: 11
+        width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eaff8abe2d318fa0800000000000000
-      internalID: -5800287574168700187
+      spriteID: 0a6b32d1a0610ed70800000000000000
+      internalID: 9070273882218542752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_36"
+      name: Towel_36
       rect:
         serializedVersion: 2
         x: 143
         y: 33
         width: 24
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 17cd4a36b05727120800000000000000
-      internalID: 2410117442373475441
+      spriteID: 1f3fd83a97fec9610800000000000000
+      internalID: 1629440470915347441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_37"
+      name: Towel_37
       rect:
         serializedVersion: 2
         x: 167
         y: 25
         width: 24
         height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08ead06e3ca8546c0800000000000000
-      internalID: -4159766106823872896
+      spriteID: 9296ddf702a66a090800000000000000
+      internalID: -8023608998297245399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_38"
+      name: Towel_38
       rect:
         serializedVersion: 2
         x: 1
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8905feb754e2e8a0800000000000000
-      internalID: -6277203865084032628
+      spriteID: 61f79cabcee2c9c30800000000000000
+      internalID: 4367417332923465494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_39"
+      name: Towel_39
       rect:
         serializedVersion: 2
         x: 15
         y: 0
         width: 12
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87fe3c48f0d3633e0800000000000000
-      internalID: -2074403441496297608
+      spriteID: e13ebff9d418818e0800000000000000
+      internalID: -1722484687072664802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_40"
+      name: Towel_40
       rect:
         serializedVersion: 2
         x: 29
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0749f00846bbc430800000000000000
-      internalID: 3804334730614753038
+      spriteID: 620dc14594a67d0a0800000000000000
+      internalID: -6856895044471959514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_41"
+      name: Towel_41
       rect:
         serializedVersion: 2
         x: 43
-        y: 3
+        y: 0
         width: 12
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 811ba1be94aee3cc0800000000000000
-      internalID: -3729285838218284776
+      spriteID: c8ab8fb6f63d982a0800000000000000
+      internalID: -6734619292249572724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_42"
+      name: Towel_42
       rect:
         serializedVersion: 2
         x: 58
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 375d8637ef3b8c500800000000000000
-      internalID: 416780870971086195
+      spriteID: c2588fa156b37dbc0800000000000000
+      internalID: -3758470058587159252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_43"
+      name: Towel_43
       rect:
         serializedVersion: 2
         x: 72
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c457ea84f5ede4ee0800000000000000
-      internalID: -1274837143676619444
+      spriteID: 7a2b3e6915e91d1e0800000000000000
+      internalID: -2174783071782194521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_44"
+      name: Towel_44
       rect:
         serializedVersion: 2
         x: 86
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f0cac218afe3050800000000000000
-      internalID: 5782334404297494407
+      spriteID: 094e97a5874b50ad0800000000000000
+      internalID: -2736582769550695280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_45"
+      name: Towel_45
       rect:
         serializedVersion: 2
         x: 100
         y: 0
         width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 738659c38baacdce0800000000000000
-      internalID: -1379039677615085513
+      spriteID: bcc05721e4c77a1e0800000000000000
+      internalID: -2186642419306132277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_46"
+      name: Towel_46
       rect:
         serializedVersion: 2
         x: 114
         y: 0
         width: 12
         height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411dea60d08fc8bd0800000000000000
-      internalID: -2626451747833458412
+      spriteID: 5e5a674aaff9f8c80800000000000000
+      internalID: -8318254087880137243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_47"
+      name: Towel_47
       rect:
         serializedVersion: 2
         x: 129
         y: 0
         width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c073582cf527ffe10800000000000000
-      internalID: 2233629695810025228
+      spriteID: 364150a7206cefd00800000000000000
+      internalID: 1008461080516957283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_48"
+      name: Towel_48
       rect:
         serializedVersion: 2
         x: 141
         y: 11
         width: 24
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
       tessellationDetail: 0
       bones: []
-      spriteID: eb3fe420298643dd0800000000000000
-      internalID: -2507264116225281090
+      spriteID: 27412185de99ef530800000000000000
+      internalID: 3890716372758566002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "T\xF6rcsik (2)_49"
+      name: Towel_49
       rect:
         serializedVersion: 2
         x: 167
         y: 2
         width: 24
         height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba0527550eabcda0800000000000000
-      internalID: -5923449546915640654
+      spriteID: 38fe58ee32bc7d7a0800000000000000
+      internalID: -6352385394196746365
       vertices: []
       indices: 
       edges: []

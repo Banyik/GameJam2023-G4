@@ -21,7 +21,7 @@ namespace Player
         public Rigidbody2D rb;
         Towel closestTowel = null;
         public ParticleSystem lootEffect;
-
+        public LootBarBehaviour lootBarBehaviour;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, State.Idle);
@@ -60,6 +60,7 @@ namespace Player
             {
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing"))
                 {
+                    lootBarBehaviour.SetAnimationSpeed(stealTime);
                     ChangeState(State.Stealing);
                     lootEffect.Play();
                 }
@@ -80,6 +81,7 @@ namespace Player
             }
             if (Input.GetButtonUp("Use") && (player.IsState(State.StealingStart) || player.IsState(State.Stealing)))
             {
+                lootBarBehaviour.StopAnimation();
                 ChangeState(State.Idle);
                 animator.SetBool("IsStealing", false);
                 stealTimeCount = 0;
@@ -142,6 +144,7 @@ namespace Player
                     StunnedCountDown();
                     break;
                 case State.StunnedStart:
+                    lootBarBehaviour.StopAnimation();
                     StopMovement();
                     stealTimeCount = 0;
                     lootEffect.Stop();
@@ -179,9 +182,11 @@ namespace Player
             if (stealTimeCount <= stealTime)
             {
                 stealTimeCount += Time.deltaTime;
+                lootBarBehaviour.Animate(stealTimeCount);
             }
             else
             {
+                lootBarBehaviour.StopAnimation();
                 lootEffect.Stop();
                 closestTowel.LootTowel();
                 stealTimeCount = 0;
