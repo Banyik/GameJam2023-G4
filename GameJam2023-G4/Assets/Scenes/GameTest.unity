@@ -1126,7 +1126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &1190855784
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1140,9 +1140,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.011552632}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.14214331
 --- !u!212 &1190855785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   avoidanceForceMultiplier: 3
-  raySpacing: 1.2
+  raySpacing: 0.7
   scriptHandler: {fileID: 1802504556}
   lifeGuardAnimator: {fileID: 9100000, guid: a4b25bc6fefbc5445881c0831c4ad239, type: 2}
   kidAnimator: {fileID: 0}
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190855783}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d80e2ad03a5706448dbaa7bb2655f25, type: 3}
   m_Name: 

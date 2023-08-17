@@ -127,7 +127,6 @@ namespace NPCs
             if(direction.x > 0)
             {
                 GetComponent<SpriteRenderer>().flipX = false;
-                transform.localScale = new Vector3(1, 1, 0);
             }
             else
             {

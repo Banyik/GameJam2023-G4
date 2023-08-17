@@ -237,7 +237,6 @@ namespace Player
                         if (i == 2)
                         {
                             closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal) + new Vector2Int(0, 1));
-                            Debug.Log((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
                             animator.SetBool("OnTop", true);
                         }
                         if (i == 0)
@@ -249,7 +248,6 @@ namespace Player
                     else
                     {
                         closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
-                        Debug.Log((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
                     }
                 }
             }

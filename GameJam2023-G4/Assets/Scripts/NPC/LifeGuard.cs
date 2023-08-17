@@ -55,7 +55,7 @@ namespace NPCs
                 ChangeState(State.Calm);
                 GetNewState(animator);
             }
-            else if (Vector3.Distance((Vector2)TargetPosition, position) <= 0.75f && IsState(State.Chase))
+            else if (Vector3.Distance((Vector2)TargetPosition, position) <= 1f && IsState(State.Chase))
             {
                 IsMoving = false;
                 animator.SetBool("IsRunning", false);
