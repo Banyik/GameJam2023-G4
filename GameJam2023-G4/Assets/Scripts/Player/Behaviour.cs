@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Maps;
+using Items;
 
 namespace Player
 {
@@ -9,6 +10,7 @@ namespace Player
     {
         public PlayerBase player;
         public TileSpawn tileSpawner;
+        public GameHandler gameHandler;
         public Grid grid;
         public float speed = 1;
         public Animator animator;
@@ -22,9 +24,10 @@ namespace Player
         Towel closestTowel = null;
         public ParticleSystem lootEffect;
         public LootBarBehaviour lootBarBehaviour;
+        public bool avoidStun = false;
         void Start()
         {
-            player = new PlayerBase(speed, maxThirst, maxThirst, money, State.Idle);
+            player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3] { null, null, new Item(1, ItemType.Langos) }, State.Idle);
             StartCoroutine(IncreaseThirst());
         }
 
@@ -32,8 +35,12 @@ namespace Player
         {
             while (true)
             {
-                player.Thirst -= 0.05f;
+                player.Thirst -= 0.1f;
                 //Debug.Log($"Thirst: {player.Thirst}");
+                if(player.Thirst <= 0)
+                {
+                    gameHandler.TimesUp();
+                }
                 yield return new WaitForSeconds(1);
             }
         }
@@ -86,6 +93,39 @@ namespace Player
                 ChangeState(State.Idle);
                 animator.SetBool("IsStealing", false);
                 stealTimeCount = 0;
+            }
+            if (Input.GetButtonDown("Slot_1"))
+            {
+                UseItem(0);
+            }
+            if (Input.GetButtonDown("Slot_2"))
+            {
+                UseItem(1);
+            }
+            if (Input.GetButtonDown("Slot_3"))
+            {
+                UseItem(2);
+            }
+        }
+
+        void UseItem(int index)
+        {
+            if(player.Items[index] != null)
+            {
+                switch (player.Items[index].Type)
+                {
+                    case ItemType.Corn:
+                        break;
+                    case ItemType.IceCream:
+                        break;
+                    case ItemType.Langos:
+                        avoidStun = true;
+                        Debug.Log(avoidStun);
+                        break;
+                    default:
+                        break;
+                }
+                player.Items[index] = null;
             }
         }
 
@@ -202,10 +242,10 @@ namespace Player
             {
                 switch (item.Type)
                 {
-                    case Items.ItemType.Water:
+                    case ItemType.Water:
                         player.Thirst += item.Amount;
                         break;
-                    case Items.ItemType.Money:
+                    case ItemType.Money:
                         player.Money += item.Amount;
                         break;
                     default:

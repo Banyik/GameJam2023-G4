@@ -13,7 +13,7 @@ namespace NPCs
         public float avoidanceForceMultiplier = 0.4f;
         public float raySpacing = 3f;
         public GameObject scriptHandler;
-        LayerMask ignoreLayer;
+        LayerMask ignoreLayers;
         WalkableGrid walkableGrid;
         public RuntimeAnimatorController lifeGuardAnimator;
         public RuntimeAnimatorController kidAnimator;
@@ -27,16 +27,22 @@ namespace NPCs
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
+                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid, true, false);
                     animator.runtimeAnimatorController = kidAnimator;
+                    gameObject.layer = LayerMask.NameToLayer("Kid");
+                    ignoreLayers += LayerMask.GetMask("PlayerWall");
+                    raySpacing = 1.2f;
                     break;
                 case Type.Grandma:
                     break;
                 case Type.LifeGuard:
-                    npc = new LifeGuard(1, State.Calm, new Vector2Int(4, -2), walkableGrid, true);
+                    npc = new LifeGuard(1, State.Calm, new Vector2Int(4, -2), walkableGrid, true, false);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
                     transform.position = new Vector3(9, 0, 0);
-                    ignoreLayer = LayerMask.GetMask("LifeGuardPath");
+                    gameObject.layer = LayerMask.NameToLayer("LifeGuard");
+                    ignoreLayers += LayerMask.GetMask("LifeGuardPath");
+                    ignoreLayers += LayerMask.GetMask("PlayerWall");
+                    raySpacing = 0.7f;
                     break;
                 default:
                     break;
@@ -46,6 +52,7 @@ namespace NPCs
         private void Update()
         {
             CheckAnimationSwitch();
+            CheckStates();
         }
 
         void CheckAnimationSwitch()
@@ -68,7 +75,7 @@ namespace NPCs
             }
         }
 
-        void FixedUpdate()
+        void CheckStates()
         {
             switch (npc.State)
             {
@@ -91,9 +98,17 @@ namespace NPCs
                 default:
                     break;
             }
+        }
+
+        void FixedUpdate()
+        {
             if (npc.IsMoving)
             {
                 Move();
+            }
+            if (npc.CoolDown)
+            {
+                npc.CalculateCoolDown();
             }
         }
 
@@ -108,7 +123,7 @@ namespace NPCs
             for (int i = 0; i < 17; i++)
             {
                 Vector2 rayDirection = Quaternion.AngleAxis((i - 8) * 15f, Vector3.forward) * direction;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f), ~ignoreLayer);
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f), ~ignoreLayers);
                 Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
                 if (hits[i].collider != null)
                 {

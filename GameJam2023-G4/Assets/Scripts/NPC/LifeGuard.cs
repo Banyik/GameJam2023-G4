@@ -9,8 +9,23 @@ namespace NPCs
     {
         bool onLeft = false;
         bool saw = false;
-        public LifeGuard(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid, bool isMoving) : base(speed, state, currentPosition, walkableGrid, isMoving)
+        float avoidCoolDownScale = 2f;
+        float avoidCoolDown = 0f;
+        public LifeGuard(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, currentPosition, walkableGrid, isMoving, coolDown)
         {
+        }
+
+        public override void CalculateCoolDown()
+        {
+            if(avoidCoolDown < avoidCoolDownScale)
+            {
+                avoidCoolDown += Time.deltaTime;
+            }
+            else
+            {
+                CoolDown = false;
+                avoidCoolDown = 0;
+            }
         }
 
         public override void GetNewState(Animator animator)
@@ -58,10 +73,20 @@ namespace NPCs
             else if (Vector3.Distance((Vector2)TargetPosition, position) <= 1f && IsState(State.Chase))
             {
                 IsMoving = false;
-                animator.SetBool("IsRunning", false);
-                GameObject.Find("Player").GetComponent<Player.Behaviour>().ChangeState(Player.State.StunnedStart);
-                Speed = 1;
                 ChangeState(State.Stun);
+                animator.SetBool("IsRunning", false);
+                Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
+                if (!playerBehaviour.avoidStun)
+                {
+                    playerBehaviour.ChangeState(Player.State.StunnedStart);
+                }
+                else
+                {
+                    playerBehaviour.avoidStun = false;
+                    CoolDown = true;
+                    ChangeState(State.Calm);
+                }
+                Speed = 1;
                 saw = false;
             }
         }

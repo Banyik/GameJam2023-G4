@@ -7,7 +7,10 @@ namespace Items
     public enum ItemType
     {
         Water,
-        Money
+        Money,
+        Corn,
+        IceCream,
+        Langos
     }
 }
 

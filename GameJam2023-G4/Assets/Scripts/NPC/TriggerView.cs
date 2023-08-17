@@ -18,7 +18,7 @@ namespace NPCs
         private void Update()
         {
             transform.up = (Vector3Int)npcBehaviour.npc.TargetPosition - transform.position;
-            if (playerIsVisible && (playerBehaviour.player.IsState(Player.State.StealingStart) || playerBehaviour.player.IsState(Player.State.Stealing)))
+            if (playerIsVisible && (playerBehaviour.player.IsState(Player.State.StealingStart) || playerBehaviour.player.IsState(Player.State.Stealing)) && !npcBehaviour.npc.CoolDown)
             {
                 npcBehaviour.npc.ChangeState(State.See);
             }

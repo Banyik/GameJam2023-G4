@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Items;
 
 namespace Player
 {
@@ -10,13 +11,15 @@ namespace Player
         float thirst;
         float maxThirst;
         float money;
+        Item[] items;
         State state;
-        public PlayerBase(float speed, float thirst, float maxThirst, float money, State state)
+        public PlayerBase(float speed, float thirst, float maxThirst, float money, Item[] items, State state)
         {
             this.speed = speed;
             this.thirst = thirst;
             this.maxThirst = maxThirst;
             this.money = money;
+            this.items = items;
             this.state = state;
         }
 
@@ -29,6 +32,7 @@ namespace Player
         public float Thirst { get => thirst; set => thirst = value; }
         public float MaxThirst { get => maxThirst; set => maxThirst = value; }
         public float Money { get => money; set => money = value; }
+        public Item[] Items { get => items; set => items = value; }
     }
 }
 
