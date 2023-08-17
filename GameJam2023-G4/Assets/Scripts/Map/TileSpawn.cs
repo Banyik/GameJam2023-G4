@@ -58,11 +58,11 @@ namespace Maps
                 int index = Random.Range(0, verticalTowels.Length);
                 Tile baseTowel = verticalTowels[index];
                 Tile lootedTowel = lootedVerticalTowels[index];
-                if (walkableGrid.IsFlaggable(cell += up))
+                if (walkableGrid.IsFlaggable(cell + up))
                 {
                     return PlaceTowel(cell, up, baseTowel, lootedTowel);
                 }
-                else if(walkableGrid.IsFlaggable(cell += down))
+                else if(walkableGrid.IsFlaggable(cell + down))
                 {
                     return PlaceTowel(cell + down, up, baseTowel, lootedTowel);
                 }
@@ -72,11 +72,11 @@ namespace Maps
                 int index = Random.Range(0, horizontalTowels.Length);
                 Tile baseTowel = horizontalTowels[index];
                 Tile lootedTowel = lootedHorizontalTowels[index];
-                if (walkableGrid.IsFlaggable(cell += right))
+                if (walkableGrid.IsFlaggable(cell + right))
                 {
                     return PlaceTowel(cell, right, baseTowel, lootedTowel);
                 }
-                else if (walkableGrid.IsFlaggable(cell += left))
+                else if (walkableGrid.IsFlaggable(cell + left))
                 {
                     
                     return PlaceTowel(cell + left, right, baseTowel, lootedTowel);
