@@ -1,3 +1,4 @@
+using NPCs;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ namespace Maps
     public class TileSpawn : MonoBehaviour
     {
         public Tilemap tilemap;
+        public SpawnNPC spawnNPC;
         public Tile tile;
         public Tile[] horizontalTowels;
         public Tile[] lootedHorizontalTowels;
@@ -16,7 +18,7 @@ namespace Maps
         public int towelCount = 3;
         WalkableGrid walkableGrid;
         MapGeneration mapGeneration;
-
+        bool spawnedGrandma = false;
         public List<Towel> towels = new List<Towel>();
 
         void Start()
@@ -120,6 +122,11 @@ namespace Maps
 
         void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel)
         {
+            if (!spawnedGrandma)
+            {
+                spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell);
+                spawnedGrandma = true;
+            }
             towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.currentMapType));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
         }

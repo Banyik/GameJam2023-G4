@@ -26,7 +26,6 @@ namespace Player
         public ParticleSystem lootEffect;
         public LootBarBehaviour lootBarBehaviour;
         public bool avoidStun = false;
-        bool fasterMovement = false;
         bool fasterLoot = false;
         void Start()
         {
@@ -59,7 +58,7 @@ namespace Player
             CheckForTowel();
             if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart) &&
                 !player.IsState(State.StunnedStart) && !player.IsState(State.Stunned) &&
-                !player.IsState(State.StunnedEnd))
+                !player.IsState(State.StunnedEnd) && !player.IsState(State.Caught))
             {
                 CheckMovement();
             }
@@ -129,7 +128,6 @@ namespace Player
                         stealTime = stealTime * 0.9f;
                         break;
                     case ItemType.IceCream:
-                        fasterMovement = true;
                         player.Speed = 4;
                         break;
                     case ItemType.Langos:
@@ -206,12 +204,16 @@ namespace Player
                     animator.SetBool("IsMoving", false);
                     animator.SetBool("IsStealing", false);
                     animator.SetBool("IsStunned", true);
-                    fasterMovement = false;
+                    player.Speed = 2;
                     break;
                 case State.StunnedEnd:
                     ChangeState(State.Idle);
                     break;
                 case State.Caught:
+                    lootBarBehaviour.StopAnimation();
+                    StopMovement();
+                    lootEffect.Stop();
+                    animator.SetBool("Caught", true);
                     break;
                 default:
                     break;

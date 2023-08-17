@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &490777963
 Transform:
   m_ObjectHideFlags: 0
@@ -1564,7 +1564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1190855784
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1665,8 +1665,10 @@ MonoBehaviour:
   scriptHandler: {fileID: 1802504556}
   lifeGuardAnimator: {fileID: 9100000, guid: a4b25bc6fefbc5445881c0831c4ad239, type: 2}
   kidAnimator: {fileID: 0}
-  grandmaAnimator: {fileID: 0}
+  grandmaAnimator: {fileID: 9100000, guid: 2a39968cd30c92149ac894c2997f46cc, type: 2}
   animator: {fileID: 1190855789}
+  lifeGuardTrigger: {fileID: 490777962}
+  kidTrigger: {fileID: 490777962}
 --- !u!50 &1190855788
 Rigidbody2D:
   serializedVersion: 4
@@ -3503,6 +3505,7 @@ GameObject:
   - component: {fileID: 1802504559}
   - component: {fileID: 1802504560}
   - component: {fileID: 1802504561}
+  - component: {fileID: 1802504562}
   m_Layer: 0
   m_Name: ScriptHandler
   m_TagString: Untagged
@@ -3523,6 +3526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1600157344}
+  spawnNPC: {fileID: 1802504562}
   tile: {fileID: 11400000, guid: 216ae15989d059c4cb69125084245d3e, type: 2}
   horizontalTowels:
   - {fileID: 11400000, guid: dea55e6b68b7ac04cadc80ac0393f33d, type: 2}
@@ -3640,6 +3644,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+--- !u!114 &1802504562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802504556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711f4b591ab5b84409197a35e0730726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPC: {fileID: 1190855783}
 --- !u!1 &1984607349
 GameObject:
   m_ObjectHideFlags: 0

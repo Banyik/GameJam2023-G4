@@ -7,13 +7,17 @@ public class GameHandler : MonoBehaviour
     public int score = 0;
     public void GameOver(int mapCount, int moneyAmount)
     {
-        Time.timeScale = 0;
+        Invoke(nameof(StopTime), 0.22f);
         CalculateScore(mapCount, moneyAmount);
         //Scoreboard UI
     }
-    public void TimesUp()
+    public void StopTime()
     {
         Time.timeScale = 0;
+    }
+    public void TimesUp()
+    {
+        StopTime();
         //Shop UI
     }
 

@@ -11,7 +11,7 @@ namespace NPCs
         bool saw = false;
         float avoidCoolDownScale = 2f;
         float avoidCoolDown = 0f;
-        public LifeGuard(int speed, State state, Vector2Int currentPosition, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, currentPosition, walkableGrid, isMoving, coolDown)
+        public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
         }
 
@@ -65,7 +65,6 @@ namespace NPCs
         {
             if (Vector3.Distance((Vector2)TargetPosition, position) <= .1f && !IsState(State.Chase))
             {
-                CurrentPosition = TargetPosition;
                 onLeft = !onLeft;
                 ChangeState(State.Calm);
                 GetNewState(animator);

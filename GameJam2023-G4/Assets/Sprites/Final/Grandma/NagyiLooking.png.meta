@@ -1,0 +1,1848 @@
+fileFormatVersion: 2
+guid: e27bcbadef49aa245bc4786dae75d386
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8572826158893437391
+    second: NagyiLooking_0
+  - first:
+      213: 3490973191541879562
+    second: NagyiLooking_1
+  - first:
+      213: 3029646632633007266
+    second: NagyiLooking_2
+  - first:
+      213: -1828698299024148816
+    second: NagyiLooking_3
+  - first:
+      213: -5919854980438884213
+    second: NagyiLooking_4
+  - first:
+      213: -8176959441747201447
+    second: NagyiLooking_5
+  - first:
+      213: 8457124588529627827
+    second: NagyiLooking_6
+  - first:
+      213: -2376203062194783610
+    second: NagyiLooking_7
+  - first:
+      213: 3970360901831422234
+    second: NagyiLooking_8
+  - first:
+      213: -6636816684311677909
+    second: NagyiLooking_9
+  - first:
+      213: 2837363122586489000
+    second: NagyiLooking_10
+  - first:
+      213: 3658577422574253960
+    second: NagyiLooking_11
+  - first:
+      213: 5548724671316710088
+    second: NagyiLooking_12
+  - first:
+      213: 2626549451777947944
+    second: NagyiLooking_13
+  - first:
+      213: -6991239142087963966
+    second: NagyiLooking_14
+  - first:
+      213: -8442970948041670113
+    second: NagyiLooking_15
+  - first:
+      213: 8074523661049180041
+    second: NagyiLooking_16
+  - first:
+      213: -960301172438684378
+    second: NagyiLooking_17
+  - first:
+      213: 6365996279130954952
+    second: NagyiLooking_18
+  - first:
+      213: 3602392348421868845
+    second: NagyiLooking_19
+  - first:
+      213: -1925151782644853628
+    second: NagyiLooking_20
+  - first:
+      213: -7511970238117593240
+    second: NagyiLooking_21
+  - first:
+      213: -3997008946301570674
+    second: NagyiLooking_22
+  - first:
+      213: -5153229693900546208
+    second: NagyiLooking_23
+  - first:
+      213: 2639663258701476088
+    second: NagyiLooking_24
+  - first:
+      213: -1044653308499281263
+    second: NagyiLooking_25
+  - first:
+      213: 5017594261127536981
+    second: NagyiLooking_26
+  - first:
+      213: 3506307586337861405
+    second: NagyiLooking_27
+  - first:
+      213: -5609024335640423740
+    second: NagyiLooking_28
+  - first:
+      213: -8191011776156325106
+    second: NagyiLooking_29
+  - first:
+      213: -7359118662632793183
+    second: NagyiLooking_30
+  - first:
+      213: 4802127292115120503
+    second: NagyiLooking_31
+  - first:
+      213: -2657412014839609799
+    second: NagyiLooking_32
+  - first:
+      213: 2987637483910770256
+    second: NagyiLooking_33
+  - first:
+      213: 1886610314228017171
+    second: NagyiLooking_34
+  - first:
+      213: -4813464498100669844
+    second: NagyiLooking_35
+  - first:
+      213: -3241324436487120967
+    second: NagyiLooking_36
+  - first:
+      213: 1740491437332128888
+    second: NagyiLooking_37
+  - first:
+      213: 1054214030143648460
+    second: NagyiLooking_38
+  - first:
+      213: 771177775354308949
+    second: NagyiLooking_39
+  - first:
+      213: 3599503095347094063
+    second: NagyiLooking_40
+  - first:
+      213: 1070691691242974276
+    second: NagyiLooking_41
+  - first:
+      213: 8074813765999858456
+    second: NagyiLooking_42
+  - first:
+      213: -6042552071855648947
+    second: NagyiLooking_43
+  - first:
+      213: 2071504466462154462
+    second: NagyiLooking_44
+  - first:
+      213: -2595879270212642390
+    second: NagyiLooking_45
+  - first:
+      213: -1695450149403456071
+    second: NagyiLooking_46
+  - first:
+      213: 3286923020830668573
+    second: NagyiLooking_47
+  - first:
+      213: 6110866605003472970
+    second: NagyiLooking_48
+  - first:
+      213: 559084591809023809
+    second: NagyiLooking_49
+  - first:
+      213: 4733740105015860050
+    second: NagyiLooking_50
+  - first:
+      213: 8994977895637464266
+    second: NagyiLooking_51
+  - first:
+      213: -763463057134767914
+    second: NagyiLooking_52
+  - first:
+      213: 5049225956613105041
+    second: NagyiLooking_53
+  - first:
+      213: -8574644582540836314
+    second: NagyiLooking_54
+  - first:
+      213: 813898947390921945
+    second: NagyiLooking_55
+  - first:
+      213: -3727288643374445457
+    second: NagyiLooking_56
+  - first:
+      213: -435772521922873154
+    second: NagyiLooking_57
+  - first:
+      213: 3492495384701055843
+    second: NagyiLooking_58
+  - first:
+      213: -1806832142397643638
+    second: NagyiLooking_59
+  - first:
+      213: 9196277382060090180
+    second: NagyiLooking_60
+  - first:
+      213: -8254111800764096857
+    second: NagyiLooking_61
+  - first:
+      213: 52952143235598138
+    second: NagyiLooking_62
+  - first:
+      213: -8562182392017916210
+    second: NagyiLooking_63
+  - first:
+      213: 6933318392048270437
+    second: NagyiLooking_64
+  - first:
+      213: 6078312314050213338
+    second: NagyiLooking_65
+  - first:
+      213: -6785831937531930819
+    second: NagyiLooking_66
+  - first:
+      213: -2821009050345205514
+    second: NagyiLooking_67
+  - first:
+      213: -6606590788442908864
+    second: NagyiLooking_68
+  - first:
+      213: -8317455454484183614
+    second: NagyiLooking_69
+  - first:
+      213: -3225167305488844037
+    second: NagyiLooking_70
+  - first:
+      213: 617058097685348178
+    second: NagyiLooking_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NagyiLooking_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eeafd7704370980800000000000000
+      internalID: -8572826158893437391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03f34a2f9d627030800000000000000
+      internalID: 3490973191541879562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac7c058f877b0a20800000000000000
+      internalID: 3029646632633007266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6fd4df5982f96e0800000000000000
+      internalID: -1828698299024148816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b800d11924378dda0800000000000000
+      internalID: -5919854980438884213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b1eb06ba958e80800000000000000
+      internalID: -8176959441747201447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2b788610ebd5570800000000000000
+      internalID: 8457124588529627827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3fa397e7060fd0800000000000000
+      internalID: -2376203062194783610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11f2cf443e891730800000000000000
+      internalID: 3970360901831422234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247734936a45e3a0800000000000000
+      internalID: -6636816684311677909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a09f8c1ab6506720800000000000000
+      internalID: 2837363122586489000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 106
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8877dc728c0e5c230800000000000000
+      internalID: 3658577422574253960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2574ea0b7010d40800000000000000
+      internalID: 5548724671316710088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b8327fc0637420800000000000000
+      internalID: 2626549451777947944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca4a0c9a012afe90800000000000000
+      internalID: -6991239142087963966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f128801d7aa84da80800000000000000
+      internalID: -8442970948041670113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fa2533d787e0070800000000000000
+      internalID: 8074523661049180041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da66beb235ca2f0800000000000000
+      internalID: -960301172438684378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc1f0b23ef885850800000000000000
+      internalID: 6365996279130954952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d454d21c44ef130800000000000000
+      internalID: 3602392348421868845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_20
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4845eb057ac7845e0800000000000000
+      internalID: -1925151782644853628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fb1b95ede10c790800000000000000
+      internalID: -7511970238117593240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f2a75a85c788c0800000000000000
+      internalID: -3997008946301570674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 85
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f101975ec0c78b0800000000000000
+      internalID: -5153229693900546208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03d8d8fb7f1a420800000000000000
+      internalID: 2639663258701476088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab679c955a081f0800000000000000
+      internalID: -1044653308499281263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551ab89656312a540800000000000000
+      internalID: 5017594261127536981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fecec2c28e8a030800000000000000
+      internalID: 3506307586337861405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c291a9a51eb822b0800000000000000
+      internalID: -5609024335640423740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b292bff2ea35e80800000000000000
+      internalID: -8191011776156325106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab13dd01982fd990800000000000000
+      internalID: -7359118662632793183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771fab4545594a240800000000000000
+      internalID: 4802127292115120503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_32
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93641a12ad9fe1bd0800000000000000
+      internalID: -2657412014839609799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_33
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ea4226678367920800000000000000
+      internalID: 2987637483910770256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3182629c5169e2a10800000000000000
+      internalID: 1886610314228017171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_35
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 64
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6271c3ba83233db0800000000000000
+      internalID: -4813464498100669844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7546929908403d0800000000000000
+      internalID: -3241324436487120967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8746ac0adb7772810800000000000000
+      internalID: 1740491437332128888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2f1ff231251ae00800000000000000
+      internalID: 1054214030143648460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_39
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5596baec916c3ba00800000000000000
+      internalID: 771177775354308949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2225168ef004f130800000000000000
+      internalID: 3599503095347094063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cef70ab6cdbde00800000000000000
+      internalID: 1070691691242974276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_42
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8131bd586508f0070800000000000000
+      internalID: 8074813765999858456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f4e3cc7ea842ca0800000000000000
+      internalID: -6042552071855648947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_44
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede9c1246567fbc10800000000000000
+      internalID: 2071504466462154462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9dc2bae8599fbd0800000000000000
+      internalID: -2595879270212642390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd8c6e621d8878e0800000000000000
+      internalID: -1695450149403456071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 43
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d177aa4921f7d9d20800000000000000
+      internalID: 3286923020830668573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40870decc82ec450800000000000000
+      internalID: 6110866605003472970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_49
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fcb2e597442c700800000000000000
+      internalID: 559084591809023809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_50
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b9d7a8b8f91b140800000000000000
+      internalID: 4733740105015860050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_51
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac436f71db494dc70800000000000000
+      internalID: 8994977895637464266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d039500562a765f0800000000000000
+      internalID: -763463057134767914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_53
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1952b9e6144721640800000000000000
+      internalID: 5049225956613105041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_54
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6220d6ebe2eb00980800000000000000
+      internalID: -8574644582540836314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcdc4ac7cc8b4b00800000000000000
+      internalID: 813898947390921945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_56
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c81541ab2064cc0800000000000000
+      internalID: -3727288643374445457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_57
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb839eb3333d3f9f0800000000000000
+      internalID: -435772521922873154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_58
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3633cc06c06d77030800000000000000
+      internalID: 3492495384701055843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_59
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 22
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8461af4db7dce6e0800000000000000
+      internalID: -1806832142397643638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a6a51e8dbf9f70800000000000000
+      internalID: 9196277382060090180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_61
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae9813ac01837d80800000000000000
+      internalID: -8254111800764096857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_62
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3747a791bf1cb000800000000000000
+      internalID: 52952143235598138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceeaa59a740d2980800000000000000
+      internalID: -8562182392017916210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_64
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c38b0e758183060800000000000000
+      internalID: 6933318392048270437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_65
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad578d868d08a5450800000000000000
+      internalID: 6078312314050213338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_66
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3798e14ec1e3d1a0800000000000000
+      internalID: -6785831937531930819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_67
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0130e0733c9d8d0800000000000000
+      internalID: -2821009050345205514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_68
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0471e7e5eaca054a0800000000000000
+      internalID: -6606590788442908864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_69
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5c558f456729c80800000000000000
+      internalID: -8317455454484183614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_70
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa322f5c67ed33d0800000000000000
+      internalID: -3225167305488844037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiLooking_71
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f305e021b309800800000000000000
+      internalID: 617058097685348178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 2bf2c044b92e6ec4393f83ce3e036583
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5503154044777581907
+    second: NagyiPrepare_0
+  - first:
+      213: -8901771819610657205
+    second: NagyiPrepare_1
+  - first:
+      213: 9182064908120559055
+    second: NagyiPrepare_2
+  - first:
+      213: 375599103814428785
+    second: NagyiPrepare_3
+  - first:
+      213: 4903840936716655015
+    second: NagyiPrepare_4
+  - first:
+      213: -8662462410329808389
+    second: NagyiPrepare_5
+  - first:
+      213: -389492381934679450
+    second: NagyiPrepare_6
+  - first:
+      213: 387736907211727455
+    second: NagyiPrepare_7
+  - first:
+      213: -2108642345084364906
+    second: NagyiPrepare_8
+  - first:
+      213: -3889078682413205982
+    second: NagyiPrepare_9
+  - first:
+      213: 7817494717088262623
+    second: NagyiPrepare_10
+  - first:
+      213: 7917465598888578309
+    second: NagyiPrepare_11
+  - first:
+      213: -8850275936244715782
+    second: NagyiPrepare_12
+  - first:
+      213: -4993822720572049220
+    second: NagyiPrepare_13
+  - first:
+      213: -6544910289979569317
+    second: NagyiPrepare_14
+  - first:
+      213: -5746547665193861256
+    second: NagyiPrepare_15
+  - first:
+      213: -7322734065922499543
+    second: NagyiPrepare_16
+  - first:
+      213: -815710120513260078
+    second: NagyiPrepare_17
+  - first:
+      213: 7127025554238142107
+    second: NagyiPrepare_18
+  - first:
+      213: -1181137241317799925
+    second: NagyiPrepare_19
+  - first:
+      213: -5772386061208011238
+    second: NagyiPrepare_20
+  - first:
+      213: 120778381865352933
+    second: NagyiPrepare_21
+  - first:
+      213: -1090542552847215667
+    second: NagyiPrepare_22
+  - first:
+      213: -7409399862728049906
+    second: NagyiPrepare_23
+  - first:
+      213: -3923687745745241584
+    second: NagyiPrepare_24
+  - first:
+      213: 1749888881694282607
+    second: NagyiPrepare_25
+  - first:
+      213: -6973773456958651343
+    second: NagyiPrepare_26
+  - first:
+      213: -2669285244971567765
+    second: NagyiPrepare_27
+  - first:
+      213: -2361715179580071027
+    second: NagyiPrepare_28
+  - first:
+      213: -2793713784016429138
+    second: NagyiPrepare_29
+  - first:
+      213: 6864979998310585772
+    second: NagyiPrepare_30
+  - first:
+      213: -6207618989120962326
+    second: NagyiPrepare_31
+  - first:
+      213: -112299853647194432
+    second: NagyiPrepare_32
+  - first:
+      213: 682123186496774218
+    second: NagyiPrepare_33
+  - first:
+      213: 6088932870325831328
+    second: NagyiPrepare_34
+  - first:
+      213: 2450133123603685593
+    second: NagyiPrepare_35
+  - first:
+      213: 8060525720735876211
+    second: NagyiPrepare_36
+  - first:
+      213: -7203534195404866155
+    second: NagyiPrepare_37
+  - first:
+      213: 2155467832048180352
+    second: NagyiPrepare_38
+  - first:
+      213: 5811772961897013515
+    second: NagyiPrepare_39
+  - first:
+      213: -6592455004682137032
+    second: NagyiPrepare_40
+  - first:
+      213: 2734859863213088732
+    second: NagyiPrepare_41
+  - first:
+      213: 9089751382338768215
+    second: NagyiPrepare_42
+  - first:
+      213: 1190596025239155896
+    second: NagyiPrepare_43
+  - first:
+      213: 788309724608055048
+    second: NagyiPrepare_44
+  - first:
+      213: 8323130233992394054
+    second: NagyiPrepare_45
+  - first:
+      213: 5990809389726030676
+    second: NagyiPrepare_46
+  - first:
+      213: -8093994249395013996
+    second: NagyiPrepare_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NagyiPrepare_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da237c0ad8ed0a3b0800000000000000
+      internalID: -5503154044777581907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e268491bd867480800000000000000
+      internalID: -8901771819610657205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0b11a26f3d6f70800000000000000
+      internalID: 9182064908120559055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17860d81565663500800000000000000
+      internalID: 375599103814428785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9d30ca951fd0440800000000000000
+      internalID: 4903840936716655015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf12e106550c8c780800000000000000
+      internalID: -8662462410329808389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a00140ebe389af0800000000000000
+      internalID: -389492381934679450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e9aca9a4816500800000000000000
+      internalID: 387736907211727455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69756ee85f89cb2e0800000000000000
+      internalID: -2108642345084364906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22677372b87370ac0800000000000000
+      internalID: -3889078682413205982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e98db6025d7c60800000000000000
+      internalID: 7817494717088262623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 64
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d012f730d70ed60800000000000000
+      internalID: 7917465598888578309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe22ff3de08d2580800000000000000
+      internalID: -8850275936244715782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8370da1b062bab0800000000000000
+      internalID: -4993822720572049220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b08f684cecb25a0800000000000000
+      internalID: -6544910289979569317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ff44358592040b0800000000000000
+      internalID: -5746547665193861256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c99002a2c606a90800000000000000
+      internalID: -7322734065922499543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5bd1b97f30ea4f0800000000000000
+      internalID: -815710120513260078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96fe712bf748e260800000000000000
+      internalID: 7127025554238142107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08844cdfe1cb9fe0800000000000000
+      internalID: -1181137241317799925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb743f57d54efa0800000000000000
+      internalID: -5772386061208011238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee71a36c471da100800000000000000
+      internalID: 120778381865352933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3181d735d9dd0f0800000000000000
+      internalID: -1090542552847215667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 43
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b344fd4168c2990800000000000000
+      internalID: -7409399862728049906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a3d49a8c24c89c0800000000000000
+      internalID: -3923687745745241584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f631bc5aaaad84810800000000000000
+      internalID: 1749888881694282607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348ee15dfd283f90800000000000000
+      internalID: -6973773456958651343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_27
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b653741563bc4fad0800000000000000
+      internalID: -2669285244971567765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836b7c9e80893fd0800000000000000
+      internalID: -2361715179580071027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf969b7d1cba39d0800000000000000
+      internalID: -2793713784016429138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5d67dafee454f50800000000000000
+      internalID: 6864979998310585772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c9743b6b1ad9a0800000000000000
+      internalID: -6207618989120962326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6d70bc0e7017ef0800000000000000
+      internalID: -112299853647194432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a2309c63677900800000000000000
+      internalID: 682123186496774218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a688fc5f2c308450800000000000000
+      internalID: 6088932870325831328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_35
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 22
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0e0d4381f900220800000000000000
+      internalID: 2450133123603685593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748c5fbf6dbcdf60800000000000000
+      internalID: 8060525720735876211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_37
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7383b0d7e70c90800000000000000
+      internalID: -7203534195404866155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c5306b292c9ed10800000000000000
+      internalID: 2155467832048180352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01671d77b097a050800000000000000
+      internalID: 5811772961897013515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832dc200a15e284a0800000000000000
+      internalID: -6592455004682137032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf1a414e8c24f520800000000000000
+      internalID: 2734859863213088732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d0be009b8452e70800000000000000
+      internalID: 9089751382338768215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b43f53e6c8d58010800000000000000
+      internalID: 1190596025239155896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_44
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807cf349483a0fa00800000000000000
+      internalID: 788309724608055048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_45
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6453e6899d2b18370800000000000000
+      internalID: 8323130233992394054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_46
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bd1b73661a32350800000000000000
+      internalID: 5990809389726030676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiPrepare_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49671ce2d1b5caf80800000000000000
+      internalID: -8093994249395013996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,7 +19,9 @@ namespace NPCs
         public RuntimeAnimatorController kidAnimator;
         public RuntimeAnimatorController grandmaAnimator;
         public Animator animator;
-        public void Start()
+        public GameObject lifeGuardTrigger;
+        public GameObject kidTrigger;
+        public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
             walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
@@ -27,22 +29,27 @@ namespace NPCs
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, new Vector2Int(4, -2), walkableGrid, true, false);
+                    npc = new Kid(5, State.Calm, walkableGrid, true, false);
                     animator.runtimeAnimatorController = kidAnimator;
                     gameObject.layer = LayerMask.NameToLayer("Kid");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
                     raySpacing = 1.2f;
+                    kidTrigger.SetActive(true);
                     break;
                 case Type.Grandma:
+                    npc = new Grandma(5, State.Calm, walkableGrid, false, false);
+                    animator.runtimeAnimatorController = grandmaAnimator;
+                    gameObject.layer = LayerMask.NameToLayer("Grandma");
                     break;
                 case Type.LifeGuard:
-                    npc = new LifeGuard(1, State.Calm, new Vector2Int(4, -2), walkableGrid, true, false);
+                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
                     transform.position = new Vector3(9, 0, 0);
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
                     raySpacing = 0.7f;
+                    lifeGuardTrigger.SetActive(true);
                     break;
                 default:
                     break;
@@ -57,21 +64,55 @@ namespace NPCs
 
         void CheckAnimationSwitch()
         {
-            if (npc.IsState(State.See))
+            switch (type)
             {
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
-                {
-                    animator.SetBool("IsRunning", true);
-                    animator.SetBool("IsSeeing", false);
-                    npc.ChangeState(State.Chase);
-                }
-            }
-            if (npc.IsState(State.Stun))
-            {
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
-                { 
-                    npc.ChangeState(State.Calm);
-                }
+                case Type.Kid:
+                    break;
+                case Type.Grandma:
+                    if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Looking"))
+                    {
+                        Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
+                        if (playerBehaviour.player.IsState(Player.State.Stealing) || playerBehaviour.player.IsState(Player.State.StealingStart))
+                        {
+                            animator.SetBool("Saw", true);
+                            if(playerBehaviour.gameObject.transform.position.x < gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == false)
+                            {
+                                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                            }
+                            else if(playerBehaviour.gameObject.transform.position.x > gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == true)
+                            {
+                                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                            }
+                            npc.ChangeState(State.Stun);
+                            playerBehaviour.ChangeState(Player.State.Caught);
+                        }
+                    }
+                    else if(npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("LookingEnd"))
+                    {
+                        animator.SetBool("Look", false);
+                        npc.ChangeState(State.Calm);
+                    }
+                    break;
+                case Type.LifeGuard:
+                    if (npc.IsState(State.See))
+                    {
+                        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+                        {
+                            animator.SetBool("IsRunning", true);
+                            animator.SetBool("IsSeeing", false);
+                            npc.ChangeState(State.Chase);
+                        }
+                    }
+                    if (npc.IsState(State.Stun))
+                    {
+                        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+                        {
+                            npc.ChangeState(State.Calm);
+                        }
+                    }
+                    break;
+                default:
+                    break;
             }
         }
 
