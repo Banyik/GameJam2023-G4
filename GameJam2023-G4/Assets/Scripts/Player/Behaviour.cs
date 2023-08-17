@@ -183,6 +183,10 @@ namespace Player
             animator.SetBool("Caught", false);
             animator.SetBool("IsMoving", false);
             animator.SetBool("IsStealing", false);
+            player.Thirst = player.MaxThirst;
+            stealTimeCount = 0;
+            stunTimeCount = 0;
+            StopMovement();
         }
 
         void CheckState()

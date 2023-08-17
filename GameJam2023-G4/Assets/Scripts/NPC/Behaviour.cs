@@ -39,6 +39,7 @@ namespace NPCs
                 case Type.Grandma:
                     npc = new Grandma(5, State.Calm, walkableGrid, false, false);
                     animator.runtimeAnimatorController = grandmaAnimator;
+                    gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                     gameObject.layer = LayerMask.NameToLayer("Grandma");
                     break;
                 case Type.LifeGuard:
