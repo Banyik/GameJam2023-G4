@@ -34,6 +34,12 @@ namespace Player
             StartCoroutine(IncreaseThirst());
         }
 
+        public void SetDifficulty()
+        {
+            stealTime *= tileSpawner.towelCount;
+            originalStealTime = stealTime;
+        }
+
         IEnumerator IncreaseThirst()
         {
             while (true)

@@ -8,8 +8,13 @@ namespace Maps
     public class WalkableGrid : MonoBehaviour
     {
         List<Coordinates> coordinates = new List<Coordinates>();
+        public MapGeneration mapGeneration;
         bool generated = false;
         public TileSpawn tileSpawn;
+        private void Start()
+        {
+            GetCoordinates();
+        }
         public void GetCoordinates()
         {
             if(!generated)
@@ -32,7 +37,7 @@ namespace Maps
                 coord.IsWalkable = true;
             }
             tileSpawn.ResetMap();
-            tileSpawn.SpawnTowels();
+            mapGeneration.GetNextMap();
         }
 
         Coordinates FindCoordinate(Vector2Int pos)

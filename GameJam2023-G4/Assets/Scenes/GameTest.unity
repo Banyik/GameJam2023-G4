@@ -3605,6 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e119240d32cd3e49bec8fe004c5a8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapGeneration: {fileID: 1802504560}
   tileSpawn: {fileID: 1802504557}
 --- !u!114 &1802504560
 MonoBehaviour:
@@ -3621,6 +3622,7 @@ MonoBehaviour:
   xOffset: 10
   yOffset: 10
   currentMapType: 0
+  tileSpawn: {fileID: 1802504557}
   mapObjects:
   - {fileID: 1001034016}
   - {fileID: 1001034016}

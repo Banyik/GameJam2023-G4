@@ -21,8 +21,6 @@ namespace Maps
         void Start()
         {
             walkableGrid = gameObject.GetComponent<WalkableGrid>();
-            walkableGrid.GetCoordinates();
-            SpawnTowels();
         }
 
         public void ResetMap()
@@ -34,8 +32,21 @@ namespace Maps
             towels.Clear();
         }
 
-        public void SpawnTowels()
+        public void SpawnTowels(int currentMap)
         {
+
+            if(currentMap < 10)
+            {
+                towelCount = 1;
+            }
+            else if (currentMap < 20)
+            {
+                towelCount = 3;
+            }
+            else
+            {
+                towelCount = 5;
+            }
             for (int i = 0; i < towelCount; i++)
             {
                 Vector2Int cell = walkableGrid.GetRandomCoordinate();

@@ -10,7 +10,8 @@ namespace Items
         Money,
         Corn,
         IceCream,
-        Langos
+        Langos,
+        StrawBerrySyrup
     }
 }
 

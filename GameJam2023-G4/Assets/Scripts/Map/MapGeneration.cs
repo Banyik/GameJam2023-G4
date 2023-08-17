@@ -15,6 +15,7 @@ namespace Maps
         public int currentMapType = 0;
         int index = -1;
         List<int> maps = new List<int>();
+        public TileSpawn tileSpawn;
 
         public GameObject[] mapObjects;
         private void Start()
@@ -34,6 +35,8 @@ namespace Maps
             mapObjects[currentMapType].SetActive(false);
             currentMapType = maps[++index];
             mapObjects[currentMapType].SetActive(true);
+            tileSpawn.SpawnTowels(index + 1);
+            GameObject.Find("Player").GetComponent<Player.Behaviour>().SetDifficulty();
         }
         void CalculateOffsets()
         {
