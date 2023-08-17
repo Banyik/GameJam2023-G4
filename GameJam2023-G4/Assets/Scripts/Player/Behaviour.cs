@@ -9,9 +9,7 @@ namespace Player
     public class Behaviour : MonoBehaviour
     {
         public PlayerBase player;
-        public TileSpawn tileSpawner;
-        public GameHandler gameHandler;
-        public Grid grid;
+        PlayerMapHandler handler;
         public float speed = 10;
         public Animator animator;
         public float stealTime = 5;
@@ -30,12 +28,13 @@ namespace Player
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
+            handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
             StartCoroutine(IncreaseThirst());
         }
 
         public void SetDifficulty()
         {
-            stealTime = 4 + tileSpawner.towelCount;
+            stealTime = 4 + handler.GetTowelCount();
             originalStealTime = stealTime;
         }
 
@@ -44,10 +43,9 @@ namespace Player
             while (true)
             {
                 player.Thirst -= 0.05f;
-                //Debug.Log($"Thirst: {player.Thirst}");
                 if(player.Thirst <= 0)
                 {
-                    gameHandler.TimesUp();
+                    handler.TimesUp();
                 }
                 yield return new WaitForSeconds(1);
             }
@@ -56,9 +54,7 @@ namespace Player
         {
             CheckState();
             CheckForTowel();
-            if(!player.IsState(State.Stealing) && !player.IsState(State.StealingStart) &&
-                !player.IsState(State.StunnedStart) && !player.IsState(State.Stunned) &&
-                !player.IsState(State.StunnedEnd) && !player.IsState(State.Caught))
+            if(IsPlayerAbleToMove())
             {
                 CheckMovement();
             }
@@ -69,15 +65,26 @@ namespace Player
             CheckAnimationSwitch();
         }
 
+        bool IsPlayerAbleToMove()
+        {
+            return player.IsState(State.Idle) || player.IsState(State.Run);
+        }
+
+        bool IsStealingAnimationPlaying()
+        {
+            return animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing") ||
+                    animator.GetCurrentAnimatorStateInfo(0).IsName("StealingTop");
+        }
+
         void CheckAnimationSwitch()
         {
             if (player.IsState(State.StealingStart))
             {
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing") ||
-                    animator.GetCurrentAnimatorStateInfo(0).IsName("StealingTop"))
+                if (IsStealingAnimationPlaying())
                 {
                     lootBarBehaviour.SetAnimationSpeed(stealTime);
                     ChangeState(State.Stealing);
+                    lootEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
                     lootEffect.Play();
                 }
             }
@@ -228,7 +235,7 @@ namespace Player
                     StopMovement();
                     lootEffect.Stop();
                     animator.SetBool("Caught", true);
-                    gameHandler.GameOver(tileSpawner.mapGeneration.CurrentMapIndex(), player.Money);
+                    handler.GameOver(player.Money);
                     break;
                 default:
                     break;
@@ -309,23 +316,21 @@ namespace Player
                 Debug.DrawRay(rayStart, rayDirection * rayLength, Color.red);
                 if(hits[i].collider != null)
                 {
-                    if(i%2 == 0)
+                    Vector2 position = Vector2.zero;
+                    position = (Vector2)transform.position - hits[i].normal;
+                    if (i % 2 == 0)
                     {
                         if (i == 2)
                         {
-                            closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal) + new Vector2Int(0, 1));
+                            position += new Vector2Int(0, 1);
                             animator.SetBool("OnTop", true);
                         }
                         if (i == 0)
                         {
-                            closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
                             animator.SetBool("OnTop", false);
                         }
                     }
-                    else
-                    {
-                        closestTowel = tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell((Vector2)transform.position - hits[i].normal));
-                    }
+                    closestTowel = handler.GetTowel(position);
                 }
             }
 

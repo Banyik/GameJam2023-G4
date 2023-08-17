@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Player;
 
 namespace Maps
 {
@@ -16,10 +17,12 @@ namespace Maps
         int index = -1;
         List<int> maps = new List<int>();
         public TileSpawn tileSpawn;
+        PlayerMapHandler playerMapHandler;
 
         public GameObject[] mapObjects;
         private void Start()
         {
+            playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
             Generate();
         }
         private void Generate()
@@ -50,7 +53,7 @@ namespace Maps
             currentMapType = maps[++index];
             mapObjects[currentMapType].SetActive(true);
             tileSpawn.SpawnTowels(index + 1);
-            GameObject.Find("Player").GetComponent<Player.Behaviour>().SetDifficulty();
+            playerMapHandler.SetDifficulty();
         }
         void CalculateOffsets()
         {

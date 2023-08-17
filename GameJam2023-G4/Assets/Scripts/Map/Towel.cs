@@ -46,7 +46,6 @@ namespace Maps
         {
             isLooted = true;
             towelTiles.SetTile(new Vector3Int(firstPosition.x, firstPosition.y, 0), lootedSkin);
-            //SetLootedSkin
         }
 
         public bool HasPosition(Vector2Int pos)

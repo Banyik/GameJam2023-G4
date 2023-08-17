@@ -19,7 +19,6 @@ namespace Maps
         public WalkableGrid walkableGrid;
         public MapGeneration mapGeneration;
         bool spawnedGrandma = false;
-        bool spawnedLifeGuard= false;
         public List<Towel> towels = new List<Towel>();
 
         void Start()
