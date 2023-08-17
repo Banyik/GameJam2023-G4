@@ -12,9 +12,10 @@ namespace Player
         public TileSpawn tileSpawner;
         public GameHandler gameHandler;
         public Grid grid;
-        public float speed = 1;
+        public float speed = 10;
         public Animator animator;
         public float stealTime = 5;
+        float originalStealTime = 5;
         public float stunTime = 5;
         public float maxThirst = 10;
         public float money = 0;
@@ -25,9 +26,11 @@ namespace Player
         public ParticleSystem lootEffect;
         public LootBarBehaviour lootBarBehaviour;
         public bool avoidStun = false;
+        bool fasterMovement = false;
+        bool fasterLoot = false;
         void Start()
         {
-            player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3] { null, null, new Item(1, ItemType.Langos) }, State.Idle);
+            player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
             StartCoroutine(IncreaseThirst());
         }
 
@@ -115,8 +118,13 @@ namespace Player
                 switch (player.Items[index].Type)
                 {
                     case ItemType.Corn:
+                        fasterLoot = true;
+                        originalStealTime = stealTime;
+                        stealTime = stealTime * 0.9f;
                         break;
                     case ItemType.IceCream:
+                        fasterMovement = true;
+                        player.Speed = 4;
                         break;
                     case ItemType.Langos:
                         avoidStun = true;
@@ -139,7 +147,7 @@ namespace Player
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(horizontal, vertical);
-            rb.velocity = Vector2.Lerp(rb.velocity, movement, player.Speed);
+            rb.velocity = Vector2.Lerp(rb.velocity, movement, player.Speed) * player.Speed;
             if(rb.velocity != new Vector2(0,0))
             {
                 if(horizontal != 0)
@@ -192,6 +200,7 @@ namespace Player
                     animator.SetBool("IsMoving", false);
                     animator.SetBool("IsStealing", false);
                     animator.SetBool("IsStunned", true);
+                    fasterMovement = false;
                     break;
                 case State.StunnedEnd:
                     ChangeState(State.Idle);
@@ -227,6 +236,11 @@ namespace Player
             }
             else
             {
+                if (fasterLoot)
+                {
+                    fasterLoot = false;
+                    stealTime = originalStealTime;
+                }
                 lootBarBehaviour.StopAnimation();
                 lootEffect.Stop();
                 closestTowel.LootTowel();

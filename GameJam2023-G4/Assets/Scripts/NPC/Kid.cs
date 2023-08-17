@@ -18,7 +18,6 @@ namespace NPCs
             ChangeState(State.Move);
             IsMoving = true;
             TargetPosition = WalkableGrid.GetRandomCoordinate();
-            //TargetPosition += new Vector2Int(1, 1);
         }
 
         public override void IsTargetReached(Vector2 position, Animator animator)

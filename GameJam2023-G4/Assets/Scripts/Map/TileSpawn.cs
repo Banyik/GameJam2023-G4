@@ -109,7 +109,6 @@ namespace Maps
         {
             towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
-            Debug.Log($"cell: {cell}; direction: {direction}");
         }
 
         public Towel SearchTowel(Vector2Int pos)

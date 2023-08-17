@@ -1487,7 +1487,7 @@ MonoBehaviour:
   tileSpawner: {fileID: 1802504557}
   gameHandler: {fileID: 1802504561}
   grid: {fileID: 828310988}
-  speed: 4
+  speed: 2
   animator: {fileID: 1157412977}
   stealTime: 5
   stunTime: 5
@@ -1496,6 +1496,7 @@ MonoBehaviour:
   rb: {fileID: 1157412983}
   lootEffect: {fileID: 1984607350}
   lootBarBehaviour: {fileID: 843287038}
+  avoidStun: 0
 --- !u!61 &1157412982
 BoxCollider2D:
   m_ObjectHideFlags: 0
