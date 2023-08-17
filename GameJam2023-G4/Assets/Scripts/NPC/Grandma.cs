@@ -30,6 +30,7 @@ namespace NPCs
                 animator.SetBool("Look", true);
                 ChangeState(State.See);
                 waitTime = 0f;
+                waitTimeScale = Random.Range(5, 12);
             }
         }
 

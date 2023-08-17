@@ -16,9 +16,10 @@ namespace Maps
         public Tile[] verticalTowels;
         public Tile[] lootedVerticalTowels;
         public int towelCount = 3;
-        WalkableGrid walkableGrid;
-        MapGeneration mapGeneration;
+        public WalkableGrid walkableGrid;
+        public MapGeneration mapGeneration;
         bool spawnedGrandma = false;
+        bool spawnedLifeGuard= false;
         public List<Towel> towels = new List<Towel>();
 
         void Start()
@@ -33,6 +34,8 @@ namespace Maps
             {
                 towel.RemoveTowel();
             }
+            spawnedGrandma = false;
+            spawnNPC.KillAll();
             towels.Clear();
         }
 
@@ -46,6 +49,7 @@ namespace Maps
             else if (currentMap < 15)
             {
                 towelCount = 3;
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(9, 0));
             }
             else
             {

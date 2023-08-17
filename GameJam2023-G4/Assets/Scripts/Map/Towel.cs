@@ -70,7 +70,7 @@ namespace Maps
 
         Item GenerateWaterItem()
         {
-            return new Item(Random.Range(0.1f, 0.3f * (mapType + 1)), ItemType.Water);
+            return new Item(Random.Range(0.7f * (mapType + 1), 1.5f * (mapType + 1)), ItemType.Water);
         }
         Item GenerateMoneyItem()
         {

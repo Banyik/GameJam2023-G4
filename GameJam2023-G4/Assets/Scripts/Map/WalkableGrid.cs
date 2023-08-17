@@ -38,6 +38,7 @@ namespace Maps
             }
             tileSpawn.ResetMap();
             mapGeneration.GetNextMap();
+            GameObject.Find("Player").transform.position = new Vector3(-7, -2.5f, 0);
         }
 
         Coordinates FindCoordinate(Vector2Int pos)

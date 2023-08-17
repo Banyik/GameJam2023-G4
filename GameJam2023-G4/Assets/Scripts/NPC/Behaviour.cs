@@ -44,7 +44,6 @@ namespace NPCs
                 case Type.LifeGuard:
                     npc = new LifeGuard(1, State.Calm, walkableGrid, true, false);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
-                    transform.position = new Vector3(9, 0, 0);
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");

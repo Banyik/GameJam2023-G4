@@ -20,6 +20,10 @@ namespace Maps
         public GameObject[] mapObjects;
         private void Start()
         {
+            Generate();
+        }
+        private void Generate()
+        {
             CalculateOffsets();
             for (int i = 1; i <= xMax; i++)
             {
@@ -29,6 +33,16 @@ namespace Maps
                 }
             }
             GetNextMap();
+        }
+        public void ClearMap()
+        {
+            index = -1;
+            maps.Clear();
+            Generate();
+        }
+        public int CurrentMapIndex()
+        {
+            return index;
         }
         public void GetNextMap()
         {

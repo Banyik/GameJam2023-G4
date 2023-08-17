@@ -35,7 +35,7 @@ namespace Player
 
         public void SetDifficulty()
         {
-            stealTime = 5 * tileSpawner.towelCount;
+            stealTime = 4 + tileSpawner.towelCount;
             originalStealTime = stealTime;
         }
 
@@ -43,7 +43,7 @@ namespace Player
         {
             while (true)
             {
-                player.Thirst -= 0.1f;
+                player.Thirst -= 0.05f;
                 //Debug.Log($"Thirst: {player.Thirst}");
                 if(player.Thirst <= 0)
                 {
@@ -176,6 +176,15 @@ namespace Player
             }
         }
 
+        public void ResetState()
+        {
+            ChangeState(State.Idle);
+            animator.SetBool("Default", true);
+            animator.SetBool("Caught", false);
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsStealing", false);
+        }
+
         void CheckState()
         {
             switch (player.State)
@@ -210,10 +219,12 @@ namespace Player
                     ChangeState(State.Idle);
                     break;
                 case State.Caught:
+                    animator.SetBool("Default", false);
                     lootBarBehaviour.StopAnimation();
                     StopMovement();
                     lootEffect.Stop();
                     animator.SetBool("Caught", true);
+                    gameHandler.GameOver(tileSpawner.mapGeneration.CurrentMapIndex(), player.Money);
                     break;
                 default:
                     break;

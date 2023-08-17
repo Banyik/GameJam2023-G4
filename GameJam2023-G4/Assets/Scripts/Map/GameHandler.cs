@@ -5,24 +5,25 @@ using UnityEngine;
 public class GameHandler : MonoBehaviour
 {
     public int score = 0;
-    public void GameOver(int mapCount, int moneyAmount)
+
+    public GameObject ShopUI;
+    public void GameOver(int mapCount, float moneyAmount)
     {
-        Invoke(nameof(StopTime), 0.22f);
         CalculateScore(mapCount, moneyAmount);
+        Invoke(nameof(ShopUI), 1f);
         //Scoreboard UI
     }
-    public void StopTime()
+    void ShowUI(GameObject UI)
     {
-        Time.timeScale = 0;
+        UI.SetActive(true);
     }
     public void TimesUp()
     {
-        StopTime();
-        //Shop UI
+        Invoke(nameof(ShopUI), 1f);
     }
 
-    public void CalculateScore(int mapCount, int moneyAmount)
+    public void CalculateScore(int mapCount, float moneyAmount)
     {
-        score += (mapCount * moneyAmount) + mapCount;
+        score += (int)(mapCount * moneyAmount) + mapCount;
     }
 }
