@@ -15,11 +15,12 @@ namespace Maps
         Tile lootedSkin;
         Tilemap towelTiles;
         bool isLooted;
+        int mapType;
 
         public bool IsLooted { get => isLooted; set => isLooted = value; }
         public Loot Loot { get => loot; set => loot = value; }
 
-        public Towel(Vector2Int firstPosition, Vector2Int secondPosition, Tile skin, Tile lootedSkin, bool isLooted, Tilemap towelTiles)
+        public Towel(Vector2Int firstPosition, Vector2Int secondPosition, Tile skin, Tile lootedSkin, bool isLooted, Tilemap towelTiles, int mapType)
         {
             this.loot = GenerateLoot(Random.Range(0, 100) < 50f);
             this.firstPosition = firstPosition;
@@ -28,6 +29,7 @@ namespace Maps
             this.lootedSkin = lootedSkin;
             this.isLooted = isLooted;
             this.towelTiles = towelTiles;
+            this.mapType = mapType;
             CreateTowel();
         }
         void CreateTowel()
@@ -68,11 +70,11 @@ namespace Maps
 
         Item GenerateWaterItem()
         {
-            return new Item(Random.Range(0.1f, 0.3f), ItemType.Water);
+            return new Item(Random.Range(0.1f, 0.3f * (mapType + 1)), ItemType.Water);
         }
         Item GenerateMoneyItem()
         {
-            return new Item(Mathf.RoundToInt(Random.Range(1, 50)), ItemType.Money);
+            return new Item(Mathf.RoundToInt(Random.Range(1, 50*(mapType+1))), ItemType.Money);
         }
     }
 }

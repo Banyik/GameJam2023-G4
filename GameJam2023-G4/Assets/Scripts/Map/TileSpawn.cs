@@ -15,12 +15,14 @@ namespace Maps
         public Tile[] lootedVerticalTowels;
         public int towelCount = 3;
         WalkableGrid walkableGrid;
+        MapGeneration mapGeneration;
 
         public List<Towel> towels = new List<Towel>();
 
         void Start()
         {
             walkableGrid = gameObject.GetComponent<WalkableGrid>();
+            mapGeneration = gameObject.GetComponent<MapGeneration>();
         }
 
         public void ResetMap()
@@ -35,11 +37,11 @@ namespace Maps
         public void SpawnTowels(int currentMap)
         {
 
-            if(currentMap < 10)
+            if(currentMap < 5)
             {
                 towelCount = 1;
             }
-            else if (currentMap < 20)
+            else if (currentMap < 15)
             {
                 towelCount = 3;
             }
@@ -118,7 +120,7 @@ namespace Maps
 
         void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel)
         {
-            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap));
+            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.currentMapType));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
         }
 

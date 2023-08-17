@@ -36,7 +36,7 @@ namespace Player
 
         public void SetDifficulty()
         {
-            stealTime *= tileSpawner.towelCount;
+            stealTime = 5 * tileSpawner.towelCount;
             originalStealTime = stealTime;
         }
 
