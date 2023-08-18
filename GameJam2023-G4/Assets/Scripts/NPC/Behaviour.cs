@@ -21,6 +21,10 @@ namespace NPCs
         public Animator animator;
         public GameObject lifeGuardTrigger;
         public GameObject kidTrigger;
+        public NPCSpriteBehaviour spriteBehaviour;
+        public Sprite lifeGuardHeadSprite;
+        public Sprite kidHeadSprite;
+        public GameObject waterBullet;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
@@ -35,12 +39,14 @@ namespace NPCs
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
                     raySpacing = 1.2f;
                     kidTrigger.SetActive(true);
+                    spriteBehaviour.SetSprite(kidHeadSprite, gameObject);
                     break;
                 case Type.Grandma:
                     npc = new Grandma(5, State.Calm, walkableGrid, false, false);
                     animator.runtimeAnimatorController = grandmaAnimator;
                     gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                     gameObject.layer = LayerMask.NameToLayer("Grandma");
+                    spriteBehaviour.gameObject.SetActive(false);
                     break;
                 case Type.LifeGuard:
                     npc = new LifeGuard(1, State.Calm, walkableGrid, true, false);
@@ -50,6 +56,7 @@ namespace NPCs
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
                     raySpacing = 0.7f;
                     lifeGuardTrigger.SetActive(true);
+                    spriteBehaviour.SetSprite(lifeGuardHeadSprite, gameObject);
                     break;
                 default:
                     break;
@@ -64,14 +71,31 @@ namespace NPCs
 
         void CheckAnimationSwitch()
         {
+            Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
             switch (type)
             {
                 case Type.Kid:
+                    if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") &&
+                        !playerBehaviour.player.IsState(Player.State.Caught))
+                    {
+                        if (playerBehaviour.gameObject.transform.position.x < gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == false)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                        }
+                        else if (playerBehaviour.gameObject.transform.position.x > gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == true)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                        }
+                        var bullet = Instantiate(waterBullet, transform.position, new Quaternion(0, 0, 0, 0), null);
+                        bullet.SetActive(true);
+                        bullet.GetComponent<WaterBulletBehaviour>().Shoot(transform.position, playerBehaviour.gameObject.transform.position);
+                        animator.SetBool("Saw", false);
+                        npc.ChangeState(State.Stun);
+                    }
                     break;
                 case Type.Grandma:
                     if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Looking"))
                     {
-                        Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
                         if (playerBehaviour.player.IsState(Player.State.Stealing) || playerBehaviour.player.IsState(Player.State.StealingStart))
                         {
                             animator.SetBool("Saw", true);
@@ -83,7 +107,6 @@ namespace NPCs
                             {
                                 gameObject.GetComponent<SpriteRenderer>().flipX = false;
                             }
-                            npc.ChangeState(State.Stun);
                             playerBehaviour.ChangeState(Player.State.Caught);
                         }
                     }

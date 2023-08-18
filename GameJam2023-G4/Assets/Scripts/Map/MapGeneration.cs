@@ -45,7 +45,6 @@ namespace Maps
             index = -1;
             if (score >= minScore)
             {
-                Debug.LogError("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 nextMapType = true;
                 //increase minScore
                 return score - minScore;

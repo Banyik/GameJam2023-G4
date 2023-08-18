@@ -8,6 +8,7 @@ namespace Player
 {
     public class Behaviour : MonoBehaviour
     {
+        public ThirstBarBehaviour thirstBarBehaviour;
         public PlayerBase player;
         PlayerMapHandler handler;
         public float speed = 10;
@@ -25,6 +26,7 @@ namespace Player
         public LootBarBehaviour lootBarBehaviour;
         public bool avoidStun = false;
         bool fasterLoot = false;
+        bool reset = false;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
@@ -40,9 +42,11 @@ namespace Player
 
         IEnumerator IncreaseThirst()
         {
+            thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             while (true)
             {
-                player.Thirst -= 0.5f;
+                player.Thirst -= 0.05f;
+                thirstBarBehaviour.Animate(player.Thirst);
                 if(player.Thirst <= 0)
                 {
                     ChangeState(State.Idle);
@@ -182,7 +186,7 @@ namespace Player
 
         public void ChangeState(State state)
         {
-            if(!player.IsState(state))
+            if(!player.IsState(state) && (!player.IsState(State.Caught) || reset))
             {
                 player.State = state;
                 CheckState();
@@ -191,12 +195,16 @@ namespace Player
 
         public void ResetState()
         {
+            reset = true;
             ChangeState(State.Idle);
+            reset = false;
             animator.SetBool("Default", true);
             animator.SetBool("Caught", false);
             animator.SetBool("IsMoving", false);
             animator.SetBool("IsStealing", false);
             player.Thirst = player.MaxThirst;
+            thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
+            thirstBarBehaviour.Animate(player.Thirst);
             player.Speed = 2;
             stealTimeCount = 0;
             stunTimeCount = 0;
@@ -295,6 +303,7 @@ namespace Player
                 {
                     case ItemType.Water:
                         player.Thirst += item.Amount;
+                        thirstBarBehaviour.Animate(player.Thirst);
                         break;
                     case ItemType.Money:
                         player.Money += item.Amount;

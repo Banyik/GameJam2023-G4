@@ -46,3 +46,6 @@ TagManager:
   - name: Entity
     uniqueID: 1193463713
     locked: 0
+  - name: Sign
+    uniqueID: 2005633423
+    locked: 0

@@ -50,11 +50,7 @@ namespace NPCs
 
         public override void Stun(Animator animator)
         {
-            if (!catched)
-            {
-                GameObject.Find("Player").GetComponent<Player.Behaviour>().ChangeState(Player.State.Caught);
-                catched = true;
-            }
+            
         }
     }
 }

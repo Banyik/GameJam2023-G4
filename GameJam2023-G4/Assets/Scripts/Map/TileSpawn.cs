@@ -41,18 +41,20 @@ namespace Maps
         public void SpawnTowels(int currentMap)
         {
 
-            if(currentMap < 5)
+            if(currentMap < 2)
             {
                 towelCount = 1;
             }
-            else if (currentMap < 15)
+            else if (currentMap < 3)
             {
                 towelCount = 3;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(9, 0));
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
             }
             else
             {
                 towelCount = 5;
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
+                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3));
             }
             for (int i = 0; i < towelCount; i++)
             {

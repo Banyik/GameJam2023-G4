@@ -35,11 +35,11 @@ namespace NPCs
             IsMoving = true;
             if (onLeft)
             {
-                TargetPosition = new Vector2Int(9, 0);
+                TargetPosition = new Vector2Int(10, 0);
             }
             else
             {
-                TargetPosition = new Vector2Int(-9, 0);
+                TargetPosition = new Vector2Int(-10, 0);
             }
         }
 
@@ -75,7 +75,7 @@ namespace NPCs
                 ChangeState(State.Stun);
                 animator.SetBool("IsRunning", false);
                 Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
-                if (!playerBehaviour.avoidStun)
+                if (!playerBehaviour.avoidStun || !playerBehaviour.player.IsState(Player.State.Caught))
                 {
                     playerBehaviour.ChangeState(Player.State.StunnedStart);
                 }

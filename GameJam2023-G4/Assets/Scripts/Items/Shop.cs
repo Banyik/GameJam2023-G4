@@ -26,6 +26,7 @@ namespace Items
                     if(type == ItemType.StrawBerrySyrup)
                     {
                         playerBehaviour.player.MaxThirst += playerBehaviour.player.MaxThirst * .1f;
+                        playerBehaviour.thirstBarBehaviour.SetAnimationSpeed(playerBehaviour.player.MaxThirst);
                     }
                     else
                     {
