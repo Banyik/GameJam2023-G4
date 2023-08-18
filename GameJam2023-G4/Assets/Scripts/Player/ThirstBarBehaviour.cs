@@ -14,7 +14,7 @@ public class ThirstBarBehaviour : MonoBehaviour
     public void Animate(float currentTime)
     {
         index = (int)(frames.Length * (currentTime / speed));
-        if(index == 16)
+        if(index >= 16)
         {
             index--;
         }

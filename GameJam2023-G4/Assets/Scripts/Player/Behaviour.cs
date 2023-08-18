@@ -302,7 +302,14 @@ namespace Player
                 switch (item.Type)
                 {
                     case ItemType.Water:
-                        player.Thirst += item.Amount;
+                        if(player.Thirst + item.Amount < player.MaxThirst)
+                        {
+                            player.Thirst += item.Amount;
+                        }
+                        else
+                        {
+                            player.Thirst = player.MaxThirst;
+                        }
                         thirstBarBehaviour.Animate(player.Thirst);
                         break;
                     case ItemType.Money:
