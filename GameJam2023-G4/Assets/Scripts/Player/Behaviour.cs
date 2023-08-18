@@ -42,10 +42,12 @@ namespace Player
         {
             while (true)
             {
-                player.Thirst -= 0.05f;
+                player.Thirst -= 0.5f;
                 if(player.Thirst <= 0)
                 {
-                    handler.TimesUp();
+                    ChangeState(State.Idle);
+                    StopMovement();
+                    handler.TimesUp(player.Money);
                 }
                 yield return new WaitForSeconds(1);
             }
@@ -61,13 +63,17 @@ namespace Player
         }
         private void Update()
         {
-            CheckAction();
-            CheckAnimationSwitch();
+            if(!player.IsState(State.Caught) && player.Thirst > 0)
+            {
+                CheckAction();
+                CheckAnimationSwitch();
+            }
+            
         }
 
         bool IsPlayerAbleToMove()
         {
-            return player.IsState(State.Idle) || player.IsState(State.Run);
+            return (player.IsState(State.Idle) || player.IsState(State.Run)) && player.Thirst > 0;
         }
 
         bool IsStealingAnimationPlaying()
@@ -260,12 +266,12 @@ namespace Player
 
         void StealingCountDown()
         {
-            if (stealTimeCount <= stealTime)
+            if (stealTimeCount <= stealTime && player.Thirst > 0)
             {
                 stealTimeCount += Time.deltaTime;
                 lootBarBehaviour.Animate(stealTimeCount);
             }
-            else
+            else if(player.Thirst > 0)
             {
                 if (fasterLoot)
                 {

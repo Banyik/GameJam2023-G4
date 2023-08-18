@@ -20,7 +20,7 @@ namespace Maps
 
         public GameObject[] mapObjects;
         bool nextMapType = false;
-        int minScore = 600;
+        int minScore = 30;
         private void Start()
         {
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
@@ -45,6 +45,7 @@ namespace Maps
             index = -1;
             if (score >= minScore)
             {
+                Debug.LogError("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 nextMapType = true;
                 //increase minScore
                 return score - minScore;

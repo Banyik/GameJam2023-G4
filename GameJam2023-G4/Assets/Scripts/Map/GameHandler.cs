@@ -6,30 +6,45 @@ using Maps;
 public class GameHandler : MonoBehaviour
 {
     public int score = 0;
-
+    public int buyScore = 0;
     public MapGeneration mapGeneration;
-
+    bool isActivated = false;
     public GameObject ShopUI;
     GameObject UI;
     public void GameOver(float moneyAmount)
     {
-        CalculateScore(moneyAmount);
-        UI = ShopUI;
-        Invoke(nameof(ShowUI), 1f);
+        if (!isActivated)
+        {
+            isActivated = true;
+            CalculateScore(moneyAmount);
+            UI = ShopUI;
+            Invoke(nameof(ShowUI), 1f);
+        }
         //Scoreboard UI
     }
     void ShowUI()
     {
         UI.SetActive(true);
     }
-    public void TimesUp()
+    public void TimesUp(float moneyAmount)
     {
-        UI = ShopUI;
-        Invoke(nameof(ShowUI), 1f);
+        if (!isActivated)
+        {
+            isActivated = true;
+            CalculateScore(moneyAmount);
+            UI = ShopUI;
+            Invoke(nameof(ShowUI), 1f);
+        }
+    }
+
+    public void ResetIsActivatedBool()
+    {
+        isActivated = false;
     }
 
     public void CalculateScore(float moneyAmount)
     {
-        score += mapGeneration.CheckScore((int)moneyAmount);
+        score = (int)moneyAmount;
+        buyScore += mapGeneration.CheckScore((int)moneyAmount);
     }
 }

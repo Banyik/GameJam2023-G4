@@ -49,10 +49,10 @@ namespace Player
             return tileSpawner.towelCount;
         }
 
-        public void TimesUp()
+        public void TimesUp(float money)
         {
             GetGameHandler();
-            gameHandler.TimesUp();
+            gameHandler.TimesUp(money);
         }
 
         public void GameOver(float money)
