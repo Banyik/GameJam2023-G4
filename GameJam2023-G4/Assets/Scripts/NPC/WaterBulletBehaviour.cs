@@ -26,7 +26,7 @@ public class WaterBulletBehaviour : MonoBehaviour
         {
             particleSystem.transform.up = transform.position - direction;
 
-            transform.position += direction * 30 * Time.deltaTime;
+            transform.position += direction * 15 * Time.deltaTime;
             if(Vector3.Distance(gameObject.transform.position, playerBehaviour.gameObject.transform.position) < 0.3f)
             {
                 if (!playerBehaviour.avoidStun)
