@@ -154,7 +154,11 @@ namespace Player
                     default:
                         break;
                 }
-                player.Items[index] = null;
+                if (--player.Items[index].Amount == 0)
+                {
+                    player.Items[index] = null;
+                }
+                
             }
         }
 

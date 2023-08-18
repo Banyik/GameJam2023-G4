@@ -13,6 +13,7 @@ namespace Maps
         public float xOffset = 10;
         public float yOffset = 10;
         float maxOffset = 100000f;
+        int[] difficultyScore;
         private int currentMapType = 0;
         int index = -1;
         List<int> maps = new List<int>();
@@ -24,6 +25,8 @@ namespace Maps
         private void Start()
         {
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
+            difficultyScore = new int[3] { 500, 1320, 2500 };
+            minScore = difficultyScore[currentMapType];
             SetMapDifficulty();
         }
 
@@ -45,6 +48,7 @@ namespace Maps
             index = -1;
             if (score >= minScore)
             {
+                minScore = difficultyScore[currentMapType];
                 nextMapType = true;
                 //increase minScore
                 return score - minScore;
