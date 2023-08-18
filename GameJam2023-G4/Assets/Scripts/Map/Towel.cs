@@ -20,9 +20,11 @@ namespace Maps
 
         public bool IsLooted { get => isLooted; set => isLooted = value; }
         public Loot Loot { get => loot; set => loot = value; }
+        public bool IsBigTowel { get => isBigTowel; set => isBigTowel = value; }
 
         public Towel(Vector2Int firstPosition, Vector2Int secondPosition, Tile skin, Tile lootedSkin, bool isLooted, Tilemap towelTiles, int mapType, bool isBigTowel)
         {
+            this.isBigTowel = isBigTowel;
             this.loot = GenerateLoot(Random.Range(0, 100) < 75f);
             this.firstPosition = firstPosition;
             this.secondPosition = secondPosition;
@@ -31,7 +33,6 @@ namespace Maps
             this.isLooted = isLooted;
             this.towelTiles = towelTiles;
             this.mapType = mapType;
-            this.isBigTowel = isBigTowel;
             CreateTowel();
         }
         void CreateTowel()

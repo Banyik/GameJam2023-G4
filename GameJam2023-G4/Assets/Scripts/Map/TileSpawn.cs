@@ -44,8 +44,6 @@ namespace Maps
             if(currentMap < 5)
             {
                 towelCount = 1;
-                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3));
-
             }
             else if (currentMap < 15)
             {

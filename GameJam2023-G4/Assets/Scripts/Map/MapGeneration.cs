@@ -76,7 +76,6 @@ namespace Maps
             }
             index++;
             playerMapHandler.SpawnTowels(index + 1);
-            playerMapHandler.SetDifficulty();
         }
         public void GetNextMap()
         {

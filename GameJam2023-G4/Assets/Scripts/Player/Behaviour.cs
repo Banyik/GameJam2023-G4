@@ -14,7 +14,6 @@ namespace Player
         public float speed = 10;
         public Animator animator;
         public float stealTime = 5;
-        float originalStealTime = 5;
         public float stunTime = 5;
         public float maxThirst = 10;
         public float money = 0;
@@ -34,10 +33,21 @@ namespace Player
             StartCoroutine(IncreaseThirst());
         }
 
-        public void SetDifficulty()
+        void SetDifficulty(bool isBigTowel)
         {
-            stealTime = 2 + handler.GetTowelCount();
-            originalStealTime = stealTime;
+            int lootPowerUp = 1;
+            if (fasterLoot)
+            {
+                lootPowerUp = 2;
+            }
+            if(isBigTowel)
+            {
+                stealTime = 6 / lootPowerUp;
+            }
+            else
+            {
+                stealTime = 3 / lootPowerUp;
+            }
         }
 
         IEnumerator IncreaseThirst()
@@ -141,8 +151,6 @@ namespace Player
                 {
                     case ItemType.Corn:
                         fasterLoot = true;
-                        originalStealTime = stealTime;
-                        stealTime = stealTime * 0.9f;
                         break;
                     case ItemType.IceCream:
                         player.Speed = 4;
@@ -209,6 +217,7 @@ namespace Player
             player.Thirst = player.MaxThirst;
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             thirstBarBehaviour.Animate(player.Thirst);
+            fasterLoot = false;
             player.Speed = 2;
             stealTimeCount = 0;
             stunTimeCount = 0;
@@ -224,8 +233,10 @@ namespace Player
                     break;
                 case State.Run:
                     animator.SetBool("IsMoving", true);
+                    lootEffect.Stop();
                     break;
                 case State.StealingStart:
+                    SetDifficulty(closestTowel.IsBigTowel);
                     animator.SetBool("IsMoving", false);
                     animator.SetBool("IsStealing", true);
                     break;
@@ -288,7 +299,6 @@ namespace Player
                 if (fasterLoot)
                 {
                     fasterLoot = false;
-                    stealTime = originalStealTime;
                 }
                 lootBarBehaviour.StopAnimation();
                 lootEffect.Stop();

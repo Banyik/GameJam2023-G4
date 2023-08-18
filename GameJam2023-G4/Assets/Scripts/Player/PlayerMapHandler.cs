@@ -72,12 +72,6 @@ namespace Player
             GetTileSpawner();
             tileSpawner.SpawnTowels(map);
         }
-
-        public void SetDifficulty()
-        {
-            GetPlayerBehaviour();
-            playerBehaviour.SetDifficulty();
-        }
     }
 }
 

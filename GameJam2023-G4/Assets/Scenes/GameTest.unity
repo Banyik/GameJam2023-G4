@@ -9086,7 +9086,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 95fd62d87fe9bd042bb71bd050f29135, type: 2}
   - {fileID: 11400000, guid: b1255ee24701b7f49b255d5b48c1a958, type: 2}
   - {fileID: 11400000, guid: 083be279877301946802b7be770019e5, type: 2}
-  - {fileID: 11400000, guid: 4ac22f21826165448af85b264980bfcb, type: 2}
   - {fileID: 11400000, guid: 824fec247ac1fc34bb859fb83139ffcf, type: 2}
   - {fileID: 11400000, guid: a9764fb59dab26c4687aa13888c25dd2, type: 2}
   - {fileID: 11400000, guid: b2453b151abdeef4f8920fca6de4b5f5, type: 2}
@@ -9096,13 +9095,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d7062251003a9f0489df772691517f4c, type: 2}
   - {fileID: 11400000, guid: 8a77e0fafc92d0545ba7cd01409d2256, type: 2}
   - {fileID: 11400000, guid: 03aa0643340303c4eaa89cd4e30ec21f, type: 2}
+  - {fileID: 11400000, guid: 4ac22f21826165448af85b264980bfcb, type: 2}
   lootedHorizontalTowels:
   - {fileID: 11400000, guid: 8b16fd5643a039c4eb1036e924baf296, type: 2}
   - {fileID: 11400000, guid: 4a38bbf616fd2f149be7c92e9176aa93, type: 2}
   - {fileID: 11400000, guid: 32c647240fdd4904f902e6eb68e37f36, type: 2}
   - {fileID: 11400000, guid: 2e298d97d0a9c524d8e39d4961defbba, type: 2}
   - {fileID: 11400000, guid: 2470cc39cfa2dce4bb5f1318ed5b1c2d, type: 2}
-  - {fileID: 11400000, guid: 57dc3793b5ccfc54481042f95d199442, type: 2}
   - {fileID: 11400000, guid: ab5803a4737d5f64b8a26e62fe4d83fc, type: 2}
   - {fileID: 11400000, guid: e43e3a51a211af54d9128954c2552d25, type: 2}
   - {fileID: 11400000, guid: 9951f651a3b7c574ca431ead4d2ae5aa, type: 2}
@@ -9112,6 +9111,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 26543e1752352384880cf87dc1e21f68, type: 2}
   - {fileID: 11400000, guid: ceb2fd0562d65b943901b85e3e972054, type: 2}
   - {fileID: 11400000, guid: 52eca5b3ea78a9c448cc6e8ca322a25a, type: 2}
+  - {fileID: 11400000, guid: 57dc3793b5ccfc54481042f95d199442, type: 2}
   verticalTowels:
   - {fileID: 11400000, guid: af110ce0945010c4ea8522ba9f4bc21c, type: 2}
   - {fileID: 11400000, guid: 16e062dddffde764bb2f4f08130a1944, type: 2}
