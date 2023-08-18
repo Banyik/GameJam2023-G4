@@ -34,7 +34,7 @@ namespace Player
 
         public void SetDifficulty()
         {
-            stealTime = 4 + handler.GetTowelCount();
+            stealTime = 2 + handler.GetTowelCount();
             originalStealTime = stealTime;
         }
 
@@ -191,6 +191,7 @@ namespace Player
             animator.SetBool("IsMoving", false);
             animator.SetBool("IsStealing", false);
             player.Thirst = player.MaxThirst;
+            player.Speed = 2;
             stealTimeCount = 0;
             stunTimeCount = 0;
             StopMovement();

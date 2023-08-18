@@ -37,7 +37,7 @@ namespace Maps
                 coord.IsWalkable = true;
             }
             tileSpawn.ResetMap();
-            mapGeneration.GetNextMap();
+            mapGeneration.SetMapDifficulty();
             GameObject.Find("Player").transform.position = new Vector3(-7, -2.5f, 0);
         }
 

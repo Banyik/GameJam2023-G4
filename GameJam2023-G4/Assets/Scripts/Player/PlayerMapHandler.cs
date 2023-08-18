@@ -16,35 +16,66 @@ namespace Player
 
         private void Start()
         {
-            tileSpawner = gameObject.GetComponent<TileSpawn>();
-            gameHandler = gameObject.GetComponent<GameHandler>();
             mapGeneration = gameObject.GetComponent<MapGeneration>();
             grid = GameObject.Find("Grid").GetComponent<Grid>();
-            playerBehaviour = GameObject.Find("Player").GetComponent<Behaviour>();
+        }
+
+        void GetTileSpawner()
+        {
+            if (tileSpawner == null)
+            {
+                tileSpawner = gameObject.GetComponent<TileSpawn>();
+            }
+        }
+
+        void GetPlayerBehaviour()
+        {
+            if (playerBehaviour == null)
+            {
+                playerBehaviour = GameObject.Find("Player").GetComponent<Behaviour>();
+            }
+        }
+        void GetGameHandler()
+        {
+            if (gameHandler == null)
+            {
+                gameHandler = gameObject.GetComponent<GameHandler>();
+            }
         }
 
         public int GetTowelCount()
         {
+            GetTileSpawner();
             return tileSpawner.towelCount;
         }
 
         public void TimesUp()
         {
+            GetGameHandler();
             gameHandler.TimesUp();
         }
 
         public void GameOver(float money)
         {
-            gameHandler.GameOver(mapGeneration.CurrentMapIndex(), money);
+            GetGameHandler();
+            gameHandler.GameOver(money);
         }
 
         public Towel GetTowel(Vector2 position)
         {
+            GetTileSpawner();
             return tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell(position));
+        }
+
+        public void SpawnTowels(int map)
+        {
+            GetTileSpawner();
+            tileSpawner.SpawnTowels(map);
         }
 
         public void SetDifficulty()
         {
+            GetPlayerBehaviour();
             playerBehaviour.SetDifficulty();
         }
     }

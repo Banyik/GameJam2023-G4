@@ -130,7 +130,7 @@ namespace Maps
                 spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell);
                 spawnedGrandma = true;
             }
-            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.currentMapType));
+            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.GetMap()));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
         }
 

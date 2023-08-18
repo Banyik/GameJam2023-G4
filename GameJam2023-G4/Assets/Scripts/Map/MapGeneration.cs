@@ -13,18 +13,20 @@ namespace Maps
         public float xOffset = 10;
         public float yOffset = 10;
         float maxOffset = 100000f;
-        public int currentMapType = 0;
+        private int currentMapType = 0;
         int index = -1;
         List<int> maps = new List<int>();
-        public TileSpawn tileSpawn;
         PlayerMapHandler playerMapHandler;
 
         public GameObject[] mapObjects;
+        bool nextMapType = false;
+        int minScore = 600;
         private void Start()
         {
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
-            Generate();
+            SetMapDifficulty();
         }
+
         private void Generate()
         {
             CalculateOffsets();
@@ -37,23 +39,46 @@ namespace Maps
             }
             GetNextMap();
         }
-        public void ClearMap()
+
+        public int CheckScore(int score)
         {
             index = -1;
+            if (score >= minScore)
+            {
+                nextMapType = true;
+                //increase minScore
+                return score - minScore;
+            }
+            return 0;
+        }
+        public void ClearMap()
+        {
+            index = 0;
             maps.Clear();
             Generate();
         }
-        public int CurrentMapIndex()
+        public int GetMap()
         {
-            return index;
+            return currentMapType;
+        }
+
+        public void SetMapDifficulty()
+        {
+            if (nextMapType)
+            {
+                nextMapType = false;
+                index = -1;
+                GetNextMap();
+            }
+            index++;
+            playerMapHandler.SpawnTowels(index + 1);
+            playerMapHandler.SetDifficulty();
         }
         public void GetNextMap()
         {
             mapObjects[currentMapType].SetActive(false);
-            currentMapType = maps[++index];
+            currentMapType++;
             mapObjects[currentMapType].SetActive(true);
-            tileSpawn.SpawnTowels(index + 1);
-            playerMapHandler.SetDifficulty();
         }
         void CalculateOffsets()
         {

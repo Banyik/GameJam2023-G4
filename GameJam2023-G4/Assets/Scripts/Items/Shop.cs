@@ -8,10 +8,12 @@ namespace Items
     public class Shop : MonoBehaviour
     {
         public Player.Behaviour playerBehaviour;
+        public GameHandler handler;
         public WalkableGrid walkableGrid;
 
         public void Continue()
         {
+            playerBehaviour.player.Money = 0;
             walkableGrid.ResetMap();
         }
         public void BuyItem(ItemType type, float price)
@@ -23,7 +25,7 @@ namespace Items
                 {
                     if(type == ItemType.StrawBerrySyrup)
                     {
-                        playerBehaviour.player.Thirst += playerBehaviour.player.Thirst * .1f;
+                        playerBehaviour.player.MaxThirst += playerBehaviour.player.MaxThirst * .1f;
                     }
                     else
                     {
@@ -35,9 +37,9 @@ namespace Items
 
         public bool HasEnoughMoney(float price)
         {
-            if(playerBehaviour.player.Money >= price)
+            if(handler.score >= price)
             {
-                playerBehaviour.player.Money -= price;
+                handler.score -= (int)price;
                 return true;
             }
             return false;

@@ -62,7 +62,7 @@ namespace Maps
             }
             else
             {
-                loot = new Loot(new Item[1] { GenerateWaterItem() });
+                loot = new Loot(new Item[1] { GenerateMoneyItem() });
             }
             return loot;
         }
@@ -73,7 +73,7 @@ namespace Maps
         }
         Item GenerateMoneyItem()
         {
-            return new Item(Mathf.RoundToInt(Random.Range(1, 50*(mapType+1))), ItemType.Money);
+            return new Item(10 * (mapType + 1), ItemType.Money);
         }
     }
 }

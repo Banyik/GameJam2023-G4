@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Maps;
 
 public class GameHandler : MonoBehaviour
 {
     public int score = 0;
 
+    public MapGeneration mapGeneration;
+
     public GameObject ShopUI;
-    public GameObject UI;
-    public void GameOver(int mapCount, float moneyAmount)
+    GameObject UI;
+    public void GameOver(float moneyAmount)
     {
-        CalculateScore(mapCount, moneyAmount);
+        CalculateScore(moneyAmount);
         UI = ShopUI;
         Invoke(nameof(ShowUI), 1f);
         //Scoreboard UI
@@ -25,8 +28,8 @@ public class GameHandler : MonoBehaviour
         Invoke(nameof(ShowUI), 1f);
     }
 
-    public void CalculateScore(int mapCount, float moneyAmount)
+    public void CalculateScore(float moneyAmount)
     {
-        score += (int)(mapCount * moneyAmount) + mapCount;
+        score += mapGeneration.CheckScore((int)moneyAmount);
     }
 }
