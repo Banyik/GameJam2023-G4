@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Maps;
+using Player;
 
 namespace NPCs
 {
@@ -11,8 +12,10 @@ namespace NPCs
         bool saw = false;
         float avoidCoolDownScale = 2f;
         float avoidCoolDown = 0f;
-        public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, walkableGrid, isMoving, coolDown)
+        PlayerNPCHandler handler;
+        public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
+            this.handler = handler;
         }
 
         public override void CalculateCoolDown()
@@ -74,14 +77,12 @@ namespace NPCs
                 IsMoving = false;
                 ChangeState(State.Stun);
                 animator.SetBool("IsRunning", false);
-                Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
-                if (!playerBehaviour.avoidStun || !playerBehaviour.player.IsState(Player.State.Caught))
+                if (handler.IsPlayerAvoidingStun(true))
                 {
-                    playerBehaviour.ChangeState(Player.State.StunnedStart);
+                    handler.StunPlayer();
                 }
                 else
                 {
-                    playerBehaviour.avoidStun = false;
                     CoolDown = true;
                     ChangeState(State.Calm);
                 }

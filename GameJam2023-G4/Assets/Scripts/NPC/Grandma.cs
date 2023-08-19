@@ -9,7 +9,6 @@ namespace NPCs
     {
         float waitTimeScale = 5f;
         float waitTime = 0f;
-        bool catched = false;
         public Grandma(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
         }

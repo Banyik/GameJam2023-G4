@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb81b258f532b4141a36a676290be02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleSystem: {fileID: 1260822195}
+  particleSys: {fileID: 0}
 --- !u!1 &805180942
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,6 +9058,7 @@ GameObject:
   - component: {fileID: 1802504561}
   - component: {fileID: 1802504562}
   - component: {fileID: 1802504563}
+  - component: {fileID: 1802504564}
   m_Layer: 0
   m_Name: ScriptHandler
   m_TagString: Untagged
@@ -9222,6 +9223,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94d40c76c80febb4e975269e5b196589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1802504564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802504556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64d2d354019a1c43a6e757a219efb2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1984607349

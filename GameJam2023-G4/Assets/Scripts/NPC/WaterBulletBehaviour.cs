@@ -6,11 +6,11 @@ public class WaterBulletBehaviour : MonoBehaviour
 {
     bool isShooting = false;
     Vector3 direction;
-    Player.Behaviour playerBehaviour;
-    public GameObject particleSystem;
+    Player.PlayerNPCHandler handler;
+    public GameObject particleSys;
     public void Shoot(Vector3 from, Vector3 to)
     {
-        playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
+        handler = GameObject.Find("ScriptHandler").GetComponent<Player.PlayerNPCHandler>();
         direction = CalculateDirection(from, to);
         isShooting = true;
     }
@@ -24,22 +24,18 @@ public class WaterBulletBehaviour : MonoBehaviour
     {
         if (isShooting)
         {
-            particleSystem.transform.up = transform.position - direction;
+            particleSys.transform.up = transform.position - direction;
 
             transform.position += direction * 10 * Time.deltaTime;
-            if(Vector3.Distance(gameObject.transform.position, playerBehaviour.gameObject.transform.position) < 0.3f)
+            if(Vector3.Distance(gameObject.transform.position, handler.GetPlayerPosition()) < 0.3f)
             {
-                if (!playerBehaviour.avoidStun)
+                if (!handler.IsPlayerAvoidingStun(true))
                 {
-                    playerBehaviour.ChangeState(Player.State.StunnedStart);
-                }
-                else
-                {
-                    playerBehaviour.avoidStun = false;
+                    handler.StunPlayer();
                 }
                 Destroy(gameObject);
             }
-            else if(Vector3.Distance(gameObject.transform.position, playerBehaviour.gameObject.transform.position) > 20f)
+            else if(Vector3.Distance(gameObject.transform.position, handler.GetPlayerPosition()) > 20f)
             {
                 Destroy(gameObject);
             }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Maps;
+using Player;
 
 namespace NPCs
 {
@@ -14,8 +15,11 @@ namespace NPCs
         float avoidCoolDown = 0f;
 
         bool saw;
-        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, walkableGrid, isMoving, coolDown)
+        PlayerNPCHandler handler;
+
+        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
+            this.handler = handler;
         }
 
         public override void CalculateCoolDown()
@@ -66,8 +70,7 @@ namespace NPCs
                 IsMoving = false;
                 animator.SetBool("Saw", true);
                 animator.SetBool("IsMoving", false);
-                Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
-                if (playerBehaviour.avoidStun)
+                if (handler.IsPlayerAvoidingStun(false))
                 {
                     CoolDown = true;
                 }

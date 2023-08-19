@@ -32,6 +32,24 @@ namespace Player
             handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
             StartCoroutine(IncreaseThirst());
         }
+        void FixedUpdate()
+        {
+            CheckState();
+            CheckForTowel();
+            if (IsPlayerAbleToMove())
+            {
+                CheckMovement();
+            }
+        }
+        private void Update()
+        {
+            if (!IsGameOver())
+            {
+                CheckAction();
+                CheckAnimationSwitch();
+            }
+
+        }
 
         void SetDifficulty(bool isBigTowel)
         {
@@ -66,24 +84,7 @@ namespace Player
                 yield return new WaitForSeconds(1);
             }
         }
-        void FixedUpdate()
-        {
-            CheckState();
-            CheckForTowel();
-            if(IsPlayerAbleToMove())
-            {
-                CheckMovement();
-            }
-        }
-        private void Update()
-        {
-            if(!player.IsState(State.Caught) && player.Thirst > 0)
-            {
-                CheckAction();
-                CheckAnimationSwitch();
-            }
-            
-        }
+        
 
         bool IsPlayerAbleToMove()
         {
@@ -92,41 +93,35 @@ namespace Player
 
         bool IsStealingAnimationPlaying()
         {
-            return animator.GetCurrentAnimatorStateInfo(0).IsName("Stealing") ||
-                    animator.GetCurrentAnimatorStateInfo(0).IsName("StealingTop");
+            return IsAnimationPlaying("Stealing") || IsAnimationPlaying("StealingTop");
         }
 
-        void CheckAnimationSwitch()
+        public bool IsGameOver()
         {
-            if (player.IsState(State.StealingStart))
-            {
-                if (IsStealingAnimationPlaying())
-                {
-                    lootBarBehaviour.SetAnimationSpeed(stealTime);
-                    ChangeState(State.Stealing);
-                    lootEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
-                    lootEffect.Play();
-                }
-            }
-            if (player.IsState(State.StunnedStart))
-            {
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("Stunned"))
-                {
-                    ChangeState(State.Stunned);
-                }
-            }
+            return player.IsState(State.Caught) || player.Thirst <= 0;
         }
+
+        public bool IsPlayerStealing()
+        {
+            return player.IsState(State.StealingStart) || player.IsState(State.Stealing);
+        }
+
+        bool HasUnlootedTowelNearby()
+        {
+            return closestTowel != null && !closestTowel.IsLooted;
+        }
+        
         void CheckAction()
         {
-            if (Input.GetButtonDown("Use") && player.IsState(State.Idle) && (closestTowel != null && !closestTowel.IsLooted))
+            if (Input.GetButtonDown("Use") && player.IsState(State.Idle) && HasUnlootedTowelNearby())
             {
                 ChangeState(State.StealingStart);
             }
-            if (Input.GetButtonUp("Use") && (player.IsState(State.StealingStart) || player.IsState(State.Stealing)))
+            if (Input.GetButtonUp("Use") && IsPlayerStealing())
             {
                 lootBarBehaviour.StopAnimation();
                 ChangeState(State.Idle);
-                animator.SetBool("IsStealing", false);
+                DisableAnimationBool("IsStealing");
                 stealTimeCount = 0;
             }
             if (Input.GetButtonDown("Slot_1"))
@@ -141,38 +136,6 @@ namespace Player
             {
                 UseItem(2);
             }
-        }
-
-        void UseItem(int index)
-        {
-            if(player.Items[index] != null)
-            {
-                switch (player.Items[index].Type)
-                {
-                    case ItemType.Corn:
-                        fasterLoot = true;
-                        break;
-                    case ItemType.IceCream:
-                        player.Speed = 4;
-                        break;
-                    case ItemType.Langos:
-                        avoidStun = true;
-                        Debug.Log(avoidStun);
-                        break;
-                    default:
-                        break;
-                }
-                if (--player.Items[index].Amount == 0)
-                {
-                    player.Items[index] = null;
-                }
-                
-            }
-        }
-
-        void StopMovement()
-        {
-            rb.velocity = Vector2.zero;
         }
 
         void CheckMovement()
@@ -195,6 +158,10 @@ namespace Player
                 ChangeState(State.Idle);
             }
         }
+        void StopMovement()
+        {
+            rb.velocity = Vector2.zero;
+        }
 
         public void ChangeState(State state)
         {
@@ -205,15 +172,82 @@ namespace Player
             }
         }
 
+        void CheckState()
+        {
+            switch (player.State)
+            {
+                case State.Idle:
+                    StartIdle();
+                    break;
+                case State.Run:
+                    StartRun();
+                    break;
+                case State.StealingStart:
+                    StartStealing();
+                    break;
+                case State.Stealing:
+                    StealingCountDown();
+                    break;
+                case State.Stunned:
+                    StunnedCountDown();
+                    break;
+                case State.StunnedStart:
+                    StartStun();
+                    break;
+                case State.StunnedEnd:
+                    ChangeState(State.Idle);
+                    break;
+                case State.Caught:
+                    Caught();
+                    break;
+                default:
+                    break;
+            }
+        }
+        void StartIdle()
+        {
+            DisableAnimationBool("IsMoving");
+        }
+        void StartRun()
+        {
+            EnableAnimationBool("IsMoving");
+            lootEffect.Stop();
+        }
+        void StartStealing()
+        {
+            SetDifficulty(closestTowel.IsBigTowel);
+            DisableAnimationBool("IsMoving");
+            EnableAnimationBool("IsStealing");
+        }
+        void StartStun()
+        {
+            lootBarBehaviour.StopAnimation();
+            StopMovement();
+            stealTimeCount = 0;
+            lootEffect.Stop();
+            DisableAnimationBool("IsMoving");
+            DisableAnimationBool("IsStealing");
+            EnableAnimationBool("IsStunned");
+            player.Speed = 2;
+        }
+        void Caught()
+        {
+            DisableAnimationBool("Default");
+            lootBarBehaviour.StopAnimation();
+            StopMovement();
+            lootEffect.Stop();
+            EnableAnimationBool("Caught");
+            handler.GameOver(player.Money);
+        }
         public void ResetState()
         {
             reset = true;
             ChangeState(State.Idle);
             reset = false;
-            animator.SetBool("Default", true);
-            animator.SetBool("Caught", false);
-            animator.SetBool("IsMoving", false);
-            animator.SetBool("IsStealing", false);
+            EnableAnimationBool("Default");
+            DisableAnimationBool("Caught");
+            DisableAnimationBool("IsMoving");
+            DisableAnimationBool("IsStealing");
             player.Thirst = player.MaxThirst;
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             thirstBarBehaviour.Animate(player.Thirst);
@@ -224,54 +258,6 @@ namespace Player
             StopMovement();
         }
 
-        void CheckState()
-        {
-            switch (player.State)
-            {
-                case State.Idle:
-                    animator.SetBool("IsMoving", false);
-                    break;
-                case State.Run:
-                    animator.SetBool("IsMoving", true);
-                    lootEffect.Stop();
-                    break;
-                case State.StealingStart:
-                    SetDifficulty(closestTowel.IsBigTowel);
-                    animator.SetBool("IsMoving", false);
-                    animator.SetBool("IsStealing", true);
-                    break;
-                case State.Stealing:
-                    StealingCountDown();
-                    break;
-                case State.Stunned:
-                    StunnedCountDown();
-                    break;
-                case State.StunnedStart:
-                    lootBarBehaviour.StopAnimation();
-                    StopMovement();
-                    stealTimeCount = 0;
-                    lootEffect.Stop();
-                    animator.SetBool("IsMoving", false);
-                    animator.SetBool("IsStealing", false);
-                    animator.SetBool("IsStunned", true);
-                    player.Speed = 2;
-                    break;
-                case State.StunnedEnd:
-                    ChangeState(State.Idle);
-                    break;
-                case State.Caught:
-                    animator.SetBool("Default", false);
-                    lootBarBehaviour.StopAnimation();
-                    StopMovement();
-                    lootEffect.Stop();
-                    animator.SetBool("Caught", true);
-                    handler.GameOver(player.Money);
-                    break;
-                default:
-                    break;
-            }
-        }
-
         void StunnedCountDown()
         {
             if (stunTimeCount <= stunTime)
@@ -280,7 +266,7 @@ namespace Player
             }
             else
             {
-                animator.SetBool("IsStunned", false);
+                DisableAnimationBool("IsStunned");
                 stunTimeCount = 0;
                 player.State = State.StunnedEnd;
             }
@@ -305,7 +291,7 @@ namespace Player
                 closestTowel.LootTowel();
                 stealTimeCount = 0;
                 player.State = State.Idle;
-                animator.SetBool("IsStealing", false);
+                DisableAnimationBool("IsStealing");
                 GetLoot();
             }
         }
@@ -334,6 +320,68 @@ namespace Player
                 }
             }
             Debug.Log($"Thirst: {player.Thirst}\nMoney: {player.Money}");
+        }
+
+        void UseItem(int index)
+        {
+            if (player.Items[index] != null)
+            {
+                switch (player.Items[index].Type)
+                {
+                    case ItemType.Corn:
+                        fasterLoot = true;
+                        break;
+                    case ItemType.IceCream:
+                        player.Speed = 4;
+                        break;
+                    case ItemType.Langos:
+                        avoidStun = true;
+                        Debug.Log(avoidStun);
+                        break;
+                    default:
+                        break;
+                }
+                if (--player.Items[index].Amount == 0)
+                {
+                    player.Items[index] = null;
+                }
+
+            }
+        }
+
+        void CheckAnimationSwitch()
+        {
+            if (player.IsState(State.StealingStart))
+            {
+                if (IsStealingAnimationPlaying())
+                {
+                    lootBarBehaviour.SetAnimationSpeed(stealTime);
+                    ChangeState(State.Stealing);
+                    lootEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                    lootEffect.Play();
+                }
+            }
+            if (player.IsState(State.StunnedStart))
+            {
+                if (IsAnimationPlaying("Stunned"))
+                {
+                    ChangeState(State.Stunned);
+                }
+            }
+        }
+
+        bool IsAnimationPlaying(string name)
+        {
+            return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
+        }
+
+        void EnableAnimationBool(string name)
+        {
+            animator.SetBool(name, true);
+        }
+        void DisableAnimationBool(string name)
+        {
+            animator.SetBool(name, false);
         }
 
         void CheckForTowel()

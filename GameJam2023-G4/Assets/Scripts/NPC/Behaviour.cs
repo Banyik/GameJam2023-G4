@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Maps;
+using Player;
 
 namespace NPCs
 {
@@ -25,15 +26,17 @@ namespace NPCs
         public Sprite lifeGuardHeadSprite;
         public Sprite kidHeadSprite;
         public GameObject waterBullet;
+        PlayerNPCHandler playerNPCHandler;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
             walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
             walkableGrid.GetCoordinates();
+            playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, walkableGrid, true, false);
+                    npc = new Kid(5, State.Calm, walkableGrid, true, false, playerNPCHandler);
                     animator.runtimeAnimatorController = kidAnimator;
                     gameObject.layer = LayerMask.NameToLayer("Kid");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
@@ -49,7 +52,7 @@ namespace NPCs
                     spriteBehaviour.gameObject.SetActive(false);
                     break;
                 case Type.LifeGuard:
-                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false);
+                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false, playerNPCHandler);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
@@ -71,24 +74,23 @@ namespace NPCs
 
         void CheckAnimationSwitch()
         {
-            Player.Behaviour playerBehaviour = GameObject.Find("Player").GetComponent<Player.Behaviour>();
             switch (type)
             {
                 case Type.Kid:
                     if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") &&
-                        !playerBehaviour.player.IsState(Player.State.Caught))
+                        !playerNPCHandler.IsGameOver())
                     {
-                        if (playerBehaviour.gameObject.transform.position.x < gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == false)
+                        if (playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = true;
                         }
-                        else if (playerBehaviour.gameObject.transform.position.x > gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == true)
+                        else if (playerNPCHandler.IsPlayerOnRightSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == true)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = false;
                         }
                         var bullet = Instantiate(waterBullet, transform.position, new Quaternion(0, 0, 0, 0), null);
                         bullet.SetActive(true);
-                        bullet.GetComponent<WaterBulletBehaviour>().Shoot(transform.position, playerBehaviour.gameObject.transform.position);
+                        bullet.GetComponent<WaterBulletBehaviour>().Shoot(transform.position, playerNPCHandler.GetPlayerPosition());
                         animator.SetBool("Saw", false);
                         npc.ChangeState(State.Stun);
                     }
@@ -96,18 +98,18 @@ namespace NPCs
                 case Type.Grandma:
                     if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Looking"))
                     {
-                        if (playerBehaviour.player.IsState(Player.State.Stealing) || playerBehaviour.player.IsState(Player.State.StealingStart))
+                        if (playerNPCHandler.IsPlayerStealing())
                         {
                             animator.SetBool("Saw", true);
-                            if(playerBehaviour.gameObject.transform.position.x < gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == false)
+                            if(playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                             {
                                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
                             }
-                            else if(playerBehaviour.gameObject.transform.position.x > gameObject.transform.position.x && gameObject.GetComponent<SpriteRenderer>().flipX == true)
+                            else if(playerNPCHandler.IsPlayerOnRightSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == true)
                             {
                                 gameObject.GetComponent<SpriteRenderer>().flipX = false;
                             }
-                            playerBehaviour.ChangeState(Player.State.Caught);
+                            playerNPCHandler.CatchPlayer();
                         }
                     }
                     else if(npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("LookingEnd"))
