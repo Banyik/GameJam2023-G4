@@ -11,7 +11,7 @@ namespace Items
         Corn,
         IceCream,
         Langos,
-        StrawBerrySyrup
+        StrawberrySyrup
     }
 }
 
