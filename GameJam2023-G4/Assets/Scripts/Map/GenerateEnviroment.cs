@@ -12,14 +12,17 @@ public class GenerateEnviroment : MonoBehaviour
     public Tilemap balatonTiles;
     public Tilemap festivalTiles;
 
+    int startX = -7;
+    int amount = 3;
+
     public void GenerateElements(int mapType)
     {
         ClearElements(mapType);
         Tilemap tiles = GetTilemap(mapType);
         Tile[] tileSet = GetTileSet(mapType);
-        for (int i = 0; i <= 3; i++)
+        for (int i = 0; i <= amount; i++)
         {
-            tiles.SetTile(new Vector3Int(-7 + i * 4, 0, 0), tileSet[Random.Range(0, tileSet.Length)]);
+            tiles.SetTile(new Vector3Int(startX + i * 4, 0, 0), tileSet[Random.Range(0, tileSet.Length)]);
         }
     }
 
@@ -55,11 +58,17 @@ public class GenerateEnviroment : MonoBehaviour
         switch (mapType)
         {
             case 0:
+                startX = -7;
+                amount = 3;
                 return balatonElements;
             case 1:
+                startX = -4;
+                amount = 2;
                 GenerateMud();
                 return festivalElements;
             default:
+                startX = -7;
+                amount = 3;
                 return balatonElements;
         }
     }
