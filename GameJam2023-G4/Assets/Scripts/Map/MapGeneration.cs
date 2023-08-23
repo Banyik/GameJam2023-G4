@@ -18,6 +18,7 @@ namespace Maps
         int index = -1;
         List<int> maps = new List<int>();
         PlayerMapHandler playerMapHandler;
+        GenerateEnviroment generateEnviroment;
 
         public GameObject[] mapObjects;
         bool nextMapType = false;
@@ -25,6 +26,7 @@ namespace Maps
         private void Start()
         {
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
+            generateEnviroment = gameObject.GetComponent<GenerateEnviroment>();
             difficultyScore = new int[3] { 500, 1320, 2500 };
             minScore = difficultyScore[currentMapType];
             SetMapDifficulty();
@@ -75,6 +77,7 @@ namespace Maps
                 GetNextMap();
             }
             index++;
+            generateEnviroment.GenerateElements(currentMapType);
             playerMapHandler.SpawnTowels(index + 1);
         }
         public void GetNextMap()
