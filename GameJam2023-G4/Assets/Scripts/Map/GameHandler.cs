@@ -11,6 +11,11 @@ public class GameHandler : MonoBehaviour
     bool isActivated = false;
     public GameObject ShopUI;
     GameObject UI;
+
+    bool isPaused = false;
+
+    public bool IsPaused { get => isPaused; set => isPaused = value; }
+
     public void GameOver(float moneyAmount)
     {
         if (!isActivated)

@@ -13,11 +13,13 @@ namespace Player
         MapGeneration mapGeneration;
         Grid grid;
         Behaviour playerBehaviour;
+        GameObject PauseMenu;
 
         private void Start()
         {
             mapGeneration = gameObject.GetComponent<MapGeneration>();
             grid = GameObject.Find("Grid").GetComponent<Grid>();
+            PauseMenu = GameObject.Find("Canvas").gameObject.transform.Find("Pause").gameObject;
         }
 
         void GetTileSpawner()
@@ -59,6 +61,19 @@ namespace Player
         {
             GetGameHandler();
             gameHandler.GameOver(money);
+        }
+
+        public bool IsPaused()
+        {
+            GetGameHandler();
+            return gameHandler.IsPaused;
+        }
+
+        public void Pause()
+        {
+            GetGameHandler();
+            gameHandler.IsPaused = true;
+            PauseMenu.SetActive(true);
         }
 
         public Towel GetTowel(Vector2 position)

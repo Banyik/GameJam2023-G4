@@ -34,16 +34,19 @@ namespace Player
         }
         void FixedUpdate()
         {
-            CheckState();
-            CheckForTowel();
-            if (IsPlayerAbleToMove())
+            if (!handler.IsPaused())
             {
-                CheckMovement();
+                CheckState();
+                CheckForTowel();
+                if (IsPlayerAbleToMove())
+                {
+                    CheckMovement();
+                }
             }
         }
         private void Update()
         {
-            if (!IsGameOver())
+            if (!IsGameOver() && !handler.IsPaused())
             {
                 CheckAction();
                 CheckAnimationSwitch();
@@ -73,13 +76,16 @@ namespace Player
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             while (true)
             {
-                player.Thirst -= 0.05f;
-                thirstBarBehaviour.Animate(player.Thirst);
-                if(player.Thirst <= 0)
+                if (!handler.IsPaused())
                 {
-                    ChangeState(State.Idle);
-                    StopMovement();
-                    handler.TimesUp(player.Money);
+                    player.Thirst -= 0.05f;
+                    thirstBarBehaviour.Animate(player.Thirst);
+                    if (player.Thirst <= 0)
+                    {
+                        ChangeState(State.Idle);
+                        StopMovement();
+                        handler.TimesUp(player.Money);
+                    }
                 }
                 yield return new WaitForSeconds(1);
             }
@@ -123,6 +129,10 @@ namespace Player
                 ChangeState(State.Idle);
                 DisableAnimationBool("IsStealing");
                 stealTimeCount = 0;
+            }
+            if (Input.GetButtonDown("Cancel"))
+            {
+                handler.Pause();
             }
             if (Input.GetButtonDown("Slot_1"))
             {

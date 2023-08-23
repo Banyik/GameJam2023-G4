@@ -107,7 +107,7 @@ namespace Items
             int index = -1;
             for (int i = 0; i < playerBehaviour.player.Items.Length; i++)
             {
-                if(playerBehaviour.player.Items[i].Type == type)
+                if(playerBehaviour.player.Items[i] != null && playerBehaviour.player.Items[i].Type == type)
                 {
                     return i;
                 }

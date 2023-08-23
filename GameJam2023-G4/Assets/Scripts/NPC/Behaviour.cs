@@ -27,12 +27,14 @@ namespace NPCs
         public Sprite kidHeadSprite;
         public GameObject waterBullet;
         PlayerNPCHandler playerNPCHandler;
+        GameHandler gameHandler;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
             walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
             walkableGrid.GetCoordinates();
             playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
+            gameHandler = GameObject.Find("ScriptHandler").GetComponent<GameHandler>();
             switch (type)
             {
                 case Type.Kid:
@@ -68,8 +70,11 @@ namespace NPCs
 
         private void Update()
         {
-            CheckAnimationSwitch();
-            CheckStates();
+            if (!gameHandler.IsPaused)
+            {
+                CheckAnimationSwitch();
+                CheckStates();
+            }
         }
 
         void CheckAnimationSwitch()
@@ -168,11 +173,11 @@ namespace NPCs
 
         void FixedUpdate()
         {
-            if (npc.IsMoving)
+            if (npc.IsMoving && !gameHandler.IsPaused)
             {
                 Move();
             }
-            if (npc.CoolDown)
+            if (npc.CoolDown && !gameHandler.IsPaused)
             {
                 npc.CalculateCoolDown();
             }
