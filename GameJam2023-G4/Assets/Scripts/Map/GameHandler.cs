@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Maps;
+using UnityEngine.SceneManagement;
 
 public class GameHandler : MonoBehaviour
 {
@@ -40,6 +41,11 @@ public class GameHandler : MonoBehaviour
             UI = ShopUI;
             Invoke(nameof(ShowUI), 1f);
         }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void ResetIsActivatedBool()
