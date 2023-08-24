@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450735}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
         m_MethodName: set_IsPaused
         m_Mode: 6
@@ -1359,7 +1359,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: BuyItem
         m_Mode: 1
@@ -1973,7 +1973,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450735}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
@@ -2450,7 +2450,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450738}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Maps.WalkableGrid, Assembly-CSharp
         m_MethodName: ResetMap
         m_Mode: 1
@@ -2486,7 +2486,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450735}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
         m_MethodName: ResetIsActivatedBool
         m_Mode: 1
@@ -2735,7 +2735,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetItem
         m_Mode: 5
@@ -2747,7 +2747,7 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetPrice
         m_Mode: 5
@@ -2759,7 +2759,7 @@ MonoBehaviour:
           m_StringArgument: 30
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: CheckIfTransactionIsPossible
         m_Mode: 1
@@ -4854,7 +4854,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetItem
         m_Mode: 5
@@ -4866,7 +4866,7 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetPrice
         m_Mode: 5
@@ -4878,7 +4878,7 @@ MonoBehaviour:
           m_StringArgument: 30
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: CheckIfTransactionIsPossible
         m_Mode: 1
@@ -5698,7 +5698,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetItem
         m_Mode: 5
@@ -5710,7 +5710,7 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetPrice
         m_Mode: 5
@@ -5722,7 +5722,7 @@ MonoBehaviour:
           m_StringArgument: 30
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: CheckIfTransactionIsPossible
         m_Mode: 1
@@ -5801,15 +5801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1502450744}
-  - component: {fileID: 1502450739}
-  - component: {fileID: 1502450738}
-  - component: {fileID: 1502450736}
   - component: {fileID: 1502450735}
-  - component: {fileID: 1502450740}
-  - component: {fileID: 1502450743}
-  - component: {fileID: 1502450742}
-  - component: {fileID: 1502450737}
-  - component: {fileID: 1502450741}
   m_Layer: 0
   m_Name: ScriptHandler
   m_TagString: Untagged
@@ -5831,197 +5823,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   buyScore: 0
-  mapGeneration: {fileID: 1502450736}
+  mapGeneration: {fileID: 0}
   ShopUI: {fileID: 689912969}
---- !u!114 &1502450736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a51c7d054ec6c4dba21422138a1298, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xOffset: 10
-  yOffset: 10
-  mapObjects:
-  - {fileID: 1770191208}
-  - {fileID: 1770191208}
-  - {fileID: 2060154184}
---- !u!114 &1502450737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f04c3ad8a4185e41bb2c87bfeaf0797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerBehaviour: {fileID: 0}
-  handler: {fileID: 1502450735}
-  walkableGrid: {fileID: 1502450738}
-  buyCorn: {fileID: 1488273459}
-  buyIceCream: {fileID: 1356645170}
-  buyLangos: {fileID: 678588124}
-  buyStrawberrySyrup: {fileID: 1509783401}
-  buyButton: {fileID: 262235281}
---- !u!114 &1502450738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e119240d32cd3e49bec8fe004c5a8b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapGeneration: {fileID: 1502450736}
-  tileSpawn: {fileID: 1502450739}
---- !u!114 &1502450739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae9d50f7b2847174e9591d665431daba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tilemap: {fileID: 1407852167}
-  spawnNPC: {fileID: 1502450740}
-  tile: {fileID: 11400000, guid: 216ae15989d059c4cb69125084245d3e, type: 2}
-  horizontalTowels:
-  - {fileID: 11400000, guid: dea55e6b68b7ac04cadc80ac0393f33d, type: 2}
-  - {fileID: 11400000, guid: 101e1cc3df644f8459a358faa6c7cfe6, type: 2}
-  - {fileID: 11400000, guid: 95fd62d87fe9bd042bb71bd050f29135, type: 2}
-  - {fileID: 11400000, guid: b1255ee24701b7f49b255d5b48c1a958, type: 2}
-  - {fileID: 11400000, guid: 083be279877301946802b7be770019e5, type: 2}
-  - {fileID: 11400000, guid: 824fec247ac1fc34bb859fb83139ffcf, type: 2}
-  - {fileID: 11400000, guid: a9764fb59dab26c4687aa13888c25dd2, type: 2}
-  - {fileID: 11400000, guid: b2453b151abdeef4f8920fca6de4b5f5, type: 2}
-  - {fileID: 11400000, guid: 718b001db5b0030438c260faecfa8845, type: 2}
-  - {fileID: 11400000, guid: ff1cc0f334596f94781a4ec5eab0770a, type: 2}
-  - {fileID: 11400000, guid: 1efeb3a1f060184499de2f1d9fee9ca0, type: 2}
-  - {fileID: 11400000, guid: d7062251003a9f0489df772691517f4c, type: 2}
-  - {fileID: 11400000, guid: 8a77e0fafc92d0545ba7cd01409d2256, type: 2}
-  - {fileID: 11400000, guid: 03aa0643340303c4eaa89cd4e30ec21f, type: 2}
-  - {fileID: 11400000, guid: 4ac22f21826165448af85b264980bfcb, type: 2}
-  lootedHorizontalTowels:
-  - {fileID: 11400000, guid: 8b16fd5643a039c4eb1036e924baf296, type: 2}
-  - {fileID: 11400000, guid: 4a38bbf616fd2f149be7c92e9176aa93, type: 2}
-  - {fileID: 11400000, guid: 32c647240fdd4904f902e6eb68e37f36, type: 2}
-  - {fileID: 11400000, guid: 2e298d97d0a9c524d8e39d4961defbba, type: 2}
-  - {fileID: 11400000, guid: 2470cc39cfa2dce4bb5f1318ed5b1c2d, type: 2}
-  - {fileID: 11400000, guid: ab5803a4737d5f64b8a26e62fe4d83fc, type: 2}
-  - {fileID: 11400000, guid: e43e3a51a211af54d9128954c2552d25, type: 2}
-  - {fileID: 11400000, guid: 9951f651a3b7c574ca431ead4d2ae5aa, type: 2}
-  - {fileID: 11400000, guid: e9e56ea590cdc1b49a23875a9fbcff24, type: 2}
-  - {fileID: 11400000, guid: 7517fa7dbaa366d46a5fd2ae20fa4d82, type: 2}
-  - {fileID: 11400000, guid: e029efefe0f123443a5fbc8a5f711825, type: 2}
-  - {fileID: 11400000, guid: 26543e1752352384880cf87dc1e21f68, type: 2}
-  - {fileID: 11400000, guid: ceb2fd0562d65b943901b85e3e972054, type: 2}
-  - {fileID: 11400000, guid: 52eca5b3ea78a9c448cc6e8ca322a25a, type: 2}
-  - {fileID: 11400000, guid: 57dc3793b5ccfc54481042f95d199442, type: 2}
-  verticalTowels:
-  - {fileID: 11400000, guid: af110ce0945010c4ea8522ba9f4bc21c, type: 2}
-  - {fileID: 11400000, guid: 16e062dddffde764bb2f4f08130a1944, type: 2}
-  - {fileID: 11400000, guid: 4cb5bfcec7360284391aeed448001d18, type: 2}
-  - {fileID: 11400000, guid: 8fd5f746159b26d4084c28f6e9786f0f, type: 2}
-  - {fileID: 11400000, guid: 4556f1c6a98151f4db54b36afed5ba2e, type: 2}
-  - {fileID: 11400000, guid: 7b6138812b43a8145986732c36b05470, type: 2}
-  - {fileID: 11400000, guid: 32297f72e2d9c9644b58f1fb73bd98cb, type: 2}
-  - {fileID: 11400000, guid: 43af654b6c8c12e41aab56d2062a9cdd, type: 2}
-  - {fileID: 11400000, guid: 95038b515fd584c488ec4d08656b21c3, type: 2}
-  - {fileID: 11400000, guid: 03cf03c3014c3324a840230698a5f2ab, type: 2}
-  lootedVerticalTowels:
-  - {fileID: 11400000, guid: e42e0aac40068d940aef032e55ac4ab4, type: 2}
-  - {fileID: 11400000, guid: 3141d4bb74a7181418d5e2ff85633cc9, type: 2}
-  - {fileID: 11400000, guid: 6564b290889754f428e87baa5408f274, type: 2}
-  - {fileID: 11400000, guid: 8f73a31b27481b946a50b339f0fd8bc9, type: 2}
-  - {fileID: 11400000, guid: bfd78885bdac4a84089c85d7fba48f6a, type: 2}
-  - {fileID: 11400000, guid: f083fad1637a97a40b12a3b6c847562c, type: 2}
-  - {fileID: 11400000, guid: a2cb335b76ae39444abb04a8728b502e, type: 2}
-  - {fileID: 11400000, guid: b19e23166d0d41147ac68ac7a8484793, type: 2}
-  - {fileID: 11400000, guid: 7f34a371088c2314a995c4e4df6883e2, type: 2}
-  - {fileID: 11400000, guid: d7ad9e4f86b71014cbe07b8432275117, type: 2}
-  towelCount: 3
-  walkableGrid: {fileID: 1502450738}
-  mapGeneration: {fileID: 1502450736}
---- !u!114 &1502450740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 711f4b591ab5b84409197a35e0730726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NPC: {fileID: 0}
---- !u!114 &1502450741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f9ec093af4e64140be4d4462034a125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balatonElements:
-  - {fileID: 11400000, guid: 891c89ea977c5344b83c3f18bfcc8cbd, type: 2}
-  - {fileID: 11400000, guid: 874f5b786ce6b4c4087aa80a024098c6, type: 2}
-  - {fileID: 11400000, guid: 9a7300971c542114d8ae9ba5c1c71b93, type: 2}
-  festivalElements:
-  - {fileID: 11400000, guid: 88570ec401e89974fb2f7eeed3f94b97, type: 2}
-  - {fileID: 11400000, guid: a19adc6be41c45a479ac9454267c646d, type: 2}
-  mud:
-  - {fileID: 11400000, guid: 4eb1236686784fe408aa86a82db7ea4c, type: 2}
-  - {fileID: 11400000, guid: d6903508baec382449b062d2b7648ab7, type: 2}
-  - {fileID: 11400000, guid: 52f7673b6add86c428be864b2c60095e, type: 2}
-  - {fileID: 11400000, guid: 4b6e4b013a8043b4a8308c3d6ac1b3d7, type: 2}
-  - {fileID: 11400000, guid: 4067342c7a0605040bc814033313682e, type: 2}
-  - {fileID: 11400000, guid: 697254533a2fc4c48a1742b310d56cd7, type: 2}
-  balatonTiles: {fileID: 1540273503}
-  festivalTiles: {fileID: 1326867571}
---- !u!114 &1502450742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64d2d354019a1c43a6e757a219efb2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1502450743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502450734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94d40c76c80febb4e975269e5b196589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1502450744
 Transform:
   m_ObjectHideFlags: 0
@@ -6034,7 +5837,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506255088
 GameObject:
@@ -6206,7 +6009,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetItem
         m_Mode: 5
@@ -6218,7 +6021,7 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: SetPrice
         m_Mode: 5
@@ -6230,7 +6033,7 @@ MonoBehaviour:
           m_StringArgument: 30
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1502450737}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Items.Shop, Assembly-CSharp
         m_MethodName: CheckIfTransactionIsPossible
         m_Mode: 1
@@ -6373,7 +6176,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 1.3333334, y: 2.9708335, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -7079,15 +6882,67 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -7, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -4, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 69
     m_Data: {fileID: 11400000, guid: c7b35750cc16fa741a1f4a659167fbba, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 9a7300971c542114d8ae9ba5c1c71b93, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 874f5b786ce6b4c4087aa80a024098c6, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 891c89ea977c5344b83c3f18bfcc8cbd, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 69
     m_Data: {fileID: 5127708092361075453, guid: 3cbfeeeaf1116a24687a9928fa6d1a98, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -482882325734855847, guid: 7c3ca0814a47c89458b557aa2977bc83, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: -8758689086575505621, guid: 7c3ca0814a47c89458b557aa2977bc83, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3855026156867490123, guid: 7c3ca0814a47c89458b557aa2977bc83, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 69
+  - m_RefCount: 73
     m_Data:
       e00: 1
       e01: 0
@@ -7106,13 +6961,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 69
+  - m_RefCount: 73
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -8, y: -5, z: 0}
-  m_Size: {x: 17, y: 5, z: 1}
+  m_Size: {x: 17, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -8374,7 +8229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040725917
 GameObject:
