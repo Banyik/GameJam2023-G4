@@ -113,7 +113,10 @@ namespace Items
                 }
                 else if(playerBehaviour.player.Items[i] == null)
                 {
-                    index = i;
+                    if(index == -1)
+                    {
+                        index = i;
+                    }
                 }
             }
             return index;

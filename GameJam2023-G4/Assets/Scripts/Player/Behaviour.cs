@@ -26,10 +26,12 @@ namespace Player
         public bool avoidStun = false;
         bool fasterLoot = false;
         bool reset = false;
+        PowerUpParticleHandler particleHandler;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
             handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
+            particleHandler = gameObject.GetComponent<PowerUpParticleHandler>();
             StartCoroutine(IncreaseThirst());
         }
         void FixedUpdate()
@@ -339,12 +341,15 @@ namespace Player
                 switch (player.Items[index].Type)
                 {
                     case ItemType.Corn:
+                        particleHandler.PlayParticle(0);
                         fasterLoot = true;
                         break;
                     case ItemType.IceCream:
+                        particleHandler.PlayParticle(1);
                         player.Speed = 4;
                         break;
                     case ItemType.Langos:
+                        particleHandler.PlayParticle(2);
                         avoidStun = true;
                         Debug.Log(avoidStun);
                         break;

@@ -52,7 +52,6 @@ namespace Maps
             {
                 minScore = difficultyScore[currentMapType];
                 nextMapType = true;
-                //increase minScore
                 return score - minScore;
             }
             return 0;
