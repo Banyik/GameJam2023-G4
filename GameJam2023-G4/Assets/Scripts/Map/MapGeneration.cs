@@ -45,9 +45,14 @@ namespace Maps
             GetNextMap();
         }
 
+        public bool HasEnoughScore(int score)
+        {
+            return score >= minScore;
+        }
+
         public int CheckScore(int score)
         {
-            index = -1;
+            ResetMapTypeIndex();
             if (score >= minScore)
             {
                 minScore = difficultyScore[currentMapType];
@@ -65,6 +70,11 @@ namespace Maps
         public int GetMap()
         {
             return currentMapType;
+        }
+
+        public void ResetMapTypeIndex()
+        {
+            index = -1;
         }
 
         public void SetMapDifficulty()

@@ -11,6 +11,8 @@ public class GameHandler : MonoBehaviour
     public MapGeneration mapGeneration;
     bool isActivated = false;
     public GameObject ShopUI;
+    public GameObject GameOverUI;
+    public GameObject NoMoneyUI;
     GameObject UI;
 
     bool isPaused = false;
@@ -22,8 +24,7 @@ public class GameHandler : MonoBehaviour
         if (!isActivated)
         {
             isActivated = true;
-            CalculateScore(moneyAmount);
-            UI = ShopUI;
+            UI = GameOverUI;
             Invoke(nameof(ShowUI), 1f);
         }
         //Scoreboard UI
@@ -34,18 +35,27 @@ public class GameHandler : MonoBehaviour
     }
     public void TimesUp(float moneyAmount)
     {
+        GetScore(moneyAmount);
         if (!isActivated)
         {
             isActivated = true;
-            CalculateScore(moneyAmount);
-            UI = ShopUI;
+            if (mapGeneration.HasEnoughScore(score))
+            {
+                CalculateScore(moneyAmount);
+                UI = ShopUI;
+            }
+            else
+            {
+                UI = NoMoneyUI;
+            }
+            score = 0;
             Invoke(nameof(ShowUI), 1f);
         }
     }
 
     public void Restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void ResetIsActivatedBool()
@@ -53,9 +63,13 @@ public class GameHandler : MonoBehaviour
         isActivated = false;
     }
 
-    public void CalculateScore(float moneyAmount)
+    public void GetScore(float moneyAmount)
     {
         score = (int)moneyAmount;
+    }
+
+    public void CalculateScore(float moneyAmount)
+    {
         buyScore += mapGeneration.CheckScore((int)moneyAmount);
     }
 }
