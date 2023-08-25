@@ -27,11 +27,14 @@ namespace Player
         bool fasterLoot = false;
         bool reset = false;
         PowerUpParticleHandler particleHandler;
+        InventoryUIHandler inventoryHandler;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
             handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
             particleHandler = gameObject.GetComponent<PowerUpParticleHandler>();
+            inventoryHandler = gameObject.GetComponent<InventoryUIHandler>();
+            RefreshInventory();
             StartCoroutine(IncreaseThirst());
         }
         void FixedUpdate()
@@ -268,6 +271,7 @@ namespace Player
             stealTimeCount = 0;
             stunTimeCount = 0;
             StopMovement();
+            RefreshInventory();
         }
 
         void StunnedCountDown()
@@ -341,17 +345,25 @@ namespace Player
                 switch (player.Items[index].Type)
                 {
                     case ItemType.Corn:
-                        particleHandler.PlayParticle(0);
-                        fasterLoot = true;
+                        if (!fasterLoot)
+                        {
+                            particleHandler.PlayParticle(0);
+                            fasterLoot = true;
+                        }
                         break;
                     case ItemType.IceCream:
-                        particleHandler.PlayParticle(1);
-                        player.Speed = 4;
+                        if(player.Speed != 4)
+                        {
+                            particleHandler.PlayParticle(1);
+                            player.Speed = 4;
+                        }
                         break;
                     case ItemType.Langos:
-                        particleHandler.PlayParticle(2);
-                        avoidStun = true;
-                        Debug.Log(avoidStun);
+                        if (!avoidStun)
+                        {
+                            particleHandler.PlayParticle(2);
+                            avoidStun = true;
+                        }
                         break;
                     default:
                         break;
@@ -360,7 +372,22 @@ namespace Player
                 {
                     player.Items[index] = null;
                 }
+                RefreshInventory();
+            }
+        }
 
+        void RefreshInventory()
+        {
+            for (int i = 0; i < player.Items.Length; i++)
+            {
+                if(player.Items[i] == null)
+                {
+                    inventoryHandler.SetItem(i, ItemType.Corn, 0);
+                }
+                else
+                {
+                    inventoryHandler.SetItem(i, player.Items[i].Type, (int)player.Items[i].Amount);
+                }
             }
         }
 

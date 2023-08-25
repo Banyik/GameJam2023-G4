@@ -27,7 +27,6 @@ public class GameHandler : MonoBehaviour
             UI = GameOverUI;
             Invoke(nameof(ShowUI), 1f);
         }
-        //Scoreboard UI
     }
     void ShowUI()
     {
