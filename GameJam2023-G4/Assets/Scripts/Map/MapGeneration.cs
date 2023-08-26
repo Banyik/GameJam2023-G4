@@ -28,7 +28,7 @@ namespace Maps
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
             generateEnviroment = gameObject.GetComponent<GenerateEnviroment>();
             scoreboardHandler = gameObject.GetComponent<ScoreboardHandler>();
-            difficultyScore = new int[3] { 30, 1320, 2500 };
+            difficultyScore = new int[3] { 500, 1320, 2500 };
             minScore = difficultyScore[currentMapType];
             SetMapDifficulty();
         }

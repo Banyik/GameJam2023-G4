@@ -7,6 +7,7 @@ public class ScoreboardHandler : MonoBehaviour
 {
     public GameObject[] texts;
     public GameObject ContinueButton;
+    public GameObject ContinueExitButton;
     public Text[] scores;
     int[] scoresText;
     int index = 0;
@@ -28,7 +29,14 @@ public class ScoreboardHandler : MonoBehaviour
 
     void ShowContinueButton()
     {
-        ContinueButton.SetActive(true);
+        if(scoresText[0] == 2500)
+        {
+            ContinueExitButton.SetActive(true);
+        }
+        else
+        {
+            ContinueButton.SetActive(true);
+        }
     }
 
     void ShowText()

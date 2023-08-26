@@ -59,6 +59,11 @@ public class GameHandler : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void ToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void ResetIsActivatedBool()
     {
         isActivated = false;
