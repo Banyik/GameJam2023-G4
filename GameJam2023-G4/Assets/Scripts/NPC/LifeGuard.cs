@@ -77,7 +77,7 @@ namespace NPCs
                 IsMoving = false;
                 ChangeState(State.Stun);
                 animator.SetBool("IsRunning", false);
-                if (handler.IsPlayerAvoidingStun(true))
+                if (!handler.IsPlayerAvoidingStun(true))
                 {
                     handler.StunPlayer();
                 }
