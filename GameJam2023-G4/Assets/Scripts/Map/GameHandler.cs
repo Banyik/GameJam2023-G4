@@ -13,6 +13,7 @@ public class GameHandler : MonoBehaviour
     public GameObject ShopUI;
     public GameObject GameOverUI;
     public GameObject NoMoneyUI;
+    public GameObject ScoreUI;
     GameObject UI;
 
     bool isPaused = false;
@@ -41,7 +42,8 @@ public class GameHandler : MonoBehaviour
             if (mapGeneration.HasEnoughScore(score))
             {
                 CalculateScore(moneyAmount);
-                UI = ShopUI;
+                UI = ScoreUI;
+                mapGeneration.ShowScoreboardUI(score);
             }
             else
             {

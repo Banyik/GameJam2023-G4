@@ -56,7 +56,6 @@ namespace Player
                 CheckAction();
                 CheckAnimationSwitch();
             }
-
         }
 
         void SetDifficulty(bool isBigTowel)
@@ -83,10 +82,11 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.05f;
+                    player.Thirst -= 0.25f;
                     thirstBarBehaviour.Animate(player.Thirst);
                     if (player.Thirst <= 0)
                     {
+                        inventoryHandler.HideInventory();
                         ChangeState(State.Idle);
                         StopMovement();
                         handler.TimesUp(player.Money);
@@ -247,6 +247,7 @@ namespace Player
         }
         void Caught()
         {
+            inventoryHandler.HideInventory();
             DisableAnimationBool("Default");
             lootBarBehaviour.StopAnimation();
             StopMovement();

@@ -24,6 +24,15 @@ public class InventoryUIHandler : MonoBehaviour
         }
     }
 
+    public void HideInventory()
+    {
+        for (int i = 0; i < slots.Length; i++)
+        {
+            slotTexts[i].text = "";
+            slots[i].GetComponent<SpriteRenderer>().sprite = null;
+        }
+    }
+
     Sprite GetSprite(Items.ItemType type)
     {
         switch (type)

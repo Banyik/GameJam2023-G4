@@ -19,7 +19,7 @@ namespace Maps
         List<int> maps = new List<int>();
         PlayerMapHandler playerMapHandler;
         GenerateEnviroment generateEnviroment;
-
+        ScoreboardHandler scoreboardHandler;
         public GameObject[] mapObjects;
         bool nextMapType = false;
         int minScore = 30;
@@ -27,7 +27,8 @@ namespace Maps
         {
             playerMapHandler = gameObject.GetComponent<PlayerMapHandler>();
             generateEnviroment = gameObject.GetComponent<GenerateEnviroment>();
-            difficultyScore = new int[3] { 500, 1320, 2500 };
+            scoreboardHandler = gameObject.GetComponent<ScoreboardHandler>();
+            difficultyScore = new int[3] { 30, 1320, 2500 };
             minScore = difficultyScore[currentMapType];
             SetMapDifficulty();
         }
@@ -75,6 +76,11 @@ namespace Maps
         public void ResetMapTypeIndex()
         {
             index = -1;
+        }
+
+        public void ShowScoreboardUI(int score)
+        {
+            scoreboardHandler.ShowScoreboard(new int[3] { minScore, score, score - minScore });
         }
 
         public void SetMapDifficulty()

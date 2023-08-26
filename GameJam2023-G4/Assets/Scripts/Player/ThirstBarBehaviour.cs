@@ -18,6 +18,10 @@ public class ThirstBarBehaviour : MonoBehaviour
         {
             index--;
         }
+        else if(index < 0)
+        {
+            index = 0;
+        }
         GetComponent<SpriteRenderer>().sprite = frames[index];
     }
 
