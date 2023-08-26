@@ -17,6 +17,8 @@ namespace Items
         public Button buyLangos;
         public Button buyStrawberrySyrup;
         public Button buyButton;
+
+        public Text myMoney;
         ItemType type;
         float price;
 
@@ -91,6 +93,12 @@ namespace Items
         void ExecuteTransaction()
         {
             handler.buyScore -= (int)price;
+            RefreshMyMoney();
+        }
+
+        public void RefreshMyMoney()
+        {
+            myMoney.text = handler.buyScore.ToString();
         }
 
         public bool HasEnoughMoney(float price)
