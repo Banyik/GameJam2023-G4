@@ -22,6 +22,8 @@ namespace Player
         public Rigidbody2D rb;
         Towel closestTowel = null;
         public ParticleSystem lootEffect;
+        public ParticleSystem waterStoleEffect;
+        public ParticleSystem moneyStoleEffect;
         public LootBarBehaviour lootBarBehaviour;
         public bool avoidStun = false;
         bool fasterLoot = false;
@@ -82,7 +84,7 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.25f;
+                    player.Thirst -= 0.05f;
                     thirstBarBehaviour.Animate(player.Thirst);
                     if (player.Thirst <= 0)
                     {
@@ -327,9 +329,13 @@ namespace Player
                         {
                             player.Thirst = player.MaxThirst;
                         }
+                        waterStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        waterStoleEffect.Play();
                         thirstBarBehaviour.Animate(player.Thirst);
                         break;
                     case ItemType.Money:
+                        moneyStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        moneyStoleEffect.Play();
                         player.Money += item.Amount;
                         break;
                     default:
