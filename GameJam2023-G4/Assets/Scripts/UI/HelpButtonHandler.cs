@@ -9,7 +9,7 @@ public class HelpButtonHandler : MonoBehaviour
     public Button[] buttons;
     int buttonIndex = 0;
     public Sprite selectedSprite;
-    public VideoClip[] videoClips;
+    public string[] videoClips;
     public VideoPlayer videoPlayer;
     private void Start()
     {
@@ -18,11 +18,11 @@ public class HelpButtonHandler : MonoBehaviour
     private void Update()
     {
         SetSprite(buttonIndex, selectedSprite);
-        
     }
     void SetVideo()
     {
-        videoPlayer.clip = videoClips[buttonIndex];
+        videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClips[buttonIndex]);
+        videoPlayer.Play();
     }
     void SetSprite(int index, Sprite sprite)
     {

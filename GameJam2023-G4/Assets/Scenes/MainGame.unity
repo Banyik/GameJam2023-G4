@@ -6158,7 +6158,7 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -6169,10 +6169,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!4 &924530585
@@ -6627,7 +6627,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016037452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.06}
+  m_LocalPosition: {x: 0, y: 0, z: -1.0600688}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2030682536}
@@ -6635,7 +6635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120.9, y: -1.9}
+  m_AnchoredPosition: {x: 120.89997, y: -1.9000005}
   m_SizeDelta: {x: 412.3, y: 227.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016037454
@@ -6651,7 +6651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9882353}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31482,7 +31482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121.229996, y: -2.2300005}
+  m_AnchoredPosition: {x: 120.94822, y: -2.2300005}
   m_SizeDelta: {x: 421.18, y: 236.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509400878
@@ -32423,7 +32423,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2005633423
   m_SortingLayer: 2
-  m_SortingOrder: 50
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2117963180605454337, guid: 9711d63f87f16984384be7d2a98a24f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -33255,10 +33255,10 @@ MonoBehaviour:
   - {fileID: 2042413881}
   selectedSprite: {fileID: 21300000, guid: 36668d9dec4ae4d4a8f0583c2bf4f790, type: 3}
   videoClips:
-  - {fileID: 32900000, guid: 243faded0b578af4fad687c1dcc498e5, type: 3}
-  - {fileID: 32900000, guid: 4fd813a96a12a194785cebb236d989f8, type: 3}
-  - {fileID: 32900000, guid: 8d43d09673336594c8b58715108f6665, type: 3}
-  - {fileID: 32900000, guid: 6210506fe18f1db4ab8f7e1608ad1104, type: 3}
+  - Steal.mp4
+  - Grandma.mp4
+  - LifeGuard.mp4
+  - Kid.mp4
   videoPlayer: {fileID: 924530584}
 --- !u!1 &1860888968
 GameObject:
@@ -38744,7 +38744,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2030682536
 RectTransform:
   m_ObjectHideFlags: 0
