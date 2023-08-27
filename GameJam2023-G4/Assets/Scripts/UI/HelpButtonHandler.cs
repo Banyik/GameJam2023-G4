@@ -2,18 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class HelpButtonHandler : MonoBehaviour
 {
     public Button[] buttons;
     int buttonIndex = 0;
     public Sprite selectedSprite;
-
+    public VideoClip[] videoClips;
+    public VideoPlayer videoPlayer;
+    private void Start()
+    {
+        SetVideo();
+    }
     private void Update()
     {
         SetSprite(buttonIndex, selectedSprite);
+        
     }
-
+    void SetVideo()
+    {
+        videoPlayer.clip = videoClips[buttonIndex];
+    }
     void SetSprite(int index, Sprite sprite)
     {
         buttons[index].gameObject.transform.Find("HoverSprite").GetComponent<SpriteRenderer>().sprite = sprite;
@@ -23,6 +33,7 @@ public class HelpButtonHandler : MonoBehaviour
     {
         SetSprite(buttonIndex, null);
         buttonIndex = index;
+        SetVideo();
     }
 
     public void NextButton()
@@ -36,6 +47,7 @@ public class HelpButtonHandler : MonoBehaviour
         {
             buttonIndex++;
         }
+        SetVideo();
     }
 
     public void PreviousButton()
@@ -49,5 +61,6 @@ public class HelpButtonHandler : MonoBehaviour
         {
             buttonIndex--;
         }
+        SetVideo();
     }
 }
