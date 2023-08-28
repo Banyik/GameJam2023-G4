@@ -1,0 +1,1932 @@
+fileFormatVersion: 2
+guid: a86bd5d8b8d9a514d991eda68de1bc29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3437052733273212469
+    second: NandorActive_0
+  - first:
+      213: -2166236915290468601
+    second: NandorActive_1
+  - first:
+      213: -9020885135555288002
+    second: NandorActive_2
+  - first:
+      213: 6703384520433487442
+    second: NandorActive_3
+  - first:
+      213: -5643023920083247991
+    second: NandorActive_4
+  - first:
+      213: 4048150280300952858
+    second: NandorActive_5
+  - first:
+      213: 5400289999938838031
+    second: NandorActive_6
+  - first:
+      213: -4274244199790454715
+    second: NandorActive_7
+  - first:
+      213: -1668610892907020869
+    second: NandorActive_8
+  - first:
+      213: 3365768535645023833
+    second: NandorActive_9
+  - first:
+      213: 1110221295738587047
+    second: NandorActive_10
+  - first:
+      213: 4240965053024450397
+    second: NandorActive_11
+  - first:
+      213: -5786049177322408125
+    second: NandorActive_12
+  - first:
+      213: 471419219958889427
+    second: NandorActive_13
+  - first:
+      213: 3761409163010417096
+    second: NandorActive_14
+  - first:
+      213: -369653759855379831
+    second: NandorActive_15
+  - first:
+      213: -2353582386520703424
+    second: NandorActive_16
+  - first:
+      213: 3615234837212422762
+    second: NandorActive_17
+  - first:
+      213: 5427146442462238821
+    second: NandorActive_18
+  - first:
+      213: 434886016484878789
+    second: NandorActive_19
+  - first:
+      213: -3784283132923764155
+    second: NandorActive_20
+  - first:
+      213: -1591107577349630883
+    second: NandorActive_21
+  - first:
+      213: 6067653171913864691
+    second: NandorActive_22
+  - first:
+      213: -8709608115169736703
+    second: NandorActive_23
+  - first:
+      213: 3823737509787979914
+    second: NandorActive_24
+  - first:
+      213: -4331465573949403941
+    second: NandorActive_25
+  - first:
+      213: 3475697432322601608
+    second: NandorActive_26
+  - first:
+      213: -5763905203059637467
+    second: NandorActive_27
+  - first:
+      213: -7975630933903362391
+    second: NandorActive_28
+  - first:
+      213: -9107527710379782938
+    second: NandorActive_29
+  - first:
+      213: -4345575245294696628
+    second: NandorActive_30
+  - first:
+      213: -7066939298074863504
+    second: NandorActive_31
+  - first:
+      213: 739541343893141157
+    second: NandorActive_32
+  - first:
+      213: -2562981956401181577
+    second: NandorActive_33
+  - first:
+      213: 4869032629397973490
+    second: NandorActive_34
+  - first:
+      213: 3918257754905455731
+    second: NandorActive_35
+  - first:
+      213: 9054023642253601113
+    second: NandorActive_36
+  - first:
+      213: 8630024846009682377
+    second: NandorActive_37
+  - first:
+      213: 6195301260157231999
+    second: NandorActive_38
+  - first:
+      213: 2615648513449276199
+    second: NandorActive_39
+  - first:
+      213: 8598031409157974603
+    second: NandorActive_40
+  - first:
+      213: -9083081228566701052
+    second: NandorActive_41
+  - first:
+      213: -8735121349206295861
+    second: NandorActive_42
+  - first:
+      213: 7714274030708284993
+    second: NandorActive_43
+  - first:
+      213: 157978021899366662
+    second: NandorActive_44
+  - first:
+      213: -5146781308880177023
+    second: NandorActive_45
+  - first:
+      213: 4159785060916085987
+    second: NandorActive_46
+  - first:
+      213: 5520296066575403578
+    second: NandorActive_47
+  - first:
+      213: -8768402220296896761
+    second: NandorActive_48
+  - first:
+      213: -2933047854434570717
+    second: NandorActive_49
+  - first:
+      213: -5460348333926961296
+    second: NandorActive_50
+  - first:
+      213: 8833642409801096317
+    second: NandorActive_51
+  - first:
+      213: 8054305159044435769
+    second: NandorActive_52
+  - first:
+      213: 7757588625801175817
+    second: NandorActive_53
+  - first:
+      213: 6662908102652754705
+    second: NandorActive_54
+  - first:
+      213: 448024063047354195
+    second: NandorActive_55
+  - first:
+      213: 1497892937286769935
+    second: NandorActive_56
+  - first:
+      213: -2330272685663234996
+    second: NandorActive_57
+  - first:
+      213: 760678926700085939
+    second: NandorActive_58
+  - first:
+      213: 3467803849557954496
+    second: NandorActive_59
+  - first:
+      213: -1037850157025174023
+    second: NandorActive_60
+  - first:
+      213: 2842273199518338448
+    second: NandorActive_61
+  - first:
+      213: -8546217120897728572
+    second: NandorActive_62
+  - first:
+      213: 6195507220891382113
+    second: NandorActive_63
+  - first:
+      213: 2744440250885884438
+    second: NandorActive_64
+  - first:
+      213: 1310456014251785945
+    second: NandorActive_65
+  - first:
+      213: -7107586142632800196
+    second: NandorActive_66
+  - first:
+      213: -3891450431292765591
+    second: NandorActive_67
+  - first:
+      213: 3909829331068366401
+    second: NandorActive_68
+  - first:
+      213: 92313197943406247
+    second: NandorActive_69
+  - first:
+      213: -7343365734388421960
+    second: NandorActive_70
+  - first:
+      213: -6822829900622394826
+    second: NandorActive_71
+  - first:
+      213: -4464277960880628137
+    second: NandorActive_72
+  - first:
+      213: 8171594498609646847
+    second: NandorActive_73
+  - first:
+      213: 7599970966422367408
+    second: NandorActive_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NandorActive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5360909204dd2bf20800000000000000
+      internalID: 3437052733273212469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f06c4b00bffe1e0800000000000000
+      internalID: -2166236915290468601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3420af83c06fc280800000000000000
+      internalID: -9020885135555288002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e4a4d84b4370d50800000000000000
+      internalID: 6703384520433487442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd76884a3ffa1b0800000000000000
+      internalID: -5643023920083247991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d7cbe5b3bed2830800000000000000
+      internalID: 4048150280300952858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed27a942fa1fa40800000000000000
+      internalID: 5400289999938838031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5485734db85dea4c0800000000000000
+      internalID: -4274244199790454715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdfdebcb37e7d8e0800000000000000
+      internalID: -1668610892907020869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eee4b86ac95be20800000000000000
+      internalID: 3365768535645023833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a78292e26c486f00800000000000000
+      internalID: 1110221295738587047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d573e520f3feada30800000000000000
+      internalID: 4240965053024450397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b1c4dde2d3bfa0800000000000000
+      internalID: -5786049177322408125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbf0f96841da8600800000000000000
+      internalID: 471419219958889427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a22874b5333430800000000000000
+      internalID: 3761409163010417096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98abee92dd9bedaf0800000000000000
+      internalID: -369653759855379831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e31dd0a45665fd0800000000000000
+      internalID: -2353582386520703424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e9ab1ee4eb2230800000000000000
+      internalID: 3615234837212422762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5689cf66fe8115b40800000000000000
+      internalID: 5427146442462238821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_19
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9ad522786090600800000000000000
+      internalID: 434886016484878789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542a3946a868b7bc0800000000000000
+      internalID: -3784283132923764155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5494a4a6104be9e0800000000000000
+      internalID: -1591107577349630883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b23c7962a43450800000000000000
+      internalID: 6067653171913864691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c2729091412780800000000000000
+      internalID: -8709608115169736703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80df319105a01530800000000000000
+      internalID: 3823737509787979914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc89e3720b83e3c0800000000000000
+      internalID: -4331465573949403941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882735056682c3030800000000000000
+      internalID: 3475697432322601608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523ca9c91ce7200b0800000000000000
+      internalID: -5763905203059637467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6b21d1cedd05190800000000000000
+      internalID: -7975630933903362391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec49c81dcf8b9180800000000000000
+      internalID: -9107527710379782938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c478a77965a61b3c0800000000000000
+      internalID: -4345575245294696628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078dff096203ded90800000000000000
+      internalID: -7066939298074863504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6377b1fe0634a00800000000000000
+      internalID: 739541343893141157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cc8fa6d757e6cd0800000000000000
+      internalID: -2562981956401181577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f96d031167429340800000000000000
+      internalID: 4869032629397973490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c2f831ba2706630800000000000000
+      internalID: 3918257754905455731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959a388488a56ad70800000000000000
+      internalID: 9054023642253601113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9c335afd104c770800000000000000
+      internalID: 8630024846009682377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73a3380ca12af550800000000000000
+      internalID: 6195301260157231999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7233c65f676ac4420800000000000000
+      internalID: 2615648513449276199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a23862308525770800000000000000
+      internalID: 8598031409157974603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c53413fb962f180800000000000000
+      internalID: -9083081228566701052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcab0aed96d96c680800000000000000
+      internalID: -8735121349206295861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5364eb5b9e0b60800000000000000
+      internalID: 7714274030708284993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60171a58c20413200800000000000000
+      internalID: 157978021899366662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188b39b1ba5f298b0800000000000000
+      internalID: -5146781308880177023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e441e139768ab930800000000000000
+      internalID: 4159785060916085987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_47
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a863756080c9c40800000000000000
+      internalID: 5520296066575403578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_48
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ff47b33a0605680800000000000000
+      internalID: -8768402220296896761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ea43f2488bb47d0800000000000000
+      internalID: -2933047854434570717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f2366de12f834b0800000000000000
+      internalID: -5460348333926961296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c150518f6679a70800000000000000
+      internalID: 8833642409801096317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_52
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f807d5ed3a6cf60800000000000000
+      internalID: 8054305159044435769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036d72f0cd78ab60800000000000000
+      internalID: 7757588625801175817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_54
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b70b52e97677c50800000000000000
+      internalID: 6662908102652754705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357c3c8f283b73600800000000000000
+      internalID: 448024063047354195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d5b86b0b599c410800000000000000
+      internalID: 1497892937286769935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445f35b65539afd0800000000000000
+      internalID: -2330272685663234996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2851e14797e8a00800000000000000
+      internalID: 760678926700085939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf42ab5a3d102030800000000000000
+      internalID: 3467803849557954496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd5e6ce7c0d891f0800000000000000
+      internalID: -1037850157025174023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d47eb7a68c17720800000000000000
+      internalID: 2842273199518338448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf778feeccb56980800000000000000
+      internalID: -8546217120897728572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16139900efcdaf550800000000000000
+      internalID: 6195507220891382113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a46551ed5361620800000000000000
+      internalID: 2744440250885884438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de70474dccaf2210800000000000000
+      internalID: 1310456014251785945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_66
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3012e59f08cc5d90800000000000000
+      internalID: -7107586142632800196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a01c5537acef9c0800000000000000
+      internalID: -3891450431292765591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_68
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14eabbabf01824630800000000000000
+      internalID: 3909829331068366401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae3f7b4d56f74100800000000000000
+      internalID: 92313197943406247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baa00a75cf171a90800000000000000
+      internalID: -7343365734388421960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_71
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a0d72ba507051a0800000000000000
+      internalID: -6822829900622394826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eda1be8d2bb02c0800000000000000
+      internalID: -4464277960880628137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_73
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc0a2ac6e5576170800000000000000
+      internalID: 8171594498609646847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NandorActive_74
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc23ecd355887960800000000000000
+      internalID: 7599970966422367408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
