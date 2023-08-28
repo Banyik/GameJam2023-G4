@@ -38,11 +38,11 @@ namespace NPCs
             IsMoving = true;
             if (onLeft)
             {
-                TargetPosition = new Vector2Int(10, 0);
+                TargetPosition = new Vector2Int(15, 0);
             }
             else
             {
-                TargetPosition = new Vector2Int(-10, 0);
+                TargetPosition = new Vector2Int(-15, 0);
             }
         }
 

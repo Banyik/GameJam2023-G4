@@ -8,11 +8,13 @@ namespace NPCs
     {
         Sprite sprite;
         GameObject NPC;
+        Behaviour behaviour;
         SpriteRenderer spriteRenderer;
 
         private void Start()
         {
             spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+            behaviour = NPC.GetComponent<Behaviour>();
         }
         public void SetSprite(Sprite sprite, GameObject NPC)
         {
@@ -22,13 +24,13 @@ namespace NPCs
 
         private void Update()
         {
-            if (NPC.transform.position.x > 8.5f)
+            if (NPC.transform.position.x > 8.5f && NPC.transform.position.x < 10f && behaviour.npc.TargetPosition.x < 8.5f)
             {
                 spriteRenderer.sprite = sprite;
                 spriteRenderer.flipX = false;
                 gameObject.transform.position = new Vector3(7.5f, NPC.transform.position.y, 0);
             }
-            else if (NPC.transform.position.x < -8.5f)
+            else if (NPC.transform.position.x < -8.5f && NPC.transform.position.x > -10f && behaviour.npc.TargetPosition.x > -8.5f)
             {
                 spriteRenderer.sprite = sprite;
                 spriteRenderer.flipX = transform;
