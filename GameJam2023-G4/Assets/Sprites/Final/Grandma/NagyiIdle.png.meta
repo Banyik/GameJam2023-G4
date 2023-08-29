@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: cc92d65ed1cc27a439711e3775e017fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1107734711205702162
+    second: NagyiIdle_0
+  - first:
+      213: -4036585235660543042
+    second: NagyiIdle_1
+  - first:
+      213: 5686628042117392768
+    second: NagyiIdle_2
+  - first:
+      213: 8040030023723482081
+    second: NagyiIdle_3
+  - first:
+      213: 3823127782893857638
+    second: NagyiIdle_4
+  - first:
+      213: 7520768531753707126
+    second: NagyiIdle_5
+  - first:
+      213: 4091874372210715594
+    second: NagyiIdle_6
+  - first:
+      213: -7591041790614413180
+    second: NagyiIdle_7
+  - first:
+      213: -4093104026191695523
+    second: NagyiIdle_8
+  - first:
+      213: -596978271159527872
+    second: NagyiIdle_9
+  - first:
+      213: 2941266393498310380
+    second: NagyiIdle_10
+  - first:
+      213: 5394503980299408825
+    second: NagyiIdle_11
+  - first:
+      213: -6206158486114559032
+    second: NagyiIdle_12
+  - first:
+      213: 2153094994671380894
+    second: NagyiIdle_13
+  - first:
+      213: 2086833631263525912
+    second: NagyiIdle_14
+  - first:
+      213: -3349487049771404965
+    second: NagyiIdle_15
+  - first:
+      213: -7897568112810460647
+    second: NagyiIdle_16
+  - first:
+      213: -3164491829610416600
+    second: NagyiIdle_17
+  - first:
+      213: 8456251148730029019
+    second: NagyiIdle_18
+  - first:
+      213: -6952085930530385574
+    second: NagyiIdle_19
+  - first:
+      213: 8823136013486506810
+    second: NagyiIdle_20
+  - first:
+      213: 5260100789624165414
+    second: NagyiIdle_21
+  - first:
+      213: 5581389672212369337
+    second: NagyiIdle_22
+  - first:
+      213: -5585763800862271644
+    second: NagyiIdle_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NagyiIdle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5d631362980a0f0800000000000000
+      internalID: -1107734711205702162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbedda6d1b2bf7c0800000000000000
+      internalID: -4036585235660543042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089ae244316faee40800000000000000
+      internalID: 5686628042117392768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb738b65bce39f60800000000000000
+      internalID: 8040030023723482081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba056767a7e0530800000000000000
+      internalID: 3823127782893857638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 64
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ad1502232f5860800000000000000
+      internalID: 7520768531753707126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbe425df0249c830800000000000000
+      internalID: 4091874372210715594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806843e5b337a690800000000000000
+      internalID: -7591041790614413180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d517f1a039f5237c0800000000000000
+      internalID: -4093104026191695523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046d8e0ec6b17b7f0800000000000000
+      internalID: -596978271159527872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6d24e833a71d820800000000000000
+      internalID: 2941266393498310380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 43
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b55d2de9c02dda40800000000000000
+      internalID: 5394503980299408825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb9d5f0dbb4fd9a0800000000000000
+      internalID: -6206158486114559032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e992f057d7451ed10800000000000000
+      internalID: 2153094994671380894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c0dc0912ce5fc10800000000000000
+      internalID: 2086833631263525912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51ba9a464b3481d0800000000000000
+      internalID: -3349487049771404965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91afa7ef4a3366290800000000000000
+      internalID: -7897568112810460647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 22
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826f17972777514d0800000000000000
+      internalID: -3164491829610416600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3da8bdd93aa5570800000000000000
+      internalID: 8456251148730029019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51debe0eaa358f90800000000000000
+      internalID: -6952085930530385574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c1d01573127a70800000000000000
+      internalID: 8823136013486506810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624dc488cc1aff840800000000000000
+      internalID: 5260100789624165414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf804dd554157d40800000000000000
+      internalID: 5581389672212369337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NagyiIdle_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4675e52fa616b72b0800000000000000
+      internalID: -5585763800862271644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

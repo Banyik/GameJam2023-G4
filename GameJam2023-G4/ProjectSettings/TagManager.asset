@@ -3,20 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LifeGuardOnly
+  - Towel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - LifeGuard
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - LifeGuardPath
+  - Towels
+  - PlayerWall
+  - Kid
+  - Grandma
+  - Player
   - 
   - 
   - 
@@ -40,4 +42,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Entity
+    uniqueID: 1193463713
+    locked: 0
+  - name: Sign
+    uniqueID: 2005633423
     locked: 0

@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: e5f7e63a28a322f4489a03aa30a55a45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1527917135773939298
+    second: TolvajSteal_0
+  - first:
+      213: 6053778160421072841
+    second: TolvajSteal_1
+  - first:
+      213: 1552373147089660137
+    second: TolvajSteal_2
+  - first:
+      213: 4845222949948730236
+    second: TolvajSteal_3
+  - first:
+      213: -5611636180859153064
+    second: TolvajSteal_4
+  - first:
+      213: 7363664485138123764
+    second: TolvajSteal_5
+  - first:
+      213: 230528312478277537
+    second: TolvajSteal_6
+  - first:
+      213: -7616159493401156245
+    second: TolvajSteal_7
+  - first:
+      213: -6995679972981480378
+    second: TolvajSteal_8
+  - first:
+      213: 5800528551856049887
+    second: TolvajSteal_9
+  - first:
+      213: -6736062786293932480
+    second: TolvajSteal_10
+  - first:
+      213: 5829538143456411894
+    second: TolvajSteal_11
+  - first:
+      213: 2655126900772967839
+    second: TolvajSteal_12
+  - first:
+      213: 4662112738728660573
+    second: TolvajSteal_13
+  - first:
+      213: 1243135566821903847
+    second: TolvajSteal_14
+  - first:
+      213: -1477211201260882765
+    second: TolvajSteal_15
+  - first:
+      213: -1022128027062564649
+    second: TolvajSteal_16
+  - first:
+      213: -2970787550472388078
+    second: TolvajSteal_17
+  - first:
+      213: 5959429330029558177
+    second: TolvajSteal_18
+  - first:
+      213: 7407412813169440347
+    second: TolvajSteal_19
+  - first:
+      213: -2652749331303234972
+    second: TolvajSteal_20
+  - first:
+      213: -3141931089673296446
+    second: TolvajSteal_21
+  - first:
+      213: 4925612857858800248
+    second: TolvajSteal_22
+  - first:
+      213: 5073326551078606698
+    second: TolvajSteal_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TolvajSteal_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9946f3d57fbbcae0800000000000000
+      internalID: -1527917135773939298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6ae0a927530450800000000000000
+      internalID: 6053778160421072841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8622707232b8510800000000000000
+      internalID: 1552373147089660137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ba3451a90bd3340800000000000000
+      internalID: 4845222949948730236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855192f00a67f12b0800000000000000
+      internalID: -5611636180859153064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 64
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb41d9b5ddf03660800000000000000
+      internalID: 7363664485138123764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af10ff5740033300800000000000000
+      internalID: 230528312478277537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65ea1bfa47fd4690800000000000000
+      internalID: -7616159493401156245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644ef18112a5aee90800000000000000
+      internalID: -6995679972981480378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde04e24cfd9f7050800000000000000
+      internalID: 5800528551856049887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ed836c592b482a0800000000000000
+      internalID: -6736062786293932480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 43
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f04f452e0ea6e050800000000000000
+      internalID: 5829538143456411894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95182a49d7e8d420800000000000000
+      internalID: 2655126900772967839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ecebeb5d623b040800000000000000
+      internalID: 4662112738728660573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edc21c2631804110800000000000000
+      internalID: 1243135566821903847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4fd923d34ef7be0800000000000000
+      internalID: -1477211201260882765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d807ff89fba0d1f0800000000000000
+      internalID: -1022128027062564649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 22
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c0f67674a5c6d0800000000000000
+      internalID: -2970787550472388078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9b478b66524b250800000000000000
+      internalID: 5959429330029558177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5634a915ba6cc660800000000000000
+      internalID: 7407412813169440347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462048db98a8f2bd0800000000000000
+      internalID: -2652749331303234972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56443125e9564d0800000000000000
+      internalID: -3141931089673296446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a35c51cca4b5440800000000000000
+      internalID: 4925612857858800248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajSteal_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67199a5e93186640800000000000000
+      internalID: 5073326551078606698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

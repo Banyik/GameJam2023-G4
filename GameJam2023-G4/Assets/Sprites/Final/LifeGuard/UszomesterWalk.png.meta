@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 01afddba530c26343b6f163191fcf839
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1194867248573846653
+    second: UszomesterWalk_0
+  - first:
+      213: 3040381296315501620
+    second: UszomesterWalk_1
+  - first:
+      213: -4280299333325894894
+    second: UszomesterWalk_2
+  - first:
+      213: -2410159350298346155
+    second: UszomesterWalk_3
+  - first:
+      213: 444101971528470435
+    second: UszomesterWalk_4
+  - first:
+      213: -7602598055633644013
+    second: UszomesterWalk_5
+  - first:
+      213: 3700458638178539718
+    second: UszomesterWalk_6
+  - first:
+      213: -8282155982744906223
+    second: UszomesterWalk_7
+  - first:
+      213: 2965866657937183524
+    second: UszomesterWalk_8
+  - first:
+      213: 926589253922529546
+    second: UszomesterWalk_9
+  - first:
+      213: -276594937392502611
+    second: UszomesterWalk_10
+  - first:
+      213: 5637004169589281875
+    second: UszomesterWalk_11
+  - first:
+      213: 4181777296237601030
+    second: UszomesterWalk_12
+  - first:
+      213: 7020706465891990472
+    second: UszomesterWalk_13
+  - first:
+      213: -8268846214525566043
+    second: UszomesterWalk_14
+  - first:
+      213: -4349730107559839683
+    second: UszomesterWalk_15
+  - first:
+      213: -3375729399512666441
+    second: UszomesterWalk_16
+  - first:
+      213: -1261324906922217023
+    second: UszomesterWalk_17
+  - first:
+      213: -3465837843822815067
+    second: UszomesterWalk_18
+  - first:
+      213: 5831018794287703689
+    second: UszomesterWalk_19
+  - first:
+      213: 8213132060098074702
+    second: UszomesterWalk_20
+  - first:
+      213: 2340928495978016172
+    second: UszomesterWalk_21
+  - first:
+      213: 1444558695816018227
+    second: UszomesterWalk_22
+  - first:
+      213: -7499849320379016726
+    second: UszomesterWalk_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UszomesterWalk_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 101
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38be10f619afa6fe0800000000000000
+      internalID: -1194867248573846653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 101
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c80ac2eaa913a20800000000000000
+      internalID: 3040381296315501620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 101
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc4c03f625994c0800000000000000
+      internalID: -4280299333325894894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 101
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d716927d46d8ed0800000000000000
+      internalID: -2410159350298346155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 101
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af4101e364c92600800000000000000
+      internalID: 444101971528470435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 76
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31691e349552e7690800000000000000
+      internalID: -7602598055633644013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 76
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c858aa868baa5330800000000000000
+      internalID: 3700458638178539718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 76
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1161d12b30fdf0d80800000000000000
+      internalID: -8282155982744906223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 76
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235585f200e82920800000000000000
+      internalID: 2965866657937183524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 76
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a012fb46408ebdc00800000000000000
+      internalID: 926589253922529546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da86c02be56592cf0800000000000000
+      internalID: -276594937392502611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_11
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 51
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354d3c51d69aa3e40800000000000000
+      internalID: 5637004169589281875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60129008b48a80a30800000000000000
+      internalID: 4181777296237601030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 51
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb7cb555f8e6160800000000000000
+      internalID: 7020706465891990472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 51
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ced89d282f3d80800000000000000
+      internalID: -8268846214525566043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 26
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38f2165387a2a3c0800000000000000
+      internalID: -4349730107559839683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be643c1ffff621d0800000000000000
+      internalID: -3375729399512666441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 26
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c17c801eafde7ee0800000000000000
+      internalID: -1261324906922217023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 26
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d5d508ded6efc0800000000000000
+      internalID: -3465837843822815067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 26
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986252803b0fbe050800000000000000
+      internalID: 5831018794287703689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e489487f718eaf170800000000000000
+      internalID: 8213132060098074702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadeb577016ac7020800000000000000
+      internalID: 2340928495978016172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b051fa7a1c0410800000000000000
+      internalID: 1444558695816018227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UszomesterWalk_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae99add67ce2be790800000000000000
+      internalID: -7499849320379016726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

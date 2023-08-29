@@ -1,0 +1,1699 @@
+fileFormatVersion: 2
+guid: 3faa17a8c2ae65b4ca4ad9c260638b99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 253983301996160435
+    second: "T\xF6rcsik (2)_0"
+  - first:
+      213: 8726267000490837404
+    second: "T\xF6rcsik (2)_1"
+  - first:
+      213: -5027128261084850836
+    second: "T\xF6rcsik (2)_2"
+  - first:
+      213: -1083369208532623452
+    second: "T\xF6rcsik (2)_3"
+  - first:
+      213: -5369246977554076887
+    second: "T\xF6rcsik (2)_4"
+  - first:
+      213: 6367964429209791079
+    second: "T\xF6rcsik (2)_5"
+  - first:
+      213: -6124211854445531679
+    second: "T\xF6rcsik (2)_6"
+  - first:
+      213: 3818031995352875069
+    second: "T\xF6rcsik (2)_7"
+  - first:
+      213: -3541148839876202714
+    second: "T\xF6rcsik (2)_8"
+  - first:
+      213: -7311314098222881129
+    second: "T\xF6rcsik (2)_9"
+  - first:
+      213: -6342894347973831278
+    second: "T\xF6rcsik (2)_10"
+  - first:
+      213: 7004188634240532573
+    second: "T\xF6rcsik (2)_11"
+  - first:
+      213: -4159385308521791390
+    second: "T\xF6rcsik (2)_12"
+  - first:
+      213: -6880013719464850161
+    second: "T\xF6rcsik (2)_13"
+  - first:
+      213: -6628970277262403543
+    second: "T\xF6rcsik (2)_14"
+  - first:
+      213: 8910542188152685530
+    second: "T\xF6rcsik (2)_15"
+  - first:
+      213: -8292340956514877335
+    second: "T\xF6rcsik (2)_16"
+  - first:
+      213: 5762594055046123217
+    second: "T\xF6rcsik (2)_17"
+  - first:
+      213: -3751726268753529524
+    second: "T\xF6rcsik (2)_18"
+  - first:
+      213: -1756229936164603668
+    second: "T\xF6rcsik (2)_19"
+  - first:
+      213: 2115964719168067955
+    second: "T\xF6rcsik (2)_20"
+  - first:
+      213: 151187823425506146
+    second: "T\xF6rcsik (2)_21"
+  - first:
+      213: 4341531539135091705
+    second: "T\xF6rcsik (2)_22"
+  - first:
+      213: 1403367069640883988
+    second: "T\xF6rcsik (2)_23"
+  - first:
+      213: -892791910415955098
+    second: "T\xF6rcsik (2)_24"
+  - first:
+      213: -1497507320570627093
+    second: "T\xF6rcsik (2)_25"
+  - first:
+      213: 1175649176959961783
+    second: "T\xF6rcsik (2)_26"
+  - first:
+      213: 2089347666056957680
+    second: "T\xF6rcsik (2)_27"
+  - first:
+      213: 7868451863496375222
+    second: "T\xF6rcsik (2)_28"
+  - first:
+      213: 1283412586237639214
+    second: "T\xF6rcsik (2)_29"
+  - first:
+      213: -5819954876843870338
+    second: "T\xF6rcsik (2)_30"
+  - first:
+      213: 3039242286712757884
+    second: "T\xF6rcsik (2)_31"
+  - first:
+      213: -3574375210278992569
+    second: "T\xF6rcsik (2)_32"
+  - first:
+      213: -2143437669852502689
+    second: "T\xF6rcsik (2)_33"
+  - first:
+      213: -3114751412097900680
+    second: "T\xF6rcsik (2)_34"
+  - first:
+      213: -5800287574168700187
+    second: "T\xF6rcsik (2)_35"
+  - first:
+      213: 2410117442373475441
+    second: "T\xF6rcsik (2)_36"
+  - first:
+      213: -4159766106823872896
+    second: "T\xF6rcsik (2)_37"
+  - first:
+      213: -6277203865084032628
+    second: "T\xF6rcsik (2)_38"
+  - first:
+      213: -2074403441496297608
+    second: "T\xF6rcsik (2)_39"
+  - first:
+      213: 3804334730614753038
+    second: "T\xF6rcsik (2)_40"
+  - first:
+      213: -3729285838218284776
+    second: "T\xF6rcsik (2)_41"
+  - first:
+      213: 416780870971086195
+    second: "T\xF6rcsik (2)_42"
+  - first:
+      213: -1274837143676619444
+    second: "T\xF6rcsik (2)_43"
+  - first:
+      213: 5782334404297494407
+    second: "T\xF6rcsik (2)_44"
+  - first:
+      213: -1379039677615085513
+    second: "T\xF6rcsik (2)_45"
+  - first:
+      213: -2626451747833458412
+    second: "T\xF6rcsik (2)_46"
+  - first:
+      213: 2233629695810025228
+    second: "T\xF6rcsik (2)_47"
+  - first:
+      213: -2507264116225281090
+    second: "T\xF6rcsik (2)_48"
+  - first:
+      213: -5923449546915640654
+    second: "T\xF6rcsik (2)_49"
+  - first:
+      213: -7600872652282376241
+    second: Towel_0
+  - first:
+      213: -7597734415151676039
+    second: Towel_1
+  - first:
+      213: 8394131307432718534
+    second: Towel_2
+  - first:
+      213: -7387575320356903778
+    second: Towel_3
+  - first:
+      213: -1718007419987339733
+    second: Towel_4
+  - first:
+      213: -7562943683684872742
+    second: Towel_5
+  - first:
+      213: -4445616700075967455
+    second: Towel_6
+  - first:
+      213: 276057346945402597
+    second: Towel_7
+  - first:
+      213: 5675726739927674034
+    second: Towel_8
+  - first:
+      213: 3193855731736937524
+    second: Towel_9
+  - first:
+      213: -907685771265392661
+    second: Towel_10
+  - first:
+      213: -3033080490645742803
+    second: Towel_11
+  - first:
+      213: 789354992592172571
+    second: Towel_12
+  - first:
+      213: -2568340754627551442
+    second: Towel_13
+  - first:
+      213: -5892197920650288318
+    second: Towel_14
+  - first:
+      213: 540248684976160353
+    second: Towel_15
+  - first:
+      213: 4219469830190789915
+    second: Towel_16
+  - first:
+      213: 2728696695868568751
+    second: Towel_17
+  - first:
+      213: 443687661798669730
+    second: Towel_18
+  - first:
+      213: 959502840948053299
+    second: Towel_19
+  - first:
+      213: 8501258584792415003
+    second: Towel_20
+  - first:
+      213: 890659115875134429
+    second: Towel_21
+  - first:
+      213: 1945542201138477737
+    second: Towel_22
+  - first:
+      213: 5202019357741657123
+    second: Towel_23
+  - first:
+      213: 1436246758844780748
+    second: Towel_24
+  - first:
+      213: -8360812736587166343
+    second: Towel_25
+  - first:
+      213: -4923810764860025728
+    second: Towel_26
+  - first:
+      213: -4760903117725275233
+    second: Towel_27
+  - first:
+      213: -843214840067314323
+    second: Towel_28
+  - first:
+      213: -1821609801629087545
+    second: Towel_29
+  - first:
+      213: -6570772141865072683
+    second: Towel_30
+  - first:
+      213: -568591640333991320
+    second: Towel_31
+  - first:
+      213: -8602474709804414523
+    second: Towel_32
+  - first:
+      213: -7481043394492600874
+    second: Towel_33
+  - first:
+      213: -8190252307336245593
+    second: Towel_34
+  - first:
+      213: 9070273882218542752
+    second: Towel_35
+  - first:
+      213: 1629440470915347441
+    second: Towel_36
+  - first:
+      213: -8023608998297245399
+    second: Towel_37
+  - first:
+      213: 4367417332923465494
+    second: Towel_38
+  - first:
+      213: -1722484687072664802
+    second: Towel_39
+  - first:
+      213: -6856895044471959514
+    second: Towel_40
+  - first:
+      213: -6734619292249572724
+    second: Towel_41
+  - first:
+      213: -3758470058587159252
+    second: Towel_42
+  - first:
+      213: -2174783071782194521
+    second: Towel_43
+  - first:
+      213: -2736582769550695280
+    second: Towel_44
+  - first:
+      213: -2186642419306132277
+    second: Towel_45
+  - first:
+      213: -8318254087880137243
+    second: Towel_46
+  - first:
+      213: 1008461080516957283
+    second: Towel_47
+  - first:
+      213: 3890716372758566002
+    second: Towel_48
+  - first:
+      213: -6352385394196746365
+    second: Towel_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Towel_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf4ab90896448690800000000000000
+      internalID: -7600872652282376241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 96
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975cf1fcdcc6f8690800000000000000
+      internalID: -7597734415151676039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0338933f1fd7470800000000000000
+      internalID: 8394131307432718534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 96
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e942fae136f0a7990800000000000000
+      internalID: -7387575320356903778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 96
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265b2a9a596828e0800000000000000
+      internalID: -1718007419987339733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 84
+        width: 24
+        height: 19
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -9.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -9.5}
+        - {x: -12, y: -9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: addcda53ac60b0790800000000000000
+      internalID: -7562943683684872742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 24
+        height: 13
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 6.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -6.5}
+        - {x: 12, y: -6.5}
+        - {x: 12, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7d684a2ffd42c0800000000000000
+      internalID: -4445616700075967455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 5.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: -2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e64156c1b0c4d300800000000000000
+      internalID: 276057346945402597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 84
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 5.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: -3.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc239f066b34ce40800000000000000
+      internalID: 5675726739927674034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 84
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4348602cddad25c20800000000000000
+      internalID: 3193855731736937524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 84
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 5.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: befbc04a9904763f0800000000000000
+      internalID: -907685771265392661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 84
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 6}
+        - {x: -12, y: 6}
+        - {x: -12, y: -5.9277344}
+        - {x: 12, y: -6}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b94eb1d5558e5d0800000000000000
+      internalID: -3033080490645742803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 69
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 3.0497437}
+        - {x: 12, y: 5.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: -1.0817261}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16332ffe2a54fa00800000000000000
+      internalID: 789354992592172571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 69
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 6}
+        - {x: -12, y: 6}
+        - {x: -12, y: -6}
+        - {x: -4, y: -6}
+        - {x: 12, y: -6}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f144af0bb6b5cd0800000000000000
+      internalID: -2568340754627551442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 69
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 6}
+        - {x: -12, y: 5}
+        - {x: -12, y: -6}
+        - {x: 9, y: -6}
+        - {x: 9, y: -2}
+        - {x: 6, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24328599535ba3ea0800000000000000
+      internalID: -5892197920650288318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 69
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 6}
+        - {x: -12, y: -6}
+        - {x: 4, y: -6}
+        - {x: 7, y: -1}
+        - {x: 7, y: 4}
+        - {x: 5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e306e01595f7700800000000000000
+      internalID: 540248684976160353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 69
+        width: 24
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 6}
+        - {x: -12, y: 5}
+        - {x: -12, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -2}
+        - {x: 9, y: 5}
+        - {x: 8, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15fff074719e8a30800000000000000
+      internalID: 4219469830190789915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 70
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4370900374ed520800000000000000
+      internalID: 2728696695868568751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 24
+        height: 19
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adbbb0e39b482600800000000000000
+      internalID: 443687661798669730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335dfab00c6d05d00800000000000000
+      internalID: 959502840948053299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bba4a24a98af570800000000000000
+      internalID: 8501258584792415003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb63b93fb14c5c00800000000000000
+      internalID: 890659115875134429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf362f254fffa10800000000000000
+      internalID: 1945542201138477737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ca5ec5b09413840800000000000000
+      internalID: 5202019357741657123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 54
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 5.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0dfbe41d29ee310800000000000000
+      internalID: 1436246758844780748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 49
+        width: 24
+        height: 13
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d09221d1d68fb80800000000000000
+      internalID: -8360812736587166343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0841643623c1babb0800000000000000
+      internalID: -4923810764860025728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6fe9b6dfddedb0800000000000000
+      internalID: -4760903117725275233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d237c029c4c44f0800000000000000
+      internalID: -843214840067314323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c84786698758b6e0800000000000000
+      internalID: -1821609801629087545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d78918ec8defc4a0800000000000000
+      internalID: -6570772141865072683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 12}
+        - {x: -6, y: 10}
+        - {x: -6, y: -8}
+        - {x: 5, y: -8}
+        - {x: 6, y: -6}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862c2a76ae4fb18f0800000000000000
+      internalID: -568591640333991320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 10}
+        - {x: -6, y: 5}
+        - {x: -6, y: -12}
+        - {x: 5, y: -12}
+        - {x: 6, y: -11}
+        - {x: 6, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c983dc44dedd9880800000000000000
+      internalID: -8602474709804414523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -9}
+        - {x: 4, y: -9}
+        - {x: 6, y: -8}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd6cf14baefd2890800000000000000
+      internalID: -7481043394492600874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -9}
+        - {x: 0, y: -9}
+        - {x: 5, y: -8}
+        - {x: 6, y: -7}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae46689be0665e80800000000000000
+      internalID: -8190252307336245593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 26
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b32d1a0610ed70800000000000000
+      internalID: 9070273882218542752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 33
+        width: 24
+        height: 19
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fd83a97fec9610800000000000000
+      internalID: 1629440470915347441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 25
+        width: 24
+        height: 13
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 6.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -6.5}
+        - {x: 12, y: -6.5}
+        - {x: 12, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296ddf702a66a090800000000000000
+      internalID: -8023608998297245399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f79cabcee2c9c30800000000000000
+      internalID: 4367417332923465494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_39
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 11}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 9}
+        - {x: 2, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ebff9d418818e0800000000000000
+      internalID: -1722484687072664802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620dc14594a67d0a0800000000000000
+      internalID: -6856895044471959514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_41
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -4}
+        - {x: 3, y: -10}
+        - {x: 5, y: -10}
+        - {x: 6, y: -9}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ab8fb6f63d982a0800000000000000
+      internalID: -6734619292249572724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2588fa156b37dbc0800000000000000
+      internalID: -3758470058587159252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2b3e6915e91d1e0800000000000000
+      internalID: -2174783071782194521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094e97a5874b50ad0800000000000000
+      internalID: -2736582769550695280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 9}
+        - {x: -6, y: 9}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc05721e4c77a1e0800000000000000
+      internalID: -2186642419306132277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_46
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 12}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5a674aaff9f8c80800000000000000
+      internalID: -8318254087880137243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 2}
+        - {x: -6, y: 1}
+        - {x: -6, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: 0}
+        - {x: 3, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364150a7206cefd00800000000000000
+      internalID: 1008461080516957283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_48
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 11
+        width: 24
+        height: 19
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 1.5}
+        - {x: 12, y: 1.5}
+        - {x: 12, y: -8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27412185de99ef530800000000000000
+      internalID: 3890716372758566002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Towel_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 24
+        height: 13
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 6.5}
+        - {x: -12, y: 5.5}
+        - {x: -12, y: -6.5}
+        - {x: 12, y: -6.5}
+        - {x: 12, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fe58ee32bc7d7a0800000000000000
+      internalID: -6352385394196746365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

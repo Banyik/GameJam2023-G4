@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: c664303222a3334449c27a224b98110f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4752919592586385972
+    second: MeliIdle_0
+  - first:
+      213: 8973736301837678930
+    second: MeliIdle_1
+  - first:
+      213: 4828764453515715245
+    second: MeliIdle_2
+  - first:
+      213: 387209048199406987
+    second: MeliIdle_3
+  - first:
+      213: -4173719823069287880
+    second: MeliIdle_4
+  - first:
+      213: -3538504227892289986
+    second: MeliIdle_5
+  - first:
+      213: -207000199436513018
+    second: MeliIdle_6
+  - first:
+      213: 1486591687687611775
+    second: MeliIdle_7
+  - first:
+      213: -4216059040600238253
+    second: MeliIdle_8
+  - first:
+      213: 3224591936543446
+    second: MeliIdle_9
+  - first:
+      213: -3694947948826785843
+    second: MeliIdle_10
+  - first:
+      213: -1330511717777878773
+    second: MeliIdle_11
+  - first:
+      213: 1824677735596072811
+    second: MeliIdle_12
+  - first:
+      213: 5494246697561627607
+    second: MeliIdle_13
+  - first:
+      213: 3947790085078846701
+    second: MeliIdle_14
+  - first:
+      213: -862109072795740691
+    second: MeliIdle_15
+  - first:
+      213: 4400112832077022906
+    second: MeliIdle_16
+  - first:
+      213: -7864522483607785753
+    second: MeliIdle_17
+  - first:
+      213: -217595400415287869
+    second: MeliIdle_18
+  - first:
+      213: -2718300524974606564
+    second: MeliIdle_19
+  - first:
+      213: 6360428151819318669
+    second: MeliIdle_20
+  - first:
+      213: 3836696831615825632
+    second: MeliIdle_21
+  - first:
+      213: -3670615159645746498
+    second: MeliIdle_22
+  - first:
+      213: 3886883827985745077
+    second: MeliIdle_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeliIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1b1aff23c5f140800000000000000
+      internalID: 4752919592586385972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259ff032f9d198c70800000000000000
+      internalID: 8973736301837678930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da266d3cfa7330340800000000000000
+      internalID: 4828764453515715245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b852ebbe394af5500800000000000000
+      internalID: 387209048199406987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae2f92fe7f316c0800000000000000
+      internalID: -4173719823069287880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e134c0725b4eec0800000000000000
+      internalID: -3538504227892289986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601d6245a66902df0800000000000000
+      internalID: -207000199436513018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f752bae734f61a410800000000000000
+      internalID: 1486591687687611775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d2f4e3ac8d75c0800000000000000
+      internalID: -4216059040600238253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da5ce0dfb47b0000800000000000000
+      internalID: 3224591936543446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc70f9eca68e8bcc0800000000000000
+      internalID: -3694947948826785843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01da5c54a2198de0800000000000000
+      internalID: -1330511717777878773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f94c3abbe825910800000000000000
+      internalID: 1824677735596072811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 80
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db168cf24c7f3c40800000000000000
+      internalID: 5494246697561627607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec0fe48a2e59c630800000000000000
+      internalID: 3947790085078846701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de55e5ead5c2904f0800000000000000
+      internalID: -862109072795740691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c697de47501d30800000000000000
+      internalID: 4400112832077022906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee2c7c187a9bd290800000000000000
+      internalID: -7864522483607785753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5ec7dd222fafcf0800000000000000
+      internalID: -217595400415287869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_19
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1771202318a64ad0800000000000000
+      internalID: -2718300524974606564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b59084b7c44850800000000000000
+      internalID: 6360428151819318669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f35fc07fae3530800000000000000
+      internalID: 3836696831615825632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebac626c5fa5f0dc0800000000000000
+      internalID: -3670615159645746498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeliIdle_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b40d4a7f3cf0f530800000000000000
+      internalID: 3886883827985745077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

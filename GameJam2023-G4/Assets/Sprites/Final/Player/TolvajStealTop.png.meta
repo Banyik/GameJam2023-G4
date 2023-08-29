@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 4bd53e449cf82f347be6781c93e9760b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6367780242905401646
+    second: TolvajStealTop_0
+  - first:
+      213: -3837945804656719736
+    second: TolvajStealTop_1
+  - first:
+      213: 6441143343554031026
+    second: TolvajStealTop_2
+  - first:
+      213: 520311877126126826
+    second: TolvajStealTop_3
+  - first:
+      213: -5445276424693505251
+    second: TolvajStealTop_4
+  - first:
+      213: -2266797517040047482
+    second: TolvajStealTop_5
+  - first:
+      213: -6669278093285051617
+    second: TolvajStealTop_6
+  - first:
+      213: -8078555280969591296
+    second: TolvajStealTop_7
+  - first:
+      213: -9169063049952984181
+    second: TolvajStealTop_8
+  - first:
+      213: -5890439011523094198
+    second: TolvajStealTop_9
+  - first:
+      213: -292089449086259034
+    second: TolvajStealTop_10
+  - first:
+      213: -6175636756589179980
+    second: TolvajStealTop_11
+  - first:
+      213: 845791603210951815
+    second: TolvajStealTop_12
+  - first:
+      213: -7681792842561490012
+    second: TolvajStealTop_13
+  - first:
+      213: -4546560096482060297
+    second: TolvajStealTop_14
+  - first:
+      213: -5183175513543753157
+    second: TolvajStealTop_15
+  - first:
+      213: 6210353742958515538
+    second: TolvajStealTop_16
+  - first:
+      213: -4646396221945148627
+    second: TolvajStealTop_17
+  - first:
+      213: 884794275694070515
+    second: TolvajStealTop_18
+  - first:
+      213: -5801171110087870027
+    second: TolvajStealTop_19
+  - first:
+      213: 3969738922289634278
+    second: TolvajStealTop_20
+  - first:
+      213: -7397637889727630025
+    second: TolvajStealTop_21
+  - first:
+      213: 7047010888907290969
+    second: TolvajStealTop_22
+  - first:
+      213: 7485179101618723068
+    second: TolvajStealTop_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TolvajStealTop_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d67fd56b9911a7a0800000000000000
+      internalID: -6367780242905401646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8884c3eff90ecbac0800000000000000
+      internalID: -3837945804656719736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde8eb8eb9836950800000000000000
+      internalID: 6441143343554031026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecf48045e4883700800000000000000
+      internalID: 520311877126126826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a55a21fd7e64b0800000000000000
+      internalID: -5445276424693505251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 64
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a27131ba7ba80e0800000000000000
+      internalID: -2266797517040047482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f133375d8e6f173a0800000000000000
+      internalID: -6669278093285051617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006937326c433ef80800000000000000
+      internalID: -8078555280969591296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8384606cb1f0c080800000000000000
+      internalID: -9169063049952984181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49101b8de4f04ea0800000000000000
+      internalID: -5890439011523094198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f290913a42fbf0800000000000000
+      internalID: -292089449086259034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 43
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb08adf61bbb4aa0800000000000000
+      internalID: -6175636756589179980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c956f5bfadcbb00800000000000000
+      internalID: 845791603210951815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3fbfc0c1ac46590800000000000000
+      internalID: -7681792842561490012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f798335eaf57e0c0800000000000000
+      internalID: -4546560096482060297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c8b20559a118b0800000000000000
+      internalID: -5183175513543753157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555f8a43db9f2650800000000000000
+      internalID: 6210353742958515538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 22
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b0e39f04fa48fb0800000000000000
+      internalID: -4646396221945148627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa4b06b4bb674c00800000000000000
+      internalID: 884794275694070515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b934fd7c991e7fa0800000000000000
+      internalID: -5801171110087870027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb9d1a6488571730800000000000000
+      internalID: 3969738922289634278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73570dd988f465990800000000000000
+      internalID: -7397637889727630025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959f0a911130cc160800000000000000
+      internalID: 7047010888907290969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TolvajStealTop_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf859281cb2b0e760800000000000000
+      internalID: 7485179101618723068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

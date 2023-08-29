@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: c17a276e2d67c084093e028083b4a719
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7225381997779437805
+    second: GameOverElkaptak_0
+  - first:
+      213: -1515832629064665606
+    second: GameOverElkaptak_1
+  - first:
+      213: 4035283015832980304
+    second: GameOverElkaptak_2
+  - first:
+      213: 9135130513495862697
+    second: GameOverElkaptak_3
+  - first:
+      213: 1262219787861630800
+    second: GameOverElkaptak_4
+  - first:
+      213: -5928072354122814066
+    second: GameOverElkaptak_5
+  - first:
+      213: -8153992958770176982
+    second: GameOverElkaptak_6
+  - first:
+      213: -3024199914859243609
+    second: GameOverElkaptak_7
+  - first:
+      213: 928235624701640806
+    second: GameOverElkaptak_8
+  - first:
+      213: 3750627597843473485
+    second: GameOverElkaptak_9
+  - first:
+      213: 515049493530291969
+    second: GameOverElkaptak_10
+  - first:
+      213: 8074453386017155641
+    second: GameOverElkaptak_11
+  - first:
+      213: 368421193118170319
+    second: GameOverElkaptak_12
+  - first:
+      213: -964815070434639783
+    second: GameOverElkaptak_13
+  - first:
+      213: 7669102768474491886
+    second: GameOverElkaptak_14
+  - first:
+      213: -6250926151905062179
+    second: GameOverElkaptak_15
+  - first:
+      213: -5562332618652191727
+    second: GameOverElkaptak_16
+  - first:
+      213: -2220189678766454396
+    second: GameOverElkaptak_17
+  - first:
+      213: 3181690778011064728
+    second: GameOverElkaptak_18
+  - first:
+      213: -3599471227142942254
+    second: GameOverElkaptak_19
+  - first:
+      213: 1493809279988641322
+    second: GameOverElkaptak_20
+  - first:
+      213: 4078531327037512896
+    second: GameOverElkaptak_21
+  - first:
+      213: -123716005205751718
+    second: GameOverElkaptak_22
+  - first:
+      213: 2735569028436704926
+    second: GameOverElkaptak_23
+  - first:
+      213: -6862034135167814745
+    second: GameOverElkaptak_24
+  - first:
+      213: -496522520152505548
+    second: GameOverElkaptak_25
+  - first:
+      213: 3073969722010214007
+    second: GameOverElkaptak_26
+  - first:
+      213: -199411546294535870
+    second: GameOverElkaptak_27
+  - first:
+      213: -4223566908622023102
+    second: GameOverElkaptak_28
+  - first:
+      213: -8128513498832986083
+    second: GameOverElkaptak_29
+  - first:
+      213: 1655065099785675561
+    second: GameOverElkaptak_30
+  - first:
+      213: 7925931003785596315
+    second: GameOverElkaptak_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameOverElkaptak_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8452035a6b54460800000000000000
+      internalID: 7225381997779437805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 69
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af577ad414ea6fae0800000000000000
+      internalID: -1515832629064665606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 69
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b44e6e584300830800000000000000
+      internalID: 4035283015832980304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 69
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ada0c15dc086ce70800000000000000
+      internalID: 9135130513495862697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 69
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f16f3a53e448110800000000000000
+      internalID: 1262219787861630800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d22b92a914bbda0800000000000000
+      internalID: -5928072354122814066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 46
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c977f0b9237de80800000000000000
+      internalID: -8153992958770176982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 46
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a75c094332e706d0800000000000000
+      internalID: -3024199914859243609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 46
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604436f161c1ec00800000000000000
+      internalID: 928235624701640806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 46
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44ac36bde7ec0430800000000000000
+      internalID: 3750627597843473485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f2e9719c2d52700800000000000000
+      internalID: 515049493530291969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 23
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aa00503983e0070800000000000000
+      internalID: 8074453386017155641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 23
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccb8878f15ec1500800000000000000
+      internalID: 368421193118170319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 23
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950ccc42ec94c92f0800000000000000
+      internalID: -964815070434639783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 23
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb03e4d5502e6a60800000000000000
+      internalID: 7669102768474491886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverElkaptak_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2df7e98cf3049a0800000000000000
+      internalID: -6250926151905062179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

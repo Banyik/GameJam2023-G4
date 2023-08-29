@@ -1,0 +1,2052 @@
+fileFormatVersion: 2
+guid: 9425cd7828bd1724a8716b91c8ce7cbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5864306019420642943
+    second: LucaActive_0
+  - first:
+      213: 4595577228112935865
+    second: LucaActive_1
+  - first:
+      213: -6533047779960054489
+    second: LucaActive_2
+  - first:
+      213: -2413954412450602206
+    second: LucaActive_3
+  - first:
+      213: -3445004721674967498
+    second: LucaActive_4
+  - first:
+      213: 5320791305150969883
+    second: LucaActive_5
+  - first:
+      213: -5176215997930901710
+    second: LucaActive_6
+  - first:
+      213: 4126016570120258950
+    second: LucaActive_7
+  - first:
+      213: 2112728740821908291
+    second: LucaActive_8
+  - first:
+      213: 8776225304331212274
+    second: LucaActive_9
+  - first:
+      213: -5488360809872321756
+    second: LucaActive_10
+  - first:
+      213: -5511299376328304797
+    second: LucaActive_11
+  - first:
+      213: 995356241547578007
+    second: LucaActive_12
+  - first:
+      213: -3776029905011787722
+    second: LucaActive_13
+  - first:
+      213: 7970892586722292289
+    second: LucaActive_14
+  - first:
+      213: 3442152798989560846
+    second: LucaActive_15
+  - first:
+      213: -5556985839765763389
+    second: LucaActive_16
+  - first:
+      213: 7840637409154201406
+    second: LucaActive_17
+  - first:
+      213: 7337005731907762139
+    second: LucaActive_18
+  - first:
+      213: 5954323827755699171
+    second: LucaActive_19
+  - first:
+      213: -4677816108421448099
+    second: LucaActive_20
+  - first:
+      213: 2216699691723172077
+    second: LucaActive_21
+  - first:
+      213: 368244304844385548
+    second: LucaActive_22
+  - first:
+      213: 3380246333663669880
+    second: LucaActive_23
+  - first:
+      213: -5313926446712257813
+    second: LucaActive_24
+  - first:
+      213: 6180032075647926682
+    second: LucaActive_25
+  - first:
+      213: 448576101655444430
+    second: LucaActive_26
+  - first:
+      213: -603263535281969362
+    second: LucaActive_27
+  - first:
+      213: -3046550151754943780
+    second: LucaActive_28
+  - first:
+      213: -4452471447686984896
+    second: LucaActive_29
+  - first:
+      213: -2309188916435093972
+    second: LucaActive_30
+  - first:
+      213: 3300991172571533656
+    second: LucaActive_31
+  - first:
+      213: -7511302461645317467
+    second: LucaActive_32
+  - first:
+      213: -4842685207094505668
+    second: LucaActive_33
+  - first:
+      213: 2951445644306582536
+    second: LucaActive_34
+  - first:
+      213: -3430626082397577522
+    second: LucaActive_35
+  - first:
+      213: -6349162984143650640
+    second: LucaActive_36
+  - first:
+      213: 3483046708594455066
+    second: LucaActive_37
+  - first:
+      213: 6511632892005900471
+    second: LucaActive_38
+  - first:
+      213: -1976921730829480561
+    second: LucaActive_39
+  - first:
+      213: -6527072827172688298
+    second: LucaActive_40
+  - first:
+      213: -1724677371920444509
+    second: LucaActive_41
+  - first:
+      213: -2277389010931794810
+    second: LucaActive_42
+  - first:
+      213: -7820194763175080012
+    second: LucaActive_43
+  - first:
+      213: 4516964025267497816
+    second: LucaActive_44
+  - first:
+      213: 6251388968651938922
+    second: LucaActive_45
+  - first:
+      213: 8382452044642311590
+    second: LucaActive_46
+  - first:
+      213: -7294087727025496653
+    second: LucaActive_47
+  - first:
+      213: -559809459612037734
+    second: LucaActive_48
+  - first:
+      213: -4284755689059197745
+    second: LucaActive_49
+  - first:
+      213: -2839253566832041436
+    second: LucaActive_50
+  - first:
+      213: -5449074758589009018
+    second: LucaActive_51
+  - first:
+      213: -8378703336449417895
+    second: LucaActive_52
+  - first:
+      213: 3413898366513130478
+    second: LucaActive_53
+  - first:
+      213: 4326075893635950837
+    second: LucaActive_54
+  - first:
+      213: -8869059833186397471
+    second: LucaActive_55
+  - first:
+      213: 7012571061478418256
+    second: LucaActive_56
+  - first:
+      213: 5000275492337459961
+    second: LucaActive_57
+  - first:
+      213: -1619907748456095713
+    second: LucaActive_58
+  - first:
+      213: -6942485163211653857
+    second: LucaActive_59
+  - first:
+      213: -1980606796121670152
+    second: LucaActive_60
+  - first:
+      213: 1531247700283450500
+    second: LucaActive_61
+  - first:
+      213: 5859252704949410212
+    second: LucaActive_62
+  - first:
+      213: 2032324637542310206
+    second: LucaActive_63
+  - first:
+      213: -5881449407518172038
+    second: LucaActive_64
+  - first:
+      213: 6037058742055685189
+    second: LucaActive_65
+  - first:
+      213: -983602020216741620
+    second: LucaActive_66
+  - first:
+      213: -2301732678534596151
+    second: LucaActive_67
+  - first:
+      213: -4834113324964325853
+    second: LucaActive_68
+  - first:
+      213: -7908842740541897263
+    second: LucaActive_69
+  - first:
+      213: 6362328486513002524
+    second: LucaActive_70
+  - first:
+      213: 4796382243667904346
+    second: LucaActive_71
+  - first:
+      213: -220356979773775228
+    second: LucaActive_72
+  - first:
+      213: 4764087115252829804
+    second: LucaActive_73
+  - first:
+      213: 2603560497512907620
+    second: LucaActive_74
+  - first:
+      213: -1920130747857918098
+    second: LucaActive_75
+  - first:
+      213: 1120426678041268116
+    second: LucaActive_76
+  - first:
+      213: -3479036042097928219
+    second: LucaActive_77
+  - first:
+      213: -6414679109508666713
+    second: LucaActive_78
+  - first:
+      213: 1978342103340496206
+    second: LucaActive_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LucaActive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e90c51143326150800000000000000
+      internalID: 5864306019420642943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbbb8bf325c6cf30800000000000000
+      internalID: 4595577228112935865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d93de58a3f555a0800000000000000
+      internalID: -6533047779960054489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22325e56049ef7ed0800000000000000
+      internalID: -2413954412450602206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63625034572e030d0800000000000000
+      internalID: -3445004721674967498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b283508f37d940800000000000000
+      internalID: 5320791305150969883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 440
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f62a289f26a28b0800000000000000
+      internalID: -5176215997930901710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685c46fb53e824930800000000000000
+      internalID: 4126016570120258950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb277989be15d10800000000000000
+      internalID: 2112728740821908291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d4757a6a6bc970800000000000000
+      internalID: 8776225304331212274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42392680cec65d3b0800000000000000
+      internalID: -5488360809872321756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3679e17da6ee383b0800000000000000
+      internalID: -5511299376328304797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a49626a3730dd00800000000000000
+      internalID: 995356241547578007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 400
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6383582cec8d89bc0800000000000000
+      internalID: -3776029905011787722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1427066739c4e9e60800000000000000
+      internalID: 7970892586722292289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca36ebbbbf4cf20800000000000000
+      internalID: 3442152798989560846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac2e622de91e2b0800000000000000
+      internalID: -5556985839765763389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e377641ae2a8fcc60800000000000000
+      internalID: 7840637409154201406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7fd5d07d742d560800000000000000
+      internalID: 7337005731907762139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_19
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebc50759f102a250800000000000000
+      internalID: 5954323827755699171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e70f4980f051fb0800000000000000
+      internalID: -4677816108421448099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8a0e200ac43ce10800000000000000
+      internalID: 2216699691723172077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6fc48e344c1500800000000000000
+      internalID: 368244304844385548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee653912c09ee20800000000000000
+      internalID: 3380246333663669880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be289251d042146b0800000000000000
+      internalID: -5313926446712257813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c389fd62e3c550800000000000000
+      internalID: 6180032075647926682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf6e97699a93600800000000000000
+      internalID: 448576101655444430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e276299c207c0a7f0800000000000000
+      internalID: -603263535281969362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2fb3e37ca78b5d0800000000000000
+      internalID: -3046550151754943780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b4c0cfec4a532c0800000000000000
+      internalID: -4452471447686984896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26fd944aec14ffd0800000000000000
+      internalID: -2309188916435093972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85193d76bf97fcd20800000000000000
+      internalID: 3300991172571533656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1d1d253e72c790800000000000000
+      internalID: -7511302461645317467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fc71836735bccb0800000000000000
+      internalID: -4842685207094505668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 280
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c84c21d24a5f820800000000000000
+      internalID: 2951445644306582536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece908911c7f360d0800000000000000
+      internalID: -3430626082397577522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b00f0db7ed33e7a0800000000000000
+      internalID: -6349162984143650640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12bdd90784465030800000000000000
+      internalID: 3483046708594455066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e2cb7d97fd5a50800000000000000
+      internalID: 6511632892005900471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d8825f8209094e0800000000000000
+      internalID: -1976921730829480561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e644978dd2b65a0800000000000000
+      internalID: -6527072827172688298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 240
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a317866117b018e0800000000000000
+      internalID: -1724677371920444509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c380cb2c61560e0800000000000000
+      internalID: -2277389010931794810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf449acb46197390800000000000000
+      internalID: -7820194763175080012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ba94d59da7fae30800000000000000
+      internalID: 4516964025267497816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5b4d452561c650800000000000000
+      internalID: 6251388968651938922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6add6a3f8b3745470800000000000000
+      internalID: 8382452044642311590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_47
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bddb16abd136ca90800000000000000
+      internalID: -7294087727025496653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_48
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 200
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dcbe133482b38f0800000000000000
+      internalID: -559809459612037734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccda44076d7984c0800000000000000
+      internalID: -4284755689059197745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42227b98ce1f898d0800000000000000
+      internalID: -2839253566832041436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68331c3a06ff064b0800000000000000
+      internalID: -5449074758589009018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_52
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d5d8035bdd8bb80800000000000000
+      internalID: -8378703336449417895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb2d4b0a7a906f20800000000000000
+      internalID: 3413898366513130478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_54
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82d8fca1f490c30800000000000000
+      internalID: 4326075893635950837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25d3f6215cae480800000000000000
+      internalID: -8869059833186397471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057ea99e938a15160800000000000000
+      internalID: 7012571061478418256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2add3511c846540800000000000000
+      internalID: 5000275492337459961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f102f544c7ee489e0800000000000000
+      internalID: -1619907748456095713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7954e68657af90800000000000000
+      internalID: -6942485163211653857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd7175dc987384e0800000000000000
+      internalID: -1980606796121670152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4846786aba5104510800000000000000
+      internalID: 1531247700283450500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a991cf9a4f305150800000000000000
+      internalID: 5859252704949410212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ebf87d74443c10800000000000000
+      internalID: 2032324637542310206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c9274dce4e06ea0800000000000000
+      internalID: -5881449407518172038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4560b0f0f7c350800000000000000
+      internalID: 6037058742055685189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_66
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01ef988c2b8952f0800000000000000
+      internalID: -983602020216741620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c97900f25a9e00e0800000000000000
+      internalID: -2301732678534596151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_68
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d48d0b87c9ecb0800000000000000
+      internalID: -4834113324964325853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 80
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c2992e652e3290800000000000000
+      internalID: -7908842740541897263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c4f6ac088b4850800000000000000
+      internalID: 6362328486513002524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_71
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5701d00d3c209240800000000000000
+      internalID: 4796382243667904346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4826ec09e7221fcf0800000000000000
+      internalID: -220356979773775228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_73
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e09a77dff6d1240800000000000000
+      internalID: 4764087115252829804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_74
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4630f7d6a74b12420800000000000000
+      internalID: 2603560497512907620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_75
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67af9312435a55e0800000000000000
+      internalID: -1920130747857918098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_76
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f458d902e8c8f00800000000000000
+      internalID: 1120426678041268116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d8f5072bf7bfc0800000000000000
+      internalID: -3479036042097928219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_78
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaed99165b7af6a0800000000000000
+      internalID: -6414679109508666713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LucaActive_79
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 69
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e453fc949ab747b10800000000000000
+      internalID: 1978342103340496206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
