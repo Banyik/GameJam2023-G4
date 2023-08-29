@@ -84,7 +84,7 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.05f;
+                    player.Thirst -= 0.125f;
                     thirstBarBehaviour.Animate(player.Thirst);
                     if (player.Thirst <= 0)
                     {

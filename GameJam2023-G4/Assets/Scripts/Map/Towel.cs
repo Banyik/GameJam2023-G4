@@ -25,7 +25,7 @@ namespace Maps
         public Towel(Vector2Int firstPosition, Vector2Int secondPosition, Tile skin, Tile lootedSkin, bool isLooted, Tilemap towelTiles, int mapType, bool isBigTowel)
         {
             this.isBigTowel = isBigTowel;
-            this.loot = GenerateLoot(Random.Range(0, 100) < 50f);
+            this.loot = GenerateLoot(Random.Range(0, 100) < 10f);
             this.firstPosition = firstPosition;
             this.secondPosition = secondPosition;
             this.skin = skin;
