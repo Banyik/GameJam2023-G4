@@ -191,9 +191,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 20
-        height: 21
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: LucaIdle_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 63
-        width: 20
-        height: 21
+        x: 70
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: LucaIdle_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 63
-        width: 20
-        height: 21
+        x: 140
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: LucaIdle_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 20
-        height: 21
+        x: 210
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: LucaIdle_4
       rect:
         serializedVersion: 2
-        x: 84
-        y: 63
-        width: 20
-        height: 21
+        x: 280
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: LucaIdle_5
       rect:
         serializedVersion: 2
-        x: 105
-        y: 63
-        width: 20
-        height: 21
+        x: 350
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: LucaIdle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 42
-        width: 20
-        height: 21
+        x: 420
+        y: 120
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: LucaIdle_7
       rect:
         serializedVersion: 2
-        x: 21
-        y: 42
-        width: 20
-        height: 21
+        x: 0
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: LucaIdle_8
       rect:
         serializedVersion: 2
-        x: 42
-        y: 42
-        width: 20
-        height: 21
+        x: 70
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +379,10 @@ TextureImporter:
       name: LucaIdle_9
       rect:
         serializedVersion: 2
-        x: 63
-        y: 42
-        width: 20
-        height: 21
+        x: 140
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: LucaIdle_10
       rect:
         serializedVersion: 2
-        x: 84
-        y: 42
-        width: 20
-        height: 21
+        x: 210
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +421,10 @@ TextureImporter:
       name: LucaIdle_11
       rect:
         serializedVersion: 2
-        x: 105
-        y: 42
-        width: 20
-        height: 21
+        x: 280
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,10 +442,10 @@ TextureImporter:
       name: LucaIdle_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 21
-        width: 20
-        height: 21
+        x: 350
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: LucaIdle_13
       rect:
         serializedVersion: 2
-        x: 21
-        y: 21
-        width: 20
-        height: 21
+        x: 420
+        y: 80
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: LucaIdle_14
       rect:
         serializedVersion: 2
-        x: 42
-        y: 21
-        width: 20
-        height: 21
+        x: 0
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: LucaIdle_15
       rect:
         serializedVersion: 2
-        x: 63
-        y: 21
-        width: 20
-        height: 21
+        x: 70
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,10 +526,10 @@ TextureImporter:
       name: LucaIdle_16
       rect:
         serializedVersion: 2
-        x: 84
-        y: 21
-        width: 20
-        height: 21
+        x: 140
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: LucaIdle_17
       rect:
         serializedVersion: 2
-        x: 105
-        y: 21
-        width: 20
-        height: 21
+        x: 210
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: LucaIdle_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 20
-        height: 21
+        x: 280
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -589,10 +589,10 @@ TextureImporter:
       name: LucaIdle_19
       rect:
         serializedVersion: 2
-        x: 21
-        y: 0
-        width: 20
-        height: 21
+        x: 350
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: LucaIdle_20
       rect:
         serializedVersion: 2
-        x: 42
-        y: 0
-        width: 20
-        height: 21
+        x: 420
+        y: 40
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +631,10 @@ TextureImporter:
       name: LucaIdle_21
       rect:
         serializedVersion: 2
-        x: 63
+        x: 0
         y: 0
-        width: 20
-        height: 21
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,10 +652,10 @@ TextureImporter:
       name: LucaIdle_22
       rect:
         serializedVersion: 2
-        x: 84
+        x: 70
         y: 0
-        width: 20
-        height: 21
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +673,10 @@ TextureImporter:
       name: LucaIdle_23
       rect:
         serializedVersion: 2
-        x: 105
+        x: 140
         y: 0
-        width: 20
-        height: 21
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

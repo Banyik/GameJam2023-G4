@@ -14,6 +14,11 @@ public class ImageHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        ClearSprite();
+    }
+
+    public void ClearSprite()
+    {
         sprite.sprite = null;
     }
 }

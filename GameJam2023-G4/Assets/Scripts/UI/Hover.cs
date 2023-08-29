@@ -17,6 +17,11 @@ public class Hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         anim.ResetTrigger("Hover");
         anim.SetTrigger("EndHover");
+        ClearSprite();
+    }
+
+    public void ClearSprite()
+    {
         sprite.sprite = null;
     }
 }
