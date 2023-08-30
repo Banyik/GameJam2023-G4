@@ -84,13 +84,14 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.125f;
+                    player.Thirst -= 0.1f;
                     thirstBarBehaviour.Animate(player.Thirst);
                     if (player.Thirst <= 0)
                     {
                         inventoryHandler.HideInventory();
                         ChangeState(State.Idle);
                         StopMovement();
+                        lootBarBehaviour.StopAnimation();
                         handler.TimesUp(player.Money);
                     }
                 }
@@ -245,7 +246,7 @@ namespace Player
             DisableAnimationBool("IsMoving");
             DisableAnimationBool("IsStealing");
             EnableAnimationBool("IsStunned");
-            player.Speed = 2;
+            player.Speed = 3;
         }
         void Caught()
         {
@@ -270,7 +271,7 @@ namespace Player
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             thirstBarBehaviour.Animate(player.Thirst);
             fasterLoot = false;
-            player.Speed = 2;
+            player.Speed = 3;
             stealTimeCount = 0;
             stunTimeCount = 0;
             StopMovement();
