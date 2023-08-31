@@ -9,8 +9,10 @@ namespace NPCs
     {
         float waitTimeScale = 5f;
         float waitTime = 0f;
-        public Grandma(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown) : base(speed, state, walkableGrid, isMoving, coolDown)
+        SoundEffectHandler soundEffect;
+        public Grandma(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, SoundEffectHandler soundEffect) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
+            this.soundEffect = soundEffect;
         }
 
         public override void CalculateCoolDown()
@@ -27,6 +29,7 @@ namespace NPCs
             else
             {
                 animator.SetBool("Look", true);
+                soundEffect.PlaySound(2);
                 ChangeState(State.See);
                 waitTime = 0f;
                 waitTimeScale = Random.Range(5, 9);

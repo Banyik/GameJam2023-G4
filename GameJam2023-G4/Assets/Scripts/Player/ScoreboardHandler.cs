@@ -29,7 +29,7 @@ public class ScoreboardHandler : MonoBehaviour
 
     void ShowContinueButton()
     {
-        if(scoresText[0] == 2500)
+        if(scoresText[0] == 2500 && scoresText[0] <= scoresText[1])
         {
             ContinueExitButton.SetActive(true);
         }
@@ -41,6 +41,7 @@ public class ScoreboardHandler : MonoBehaviour
 
     void ShowText()
     {
+        GameObject.Find("ButtonSound").GetComponent<SoundEffectHandler>().PlaySound(3);
         texts[index++].SetActive(true);
     }
 }

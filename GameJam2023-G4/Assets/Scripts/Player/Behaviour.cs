@@ -30,12 +30,14 @@ namespace Player
         bool reset = false;
         PowerUpParticleHandler particleHandler;
         InventoryUIHandler inventoryHandler;
+        SoundEffectHandler soundEffect;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
             handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
             particleHandler = gameObject.GetComponent<PowerUpParticleHandler>();
             inventoryHandler = gameObject.GetComponent<InventoryUIHandler>();
+            soundEffect = gameObject.GetComponent<SoundEffectHandler>();
             RefreshInventory();
             StartCoroutine(IncreaseThirst());
         }
@@ -86,6 +88,10 @@ namespace Player
                 {
                     player.Thirst -= 0.1f;
                     thirstBarBehaviour.Animate(player.Thirst);
+                    if(player.Thirst < 0.5f && player.Thirst > 0)
+                    {
+                        soundEffect.PlaySound(3);
+                    }
                     if (player.Thirst <= 0)
                     {
                         inventoryHandler.HideInventory();
@@ -297,6 +303,10 @@ namespace Player
         {
             if (stealTimeCount <= stealTime && player.Thirst > 0)
             {
+                if (!soundEffect.audioSrc.isPlaying)
+                {
+                    soundEffect.PlaySoundWithDelay("2;0,5");
+                }
                 stealTimeCount += Time.deltaTime;
                 lootBarBehaviour.Animate(stealTimeCount);
             }
@@ -317,6 +327,7 @@ namespace Player
         }
         void GetLoot()
         {
+            soundEffect.PlaySound(0);
             foreach (var item in closestTowel.Loot.Items)
             {
                 switch (item.Type)
@@ -348,6 +359,7 @@ namespace Player
 
         void UseItem(int index)
         {
+            bool usedItem = false;
             if (player.Items[index] != null)
             {
                 switch (player.Items[index].Type)
@@ -355,30 +367,37 @@ namespace Player
                     case ItemType.Corn:
                         if (!fasterLoot)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(0);
                             fasterLoot = true;
+                            usedItem = true;
                         }
                         break;
                     case ItemType.IceCream:
                         if(player.Speed != 4)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(1);
                             player.Speed = 4;
+                            usedItem = true;
                         }
                         break;
                     case ItemType.Langos:
                         if (!avoidStun)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(2);
                             avoidStun = true;
+                            usedItem = true;
                         }
                         break;
                     default:
                         break;
                 }
-                if (--player.Items[index].Amount == 0)
+                if (usedItem && --player.Items[index].Amount == 0)
                 {
                     player.Items[index] = null;
+                    usedItem = false;
                 }
                 RefreshInventory();
             }

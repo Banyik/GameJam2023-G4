@@ -15,7 +15,7 @@ public class GameHandler : MonoBehaviour
     public GameObject NoMoneyUI;
     public GameObject ScoreUI;
     GameObject UI;
-
+    int soundIndex;
     bool isPaused = false;
 
     public bool IsPaused { get => isPaused; set => isPaused = value; }
@@ -26,8 +26,14 @@ public class GameHandler : MonoBehaviour
         {
             isActivated = true;
             UI = GameOverUI;
+            soundIndex = 5;
             Invoke(nameof(ShowUI), 1f);
+            Invoke(nameof(PlaySound), 1f);
         }
+    }
+    void PlaySound()
+    {
+        GameObject.Find("ButtonSound").GetComponent<SoundEffectHandler>().PlaySound(soundIndex);
     }
     void ShowUI()
     {
@@ -43,14 +49,17 @@ public class GameHandler : MonoBehaviour
             {
                 CalculateScore(moneyAmount);
                 UI = ScoreUI;
+                soundIndex = 4;
                 mapGeneration.ShowScoreboardUI(score);
             }
             else
             {
+                soundIndex = 5;
                 UI = NoMoneyUI;
             }
             score = 0;
             Invoke(nameof(ShowUI), 1f);
+            Invoke(nameof(PlaySound), 1f);
         }
     }
 

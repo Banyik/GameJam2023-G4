@@ -13,9 +13,11 @@ namespace NPCs
         float avoidCoolDownScale = 2f;
         float avoidCoolDown = 0f;
         PlayerNPCHandler handler;
-        public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler) : base(speed, state, walkableGrid, isMoving, coolDown)
+        SoundEffectHandler soundEffect;
+        public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler, SoundEffectHandler soundEffect) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
             this.handler = handler;
+            this.soundEffect = soundEffect;
         }
 
         public override void CalculateCoolDown()
@@ -56,6 +58,7 @@ namespace NPCs
         public override void See(Animator animator)
         {
             IsMoving = false;
+            soundEffect.PlaySound(0);
             if (!saw)
             {
                 animator.SetBool("IsSeeing", true);
@@ -77,6 +80,7 @@ namespace NPCs
                 IsMoving = false;
                 ChangeState(State.Stun);
                 animator.SetBool("IsRunning", false);
+                soundEffect.PlaySound(3);
                 if (!handler.IsPlayerAvoidingStun(true))
                 {
                     handler.StunPlayer();

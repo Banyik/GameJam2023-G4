@@ -28,6 +28,7 @@ namespace NPCs
         public GameObject waterBullet;
         PlayerNPCHandler playerNPCHandler;
         GameHandler gameHandler;
+        SoundEffectHandler soundEffect;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
@@ -35,6 +36,7 @@ namespace NPCs
             walkableGrid.GetCoordinates();
             playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
             gameHandler = GameObject.Find("ScriptHandler").GetComponent<GameHandler>();
+            soundEffect = gameObject.GetComponent<SoundEffectHandler>();
             switch (type)
             {
                 case Type.Kid:
@@ -47,14 +49,14 @@ namespace NPCs
                     spriteBehaviour.SetSprite(kidHeadSprite, gameObject);
                     break;
                 case Type.Grandma:
-                    npc = new Grandma(5, State.Calm, walkableGrid, false, false);
+                    npc = new Grandma(5, State.Calm, walkableGrid, false, false, soundEffect);
                     animator.runtimeAnimatorController = grandmaAnimator;
                     gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                     gameObject.layer = LayerMask.NameToLayer("Grandma");
                     spriteBehaviour.gameObject.SetActive(false);
                     break;
                 case Type.LifeGuard:
-                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false, playerNPCHandler);
+                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false, playerNPCHandler, soundEffect);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
@@ -85,6 +87,7 @@ namespace NPCs
                     if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") &&
                         !playerNPCHandler.IsGameOver())
                     {
+                        soundEffect.PlaySound(0);
                         if (playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = true;
@@ -96,6 +99,7 @@ namespace NPCs
                         var bullet = Instantiate(waterBullet, transform.position, new Quaternion(0, 0, 0, 0), null);
                         bullet.SetActive(true);
                         bullet.GetComponent<WaterBulletBehaviour>().Shoot(transform.position, playerNPCHandler.GetPlayerPosition());
+                        soundEffect.PlaySound(1);
                         animator.SetBool("Saw", false);
                         npc.ChangeState(State.Stun);
                     }
@@ -105,6 +109,7 @@ namespace NPCs
                     {
                         if (playerNPCHandler.IsPlayerStealing())
                         {
+                            soundEffect.PlaySound(0);
                             animator.SetBool("Saw", true);
                             if(playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                             {
