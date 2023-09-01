@@ -11,7 +11,7 @@ namespace Maps
         {
             if (collision.tag == "Player")
             {
-                GameObject.Find("IntroLine").SetActive(false);
+                GameObject.Find("IntroLine").GetComponent<SpriteRenderer>().sprite = null;
                 walkableGrid.ResetMap();
             }
         }
