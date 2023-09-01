@@ -11,6 +11,7 @@ namespace Maps
         {
             if (collision.tag == "Player")
             {
+                GameObject.Find("IntroLine").SetActive(false);
                 walkableGrid.ResetMap();
             }
         }

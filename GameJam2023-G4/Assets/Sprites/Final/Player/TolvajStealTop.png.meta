@@ -75,7 +75,7 @@ TextureImporter:
       213: 7485179101618723068
     second: TolvajStealTop_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -169,6 +175,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -688,9 +721,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      TolvajStealTop_0: -6367780242905401646
+      TolvajStealTop_1: -3837945804656719736
+      TolvajStealTop_10: -292089449086259034
+      TolvajStealTop_11: -6175636756589179980
+      TolvajStealTop_12: 845791603210951815
+      TolvajStealTop_13: -7681792842561490012
+      TolvajStealTop_14: -4546560096482060297
+      TolvajStealTop_15: -5183175513543753157
+      TolvajStealTop_16: 6210353742958515538
+      TolvajStealTop_17: -4646396221945148627
+      TolvajStealTop_18: 884794275694070515
+      TolvajStealTop_19: -5801171110087870027
+      TolvajStealTop_2: 6441143343554031026
+      TolvajStealTop_20: 3969738922289634278
+      TolvajStealTop_21: -7397637889727630025
+      TolvajStealTop_22: 7047010888907290969
+      TolvajStealTop_23: 7485179101618723068
+      TolvajStealTop_3: 520311877126126826
+      TolvajStealTop_4: -5445276424693505251
+      TolvajStealTop_5: -2266797517040047482
+      TolvajStealTop_6: -6669278093285051617
+      TolvajStealTop_7: -8078555280969591296
+      TolvajStealTop_8: -9169063049952984181
+      TolvajStealTop_9: -5890439011523094198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

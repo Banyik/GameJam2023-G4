@@ -318,7 +318,7 @@ TextureImporter:
       213: 7059788336389503820
     second: MeliActive_104
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -335,10 +335,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -377,6 +379,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -388,6 +392,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -400,6 +405,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -412,6 +418,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -424,6 +431,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2644,9 +2665,114 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MeliActive_0: 4553141327057613769
+      MeliActive_1: -1888430922425539396
+      MeliActive_10: 5719795453416461723
+      MeliActive_100: -2741696231885781052
+      MeliActive_101: 4426215331004012790
+      MeliActive_102: 4288610688092526112
+      MeliActive_103: 1152062319063685072
+      MeliActive_104: 7059788336389503820
+      MeliActive_11: -6677970532735123597
+      MeliActive_12: 8014723575332983032
+      MeliActive_13: -5311277392695181330
+      MeliActive_14: 2862823356084760885
+      MeliActive_15: 1967560887944645102
+      MeliActive_16: 5748215167460291760
+      MeliActive_17: -6562497879400939144
+      MeliActive_18: -1015092812433205640
+      MeliActive_19: -1090737809592745069
+      MeliActive_2: -6831994425825349173
+      MeliActive_20: -4582947373169412939
+      MeliActive_21: -8042802278292533260
+      MeliActive_22: -490703341936966251
+      MeliActive_23: -9201465077439421246
+      MeliActive_24: -611288685515942660
+      MeliActive_25: -6659628825267748946
+      MeliActive_26: -7301433345798003163
+      MeliActive_27: 576336851345113113
+      MeliActive_28: -525361159249372375
+      MeliActive_29: -9004910873935580960
+      MeliActive_3: 6987659814930386648
+      MeliActive_30: 8053785292409531873
+      MeliActive_31: -1987153271704215909
+      MeliActive_32: 3648451524954186503
+      MeliActive_33: -8895880226300158688
+      MeliActive_34: 4563949317316864127
+      MeliActive_35: 4577276201680054382
+      MeliActive_36: 2437325148191061352
+      MeliActive_37: -5941400427195319568
+      MeliActive_38: 7551001409386984349
+      MeliActive_39: -6494297738871297877
+      MeliActive_4: 2241604524262852701
+      MeliActive_40: -5862762981526571616
+      MeliActive_41: -7524594535054194854
+      MeliActive_42: 7424336290590715761
+      MeliActive_43: 2271819702726726704
+      MeliActive_44: 9180267555095763861
+      MeliActive_45: -6975975885931214948
+      MeliActive_46: 1306665680665105513
+      MeliActive_47: 1174926034541532124
+      MeliActive_48: 7971217247392465836
+      MeliActive_49: 275327650862285565
+      MeliActive_5: 433325682619918545
+      MeliActive_50: 4772105421194849803
+      MeliActive_51: -5452456266400597683
+      MeliActive_52: -4389556022138161684
+      MeliActive_53: 417623258526114307
+      MeliActive_54: 8518810162457671686
+      MeliActive_55: -272466852708644822
+      MeliActive_56: 9162959707824004435
+      MeliActive_57: -8732991776270762904
+      MeliActive_58: 6990326170887979485
+      MeliActive_59: -1004932103666238371
+      MeliActive_6: -2200377850368562756
+      MeliActive_60: 5059608512814938069
+      MeliActive_61: -6605342616965530683
+      MeliActive_62: -7090730790717977592
+      MeliActive_63: -5341782986004659159
+      MeliActive_64: -5499317060892240274
+      MeliActive_65: 1964185420639571193
+      MeliActive_66: -4231937274034168907
+      MeliActive_67: -3860724338665082221
+      MeliActive_68: -3981439990574750967
+      MeliActive_69: 5268839140273807920
+      MeliActive_7: 6877138171653296453
+      MeliActive_70: -8538153018093216520
+      MeliActive_71: 4901512986876530565
+      MeliActive_72: -7192451481950359619
+      MeliActive_73: -2207978736519413878
+      MeliActive_74: -4733737678929759996
+      MeliActive_75: -4609268871403119326
+      MeliActive_76: -6147303543211603504
+      MeliActive_77: -936721593656649294
+      MeliActive_78: -690450870787602435
+      MeliActive_79: -6998462539558630652
+      MeliActive_8: 6536718934302674950
+      MeliActive_80: -3587394580621228543
+      MeliActive_81: 8159297941102303156
+      MeliActive_82: 6680275588950121762
+      MeliActive_83: -7216278999411150378
+      MeliActive_84: -7713355454552475445
+      MeliActive_85: 3551393735780051193
+      MeliActive_86: -5423023552615933526
+      MeliActive_87: -2409539821509066599
+      MeliActive_88: -712150282822612383
+      MeliActive_89: 5045258801296813720
+      MeliActive_9: 5401850532070485450
+      MeliActive_90: 3598726958765136924
+      MeliActive_91: 7087843997205481634
+      MeliActive_92: 7845735786122746110
+      MeliActive_93: -4174689010530872895
+      MeliActive_94: -2488935883737828907
+      MeliActive_95: 968343618278285714
+      MeliActive_96: 1988980673937618050
+      MeliActive_97: 8425219415355925030
+      MeliActive_98: 4573704103644505306
+      MeliActive_99: -855322538874637707
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

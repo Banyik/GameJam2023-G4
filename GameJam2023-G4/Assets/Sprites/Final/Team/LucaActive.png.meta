@@ -243,7 +243,7 @@ TextureImporter:
       213: 1978342103340496206
     second: LucaActive_79
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -260,10 +260,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -302,6 +304,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -313,6 +317,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -325,6 +330,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -337,6 +343,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -349,6 +356,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2044,9 +2065,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      LucaActive_0: 5864306019420642943
+      LucaActive_1: 4595577228112935865
+      LucaActive_10: -5488360809872321756
+      LucaActive_11: -5511299376328304797
+      LucaActive_12: 995356241547578007
+      LucaActive_13: -3776029905011787722
+      LucaActive_14: 7970892586722292289
+      LucaActive_15: 3442152798989560846
+      LucaActive_16: -5556985839765763389
+      LucaActive_17: 7840637409154201406
+      LucaActive_18: 7337005731907762139
+      LucaActive_19: 5954323827755699171
+      LucaActive_2: -6533047779960054489
+      LucaActive_20: -4677816108421448099
+      LucaActive_21: 2216699691723172077
+      LucaActive_22: 368244304844385548
+      LucaActive_23: 3380246333663669880
+      LucaActive_24: -5313926446712257813
+      LucaActive_25: 6180032075647926682
+      LucaActive_26: 448576101655444430
+      LucaActive_27: -603263535281969362
+      LucaActive_28: -3046550151754943780
+      LucaActive_29: -4452471447686984896
+      LucaActive_3: -2413954412450602206
+      LucaActive_30: -2309188916435093972
+      LucaActive_31: 3300991172571533656
+      LucaActive_32: -7511302461645317467
+      LucaActive_33: -4842685207094505668
+      LucaActive_34: 2951445644306582536
+      LucaActive_35: -3430626082397577522
+      LucaActive_36: -6349162984143650640
+      LucaActive_37: 3483046708594455066
+      LucaActive_38: 6511632892005900471
+      LucaActive_39: -1976921730829480561
+      LucaActive_4: -3445004721674967498
+      LucaActive_40: -6527072827172688298
+      LucaActive_41: -1724677371920444509
+      LucaActive_42: -2277389010931794810
+      LucaActive_43: -7820194763175080012
+      LucaActive_44: 4516964025267497816
+      LucaActive_45: 6251388968651938922
+      LucaActive_46: 8382452044642311590
+      LucaActive_47: -7294087727025496653
+      LucaActive_48: -559809459612037734
+      LucaActive_49: -4284755689059197745
+      LucaActive_5: 5320791305150969883
+      LucaActive_50: -2839253566832041436
+      LucaActive_51: -5449074758589009018
+      LucaActive_52: -8378703336449417895
+      LucaActive_53: 3413898366513130478
+      LucaActive_54: 4326075893635950837
+      LucaActive_55: -8869059833186397471
+      LucaActive_56: 7012571061478418256
+      LucaActive_57: 5000275492337459961
+      LucaActive_58: -1619907748456095713
+      LucaActive_59: -6942485163211653857
+      LucaActive_6: -5176215997930901710
+      LucaActive_60: -1980606796121670152
+      LucaActive_61: 1531247700283450500
+      LucaActive_62: 5859252704949410212
+      LucaActive_63: 2032324637542310206
+      LucaActive_64: -5881449407518172038
+      LucaActive_65: 6037058742055685189
+      LucaActive_66: -983602020216741620
+      LucaActive_67: -2301732678534596151
+      LucaActive_68: -4834113324964325853
+      LucaActive_69: -7908842740541897263
+      LucaActive_7: 4126016570120258950
+      LucaActive_70: 6362328486513002524
+      LucaActive_71: 4796382243667904346
+      LucaActive_72: -220356979773775228
+      LucaActive_73: 4764087115252829804
+      LucaActive_74: 2603560497512907620
+      LucaActive_75: -1920130747857918098
+      LucaActive_76: 1120426678041268116
+      LucaActive_77: -3479036042097928219
+      LucaActive_78: -6414679109508666713
+      LucaActive_79: 1978342103340496206
+      LucaActive_8: 2112728740821908291
+      LucaActive_9: 8776225304331212274
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

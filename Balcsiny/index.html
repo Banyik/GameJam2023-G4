@@ -5,10 +5,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Balcsiny</title>
   </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #FFFFFF"></canvas>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+    <canvas id="unity-canvas" width=1280 height=720 tabindex="-1" style="width: 1280px; height: 720px; background: #FFFFFF"></canvas>
     <script src="Build/Balcsiny.loader.js"></script>
     <script>
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+
+        var canvas = document.querySelector("#unity-canvas");
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        canvas.style.position = "fixed";
+
+        document.body.style.textAlign = "left";
+      }
+
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/Balcsiny.data",
         frameworkUrl: "Build/Balcsiny.framework.js",
@@ -16,7 +31,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Group4",
         productName: "Balcsiny",
-        productVersion: "0.1.0",
+        productVersion: "0.1.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });

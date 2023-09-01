@@ -76,6 +76,11 @@ public class GameHandler : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void PlayIntro()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void ToMenu()
     {
         SceneManager.LoadScene(0);

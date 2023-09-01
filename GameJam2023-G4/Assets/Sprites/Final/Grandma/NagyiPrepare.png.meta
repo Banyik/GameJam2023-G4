@@ -147,7 +147,7 @@ TextureImporter:
       213: -8093994249395013996
     second: NagyiPrepare_47
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -164,10 +164,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -206,6 +208,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -217,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -229,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -241,6 +247,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1264,9 +1297,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      NagyiPrepare_0: -5503154044777581907
+      NagyiPrepare_1: -8901771819610657205
+      NagyiPrepare_10: 7817494717088262623
+      NagyiPrepare_11: 7917465598888578309
+      NagyiPrepare_12: -8850275936244715782
+      NagyiPrepare_13: -4993822720572049220
+      NagyiPrepare_14: -6544910289979569317
+      NagyiPrepare_15: -5746547665193861256
+      NagyiPrepare_16: -7322734065922499543
+      NagyiPrepare_17: -815710120513260078
+      NagyiPrepare_18: 7127025554238142107
+      NagyiPrepare_19: -1181137241317799925
+      NagyiPrepare_2: 9182064908120559055
+      NagyiPrepare_20: -5772386061208011238
+      NagyiPrepare_21: 120778381865352933
+      NagyiPrepare_22: -1090542552847215667
+      NagyiPrepare_23: -7409399862728049906
+      NagyiPrepare_24: -3923687745745241584
+      NagyiPrepare_25: 1749888881694282607
+      NagyiPrepare_26: -6973773456958651343
+      NagyiPrepare_27: -2669285244971567765
+      NagyiPrepare_28: -2361715179580071027
+      NagyiPrepare_29: -2793713784016429138
+      NagyiPrepare_3: 375599103814428785
+      NagyiPrepare_30: 6864979998310585772
+      NagyiPrepare_31: -6207618989120962326
+      NagyiPrepare_32: -112299853647194432
+      NagyiPrepare_33: 682123186496774218
+      NagyiPrepare_34: 6088932870325831328
+      NagyiPrepare_35: 2450133123603685593
+      NagyiPrepare_36: 8060525720735876211
+      NagyiPrepare_37: -7203534195404866155
+      NagyiPrepare_38: 2155467832048180352
+      NagyiPrepare_39: 5811772961897013515
+      NagyiPrepare_4: 4903840936716655015
+      NagyiPrepare_40: -6592455004682137032
+      NagyiPrepare_41: 2734859863213088732
+      NagyiPrepare_42: 9089751382338768215
+      NagyiPrepare_43: 1190596025239155896
+      NagyiPrepare_44: 788309724608055048
+      NagyiPrepare_45: 8323130233992394054
+      NagyiPrepare_46: 5990809389726030676
+      NagyiPrepare_47: -8093994249395013996
+      NagyiPrepare_5: -8662462410329808389
+      NagyiPrepare_6: -389492381934679450
+      NagyiPrepare_7: 387736907211727455
+      NagyiPrepare_8: -2108642345084364906
+      NagyiPrepare_9: -3889078682413205982
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
