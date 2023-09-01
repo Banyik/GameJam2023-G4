@@ -86,9 +86,9 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.1f;
+                    player.Thirst -= 0.05f;
                     thirstBarBehaviour.Animate(player.Thirst);
-                    if(player.Thirst < 0.5f && player.Thirst > 0)
+                    if(player.Thirst < 0.25f && player.Thirst > 0)
                     {
                         soundEffect.PlaySound(3);
                     }

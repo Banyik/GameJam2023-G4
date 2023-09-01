@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using Maps;
 using UnityEngine.SceneManagement;
 
@@ -17,7 +18,7 @@ public class GameHandler : MonoBehaviour
     GameObject UI;
     int soundIndex;
     bool isPaused = false;
-
+    public AudioMixer mixer;
     public bool IsPaused { get => isPaused; set => isPaused = value; }
 
     public void GameOver(float moneyAmount)
@@ -35,8 +36,15 @@ public class GameHandler : MonoBehaviour
     {
         GameObject.Find("ButtonSound").GetComponent<SoundEffectHandler>().PlaySound(soundIndex);
     }
+
+    public void SetMusicVolume(float volume)
+    {
+        mixer.SetFloat("Volume", volume);
+
+    }
     void ShowUI()
     {
+        SetMusicVolume(-80);
         UI.SetActive(true);
     }
     public void TimesUp(float moneyAmount)

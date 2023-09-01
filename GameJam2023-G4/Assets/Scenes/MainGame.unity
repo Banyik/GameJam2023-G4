@@ -1023,7 +1023,7 @@ AudioSource:
   m_GameObject: {fileID: 173250852}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 6991e107cffe5f44e9bccc30ceb20db4, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 77bfd0346b15d014d8a4478970fb93ec, type: 2}
   m_audioClip: {fileID: 8300000, guid: 15df3b1ccb4ba214da70badca6434949, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -4954,6 +4954,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1157412981}
+        m_TargetAssemblyTypeName: Player.Behaviour, Assembly-CSharp
+        m_MethodName: ResetState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1802504561}
+        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
+        m_MethodName: SetMusicVolume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &685887422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6720,7 +6744,7 @@ AudioSource:
   m_GameObject: {fileID: 1001034016}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 6991e107cffe5f44e9bccc30ceb20db4, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 77bfd0346b15d014d8a4478970fb93ec, type: 2}
   m_audioClip: {fileID: 8300000, guid: 8beaec2b61607fa46bad2d7b9e4b1e9b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -32663,6 +32687,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1802504561}
+        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
+        m_MethodName: SetMusicVolume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1548015653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34001,6 +34037,7 @@ MonoBehaviour:
   GameOverUI: {fileID: 550187452}
   NoMoneyUI: {fileID: 3778477}
   ScoreUI: {fileID: 1994211446}
+  mixer: {fileID: 24100000, guid: 77bfd0346b15d014d8a4478970fb93ec, type: 2}
 --- !u!114 &1802504562
 MonoBehaviour:
   m_ObjectHideFlags: 0
