@@ -86,13 +86,16 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.05f;
+                    if(player.Thirst > 0)
+                    {
+                        player.Thirst -= 0.05f;
+                    }
                     thirstBarBehaviour.Animate(player.Thirst);
                     if(player.Thirst < 0.25f && player.Thirst > 0)
                     {
                         soundEffect.PlaySound(3);
                     }
-                    if (player.Thirst <= 0)
+                    if (player.Thirst <= 0 && !player.IsState(State.Caught) && !IsPlayerStealing())
                     {
                         inventoryHandler.HideInventory();
                         ChangeState(State.Idle);
@@ -301,7 +304,7 @@ namespace Player
 
         void StealingCountDown()
         {
-            if (stealTimeCount <= stealTime && player.Thirst > 0)
+            if (stealTimeCount <= stealTime)
             {
                 if (!soundEffect.audioSrc.isPlaying)
                 {
@@ -310,7 +313,7 @@ namespace Player
                 stealTimeCount += Time.deltaTime;
                 lootBarBehaviour.Animate(stealTimeCount);
             }
-            else if(player.Thirst > 0)
+            else
             {
                 if (fasterLoot)
                 {
@@ -397,7 +400,6 @@ namespace Player
                 if (usedItem && --player.Items[index].Amount == 0)
                 {
                     player.Items[index] = null;
-                    usedItem = false;
                 }
                 RefreshInventory();
             }

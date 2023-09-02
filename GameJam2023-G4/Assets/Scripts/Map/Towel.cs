@@ -83,9 +83,9 @@ namespace Maps
         {
             if (isBigTowel)
             {
-                return new Item(10 * (mapType + 1) * 2, ItemType.Money);
+                return new Item(150 + mapType * 25, ItemType.Money);
             }
-            return new Item(10 * (mapType + 1), ItemType.Money);
+            return new Item(100 + mapType * 25, ItemType.Money);
         }
     }
 }
