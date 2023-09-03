@@ -78,6 +78,10 @@ public class GameHandler : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void PlayOutro()
+    {
+        SceneManager.LoadScene(3);
+    }
 
     public void ToMenu()
     {
