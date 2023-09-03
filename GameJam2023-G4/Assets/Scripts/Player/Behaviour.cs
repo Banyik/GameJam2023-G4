@@ -102,6 +102,7 @@ namespace Player
                         StopMovement();
                         lootBarBehaviour.StopAnimation();
                         handler.TimesUp(player.Money);
+                        player.Money = 0;
                     }
                 }
                 yield return new WaitForSeconds(1);
@@ -285,6 +286,7 @@ namespace Player
             stunTimeCount = 0;
             StopMovement();
             RefreshInventory();
+            inventoryHandler.SetMoney(player.Money);
         }
 
         void StunnedCountDown()
@@ -357,6 +359,7 @@ namespace Player
                         break;
                 }
             }
+            inventoryHandler.SetMoney(player.Money);
             Debug.Log($"Thirst: {player.Thirst}\nMoney: {player.Money}");
         }
 

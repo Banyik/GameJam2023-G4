@@ -14,7 +14,7 @@ public class ScoreboardHandler : MonoBehaviour
     public void ShowScoreboard(int[] scoresText)
     {
         this.scoresText = scoresText;
-        Invoke(nameof(ShowElements), 1f);
+        Invoke(nameof(ShowElements), 3f);
     }
 
     void ShowElements()
@@ -25,6 +25,7 @@ public class ScoreboardHandler : MonoBehaviour
             Invoke(nameof(ShowText), i + 0.25f);
         }
         Invoke(nameof(ShowContinueButton), texts.Length + 0.25f);
+        index = 0;
     }
 
     void ShowContinueButton()

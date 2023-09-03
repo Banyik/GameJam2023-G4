@@ -8,6 +8,12 @@ public class InventoryUIHandler : MonoBehaviour
     public Sprite[] sprites;
     public GameObject[] slots;
     public Text[] slotTexts;
+    public Text moneyText;
+
+    public void SetMoney(float money)
+    {
+        moneyText.text = money.ToString();
+    }
 
     public void SetItem(int slot, Items.ItemType type, int amount)
     {

@@ -54,9 +54,9 @@ namespace Maps
         public int CheckScore(int score)
         {
             ResetMapTypeIndex();
+            minScore = difficultyScore[currentMapType];
             if (score >= minScore)
             {
-                minScore = difficultyScore[currentMapType];
                 nextMapType = true;
                 return score - minScore;
             }

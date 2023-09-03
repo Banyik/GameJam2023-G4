@@ -21,22 +21,6 @@ namespace Items
         public Text myMoney;
         ItemType type;
         float price;
-
-        private void Start()
-        {
-            buyCorn.onClick.AddListener(delegate { SetItem("2"); });
-            buyCorn.onClick.AddListener(delegate { SetPrice("30"); });
-
-            buyIceCream.onClick.AddListener(delegate { SetItem("3"); });
-            buyIceCream.onClick.AddListener(delegate { SetPrice("30"); });
-
-            buyLangos.onClick.AddListener(delegate { SetItem("4"); });
-            buyLangos.onClick.AddListener(delegate { SetPrice("30"); });
-
-            buyStrawberrySyrup.onClick.AddListener(delegate { SetItem("5"); });
-            buyStrawberrySyrup.onClick.AddListener(delegate { SetPrice("30"); });
-        }
-
         public void Continue()
         {
             playerBehaviour.player.Money = 0;

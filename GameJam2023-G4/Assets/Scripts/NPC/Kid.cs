@@ -40,8 +40,18 @@ namespace NPCs
             ChangeState(State.Move);
             IsMoving = true;
             animator.SetBool("IsMoving", true);
-            TargetPosition = WalkableGrid.GetRandomCoordinate();
-            TargetPosition += new Vector2Int(0, 2);
+            if(Random.Range(0, 100) < 10)
+            {
+                TargetPosition = new Vector2Int(30, 2);
+                targetSwitchTimeScale = 15;
+            }
+            else
+            {
+                TargetPosition = WalkableGrid.GetRandomCoordinate();
+                TargetPosition += new Vector2Int(0, 2);
+                targetSwitchTimeScale = 3;
+            }
+            
         }
 
         public override void IsTargetReached(Vector2 position, Animator animator)

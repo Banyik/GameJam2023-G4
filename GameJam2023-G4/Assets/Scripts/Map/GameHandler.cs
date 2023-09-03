@@ -40,7 +40,6 @@ public class GameHandler : MonoBehaviour
     public void SetMusicVolume(float volume)
     {
         mixer.SetFloat("Volume", volume);
-
     }
     void ShowUI()
     {
@@ -65,7 +64,6 @@ public class GameHandler : MonoBehaviour
                 soundIndex = 5;
                 UI = NoMoneyUI;
             }
-            score = 0;
             Invoke(nameof(ShowUI), 1f);
             Invoke(nameof(PlaySound), 1f);
         }
