@@ -29,18 +29,22 @@ namespace NPCs
         PlayerNPCHandler playerNPCHandler;
         GameHandler gameHandler;
         SoundEffectHandler soundEffect;
+        public bool isInMainMenu;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
-            walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
-            walkableGrid.GetCoordinates();
-            playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
+            if (!isInMainMenu)
+            {
+                walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
+                walkableGrid.GetCoordinates();
+                playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
+            }
             gameHandler = GameObject.Find("ScriptHandler").GetComponent<GameHandler>();
             soundEffect = gameObject.GetComponent<SoundEffectHandler>();
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, walkableGrid, true, false, playerNPCHandler);
+                    npc = new Kid(5, State.Calm, walkableGrid, true, false, playerNPCHandler, isInMainMenu);
                     animator.runtimeAnimatorController = kidAnimator;
                     gameObject.layer = LayerMask.NameToLayer("Kid");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
@@ -49,7 +53,7 @@ namespace NPCs
                     spriteBehaviour.SetSprite(kidHeadSprite, gameObject);
                     break;
                 case Type.Grandma:
-                    npc = new Grandma(5, State.Calm, walkableGrid, false, false, soundEffect);
+                    npc = new Grandma(5, State.Calm, walkableGrid, false, false, soundEffect, isInMainMenu);
                     animator.runtimeAnimatorController = grandmaAnimator;
                     gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                     gameObject.layer = LayerMask.NameToLayer("Grandma");

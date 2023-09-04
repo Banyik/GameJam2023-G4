@@ -48,13 +48,13 @@ namespace Maps
             else if (currentMap < 15)
             {
                 towelCount = 3;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0), false);
             }
             else
             {
                 towelCount = 5;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
-                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3));
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0), false);
+                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3), false);
             }
             for (int i = 0; i < towelCount; i++)
             {
@@ -131,7 +131,7 @@ namespace Maps
         {
             if (!spawnedGrandma)
             {
-                spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell);
+                spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell, false);
                 spawnedGrandma = true;
             }
             towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.GetMap(), isBigTowel));

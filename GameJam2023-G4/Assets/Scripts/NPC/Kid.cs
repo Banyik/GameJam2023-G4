@@ -13,13 +13,16 @@ namespace NPCs
 
         float avoidCoolDownScale = 2f;
         float avoidCoolDown = 0f;
-
+        
         bool saw;
         PlayerNPCHandler handler;
 
-        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler) : base(speed, state, walkableGrid, isMoving, coolDown)
+        bool isInMainMenu;
+
+        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler, bool isInMainMenu) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
             this.handler = handler;
+            this.isInMainMenu = isInMainMenu;
         }
 
         public override void CalculateCoolDown()
@@ -47,8 +50,15 @@ namespace NPCs
             }
             else
             {
-                TargetPosition = WalkableGrid.GetRandomCoordinate();
-                TargetPosition += new Vector2Int(0, 2);
+                if (!isInMainMenu)
+                {
+                    TargetPosition = WalkableGrid.GetRandomCoordinate();
+                    TargetPosition += new Vector2Int(0, 2);
+                }
+                else
+                {
+                    TargetPosition = new Vector2Int(Random.Range(-10, 10), Random.Range(-3, -5));
+                }
                 targetSwitchTimeScale = 3;
             }
             

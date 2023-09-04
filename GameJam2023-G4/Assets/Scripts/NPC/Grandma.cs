@@ -10,9 +10,11 @@ namespace NPCs
         float waitTimeScale = 5f;
         float waitTime = 0f;
         SoundEffectHandler soundEffect;
-        public Grandma(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, SoundEffectHandler soundEffect) : base(speed, state, walkableGrid, isMoving, coolDown)
+        bool isInMainMenu;
+        public Grandma(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, SoundEffectHandler soundEffect, bool isInMainMenu) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
             this.soundEffect = soundEffect;
+            this.isInMainMenu = isInMainMenu;
         }
 
         public override void CalculateCoolDown()
@@ -26,7 +28,7 @@ namespace NPCs
             {
                 waitTime += Time.deltaTime;
             }
-            else
+            else if(!isInMainMenu)
             {
                 animator.SetBool("Look", true);
                 soundEffect.PlaySound(2);
