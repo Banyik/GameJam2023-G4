@@ -12,4 +12,12 @@ public class MenuSpawn : MonoBehaviour
         spawn.Spawn(Type.LifeGuard, false, new Vector2(10, -1), true);
         spawn.Spawn(Type.Kid, false, new Vector2(10, -3), true);
     }
+
+    public void SetNPCsActive(bool active)
+    {
+        foreach (var npc in spawn.NPCs)
+        {
+            npc.SetActive(active);
+        }
+    }
 }

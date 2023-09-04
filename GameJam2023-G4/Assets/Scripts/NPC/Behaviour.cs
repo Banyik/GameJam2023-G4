@@ -133,6 +133,10 @@ namespace NPCs
                     }
                     break;
                 case Type.LifeGuard:
+                    if (npc.IsState(State.Move))
+                    {
+                        animator.SetBool("IsWalking", true);
+                    }
                     if (npc.IsState(State.See))
                     {
                         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
