@@ -46,11 +46,11 @@ public class GenerateEnviroment : MonoBehaviour
     {
         switch (mapType)
         {
-            case 2:
+            case 0:
                 return balatonTiles;
             case 1:
                 return festivalTiles;
-            case 0:
+            case 2:
                 return beachTiles;
             default:
                 return balatonTiles;
@@ -61,7 +61,7 @@ public class GenerateEnviroment : MonoBehaviour
     {
         switch (mapType)
         {
-            case 2:
+            case 0:
                 startX = -7;
                 amount = 3;
                 return balatonElements;
@@ -70,7 +70,7 @@ public class GenerateEnviroment : MonoBehaviour
                 amount = 2;
                 GenerateMud();
                 return festivalElements;
-            case 0:
+            case 2:
                 startX = -7;
                 amount = 3;
                 return beachElements;
