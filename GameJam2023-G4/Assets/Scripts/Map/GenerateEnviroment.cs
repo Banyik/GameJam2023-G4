@@ -7,10 +7,12 @@ public class GenerateEnviroment : MonoBehaviour
 {
     public Tile[] balatonElements;
     public Tile[] festivalElements;
+    public Tile[] beachElements;
     public Tile[] mud;
 
     public Tilemap balatonTiles;
     public Tilemap festivalTiles;
+    public Tilemap beachTiles;
 
     int startX = -7;
     int amount = 3;
@@ -44,10 +46,12 @@ public class GenerateEnviroment : MonoBehaviour
     {
         switch (mapType)
         {
-            case 0:
+            case 2:
                 return balatonTiles;
             case 1:
                 return festivalTiles;
+            case 0:
+                return beachTiles;
             default:
                 return balatonTiles;
         }
@@ -57,7 +61,7 @@ public class GenerateEnviroment : MonoBehaviour
     {
         switch (mapType)
         {
-            case 0:
+            case 2:
                 startX = -7;
                 amount = 3;
                 return balatonElements;
@@ -66,6 +70,10 @@ public class GenerateEnviroment : MonoBehaviour
                 amount = 2;
                 GenerateMud();
                 return festivalElements;
+            case 0:
+                startX = -7;
+                amount = 3;
+                return beachElements;
             default:
                 startX = -7;
                 amount = 3;
