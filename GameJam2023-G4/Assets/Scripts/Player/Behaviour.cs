@@ -95,8 +95,9 @@ namespace Player
                     {
                         soundEffect.PlaySound(3);
                     }
-                    if (player.Thirst <= 0 && !player.IsState(State.Caught) && !IsPlayerStealing())
+                    if (player.Thirst <= 0)
                     {
+                        handler.GameOverPause(true);
                         inventoryHandler.HideInventory();
                         ChangeState(State.Idle);
                         StopMovement();
@@ -122,7 +123,7 @@ namespace Player
 
         public bool IsGameOver()
         {
-            return player.IsState(State.Caught) || player.Thirst <= 0;
+            return player.IsState(State.Caught) || (player.Thirst <= 0);
         }
 
         public bool IsPlayerStealing()
@@ -151,6 +152,7 @@ namespace Player
             if (Input.GetButtonDown("Cancel"))
             {
                 handler.Pause();
+                StopMovement();
             }
             if (Input.GetButtonDown("Slot_1"))
             {
@@ -211,10 +213,16 @@ namespace Player
                     StartRun();
                     break;
                 case State.StealingStart:
-                    StartStealing();
+                    if (!IsGameOver())
+                    {
+                        StartStealing();
+                    }
                     break;
                 case State.Stealing:
-                    StealingCountDown();
+                    if (!IsGameOver())
+                    {
+                        StealingCountDown();
+                    }
                     break;
                 case State.Stunned:
                     StunnedCountDown();
@@ -249,12 +257,13 @@ namespace Player
         }
         void StartStun()
         {
-            if(player.Thirst > 0.01)
+            if(!IsGameOver())
             {
                 lootBarBehaviour.StopAnimation();
                 StopMovement();
                 stealTimeCount = 0;
                 lootEffect.Stop();
+                DisableAnimationBool("Default");
                 DisableAnimationBool("IsMoving");
                 DisableAnimationBool("IsStealing");
                 EnableAnimationBool("IsStunned");
@@ -263,6 +272,7 @@ namespace Player
         }
         void Caught()
         {
+            handler.GameOverPause(true);
             inventoryHandler.HideInventory();
             DisableAnimationBool("Default");
             lootBarBehaviour.StopAnimation();
@@ -273,6 +283,7 @@ namespace Player
         }
         public void ResetState()
         {
+            handler.GameOverPause(false);
             reset = true;
             ChangeState(State.Idle);
             reset = false;
@@ -280,6 +291,7 @@ namespace Player
             DisableAnimationBool("Caught");
             DisableAnimationBool("IsMoving");
             DisableAnimationBool("IsStealing");
+            DisableAnimationBool("IsStunned");
             player.Thirst = player.MaxThirst;
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             thirstBarBehaviour.Animate(player.Thirst);
@@ -290,7 +302,6 @@ namespace Player
             StopMovement();
             RefreshInventory();
             inventoryHandler.SetMoney(player.Money);
-            DisableAnimationBool("Default");
         }
 
         void StunnedCountDown()
@@ -356,6 +367,7 @@ namespace Player
                         break;
                     case ItemType.Money:
                         moneyStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        moneyStoleEffect.Clear();
                         moneyStoleEffect.Play();
                         player.Money += item.Amount;
                         break;
@@ -493,7 +505,10 @@ namespace Player
                             animator.SetBool("OnTop", false);
                         }
                     }
-                    closestTowel = handler.GetTowel(position);
+                    if(closestTowel == null || closestTowel.IsLooted)
+                    {
+                        closestTowel = handler.GetTowel(position);
+                    }
                 }
             }
 

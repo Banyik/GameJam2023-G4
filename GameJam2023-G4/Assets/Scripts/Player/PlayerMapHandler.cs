@@ -69,6 +69,12 @@ namespace Player
             return gameHandler.IsPaused;
         }
 
+        public void GameOverPause(bool pause)
+        {
+            GetGameHandler();
+            gameHandler.IsPaused = pause;
+        }
+
         public void Pause()
         {
             GetGameHandler();

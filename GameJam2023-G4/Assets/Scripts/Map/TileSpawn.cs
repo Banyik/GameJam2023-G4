@@ -49,12 +49,12 @@ namespace Maps
             else if (currentMap < 15)
             {
                 towelCount = 3;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0), false);
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, -1), false);
             }
             else
             {
                 towelCount = 5;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0), false);
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, -1), false);
                 spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3), false);
             }
             for (int i = 0; i < towelCount; i++)

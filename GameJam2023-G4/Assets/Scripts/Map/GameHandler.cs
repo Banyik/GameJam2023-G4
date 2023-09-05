@@ -23,14 +23,11 @@ public class GameHandler : MonoBehaviour
 
     public void GameOver(float moneyAmount)
     {
-        if (!isActivated)
-        {
-            isActivated = true;
-            UI = GameOverUI;
-            soundIndex = 5;
-            Invoke(nameof(ShowUI), 1f);
-            Invoke(nameof(PlaySound), 1f);
-        }
+        isActivated = true;
+        UI = GameOverUI;
+        soundIndex = 5;
+        Invoke(nameof(ShowUI), 1f);
+        Invoke(nameof(PlaySound), 1f);
     }
     void PlaySound()
     {
@@ -49,24 +46,20 @@ public class GameHandler : MonoBehaviour
     public void TimesUp(float moneyAmount)
     {
         GetScore(moneyAmount);
-        if (!isActivated)
+        if (mapGeneration.HasEnoughScore(score))
         {
-            isActivated = true;
-            if (mapGeneration.HasEnoughScore(score))
-            {
-                CalculateScore(moneyAmount);
-                UI = ScoreUI;
-                soundIndex = 4;
-                mapGeneration.ShowScoreboardUI(score);
-            }
-            else
-            {
-                soundIndex = 5;
-                UI = NoMoneyUI;
-            }
-            Invoke(nameof(ShowUI), 1f);
-            Invoke(nameof(PlaySound), 1f);
+            CalculateScore(moneyAmount);
+            UI = ScoreUI;
+            soundIndex = 4;
+            mapGeneration.ShowScoreboardUI(score);
         }
+        else
+        {
+            soundIndex = 5;
+            UI = NoMoneyUI;
+        }
+        Invoke(nameof(ShowUI), 1f);
+        Invoke(nameof(PlaySound), 1f);
     }
 
     public void Restart()

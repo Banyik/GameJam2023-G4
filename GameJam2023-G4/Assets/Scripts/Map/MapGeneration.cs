@@ -33,19 +33,6 @@ namespace Maps
             SetMapDifficulty();
         }
 
-        private void Generate()
-        {
-            CalculateOffsets();
-            for (int i = 1; i <= xMax; i++)
-            {
-                for (int j = 1; j <= yMax; j++)
-                {
-                    maps.Add((int)(Mathf.Round((CalculateMapPerlinNoise(i, j) + 1) * 2) / 2 * 2) - 2);
-                }
-            }
-            GetNextMap();
-        }
-
         public bool HasEnoughScore(int score)
         {
             minScore = difficultyScore[currentMapType];
@@ -61,12 +48,6 @@ namespace Maps
                 return score - minScore;
             }
             return 0;
-        }
-        public void ClearMap()
-        {
-            index = 0;
-            maps.Clear();
-            Generate();
         }
         public int GetMap()
         {
@@ -100,17 +81,6 @@ namespace Maps
             mapObjects[currentMapType].SetActive(false);
             currentMapType++;
             mapObjects[currentMapType].SetActive(true);
-        }
-        void CalculateOffsets()
-        {
-            xOffset = Random.Range(0.0f, maxOffset);
-            yOffset = Random.Range(0.0f, maxOffset);
-        }
-        float CalculateMapPerlinNoise(float x, float y)
-        {
-            float xNoise = x / (float)xMax * scale + xOffset;
-            float yNoise = y / (float)yMax * scale + yOffset;
-            return Mathf.PerlinNoise(xNoise, yNoise);
         }
     }
 }
