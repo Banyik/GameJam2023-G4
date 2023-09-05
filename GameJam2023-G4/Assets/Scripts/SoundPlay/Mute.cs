@@ -61,6 +61,8 @@ public class Mute : MonoBehaviour
         else
         {
             System.IO.File.Create(Application.persistentDataPath + "Sounds.f");
+            fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
+            System.IO.File.WriteAllText(fullPath, mute.ToString());
         }
     }
     void LoadData()

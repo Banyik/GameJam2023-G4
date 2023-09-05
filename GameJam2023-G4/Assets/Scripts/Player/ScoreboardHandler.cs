@@ -30,7 +30,7 @@ public class ScoreboardHandler : MonoBehaviour
 
     void ShowContinueButton()
     {
-        if(scoresText[0] == 2500 && scoresText[0] <= scoresText[1])
+        if(scoresText[0] == 4000 && scoresText[0] <= scoresText[1])
         {
             ContinueExitButton.SetActive(true);
         }

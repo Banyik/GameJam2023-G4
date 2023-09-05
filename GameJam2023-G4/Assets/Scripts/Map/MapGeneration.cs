@@ -48,13 +48,13 @@ namespace Maps
 
         public bool HasEnoughScore(int score)
         {
+            minScore = difficultyScore[currentMapType];
             return score >= minScore;
         }
 
         public int CheckScore(int score)
         {
             ResetMapTypeIndex();
-            minScore = difficultyScore[currentMapType];
             if (score >= minScore)
             {
                 nextMapType = true;
@@ -93,7 +93,7 @@ namespace Maps
             }
             index++;
             generateEnviroment.GenerateElements(currentMapType);
-            playerMapHandler.SpawnTowels(index + 1);
+            playerMapHandler.SpawnTowels(index + 1, currentMapType);
         }
         public void GetNextMap()
         {

@@ -82,10 +82,10 @@ namespace Player
             return tileSpawner.SearchTowel((Vector2Int)grid.WorldToCell(position));
         }
 
-        public void SpawnTowels(int map)
+        public void SpawnTowels(int map, int mapType)
         {
             GetTileSpawner();
-            tileSpawner.SpawnTowels(map);
+            tileSpawner.SpawnTowels(map, mapType);
         }
     }
 }

@@ -38,8 +38,9 @@ namespace Maps
             towels.Clear();
         }
 
-        public void SpawnTowels(int currentMap)
+        public void SpawnTowels(int currentMap, int mapType)
         {
+            currentMap = currentMap + mapType * 3;
 
             if(currentMap < 5)
             {

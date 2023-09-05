@@ -76,7 +76,7 @@ namespace NPCs
 
         private void Update()
         {
-            if (!gameHandler.IsPaused)
+            if (!gameHandler.IsPaused && (isInMainMenu || (playerNPCHandler != null && !playerNPCHandler.IsGameOver())))
             {
                 CheckAnimationSwitch();
                 CheckStates();
@@ -186,7 +186,7 @@ namespace NPCs
 
         void FixedUpdate()
         {
-            if (npc.IsMoving && !gameHandler.IsPaused)
+            if (npc.IsMoving && !gameHandler.IsPaused && (isInMainMenu || (playerNPCHandler != null && !playerNPCHandler.IsGameOver())))
             {
                 Move();
             }

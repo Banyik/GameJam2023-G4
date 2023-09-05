@@ -249,14 +249,17 @@ namespace Player
         }
         void StartStun()
         {
-            lootBarBehaviour.StopAnimation();
-            StopMovement();
-            stealTimeCount = 0;
-            lootEffect.Stop();
-            DisableAnimationBool("IsMoving");
-            DisableAnimationBool("IsStealing");
-            EnableAnimationBool("IsStunned");
-            player.Speed = 3;
+            if(player.Thirst > 0.01)
+            {
+                lootBarBehaviour.StopAnimation();
+                StopMovement();
+                stealTimeCount = 0;
+                lootEffect.Stop();
+                DisableAnimationBool("IsMoving");
+                DisableAnimationBool("IsStealing");
+                EnableAnimationBool("IsStunned");
+                player.Speed = 3;
+            }
         }
         void Caught()
         {
@@ -287,6 +290,7 @@ namespace Player
             StopMovement();
             RefreshInventory();
             inventoryHandler.SetMoney(player.Money);
+            DisableAnimationBool("Default");
         }
 
         void StunnedCountDown()

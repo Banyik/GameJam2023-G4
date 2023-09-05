@@ -7,17 +7,25 @@ public class SoundEffectHandler : MonoBehaviour
     public AudioSource audioSrc;
 
     public AudioClip[] clips;
+
+    public bool isInMainMenu;
     public void PlaySound(int index)
     {
-        audioSrc.clip = clips[index];
-        audioSrc.Play();
+        if (!isInMainMenu)
+        {
+            audioSrc.clip = clips[index];
+            audioSrc.Play();
+        }
     }
 
     public void PlaySoundWithDelay(string data)
     {
-        int index = System.Convert.ToInt32(data.Split(';')[0]);
-        float delay = float.Parse(data.Split(';')[1]);
-        audioSrc.clip = clips[index];
-        audioSrc.PlayDelayed(delay);
+        if (!isInMainMenu)
+        { 
+            int index = System.Convert.ToInt32(data.Split(';')[0]);
+            float delay = float.Parse(data.Split(';')[1]);
+            audioSrc.clip = clips[index];
+            audioSrc.PlayDelayed(delay);
+        }
     }
 }
