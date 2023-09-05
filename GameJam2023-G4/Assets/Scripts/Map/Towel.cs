@@ -85,7 +85,7 @@ namespace Maps
             {
                 return new Item(150 + (mapType * 25), ItemType.Money);
             }
-            return new Item(100 + (1 * 25), ItemType.Money);
+            return new Item(100 + (mapType * 25), ItemType.Money);
         }
     }
 }

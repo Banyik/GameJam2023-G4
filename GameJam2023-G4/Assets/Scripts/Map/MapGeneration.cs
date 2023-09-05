@@ -69,7 +69,7 @@ namespace Maps
             if (nextMapType)
             {
                 nextMapType = false;
-                index = -1;
+                ResetMapTypeIndex();
                 GetNextMap();
             }
             index++;

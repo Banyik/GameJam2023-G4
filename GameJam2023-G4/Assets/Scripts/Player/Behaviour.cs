@@ -259,6 +259,7 @@ namespace Player
         {
             if(!IsGameOver())
             {
+                fasterLoot = false;
                 lootBarBehaviour.StopAnimation();
                 StopMovement();
                 stealTimeCount = 0;
@@ -297,6 +298,7 @@ namespace Player
             thirstBarBehaviour.Animate(player.Thirst);
             fasterLoot = false;
             player.Speed = 3;
+            player.Money = 0;
             stealTimeCount = 0;
             stunTimeCount = 0;
             StopMovement();
@@ -332,10 +334,6 @@ namespace Player
             }
             else
             {
-                if (fasterLoot)
-                {
-                    fasterLoot = false;
-                }
                 lootBarBehaviour.StopAnimation();
                 lootEffect.Stop();
                 closestTowel.LootTowel();
