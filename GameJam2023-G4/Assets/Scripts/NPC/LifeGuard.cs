@@ -15,7 +15,7 @@ namespace NPCs
         PlayerNPCHandler handler;
         SoundEffectHandler soundEffect;
 
-        float targetSwitchTimeScale = 15f;
+        float targetSwitchTimeScale = 30f;
         float targetSwtichTimer = 0f;
         public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler, SoundEffectHandler soundEffect) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
