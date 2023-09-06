@@ -53,24 +53,29 @@ public class Mute : MonoBehaviour
 
     void SaveData(bool mute)
     {
-        string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
-        if(fullPath != null)
+        if (System.IO.File.Exists(Application.persistentDataPath + "Sounds.f"))
         {
+            string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
             System.IO.File.WriteAllText(fullPath, mute.ToString());
         }
         else
         {
             System.IO.File.Create(Application.persistentDataPath + "Sounds.f");
-            fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
+            string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
             System.IO.File.WriteAllText(fullPath, mute.ToString());
         }
     }
     public void LoadData()
     {
-        string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
-        if(fullPath != null)
+        if(System.IO.File.Exists(Application.persistentDataPath + "Sounds.f"))
         {
+            string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
             isMuted = !System.Convert.ToBoolean(System.IO.File.ReadAllText(fullPath));
+            MuteButton();
+        }
+        else
+        {
+            isMuted = true;
             MuteButton();
         }
     }
