@@ -10,7 +10,6 @@ public class GameHandler : MonoBehaviour
     public int score = 0;
     public int buyScore = 0;
     public MapGeneration mapGeneration;
-    bool isActivated = false;
     public GameObject ShopUI;
     public GameObject GameOverUI;
     public GameObject NoMoneyUI;
@@ -23,7 +22,6 @@ public class GameHandler : MonoBehaviour
 
     public void GameOver(float moneyAmount)
     {
-        isActivated = true;
         UI = GameOverUI;
         soundIndex = 5;
         Invoke(nameof(ShowUI), 1f);
@@ -79,11 +77,6 @@ public class GameHandler : MonoBehaviour
     public void ToMenu()
     {
         SceneManager.LoadScene(0);
-    }
-
-    public void ResetIsActivatedBool()
-    {
-        isActivated = false;
     }
 
     public void GetScore(float moneyAmount)

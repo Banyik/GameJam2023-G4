@@ -22,7 +22,7 @@ public class Mute : MonoBehaviour
 
     public void MuteButton()
     {
-        if(imageRenderer.sprite == unMuted && !isMuted)
+        if(!isMuted)
         {
             isMuted = true;
             imageRenderer.sprite = muted;
@@ -65,7 +65,7 @@ public class Mute : MonoBehaviour
             System.IO.File.WriteAllText(fullPath, mute.ToString());
         }
     }
-    void LoadData()
+    public void LoadData()
     {
         string fullPath = System.IO.Path.Combine(Application.persistentDataPath, "Sounds.f");
         if(fullPath != null)

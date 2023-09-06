@@ -7,16 +7,11 @@ namespace Maps
 {
     public class MapGeneration : MonoBehaviour
     {
-        int xMax = 10;
-        int yMax = 10;
-        float scale = 15;
         public float xOffset = 10;
         public float yOffset = 10;
-        float maxOffset = 100000f;
         int[] difficultyScore;
         private int currentMapType = 0;
         int index = -1;
-        List<int> maps = new List<int>();
         PlayerMapHandler playerMapHandler;
         GenerateEnviroment generateEnviroment;
         ScoreboardHandler scoreboardHandler;

@@ -14,6 +14,9 @@ namespace NPCs
         float avoidCoolDown = 0f;
         PlayerNPCHandler handler;
         SoundEffectHandler soundEffect;
+
+        float targetSwitchTimeScale = 15f;
+        float targetSwtichTimer = 0f;
         public LifeGuard(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler, SoundEffectHandler soundEffect) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
             this.handler = handler;
@@ -35,6 +38,7 @@ namespace NPCs
 
         public override void GetNewState(Animator animator)
         {
+            targetSwtichTimer = 0f;
             ChangeState(State.Move);
             animator.SetBool("IsWalking", true);
             IsMoving = true;
@@ -71,6 +75,18 @@ namespace NPCs
         {
             if (Vector3.Distance((Vector2)TargetPosition, position) <= .1f && !IsState(State.Chase))
             {
+                targetSwtichTimer = 0f;
+                onLeft = !onLeft;
+                ChangeState(State.Calm);
+                GetNewState(animator);
+            }
+            else if (targetSwtichTimer < targetSwitchTimeScale && !IsState(State.Chase))
+            {
+                targetSwtichTimer += Time.deltaTime;
+            }
+            else if (targetSwtichTimer >= targetSwitchTimeScale && !IsState(State.Chase))
+            {
+                targetSwtichTimer = 0;
                 onLeft = !onLeft;
                 ChangeState(State.Calm);
                 GetNewState(animator);
@@ -91,6 +107,7 @@ namespace NPCs
                     ChangeState(State.Calm);
                 }
                 Speed = 1;
+                targetSwtichTimer = 0f;
                 saw = false;
             }
         }

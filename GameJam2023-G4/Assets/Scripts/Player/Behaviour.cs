@@ -360,6 +360,7 @@ namespace Player
                             player.Thirst = player.MaxThirst;
                         }
                         waterStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        waterStoleEffect.Clear();
                         waterStoleEffect.Play();
                         thirstBarBehaviour.Animate(player.Thirst);
                         break;

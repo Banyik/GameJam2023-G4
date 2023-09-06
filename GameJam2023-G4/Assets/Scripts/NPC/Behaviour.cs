@@ -48,7 +48,9 @@ namespace NPCs
                     animator.runtimeAnimatorController = kidAnimator;
                     gameObject.layer = LayerMask.NameToLayer("Kid");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
-                    raySpacing = 1.2f;
+                    ignoreLayers += LayerMask.GetMask("Player");
+                    raySpacing = 1.4f;
+                    avoidanceForceMultiplier = 10;
                     kidTrigger.SetActive(true);
                     spriteBehaviour.SetSprite(kidHeadSprite, gameObject);
                     break;
@@ -65,7 +67,9 @@ namespace NPCs
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
-                    raySpacing = 0.7f;
+                    ignoreLayers += LayerMask.GetMask("Player");
+                    avoidanceForceMultiplier = 10;
+                    raySpacing = 1.0f;
                     lifeGuardTrigger.SetActive(true);
                     spriteBehaviour.SetSprite(lifeGuardHeadSprite, gameObject);
                     break;
@@ -207,20 +211,15 @@ namespace NPCs
             for (int i = 0; i < 17; i++)
             {
                 Vector2 rayDirection = Quaternion.AngleAxis((i - 8) * 15f, Vector3.forward) * direction;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f), ~ignoreLayers);
-                Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.05f), ~ignoreLayers);
+                Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.05f)), Color.red);
                 if (hits[i].collider != null)
                 {
-                    if(i - 8 == 0)
-                    {
-                        rayDirection = Quaternion.AngleAxis((i - Random.Range(1, 8)) * 15f, Vector3.forward) * direction;
-                        delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
-                    }
-                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
+                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10) * (hits[i].normal/5);
                 }
                 else
                 {
-                    delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
+                    delta += (1f / 17) * 3 * rayDirection;
                 }
             }
             if(direction.x > 0)

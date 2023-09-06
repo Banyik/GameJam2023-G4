@@ -1398,10 +1398,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1802504561}
-        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: SetMusicVolume
-        m_Mode: 4
+      - m_Target: {fileID: 1802504570}
+        m_TargetAssemblyTypeName: Mute, Assembly-CSharp
+        m_MethodName: LoadData
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2416,10 +2416,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1802504561}
-        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: SetMusicVolume
-        m_Mode: 4
+      - m_Target: {fileID: 1802504570}
+        m_TargetAssemblyTypeName: Mute, Assembly-CSharp
+        m_MethodName: LoadData
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3836,7 +3836,7 @@ GameObject:
   - component: {fileID: 490777963}
   - component: {fileID: 490777964}
   - component: {fileID: 490777965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ConeView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5502,10 +5502,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1802504561}
-        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: SetMusicVolume
-        m_Mode: 4
+      - m_Target: {fileID: 1802504570}
+        m_TargetAssemblyTypeName: Mute, Assembly-CSharp
+        m_MethodName: LoadData
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6889,7 +6889,7 @@ GameObject:
   - component: {fileID: 843287041}
   - component: {fileID: 843287040}
   - component: {fileID: 843287038}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: LootBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13119,7 +13119,7 @@ GameObject:
   - component: {fileID: 1081543149}
   - component: {fileID: 1081543151}
   - component: {fileID: 1081543150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CircleView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14173,7 +14173,7 @@ GameObject:
   - component: {fileID: 1157412984}
   - component: {fileID: 1157412986}
   - component: {fileID: 1157412985}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -14773,7 +14773,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -21072,7 +21072,7 @@ GameObject:
   - component: {fileID: 1336607596}
   - component: {fileID: 1336607598}
   - component: {fileID: 1336607597}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PowerUpParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31829,86 +31829,36 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474687748}
   m_Enabled: 1
-  m_Tiles:
-  - first: {x: 8, y: -5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 8, y: -4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 8, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 8, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 8, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
+  m_Tiles: {}
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 5
-    m_Data: {fileID: 11400000, guid: c7b35750cc16fa741a1f4a659167fbba, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 5
-    m_Data: {fileID: 5127708092361075453, guid: 3cbfeeeaf1116a24687a9928fa6d1a98, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 5
+  - m_RefCount: 0
     m_Data:
-      e00: 1
+      e00: 0
       e01: 0
-      e02: 0
-      e03: 0
+      e02: 3.7500038
+      e03: 3.7500038
       e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
+      e11: 0
+      e12: 9.29e-43
+      e13: 9.29e-43
+      e20: -9.549815e+27
+      e21: 3.821818e-12
+      e22: -4.0081223e-19
+      e23: -1.7719387e-19
+      e30: 4.5904e-41
+      e31: 9.32e-43
+      e32: 9.29e-43
+      e33: 9.32e-43
   m_TileColorArray:
-  - m_RefCount: 5
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  - m_RefCount: 0
+    m_Data: {r: 3.5257e-41, g: 3.5257e-41, b: 3.5257e-41, a: 3.5257e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -33475,10 +33425,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1802504561}
-        m_TargetAssemblyTypeName: GameHandler, Assembly-CSharp
-        m_MethodName: SetMusicVolume
-        m_Mode: 4
+      - m_Target: {fileID: 1802504570}
+        m_TargetAssemblyTypeName: Mute, Assembly-CSharp
+        m_MethodName: LoadData
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -34222,7 +34172,7 @@ GameObject:
   - component: {fileID: 1723270822}
   - component: {fileID: 1723270821}
   - component: {fileID: 1723270820}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41915,7 +41865,7 @@ GameObject:
   - component: {fileID: 2052963428}
   - component: {fileID: 2052963431}
   - component: {fileID: 2052963430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPCHeadSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

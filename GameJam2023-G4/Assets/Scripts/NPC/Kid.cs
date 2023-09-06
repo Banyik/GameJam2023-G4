@@ -8,7 +8,7 @@ namespace NPCs
 {
     public class Kid : NPC
     {
-        float targetSwitchTimeScale = 3f;
+        float targetSwitchTimeScale = 10f;
         float targetSwtichTimer = 0f;
 
         float avoidCoolDownScale = 2f;
@@ -45,21 +45,27 @@ namespace NPCs
             animator.SetBool("IsMoving", true);
             if(Random.Range(0, 100) < 10)
             {
-                TargetPosition = new Vector2Int(30, 2);
-                targetSwitchTimeScale = 15;
+                TargetPosition = new Vector2Int(30, -4);
+                targetSwitchTimeScale = 20;
             }
             else
             {
                 if (!isInMainMenu)
                 {
-                    TargetPosition = WalkableGrid.GetRandomCoordinate();
-                    TargetPosition += new Vector2Int(0, 2);
+                    if (Random.Range(0, 100) < 50)
+                    {
+                        TargetPosition = new Vector2Int(-12, Random.Range(-2, -5));
+                    }
+                    else
+                    {
+                        TargetPosition = new Vector2Int(12, Random.Range(-2, -5));
+                    }
                 }
                 else
                 {
                     TargetPosition = new Vector2Int(Random.Range(-10, 10), Random.Range(-3, -5));
                 }
-                targetSwitchTimeScale = 3;
+                targetSwitchTimeScale = 10;
             }
             
         }
