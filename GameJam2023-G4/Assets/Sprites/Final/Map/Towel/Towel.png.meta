@@ -303,7 +303,7 @@ TextureImporter:
       213: -6352385394196746365
     second: Towel_49
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -320,10 +320,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -362,6 +364,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -373,6 +377,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -385,6 +390,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -397,6 +403,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1691,9 +1724,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Towel_0: -7600872652282376241
+      Towel_1: -7597734415151676039
+      Towel_10: -907685771265392661
+      Towel_11: -3033080490645742803
+      Towel_12: 789354992592172571
+      Towel_13: -2568340754627551442
+      Towel_14: -5892197920650288318
+      Towel_15: 540248684976160353
+      Towel_16: 4219469830190789915
+      Towel_17: 2728696695868568751
+      Towel_18: 443687661798669730
+      Towel_19: 959502840948053299
+      Towel_2: 8394131307432718534
+      Towel_20: 8501258584792415003
+      Towel_21: 890659115875134429
+      Towel_22: 1945542201138477737
+      Towel_23: 5202019357741657123
+      Towel_24: 1436246758844780748
+      Towel_25: -8360812736587166343
+      Towel_26: -4923810764860025728
+      Towel_27: -4760903117725275233
+      Towel_28: -843214840067314323
+      Towel_29: -1821609801629087545
+      Towel_3: -7387575320356903778
+      Towel_30: -6570772141865072683
+      Towel_31: -568591640333991320
+      Towel_32: -8602474709804414523
+      Towel_33: -7481043394492600874
+      Towel_34: -8190252307336245593
+      Towel_35: 9070273882218542752
+      Towel_36: 1629440470915347441
+      Towel_37: -8023608998297245399
+      Towel_38: 4367417332923465494
+      Towel_39: -1722484687072664802
+      Towel_4: -1718007419987339733
+      Towel_40: -6856895044471959514
+      Towel_41: -6734619292249572724
+      Towel_42: -3758470058587159252
+      Towel_43: -2174783071782194521
+      Towel_44: -2736582769550695280
+      Towel_45: -2186642419306132277
+      Towel_46: -8318254087880137243
+      Towel_47: 1008461080516957283
+      Towel_48: 3890716372758566002
+      Towel_49: -6352385394196746365
+      Towel_5: -7562943683684872742
+      Towel_6: -4445616700075967455
+      Towel_7: 276057346945402597
+      Towel_8: 5675726739927674034
+      Towel_9: 3193855731736937524
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

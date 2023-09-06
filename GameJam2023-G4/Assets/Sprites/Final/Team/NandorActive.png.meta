@@ -228,7 +228,7 @@ TextureImporter:
       213: 7599970966422367408
     second: NandorActive_74
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -245,10 +245,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -287,6 +289,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -298,6 +302,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -310,6 +315,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -322,6 +328,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -334,6 +341,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1924,9 +1945,84 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      NandorActive_0: 3437052733273212469
+      NandorActive_1: -2166236915290468601
+      NandorActive_10: 1110221295738587047
+      NandorActive_11: 4240965053024450397
+      NandorActive_12: -5786049177322408125
+      NandorActive_13: 471419219958889427
+      NandorActive_14: 3761409163010417096
+      NandorActive_15: -369653759855379831
+      NandorActive_16: -2353582386520703424
+      NandorActive_17: 3615234837212422762
+      NandorActive_18: 5427146442462238821
+      NandorActive_19: 434886016484878789
+      NandorActive_2: -9020885135555288002
+      NandorActive_20: -3784283132923764155
+      NandorActive_21: -1591107577349630883
+      NandorActive_22: 6067653171913864691
+      NandorActive_23: -8709608115169736703
+      NandorActive_24: 3823737509787979914
+      NandorActive_25: -4331465573949403941
+      NandorActive_26: 3475697432322601608
+      NandorActive_27: -5763905203059637467
+      NandorActive_28: -7975630933903362391
+      NandorActive_29: -9107527710379782938
+      NandorActive_3: 6703384520433487442
+      NandorActive_30: -4345575245294696628
+      NandorActive_31: -7066939298074863504
+      NandorActive_32: 739541343893141157
+      NandorActive_33: -2562981956401181577
+      NandorActive_34: 4869032629397973490
+      NandorActive_35: 3918257754905455731
+      NandorActive_36: 9054023642253601113
+      NandorActive_37: 8630024846009682377
+      NandorActive_38: 6195301260157231999
+      NandorActive_39: 2615648513449276199
+      NandorActive_4: -5643023920083247991
+      NandorActive_40: 8598031409157974603
+      NandorActive_41: -9083081228566701052
+      NandorActive_42: -8735121349206295861
+      NandorActive_43: 7714274030708284993
+      NandorActive_44: 157978021899366662
+      NandorActive_45: -5146781308880177023
+      NandorActive_46: 4159785060916085987
+      NandorActive_47: 5520296066575403578
+      NandorActive_48: -8768402220296896761
+      NandorActive_49: -2933047854434570717
+      NandorActive_5: 4048150280300952858
+      NandorActive_50: -5460348333926961296
+      NandorActive_51: 8833642409801096317
+      NandorActive_52: 8054305159044435769
+      NandorActive_53: 7757588625801175817
+      NandorActive_54: 6662908102652754705
+      NandorActive_55: 448024063047354195
+      NandorActive_56: 1497892937286769935
+      NandorActive_57: -2330272685663234996
+      NandorActive_58: 760678926700085939
+      NandorActive_59: 3467803849557954496
+      NandorActive_6: 5400289999938838031
+      NandorActive_60: -1037850157025174023
+      NandorActive_61: 2842273199518338448
+      NandorActive_62: -8546217120897728572
+      NandorActive_63: 6195507220891382113
+      NandorActive_64: 2744440250885884438
+      NandorActive_65: 1310456014251785945
+      NandorActive_66: -7107586142632800196
+      NandorActive_67: -3891450431292765591
+      NandorActive_68: 3909829331068366401
+      NandorActive_69: 92313197943406247
+      NandorActive_7: -4274244199790454715
+      NandorActive_70: -7343365734388421960
+      NandorActive_71: -6822829900622394826
+      NandorActive_72: -4464277960880628137
+      NandorActive_73: 8171594498609646847
+      NandorActive_74: 7599970966422367408
+      NandorActive_8: -1668610892907020869
+      NandorActive_9: 3365768535645023833
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

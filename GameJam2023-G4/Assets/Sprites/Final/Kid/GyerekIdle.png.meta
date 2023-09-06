@@ -75,7 +75,7 @@ TextureImporter:
       213: -3766899002372799747
     second: GyerekIdle_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -169,6 +175,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,6 +188,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -700,9 +721,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      GyerekIdle_0: 5676386559567042509
+      GyerekIdle_1: 5125389614774347626
+      GyerekIdle_10: -2300894326386683747
+      GyerekIdle_11: -2340046171586879149
+      GyerekIdle_12: 1097870760202853041
+      GyerekIdle_13: 908388223029300488
+      GyerekIdle_14: 6980093221567492100
+      GyerekIdle_15: -3184281889998877761
+      GyerekIdle_16: -5092442898153321907
+      GyerekIdle_17: 8590812930806501612
+      GyerekIdle_18: -7051961014509419345
+      GyerekIdle_19: 6456660336597653894
+      GyerekIdle_2: -5903251781089982308
+      GyerekIdle_20: 29699469103959721
+      GyerekIdle_21: -1828601123820776643
+      GyerekIdle_22: 5446217788430807841
+      GyerekIdle_23: -3766899002372799747
+      GyerekIdle_3: -8549283689986623301
+      GyerekIdle_4: -5529068369179093320
+      GyerekIdle_5: 4261428247092638696
+      GyerekIdle_6: -8387287768454906275
+      GyerekIdle_7: 3834949773534295601
+      GyerekIdle_8: 6378650811715750314
+      GyerekIdle_9: 1963742124373352555
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

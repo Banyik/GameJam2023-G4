@@ -14,7 +14,7 @@ public class ScoreboardHandler : MonoBehaviour
     public void ShowScoreboard(int[] scoresText)
     {
         this.scoresText = scoresText;
-        Invoke(nameof(ShowElements), 1f);
+        Invoke(nameof(ShowElements), 3f);
     }
 
     void ShowElements()
@@ -25,11 +25,12 @@ public class ScoreboardHandler : MonoBehaviour
             Invoke(nameof(ShowText), i + 0.25f);
         }
         Invoke(nameof(ShowContinueButton), texts.Length + 0.25f);
+        index = 0;
     }
 
     void ShowContinueButton()
     {
-        if(scoresText[0] == 2500)
+        if(scoresText[0] == 4000 && scoresText[0] <= scoresText[1])
         {
             ContinueExitButton.SetActive(true);
         }
@@ -41,6 +42,7 @@ public class ScoreboardHandler : MonoBehaviour
 
     void ShowText()
     {
+        GameObject.Find("ButtonSound").GetComponent<SoundEffectHandler>().PlaySound(3);
         texts[index++].SetActive(true);
     }
 }

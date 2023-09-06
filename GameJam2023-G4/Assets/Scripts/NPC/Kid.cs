@@ -8,18 +8,21 @@ namespace NPCs
 {
     public class Kid : NPC
     {
-        float targetSwitchTimeScale = 3f;
+        float targetSwitchTimeScale = 10f;
         float targetSwtichTimer = 0f;
 
         float avoidCoolDownScale = 2f;
         float avoidCoolDown = 0f;
-
+        
         bool saw;
         PlayerNPCHandler handler;
 
-        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler) : base(speed, state, walkableGrid, isMoving, coolDown)
+        bool isInMainMenu;
+
+        public Kid(int speed, State state, WalkableGrid walkableGrid, bool isMoving, bool coolDown, PlayerNPCHandler handler, bool isInMainMenu) : base(speed, state, walkableGrid, isMoving, coolDown)
         {
             this.handler = handler;
+            this.isInMainMenu = isInMainMenu;
         }
 
         public override void CalculateCoolDown()
@@ -40,8 +43,31 @@ namespace NPCs
             ChangeState(State.Move);
             IsMoving = true;
             animator.SetBool("IsMoving", true);
-            TargetPosition = WalkableGrid.GetRandomCoordinate();
-            TargetPosition += new Vector2Int(0, 2);
+            if(Random.Range(0, 100) < 10)
+            {
+                TargetPosition = new Vector2Int(30, -4);
+                targetSwitchTimeScale = 20;
+            }
+            else
+            {
+                if (!isInMainMenu)
+                {
+                    if (Random.Range(0, 100) < 50)
+                    {
+                        TargetPosition = new Vector2Int(-12, Random.Range(-2, -5));
+                    }
+                    else
+                    {
+                        TargetPosition = new Vector2Int(12, Random.Range(-2, -5));
+                    }
+                }
+                else
+                {
+                    TargetPosition = new Vector2Int(Random.Range(-10, 10), Random.Range(-3, -5));
+                }
+                targetSwitchTimeScale = 10;
+            }
+            
         }
 
         public override void IsTargetReached(Vector2 position, Animator animator)

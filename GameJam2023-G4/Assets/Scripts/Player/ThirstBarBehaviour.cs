@@ -29,7 +29,7 @@ public class ThirstBarBehaviour : MonoBehaviour
     {
         index = frames.Length;
         speed = maxThirst;
-        gameObject.transform.localScale = new Vector3(1, maxThirst / 10, 0);
+        //gameObject.transform.localScale = new Vector3(1, maxThirst / 10, 0);
     }
 
     public void StopAnimation()

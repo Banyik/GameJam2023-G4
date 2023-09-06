@@ -8,6 +8,12 @@ public class InventoryUIHandler : MonoBehaviour
     public Sprite[] sprites;
     public GameObject[] slots;
     public Text[] slotTexts;
+    public Text moneyText;
+
+    public void SetMoney(float money)
+    {
+        moneyText.text = money.ToString();
+    }
 
     public void SetItem(int slot, Items.ItemType type, int amount)
     {
@@ -15,12 +21,14 @@ public class InventoryUIHandler : MonoBehaviour
         {
             Sprite sprite = GetSprite(type);
             slotTexts[slot].text = amount.ToString();
-            slots[slot].GetComponent<SpriteRenderer>().sprite = sprite;
+            slots[slot].GetComponent<Image>().sprite = sprite;
+            slots[slot].GetComponent<Image>().color = new Color(1, 1, 1, 1);
         }
         else
         {
             slotTexts[slot].text = "";
-            slots[slot].GetComponent<SpriteRenderer>().sprite = null;
+            slots[slot].GetComponent<Image>().sprite = null;
+            slots[slot].GetComponent<Image>().color = new Color(1, 1, 1, 0);
         }
     }
 
@@ -29,7 +37,8 @@ public class InventoryUIHandler : MonoBehaviour
         for (int i = 0; i < slots.Length; i++)
         {
             slotTexts[i].text = "";
-            slots[i].GetComponent<SpriteRenderer>().sprite = null;
+            slots[i].GetComponent<Image>().sprite = null;
+            slots[i].GetComponent<Image>().color = new Color(1, 1, 1, 0);
         }
     }
 

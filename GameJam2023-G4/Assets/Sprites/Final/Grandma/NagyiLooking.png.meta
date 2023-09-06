@@ -219,7 +219,7 @@ TextureImporter:
       213: 617058097685348178
     second: NagyiLooking_71
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -236,10 +236,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -278,6 +280,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -289,6 +293,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -301,6 +306,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -313,6 +319,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1840,9 +1873,81 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      NagyiLooking_0: -8572826158893437391
+      NagyiLooking_1: 3490973191541879562
+      NagyiLooking_10: 2837363122586489000
+      NagyiLooking_11: 3658577422574253960
+      NagyiLooking_12: 5548724671316710088
+      NagyiLooking_13: 2626549451777947944
+      NagyiLooking_14: -6991239142087963966
+      NagyiLooking_15: -8442970948041670113
+      NagyiLooking_16: 8074523661049180041
+      NagyiLooking_17: -960301172438684378
+      NagyiLooking_18: 6365996279130954952
+      NagyiLooking_19: 3602392348421868845
+      NagyiLooking_2: 3029646632633007266
+      NagyiLooking_20: -1925151782644853628
+      NagyiLooking_21: -7511970238117593240
+      NagyiLooking_22: -3997008946301570674
+      NagyiLooking_23: -5153229693900546208
+      NagyiLooking_24: 2639663258701476088
+      NagyiLooking_25: -1044653308499281263
+      NagyiLooking_26: 5017594261127536981
+      NagyiLooking_27: 3506307586337861405
+      NagyiLooking_28: -5609024335640423740
+      NagyiLooking_29: -8191011776156325106
+      NagyiLooking_3: -1828698299024148816
+      NagyiLooking_30: -7359118662632793183
+      NagyiLooking_31: 4802127292115120503
+      NagyiLooking_32: -2657412014839609799
+      NagyiLooking_33: 2987637483910770256
+      NagyiLooking_34: 1886610314228017171
+      NagyiLooking_35: -4813464498100669844
+      NagyiLooking_36: -3241324436487120967
+      NagyiLooking_37: 1740491437332128888
+      NagyiLooking_38: 1054214030143648460
+      NagyiLooking_39: 771177775354308949
+      NagyiLooking_4: -5919854980438884213
+      NagyiLooking_40: 3599503095347094063
+      NagyiLooking_41: 1070691691242974276
+      NagyiLooking_42: 8074813765999858456
+      NagyiLooking_43: -6042552071855648947
+      NagyiLooking_44: 2071504466462154462
+      NagyiLooking_45: -2595879270212642390
+      NagyiLooking_46: -1695450149403456071
+      NagyiLooking_47: 3286923020830668573
+      NagyiLooking_48: 6110866605003472970
+      NagyiLooking_49: 559084591809023809
+      NagyiLooking_5: -8176959441747201447
+      NagyiLooking_50: 4733740105015860050
+      NagyiLooking_51: 8994977895637464266
+      NagyiLooking_52: -763463057134767914
+      NagyiLooking_53: 5049225956613105041
+      NagyiLooking_54: -8574644582540836314
+      NagyiLooking_55: 813898947390921945
+      NagyiLooking_56: -3727288643374445457
+      NagyiLooking_57: -435772521922873154
+      NagyiLooking_58: 3492495384701055843
+      NagyiLooking_59: -1806832142397643638
+      NagyiLooking_6: 8457124588529627827
+      NagyiLooking_60: 9196277382060090180
+      NagyiLooking_61: -8254111800764096857
+      NagyiLooking_62: 52952143235598138
+      NagyiLooking_63: -8562182392017916210
+      NagyiLooking_64: 6933318392048270437
+      NagyiLooking_65: 6078312314050213338
+      NagyiLooking_66: -6785831937531930819
+      NagyiLooking_67: -2821009050345205514
+      NagyiLooking_68: -6606590788442908864
+      NagyiLooking_69: -8317455454484183614
+      NagyiLooking_7: -2376203062194783610
+      NagyiLooking_70: -3225167305488844037
+      NagyiLooking_71: 617058097685348178
+      NagyiLooking_8: 3970360901831422234
+      NagyiLooking_9: -6636816684311677909
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

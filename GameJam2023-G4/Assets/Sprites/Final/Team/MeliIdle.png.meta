@@ -75,7 +75,7 @@ TextureImporter:
       213: 3886883827985745077
     second: MeliIdle_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -169,6 +175,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,6 +188,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -192,7 +213,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -213,7 +234,7 @@ TextureImporter:
         serializedVersion: 2
         x: 70
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -234,7 +255,7 @@ TextureImporter:
         serializedVersion: 2
         x: 140
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -255,7 +276,7 @@ TextureImporter:
         serializedVersion: 2
         x: 210
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -276,7 +297,7 @@ TextureImporter:
         serializedVersion: 2
         x: 280
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -297,7 +318,7 @@ TextureImporter:
         serializedVersion: 2
         x: 350
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -318,7 +339,7 @@ TextureImporter:
         serializedVersion: 2
         x: 420
         y: 120
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -339,7 +360,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -360,7 +381,7 @@ TextureImporter:
         serializedVersion: 2
         x: 70
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -381,7 +402,7 @@ TextureImporter:
         serializedVersion: 2
         x: 140
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -402,7 +423,7 @@ TextureImporter:
         serializedVersion: 2
         x: 210
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -423,7 +444,7 @@ TextureImporter:
         serializedVersion: 2
         x: 280
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -444,7 +465,7 @@ TextureImporter:
         serializedVersion: 2
         x: 350
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -465,7 +486,7 @@ TextureImporter:
         serializedVersion: 2
         x: 420
         y: 80
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -486,7 +507,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -507,7 +528,7 @@ TextureImporter:
         serializedVersion: 2
         x: 70
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -528,7 +549,7 @@ TextureImporter:
         serializedVersion: 2
         x: 140
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -549,7 +570,7 @@ TextureImporter:
         serializedVersion: 2
         x: 210
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -570,7 +591,7 @@ TextureImporter:
         serializedVersion: 2
         x: 280
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -591,7 +612,7 @@ TextureImporter:
         serializedVersion: 2
         x: 350
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -612,7 +633,7 @@ TextureImporter:
         serializedVersion: 2
         x: 420
         y: 40
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -633,7 +654,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -654,7 +675,7 @@ TextureImporter:
         serializedVersion: 2
         x: 70
         y: 0
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -675,7 +696,7 @@ TextureImporter:
         serializedVersion: 2
         x: 140
         y: 0
-        width: 70
+        width: 69
         height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -700,9 +721,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MeliIdle_0: 4752919592586385972
+      MeliIdle_1: 8973736301837678930
+      MeliIdle_10: -3694947948826785843
+      MeliIdle_11: -1330511717777878773
+      MeliIdle_12: 1824677735596072811
+      MeliIdle_13: 5494246697561627607
+      MeliIdle_14: 3947790085078846701
+      MeliIdle_15: -862109072795740691
+      MeliIdle_16: 4400112832077022906
+      MeliIdle_17: -7864522483607785753
+      MeliIdle_18: -217595400415287869
+      MeliIdle_19: -2718300524974606564
+      MeliIdle_2: 4828764453515715245
+      MeliIdle_20: 6360428151819318669
+      MeliIdle_21: 3836696831615825632
+      MeliIdle_22: -3670615159645746498
+      MeliIdle_23: 3886883827985745077
+      MeliIdle_3: 387209048199406987
+      MeliIdle_4: -4173719823069287880
+      MeliIdle_5: -3538504227892289986
+      MeliIdle_6: -207000199436513018
+      MeliIdle_7: 1486591687687611775
+      MeliIdle_8: -4216059040600238253
+      MeliIdle_9: 3224591936543446
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

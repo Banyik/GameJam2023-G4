@@ -28,38 +28,48 @@ namespace NPCs
         public GameObject waterBullet;
         PlayerNPCHandler playerNPCHandler;
         GameHandler gameHandler;
+        SoundEffectHandler soundEffect;
+        public bool isInMainMenu;
         public void StartNPC()
         {
             rb = gameObject.GetComponent<Rigidbody2D>();
-            walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
-            walkableGrid.GetCoordinates();
-            playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
+            if (!isInMainMenu)
+            {
+                walkableGrid = scriptHandler.GetComponent<WalkableGrid>();
+                walkableGrid.GetCoordinates();
+                playerNPCHandler = GameObject.Find("ScriptHandler").GetComponent<PlayerNPCHandler>();
+            }
             gameHandler = GameObject.Find("ScriptHandler").GetComponent<GameHandler>();
+            soundEffect = gameObject.GetComponent<SoundEffectHandler>();
             switch (type)
             {
                 case Type.Kid:
-                    npc = new Kid(5, State.Calm, walkableGrid, true, false, playerNPCHandler);
+                    npc = new Kid(5, State.Calm, walkableGrid, true, false, playerNPCHandler, isInMainMenu);
                     animator.runtimeAnimatorController = kidAnimator;
                     gameObject.layer = LayerMask.NameToLayer("Kid");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
-                    raySpacing = 1.2f;
+                    ignoreLayers += LayerMask.GetMask("Player");
+                    raySpacing = 1.4f;
+                    avoidanceForceMultiplier = 10;
                     kidTrigger.SetActive(true);
                     spriteBehaviour.SetSprite(kidHeadSprite, gameObject);
                     break;
                 case Type.Grandma:
-                    npc = new Grandma(5, State.Calm, walkableGrid, false, false);
+                    npc = new Grandma(5, State.Calm, walkableGrid, false, false, soundEffect, isInMainMenu);
                     animator.runtimeAnimatorController = grandmaAnimator;
                     gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
                     gameObject.layer = LayerMask.NameToLayer("Grandma");
                     spriteBehaviour.gameObject.SetActive(false);
                     break;
                 case Type.LifeGuard:
-                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false, playerNPCHandler);
+                    npc = new LifeGuard(1, State.Calm, walkableGrid, true, false, playerNPCHandler, soundEffect);
                     animator.runtimeAnimatorController = lifeGuardAnimator;
                     gameObject.layer = LayerMask.NameToLayer("LifeGuard");
                     ignoreLayers += LayerMask.GetMask("LifeGuardPath");
                     ignoreLayers += LayerMask.GetMask("PlayerWall");
-                    raySpacing = 0.7f;
+                    ignoreLayers += LayerMask.GetMask("Player");
+                    avoidanceForceMultiplier = 10;
+                    raySpacing = 1.0f;
                     lifeGuardTrigger.SetActive(true);
                     spriteBehaviour.SetSprite(lifeGuardHeadSprite, gameObject);
                     break;
@@ -70,7 +80,7 @@ namespace NPCs
 
         private void Update()
         {
-            if (!gameHandler.IsPaused)
+            if (!gameHandler.IsPaused && (isInMainMenu || (playerNPCHandler != null && !playerNPCHandler.IsGameOver())))
             {
                 CheckAnimationSwitch();
                 CheckStates();
@@ -85,6 +95,7 @@ namespace NPCs
                     if (npc.IsState(State.See) && animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") &&
                         !playerNPCHandler.IsGameOver())
                     {
+                        soundEffect.PlaySound(0);
                         if (playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = true;
@@ -96,6 +107,7 @@ namespace NPCs
                         var bullet = Instantiate(waterBullet, transform.position, new Quaternion(0, 0, 0, 0), null);
                         bullet.SetActive(true);
                         bullet.GetComponent<WaterBulletBehaviour>().Shoot(transform.position, playerNPCHandler.GetPlayerPosition());
+                        soundEffect.PlaySound(1);
                         animator.SetBool("Saw", false);
                         npc.ChangeState(State.Stun);
                     }
@@ -105,6 +117,7 @@ namespace NPCs
                     {
                         if (playerNPCHandler.IsPlayerStealing())
                         {
+                            soundEffect.PlaySound(0);
                             animator.SetBool("Saw", true);
                             if(playerNPCHandler.IsPlayerOnLeftSide(gameObject) && gameObject.GetComponent<SpriteRenderer>().flipX == false)
                             {
@@ -124,6 +137,10 @@ namespace NPCs
                     }
                     break;
                 case Type.LifeGuard:
+                    if (npc.IsState(State.Move))
+                    {
+                        animator.SetBool("IsWalking", true);
+                    }
                     if (npc.IsState(State.See))
                     {
                         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
@@ -173,7 +190,7 @@ namespace NPCs
 
         void FixedUpdate()
         {
-            if (npc.IsMoving && !gameHandler.IsPaused)
+            if (npc.IsMoving && !gameHandler.IsPaused && (isInMainMenu || (playerNPCHandler != null && !playerNPCHandler.IsGameOver())))
             {
                 Move();
             }
@@ -194,20 +211,15 @@ namespace NPCs
             for (int i = 0; i < 17; i++)
             {
                 Vector2 rayDirection = Quaternion.AngleAxis((i - 8) * 15f, Vector3.forward) * direction;
-                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.1f), ~ignoreLayers);
-                Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.1f)), Color.red);
+                hits[i] = Physics2D.Raycast(rayStart, rayDirection, raySpacing - (Mathf.Abs(i - 8) * 0.05f), ~ignoreLayers);
+                Debug.DrawRay(rayStart, rayDirection * (raySpacing - (Mathf.Abs(i - 8) * 0.05f)), Color.red);
                 if (hits[i].collider != null)
                 {
-                    if(i - 8 == 0)
-                    {
-                        rayDirection = Quaternion.AngleAxis((i - Random.Range(1, 8)) * 15f, Vector3.forward) * direction;
-                        delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
-                    }
-                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10);
+                    delta -= (1f / 17) * avoidanceForceMultiplier * (rayDirection / 10) * (hits[i].normal/5);
                 }
                 else
                 {
-                    delta += (1f / 17) * avoidanceForceMultiplier * rayDirection;
+                    delta += (1f / 17) * 3 * rayDirection;
                 }
             }
             if(direction.x > 0)

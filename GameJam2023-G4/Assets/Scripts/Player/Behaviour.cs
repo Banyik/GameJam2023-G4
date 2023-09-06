@@ -30,12 +30,14 @@ namespace Player
         bool reset = false;
         PowerUpParticleHandler particleHandler;
         InventoryUIHandler inventoryHandler;
+        SoundEffectHandler soundEffect;
         void Start()
         {
             player = new PlayerBase(speed, maxThirst, maxThirst, money, new Item[3], State.Idle);
             handler = GameObject.Find("ScriptHandler").GetComponent<PlayerMapHandler>();
             particleHandler = gameObject.GetComponent<PowerUpParticleHandler>();
             inventoryHandler = gameObject.GetComponent<InventoryUIHandler>();
+            soundEffect = gameObject.GetComponent<SoundEffectHandler>();
             RefreshInventory();
             StartCoroutine(IncreaseThirst());
         }
@@ -84,14 +86,24 @@ namespace Player
             {
                 if (!handler.IsPaused())
                 {
-                    player.Thirst -= 0.125f;
+                    if(player.Thirst > 0)
+                    {
+                        player.Thirst -= 0.05f;
+                    }
                     thirstBarBehaviour.Animate(player.Thirst);
+                    if(player.Thirst < 0.25f && player.Thirst > 0)
+                    {
+                        soundEffect.PlaySound(3);
+                    }
                     if (player.Thirst <= 0)
                     {
+                        handler.GameOverPause(true);
                         inventoryHandler.HideInventory();
                         ChangeState(State.Idle);
                         StopMovement();
+                        lootBarBehaviour.StopAnimation();
                         handler.TimesUp(player.Money);
+                        player.Money = 0;
                     }
                 }
                 yield return new WaitForSeconds(1);
@@ -111,7 +123,7 @@ namespace Player
 
         public bool IsGameOver()
         {
-            return player.IsState(State.Caught) || player.Thirst <= 0;
+            return player.IsState(State.Caught) || (player.Thirst <= 0);
         }
 
         public bool IsPlayerStealing()
@@ -140,6 +152,7 @@ namespace Player
             if (Input.GetButtonDown("Cancel"))
             {
                 handler.Pause();
+                StopMovement();
             }
             if (Input.GetButtonDown("Slot_1"))
             {
@@ -200,10 +213,16 @@ namespace Player
                     StartRun();
                     break;
                 case State.StealingStart:
-                    StartStealing();
+                    if (!IsGameOver())
+                    {
+                        StartStealing();
+                    }
                     break;
                 case State.Stealing:
-                    StealingCountDown();
+                    if (!IsGameOver())
+                    {
+                        StealingCountDown();
+                    }
                     break;
                 case State.Stunned:
                     StunnedCountDown();
@@ -238,17 +257,23 @@ namespace Player
         }
         void StartStun()
         {
-            lootBarBehaviour.StopAnimation();
-            StopMovement();
-            stealTimeCount = 0;
-            lootEffect.Stop();
-            DisableAnimationBool("IsMoving");
-            DisableAnimationBool("IsStealing");
-            EnableAnimationBool("IsStunned");
-            player.Speed = 2;
+            if(!IsGameOver())
+            {
+                fasterLoot = false;
+                lootBarBehaviour.StopAnimation();
+                StopMovement();
+                stealTimeCount = 0;
+                lootEffect.Stop();
+                DisableAnimationBool("Default");
+                DisableAnimationBool("IsMoving");
+                DisableAnimationBool("IsStealing");
+                EnableAnimationBool("IsStunned");
+                player.Speed = 3;
+            }
         }
         void Caught()
         {
+            handler.GameOverPause(true);
             inventoryHandler.HideInventory();
             DisableAnimationBool("Default");
             lootBarBehaviour.StopAnimation();
@@ -259,6 +284,7 @@ namespace Player
         }
         public void ResetState()
         {
+            handler.GameOverPause(false);
             reset = true;
             ChangeState(State.Idle);
             reset = false;
@@ -266,15 +292,18 @@ namespace Player
             DisableAnimationBool("Caught");
             DisableAnimationBool("IsMoving");
             DisableAnimationBool("IsStealing");
+            DisableAnimationBool("IsStunned");
             player.Thirst = player.MaxThirst;
             thirstBarBehaviour.SetAnimationSpeed(player.MaxThirst);
             thirstBarBehaviour.Animate(player.Thirst);
             fasterLoot = false;
-            player.Speed = 2;
+            player.Speed = 3;
+            player.Money = 0;
             stealTimeCount = 0;
             stunTimeCount = 0;
             StopMovement();
             RefreshInventory();
+            inventoryHandler.SetMoney(player.Money);
         }
 
         void StunnedCountDown()
@@ -294,17 +323,17 @@ namespace Player
 
         void StealingCountDown()
         {
-            if (stealTimeCount <= stealTime && player.Thirst > 0)
+            if (stealTimeCount <= stealTime)
             {
+                if (!soundEffect.audioSrc.isPlaying)
+                {
+                    soundEffect.PlaySoundWithDelay("2;0,5");
+                }
                 stealTimeCount += Time.deltaTime;
                 lootBarBehaviour.Animate(stealTimeCount);
             }
-            else if(player.Thirst > 0)
+            else
             {
-                if (fasterLoot)
-                {
-                    fasterLoot = false;
-                }
                 lootBarBehaviour.StopAnimation();
                 lootEffect.Stop();
                 closestTowel.LootTowel();
@@ -316,6 +345,7 @@ namespace Player
         }
         void GetLoot()
         {
+            soundEffect.PlaySound(0);
             foreach (var item in closestTowel.Loot.Items)
             {
                 switch (item.Type)
@@ -330,11 +360,13 @@ namespace Player
                             player.Thirst = player.MaxThirst;
                         }
                         waterStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        waterStoleEffect.Clear();
                         waterStoleEffect.Play();
                         thirstBarBehaviour.Animate(player.Thirst);
                         break;
                     case ItemType.Money:
                         moneyStoleEffect.gameObject.transform.position = gameObject.transform.position + new Vector3(0, 0.2f, 0);
+                        moneyStoleEffect.Clear();
                         moneyStoleEffect.Play();
                         player.Money += item.Amount;
                         break;
@@ -342,11 +374,13 @@ namespace Player
                         break;
                 }
             }
+            inventoryHandler.SetMoney(player.Money);
             Debug.Log($"Thirst: {player.Thirst}\nMoney: {player.Money}");
         }
 
         void UseItem(int index)
         {
+            bool usedItem = false;
             if (player.Items[index] != null)
             {
                 switch (player.Items[index].Type)
@@ -354,28 +388,34 @@ namespace Player
                     case ItemType.Corn:
                         if (!fasterLoot)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(0);
                             fasterLoot = true;
+                            usedItem = true;
                         }
                         break;
                     case ItemType.IceCream:
                         if(player.Speed != 4)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(1);
                             player.Speed = 4;
+                            usedItem = true;
                         }
                         break;
                     case ItemType.Langos:
                         if (!avoidStun)
                         {
+                            soundEffect.PlaySound(1);
                             particleHandler.PlayParticle(2);
                             avoidStun = true;
+                            usedItem = true;
                         }
                         break;
                     default:
                         break;
                 }
-                if (--player.Items[index].Amount == 0)
+                if (usedItem && --player.Items[index].Amount == 0)
                 {
                     player.Items[index] = null;
                 }
@@ -464,7 +504,10 @@ namespace Player
                             animator.SetBool("OnTop", false);
                         }
                     }
-                    closestTowel = handler.GetTowel(position);
+                    if(closestTowel == null || closestTowel.IsLooted)
+                    {
+                        closestTowel = handler.GetTowel(position);
+                    }
                 }
             }
 

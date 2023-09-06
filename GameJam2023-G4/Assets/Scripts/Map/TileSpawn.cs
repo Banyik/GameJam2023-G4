@@ -38,35 +38,34 @@ namespace Maps
             towels.Clear();
         }
 
-        public void SpawnTowels(int currentMap)
+        public void SpawnTowels(int currentMap, int mapType)
         {
-
-            if(currentMap < 5)
+            if(currentMap < 5 - (mapType * 2))
             {
                 towelCount = 1;
             }
-            else if (currentMap < 15)
+            else if (currentMap < 15 - (mapType * 5))
             {
                 towelCount = 3;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, -1), false);
             }
             else
             {
                 towelCount = 5;
-                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, 0));
-                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3));
+                spawnNPC.Spawn(Type.LifeGuard, false, new Vector2(10, -1), false);
+                spawnNPC.Spawn(Type.Kid, false, new Vector2(10, -3), false);
             }
             for (int i = 0; i < towelCount; i++)
             {
                 Vector2Int cell = walkableGrid.GetRandomCoordinate();
-                if (!TryPlaceTowel(Random.Range(0, 100) < 50f, cell))
+                if (!TryPlaceTowel(Random.Range(0, 100) < 50f, cell, mapType))
                 {
                     i--;
                 }
             }
         }
 
-        public bool TryPlaceTowel(bool isHorizontal, Vector2Int cell)
+        public bool TryPlaceTowel(bool isHorizontal, Vector2Int cell, int mapType)
         {
             var up = new Vector2Int(0, 1);
             var down = new Vector2Int(0, -1);
@@ -80,38 +79,37 @@ namespace Maps
                 Tile lootedTowel = lootedVerticalTowels[index];
                 if (walkableGrid.IsFlaggable(cell + up))
                 {
-                    return PlaceTowel(cell, up, baseTowel, lootedTowel, false);
+                    return PlaceTowel(cell, up, baseTowel, lootedTowel, false, mapType);
                 }
                 else if(walkableGrid.IsFlaggable(cell + down))
                 {
-                    return PlaceTowel(cell + down, up, baseTowel, lootedTowel, false);
+                    return PlaceTowel(cell + down, up, baseTowel, lootedTowel, false, mapType);
                 }
             }
             else if(isHorizontal && walkableGrid.IsFlaggable(cell) && cell.x + right.x < 7 && cell.y > -5 && cell.x > -7)
             {
-                bool isBigTowel = false;
                 int index = Random.Range(0, horizontalTowels.Length);
+                bool isBigTowel = index > 10;
                 Tile baseTowel = horizontalTowels[index];
                 Tile lootedTowel = lootedHorizontalTowels[index];
-                isBigTowel = index > 10;
                 if (walkableGrid.IsFlaggable(cell + right))
                 {
-                    return PlaceTowel(cell, right, baseTowel, lootedTowel, isBigTowel);
+                    return PlaceTowel(cell, right, baseTowel, lootedTowel, isBigTowel, mapType);
                 }
                 else if (walkableGrid.IsFlaggable(cell + left))
                 {
                     
-                    return PlaceTowel(cell + left, right, baseTowel, lootedTowel, isBigTowel);
+                    return PlaceTowel(cell + left, right, baseTowel, lootedTowel, isBigTowel, mapType);
                 }
             }
             return false;
         }
 
-        bool PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel, bool isBigTowel)
+        bool PlaceTowel(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel, bool isBigTowel, int mapType)
         {
             if(FlagCellWithNeighbour(cell, direction))
             {
-                SpawnTowelWithNeighbour(cell, direction, towel, lootedTowel, isBigTowel);
+                SpawnTowelWithNeighbour(cell, direction, towel, lootedTowel, isBigTowel, mapType);
                 return true;
             }
             return false;
@@ -127,14 +125,14 @@ namespace Maps
             return false;
         }
 
-        void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel, bool isBigTowel)
+        void SpawnTowelWithNeighbour(Vector2Int cell, Vector2Int direction, Tile towel, Tile lootedTowel, bool isBigTowel, int mapType)
         {
             if (!spawnedGrandma)
             {
-                spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell);
+                spawnNPC.Spawn(Type.Grandma, Random.Range(0, 100) < 50, cell, false);
                 spawnedGrandma = true;
             }
-            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapGeneration.GetMap(), isBigTowel));
+            towels.Add(new Towel(cell, cell + direction, towel, lootedTowel, false, tilemap, mapType, isBigTowel));
             tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), towel);
         }
 
